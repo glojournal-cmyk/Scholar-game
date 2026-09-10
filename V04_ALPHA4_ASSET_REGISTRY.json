@@ -1,0 +1,44 @@
+{
+  "version": "0.4.0-alpha4",
+  "runtimeStatus": "garden-growth-live-avatar-layer-alignment-pending",
+  "avatar": {
+    "activeCompositor": false,
+    "reason": "Recent avatar layers are visually suitable but not yet proven pixel-aligned to one shared base-body canvas.",
+    "pendingAssets": [
+      {
+        "file": "assets/avatar/pending/avatar_outfit_pink_tweed_academy.png",
+        "role": "outfit",
+        "canvas": [
+          1086,
+          1448
+        ],
+        "active": false
+      },
+      {
+        "file": "assets/avatar/pending/avatar_outfit_sage_academy_cardigan.png",
+        "role": "outfit",
+        "canvas": [
+          1086,
+          1448
+        ],
+        "active": false
+      }
+    ]
+  },
+  "garden": {
+    "active": true,
+    "stageFiles": [
+      "garden_growth_01_seed.webp",
+      "garden_growth_02_young.webp",
+      "garden_growth_03_budding.webp",
+      "garden_growth_04_bloom.webp"
+    ],
+    "thresholds": {
+      "1": 0,
+      "2": 400,
+      "3": 1000,
+      "4": 2200
+    },
+    "changesGrowthRules": false
+  }
+}

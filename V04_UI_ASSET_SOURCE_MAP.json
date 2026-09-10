@@ -1,0 +1,315 @@
+{
+  "release": "V0.4.0 Alpha 2",
+  "purpose": "UI micro assets + PWA identity",
+  "runtime_policy": "User-supplied art is tracked by source SHA. Large UI PNGs use optimized WebP runtime copies; production icon PNGs are preserved byte-identically.",
+  "assets": {
+    "ui_v04_laurel_wreath.webp": {
+      "source": "ChatGPT Image Sep 7, 2026, 08_31_31 PM (9).png",
+      "source_sha256": "48449aa3aaef1568115c79ef67ae117bcc80609afd677179c7c67bfc73e9acfe",
+      "source_bytes": 1914848,
+      "runtime_bytes": 180820,
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    "ui_v04_scholar_crest.webp": {
+      "source": "ChatGPT Image Sep 7, 2026, 08_31_29 PM (3).png",
+      "source_sha256": "94f2740063078bc3176dce38266d288e0fc2a022be61a3daecd42a002b9450f4",
+      "source_bytes": 1365287,
+      "runtime_bytes": 285136,
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    "ui_v04_lock_crest.webp": {
+      "source": "ChatGPT Image Sep 7, 2026, 08_31_31 PM (8).png",
+      "source_sha256": "bc7fb2e4f3fb2057912626608fabfc1cf2bf08eff648b88429a0ac10b40c6494",
+      "source_bytes": 545014,
+      "runtime_bytes": 178178,
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    "ui_v04_reward_gem_red.webp": {
+      "source": "ChatGPT Image Sep 7, 2026, 08_31_29 PM (5).png",
+      "source_sha256": "fcc737bc925e77f0c55f96f168da0c7f42d5e2e4059da850c0e73a00508158ec",
+      "source_bytes": 506705,
+      "runtime_bytes": 89250,
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    "ui_v04_compass_star.webp": {
+      "source": "ChatGPT Image Sep 7, 2026, 08_31_30 PM (6).png",
+      "source_sha256": "3e98c1d52dfa097e74e7da0214d2ee0563fb70587e33b848916f15c3950211ad",
+      "source_bytes": 1380775,
+      "runtime_bytes": 115670,
+      "dimensions": [
+        2048,
+        682
+      ]
+    },
+    "ui_v04_nameplate_slim.webp": {
+      "source": "ChatGPT Image Sep 7, 2026, 08_31_30 PM (7).png",
+      "source_sha256": "05681bcc5f9bb1bffb658692c9c2146590d591d9d52726227d5c4a83bc6d5959",
+      "source_bytes": 1717516,
+      "runtime_bytes": 118622,
+      "dimensions": [
+        2048,
+        682
+      ]
+    },
+    "ui_v04_nameplate_ornate.webp": {
+      "source": "ChatGPT Image Sep 7, 2026, 08_31_28 PM (1).png",
+      "source_sha256": "bc8337aecb2d29b4350f2b62e541dd8f27681309acce968794f1f0a80c243aa4",
+      "source_bytes": 624789,
+      "runtime_bytes": 201646,
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    "ui_v04_leaf.webp": {
+      "source": "ChatGPT Image Sep 7, 2026, 08_31_28 PM (2).png",
+      "source_sha256": "3ee6a0fe24073c4e84dcf121797e5e9997a9a57719063dcec32e8e4e0e4f8116",
+      "source_bytes": 1040402,
+      "runtime_bytes": 96818,
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    "ui_v04_flower.webp": {
+      "source": "ChatGPT Image Sep 7, 2026, 08_31_29 PM (4).png",
+      "source_sha256": "3f48b7e35dccf0360a25e86f4b8e947d2dfcfbcddd2f488cdcedb52ad08593b2",
+      "source_bytes": 1506398,
+      "runtime_bytes": 163750,
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    "ui_v04_success_badge.webp": {
+      "source": "_tmp_asset.png",
+      "source_sha256": "e4d5ce28e9e4900218e0173acb7510ea366be8b4cd3e95bd417ec618fde0da5d",
+      "source_bytes": 71603,
+      "runtime_bytes": 203024,
+      "dimensions": [
+        1600,
+        320
+      ]
+    },
+    "ui_divider_laurel.webp": {
+      "source": "Scholar_Garden_Batch8_UI_Micro_Assets.zip::ui_divider_laurel.png",
+      "source_sha256": "005e0a7ab4227cda7fb619e6356e56f73160a7e7ac87bb89f255574131b368d5",
+      "source_bytes": 185591,
+      "runtime_bytes": 54816,
+      "dimensions": [
+        1600,
+        320
+      ]
+    },
+    "ui_corner_flourish.webp": {
+      "source": "Scholar_Garden_Batch8_UI_Micro_Assets.zip::ui_corner_flourish.png",
+      "source_sha256": "9938752e9cca8c76fb4a528f4856933cbf1e8a0182195db67dd8782c068b0495",
+      "source_bytes": 166049,
+      "runtime_bytes": 52658,
+      "dimensions": [
+        800,
+        800
+      ]
+    },
+    "ui_frame_ornament.webp": {
+      "source": "Scholar_Garden_Batch8_UI_Micro_Assets.zip::ui_frame_ornament.png",
+      "source_sha256": "e4d5ce28e9e4900218e0173acb7510ea366be8b4cd3e95bd417ec618fde0da5d",
+      "source_bytes": 71603,
+      "runtime_bytes": 25300,
+      "dimensions": [
+        1600,
+        320
+      ]
+    },
+    "ui_stamp_seal.webp": {
+      "source": "Scholar_Garden_Batch8_UI_Micro_Assets.zip::ui_stamp_seal.png",
+      "source_sha256": "c9a8452cfcd4b2f84b59789d872527068982ccdc233e2b408037ca093f8a0362",
+      "source_bytes": 225077,
+      "runtime_bytes": 38494,
+      "dimensions": [
+        800,
+        800
+      ]
+    },
+    "ui_badge_locked.webp": {
+      "source": "Scholar_Garden_Batch8_UI_Micro_Assets.zip::ui_badge_locked.png",
+      "source_sha256": "e7b1a9d261b1e9765f7d3a0d313b3c3fd12260edf69b4170df7d578365df187d",
+      "source_bytes": 381096,
+      "runtime_bytes": 69658,
+      "dimensions": [
+        800,
+        800
+      ]
+    },
+    "ui_badge_unlocked.webp": {
+      "source": "Scholar_Garden_Batch8_UI_Micro_Assets.zip::ui_badge_unlocked.png",
+      "source_sha256": "56160b8b2a5bf3ad7417c15b54611e653a908b2f85536c5acd59766629d53ddf",
+      "source_bytes": 385482,
+      "runtime_bytes": 69570,
+      "dimensions": [
+        800,
+        800
+      ]
+    },
+    "ui_star_reward.webp": {
+      "source": "Scholar_Garden_Batch8_UI_Micro_Assets.zip::ui_star_reward.png",
+      "source_sha256": "51ec41cb74eb42eccf5a3e421f4909e58546cf46100e40b866e236ff78f76337",
+      "source_bytes": 380423,
+      "runtime_bytes": 114240,
+      "dimensions": [
+        800,
+        800
+      ]
+    },
+    "ui_loading_flower.webp": {
+      "source": "Scholar_Garden_Batch8_UI_Micro_Assets.zip::ui_loading_flower.png",
+      "source_sha256": "3aae0df2e927e3e735e2a7a75247da4e12c8ef310a82ac35db26e36c459c150b",
+      "source_bytes": 308753,
+      "runtime_bytes": 80816,
+      "dimensions": [
+        800,
+        800
+      ]
+    },
+    "ui_empty_state_book.webp": {
+      "source": "Scholar_Garden_Batch8_UI_Micro_Assets.zip::ui_empty_state_book.png",
+      "source_sha256": "eed819c158adc01f88f9f581a93df3edacda6b26374fb3b92286217b6504280c",
+      "source_bytes": 737357,
+      "runtime_bytes": 155552,
+      "dimensions": [
+        1200,
+        900
+      ]
+    },
+    "ui_empty_state_garden.webp": {
+      "source": "Scholar_Garden_Batch8_UI_Micro_Assets.zip::ui_empty_state_garden.png",
+      "source_sha256": "653741556074964b5e9d795b505b3a1a1e6c7d767c8db6eeb5066d3faf6107d4",
+      "source_bytes": 578726,
+      "runtime_bytes": 161838,
+      "dimensions": [
+        1200,
+        900
+      ]
+    },
+    "app_icon_master_1024.png": {
+      "source": "Scholar_Garden_Production_App_Icon_Pack.zip::app_icon_master_1024.png",
+      "source_sha256": "882cfcd95374a72ef81d1e280ed59de3df666968fb59692c7c2d11b3e254a1f3",
+      "source_bytes": 1601192,
+      "runtime_bytes": 1601192,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    "app_icon_round_1024.png": {
+      "source": "Scholar_Garden_Production_App_Icon_Pack.zip::app_icon_round_1024.png",
+      "source_sha256": "1d0128723fc17cc634c312bbd5b7646d16f680591200c9354d4261df4916fa09",
+      "source_bytes": 810579,
+      "runtime_bytes": 810579,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    "app_icon_monochrome.png": {
+      "source": "Scholar_Garden_Production_App_Icon_Pack.zip::app_icon_monochrome.png",
+      "source_sha256": "1b3c6f0e0aa120ee6b6144366a7769780d93aee600842ec56f2e2a6a9e5a24e1",
+      "source_bytes": 32483,
+      "runtime_bytes": 32483,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    "app_icon_adaptive_foreground.png": {
+      "source": "Scholar_Garden_Production_App_Icon_Pack.zip::app_icon_adaptive_foreground.png",
+      "source_sha256": "cfacc57fa2c957cdb6c86a3ff5b1b42fc5f92604c07aae1ca53ba66ef26dd87a",
+      "source_bytes": 396673,
+      "runtime_bytes": 396673,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    "app_icon_adaptive_background.png": {
+      "source": "Scholar_Garden_Production_App_Icon_Pack.zip::app_icon_adaptive_background.png",
+      "source_sha256": "23cb3f17653e1e66238d827b995a725e8eca17cd84c87c9d99fb9c46ef15bdec",
+      "source_bytes": 679481,
+      "runtime_bytes": 679481,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    "apple_touch_icon_180.png": {
+      "source": "Scholar_Garden_Production_App_Icon_Pack.zip::apple_touch_icon_180.png",
+      "source_sha256": "ac8090a66b6d161f0daa4b917d1d3e947748a9415e977557bb858df6b178dde9",
+      "source_bytes": 66085,
+      "runtime_bytes": 66085,
+      "dimensions": [
+        180,
+        180
+      ]
+    },
+    "favicon_512.png": {
+      "source": "Scholar_Garden_Production_App_Icon_Pack.zip::favicon_512.png",
+      "source_sha256": "8e099d8009747d4deac5b65039e26383f91425a060e53cb59647d8646b269141",
+      "source_bytes": 244853,
+      "runtime_bytes": 244853,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    "favicon_192.png": {
+      "source": "Scholar_Garden_Production_App_Icon_Pack.zip::favicon_192.png",
+      "source_sha256": "5389dd97e2605d8c8f917603a288f61d06bd092c368136ce33cdeb80981ba09e",
+      "source_bytes": 51185,
+      "runtime_bytes": 51185,
+      "dimensions": [
+        192,
+        192
+      ]
+    },
+    "favicon_32.png": {
+      "source": "Scholar_Garden_Production_App_Icon_Pack.zip::favicon_32.png",
+      "source_sha256": "16db7529c883e709b52715c1a8f1da237c71568774a7aba20c92917f8b746e14",
+      "source_bytes": 1962,
+      "runtime_bytes": 1962,
+      "dimensions": [
+        32,
+        32
+      ]
+    },
+    "splash_mark.png": {
+      "source": "Scholar_Garden_Production_App_Icon_Pack.zip::splash_mark.png",
+      "source_sha256": "74dd58f6a795b014f40c9d17c04021b753ed6fa08ea24d67a3e412c67b382786",
+      "source_bytes": 1373928,
+      "runtime_bytes": 1373928,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    "app_icon_maskable_512.png": {
+      "source": "composite(app_icon_adaptive_background.png + app_icon_adaptive_foreground.png)",
+      "runtime_bytes": 384914,
+      "dimensions": [
+        512,
+        512
+      ]
+    }
+  }
+}

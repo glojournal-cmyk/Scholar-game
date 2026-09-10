@@ -1,0 +1,8 @@
+V0.4.0 Alpha 4.1 QA
+PASS | app.js
+PASS | subject-hub.js
+PASS | sw.js
+PASS | stylesheet linked
+PASS | footer bumped
+PASS | spinner handoff
+PASS | quickplay initials removed

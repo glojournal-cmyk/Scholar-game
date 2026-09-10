@@ -1,0 +1,112 @@
+{
+  "version": "0.4.0-alpha4",
+  "status": "garden-growth-live-avatar-layer-alignment-pending",
+  "flatRoot": true,
+  "avatar": {
+    "stateKey": "scholarAvatarV04",
+    "canvas": [
+      1536,
+      2048
+    ],
+    "activationFile": "v04-art-config.js",
+    "requiredCore": [
+      {
+        "file": "avatar_hair_back_long_brown.png",
+        "role": "back-hair",
+        "required": true
+      },
+      {
+        "file": "avatar_base_body.png",
+        "role": "base-body",
+        "required": true
+      },
+      {
+        "file": "avatar_hair_front_long_brown.png",
+        "role": "front-hair",
+        "required": true
+      }
+    ],
+    "expressions": [
+      "expression_happy.png",
+      "expression_focus.png",
+      "expression_proud.png",
+      "expression_surprised.png",
+      "expression_tired.png",
+      "expression_celebrate.png"
+    ],
+    "outfits": [
+      "outfit_green_cardigan.png",
+      "outfit_garden_dress.png",
+      "outfit_formal_scholar.png",
+      "outfit_french_academy.png"
+    ],
+    "accessories": [
+      "accessory_beret_navy.png"
+    ],
+    "handItems": [
+      "handitem_book.png",
+      "handitem_scroll.png",
+      "handitem_quill.png",
+      "handitem_flower.png",
+      "handitem_lantern.png",
+      "handitem_magnifier.png"
+    ],
+    "fallback": "Existing full-render Scholar assets remain active until pixel alignment is verified and avatar available=true."
+  },
+  "garden": {
+    "usesExistingGrowthStage": true,
+    "changesXPRules": false,
+    "stages": [
+      {
+        "stage": 1,
+        "file": "garden_growth_01_seed.webp",
+        "size": [
+          1024,
+          1024
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ]
+      },
+      {
+        "stage": 2,
+        "file": "garden_growth_02_young.webp",
+        "size": [
+          1024,
+          1024
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ]
+      },
+      {
+        "stage": 3,
+        "file": "garden_growth_03_budding.webp",
+        "size": [
+          1024,
+          1024
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ]
+      },
+      {
+        "stage": 4,
+        "file": "garden_growth_04_bloom.webp",
+        "size": [
+          1024,
+          1024
+        ],
+        "sourceCanvas": [
+          1254,
+          1254
+        ]
+      }
+    ],
+    "fallback": "Garden stage artwork is now active; existing garden scene backgrounds remain as the world backdrop.",
+    "active": true
+  }
+}

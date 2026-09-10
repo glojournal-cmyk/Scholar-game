@@ -1,0 +1,193 @@
+/* Scholar Garden character asset integration helper */
+.scholar-character-art{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center bottom;
+  pointer-events:none;
+  user-select:none;
+  -webkit-user-drag:none;
+}
+.scholar-art-stage{
+  position:relative;
+  overflow:hidden;
+}
+.wardrobe-preview-card{
+  position:relative;
+  display:grid;
+  gap:.6rem;
+  align-content:start;
+}
+.wardrobe-preview-card img{
+  width:100%;
+  aspect-ratio:3/4;
+  object-fit:contain;
+  background:transparent;
+}
+.wardrobe-preview-card.locked img{
+  filter:grayscale(.7) opacity(.48);
+}
+.reward-interaction-art{
+  width:min(100%,320px);
+  aspect-ratio:3/4;
+  object-fit:contain;
+  pointer-events:none;
+}
+
+
+/* Scholar Garden V0.3.4.4 integration */
+#scholarArtSlot .home-avatar-layer,
+#scholarArtSlot .character-art-label,
+#avatarCanvas .avatar-layer{
+  display:none!important;
+}
+.home-scholar-art{
+  position:absolute;
+  inset:0;
+  z-index:25;
+  object-position:center bottom;
+}
+.wardrobe-scholar-art{
+  position:absolute;
+  inset:0;
+  z-index:80;
+  object-position:center bottom;
+}
+#scholarArtSlot,
+#avatarCanvas{
+  isolation:isolate;
+}
+#scholarArtSlot .scholar-character-art,
+#avatarCanvas .scholar-character-art,
+.subject-scholar-pose,
+.reward-interaction-art{
+  pointer-events:none;
+}
+.wardrobe-gallery{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+}
+.wardrobe-preview-card{
+  padding:11px;
+  border:1px solid var(--line2);
+  border-radius:17px;
+  background:var(--surface);
+  box-shadow:var(--shadow);
+}
+.wardrobe-preview-card.selected{
+  border-color:var(--gold);
+  box-shadow:0 0 0 2px rgba(178,138,59,.12),var(--shadow);
+}
+.wardrobe-art-wrap{
+  position:relative;
+  border-radius:14px;
+  overflow:hidden;
+  background:linear-gradient(180deg,#eee9df,#dfe5dc);
+  min-height:210px;
+}
+.wardrobe-preview-card img{
+  display:block;
+  width:100%;
+  height:270px;
+  aspect-ratio:auto;
+  object-fit:contain;
+  object-position:center bottom;
+}
+.wardrobe-lock,.wardrobe-selected{
+  position:absolute;
+  top:9px;
+  right:9px;
+  padding:5px 8px;
+  border-radius:99px;
+  font-size:8px;
+  font-weight:850;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  background:rgba(255,253,248,.92);
+  color:var(--navy);
+}
+.wardrobe-selected{
+  background:#f3ead2;
+  color:#765e2d;
+}
+.wardrobe-card-copy h3{
+  font:650 17px var(--serif);
+  margin:9px 0 4px;
+}
+.wardrobe-card-copy p{
+  min-height:30px;
+  margin:0 0 9px;
+  color:var(--muted);
+  font-size:9px;
+  line-height:1.45;
+}
+.wardrobe-card-copy button{width:100%}
+.wardrobe-preview-card.locked img{
+  filter:grayscale(.62) opacity(.5);
+}
+.subject-summary{
+  grid-template-columns:74px auto auto;
+}
+.subject-scholar-pose{
+  grid-row:1 / span 2;
+  width:74px;
+  height:96px;
+  object-fit:contain;
+  object-position:center bottom;
+  align-self:end;
+  border-radius:14px;
+  background:linear-gradient(180deg,#f3eee5,#e4e9e0);
+}
+.subject-summary .primary{
+  grid-column:2/-1;
+}
+.reward-art-slot.has-reward-art{
+  background:linear-gradient(145deg,#f3eddf,#e1e7dd);
+  overflow:hidden;
+}
+.reward-art-slot.has-reward-art:before{display:none}
+.reward-art-slot .reward-interaction-art{
+  width:100%;
+  height:100%;
+  aspect-ratio:auto;
+  object-fit:contain;
+  object-position:center bottom;
+}
+.collect-art.has-reward-art{
+  width:100%;
+  height:190px;
+  border-radius:15px;
+  overflow:hidden;
+  background:linear-gradient(180deg,#f3eee5,#e1e7de);
+}
+.collect-art.has-reward-art .reward-interaction-art{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center bottom;
+}
+.reward-unlock-preview{
+  animation:scholarRewardPreview .9s ease both;
+}
+@keyframes scholarRewardPreview{
+  0%{transform:scale(.96)}
+  45%{transform:scale(1.04)}
+  100%{transform:scale(1)}
+}
+@media(max-width:900px){
+  .wardrobe-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .subject-summary{grid-template-columns:62px auto auto}
+  .subject-scholar-pose{width:62px;height:82px}
+}
+@media(max-width:620px){
+  .wardrobe-gallery{grid-template-columns:1fr 1fr}
+  .wardrobe-preview-card img{height:220px}
+  .subject-summary{grid-template-columns:54px 1fr}
+  .subject-scholar-pose{width:54px;height:72px}
+  .subject-summary>span{grid-column:2}
+  .subject-summary .primary{grid-column:1/-1}
+}
+
+#scholarArtSlot::before{display:none!important}

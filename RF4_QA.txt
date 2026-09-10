@@ -1,0 +1,59 @@
+Lux et Labor — The Scholar's Garden
+V0.4.0 Alpha 5 — True Rebuild RF4
+Build date: 2026-09-09
+
+RF4 purpose
+-----------
+RF4 is a composition rebuild, not another visual skin over the old dashboard layout.
+
+Source-level composition changes
+--------------------------------
+- Home: old dashboard-first hierarchy replaced in source HTML with one Scholar-first hero,
+  one editorial Today's Journey spread, then learning and quick-play shelves.
+- Removed the "Stable layered character slot" prototype wording from source HTML.
+- Study Hub: rebuilt visually as an asymmetric illustrated subject catalogue rather than a
+  uniform three-column dashboard.
+- Subject page: illustration is now part of the source header composition, with content laid
+  out as an editorial study page.
+- Garden: preserved the full-world scene as the primary composition and changed the object
+  collection below it into an asymmetric display.
+- Scholar: Overview source hierarchy rebuilt around the full Scholar portrait before the
+  supporting navigation/stats. Collection is styled as a display cabinet; achievements as
+  medallion display.
+- French/Biology RF3 artwork remains integrated and switches with subject context where
+  available.
+
+Academic/runtime protection
+---------------------------
+Verified byte-for-byte UNCHANGED versus RF3:
+latin-module.js
+french-module.js
+biology-y8.js
+growth.js
+latin-games.js
+garden-growth.js
+latin-question-bank.js
+science-notes.js
+language-y8.js
+daily-plan.js
+subject-hub.js
+app.js
+scholar.js
+
+Static QA
+---------
+- JavaScript syntax: PASS (29/29 .js files)
+- Duplicate HTML IDs: PASS (index.html and 404.html)
+- HTML local src/href references: PASS
+- RF4 CSS local image references: PASS
+- Prototype wording in source HTML: PASS (removed)
+- RF3 runtime-inserted Home hero removed from refresh path: PASS
+- RF4 cache namespace and RF4 CSS/JS precache entries: PASS
+- Protected academic/runtime files unchanged versus RF3: PASS
+
+Visual/browser QA note
+----------------------
+A Chromium screenshot run was attempted in this container, but Chromium terminated because
+its GPU process is unavailable in this environment. Therefore this report does not claim
+pixel-perfect browser acceptance. The layout has been rebuilt structurally and statically
+checked; final browser/device acceptance should be done after GitHub Pages deployment.

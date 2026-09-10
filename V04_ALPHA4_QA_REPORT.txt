@@ -1,0 +1,79 @@
+Lux et Labor — Scholar's Garden V0.4.0 Alpha 4 QA
+Scope: deterministic static/runtime syntax QA. No physical iPad Safari or public GitHub Pages E2E claim.
+
+RESULT: 70/70 PASS
+
+[PASS] JS syntax · scholar-assets.js
+[PASS] JS syntax · subject-hub.js
+[PASS] JS syntax · scholar.js
+[PASS] JS syntax · biology-y8.js
+[PASS] JS syntax · sw.js
+[PASS] JS syntax · v04-ui-assets.js
+[PASS] JS syntax · latin-module.js
+[PASS] JS syntax · french-module.js
+[PASS] JS syntax · growth.js
+[PASS] JS syntax · latin-games.js
+[PASS] JS syntax · v04-visual.js
+[PASS] JS syntax · app.js
+[PASS] JS syntax · science-notes.js
+[PASS] JS syntax · v04-art-config.js
+[PASS] JS syntax · language-y8.js
+[PASS] JS syntax · avatar-layer-system.js
+[PASS] JS syntax · latin-question-bank.js
+[PASS] JS syntax · garden-growth.js
+[PASS] JS syntax · daily-plan.js
+[PASS] JS syntax · mcp-reference-marker.mjs
+[PASS] HTML has no duplicate ids — []
+[PASS] All index local references exist — []
+[PASS] All CSS local url() assets exist — []
+[PASS] All JSON files parse — []
+[PASS] Protected academic engines/data byte-identical to Alpha 3 — []
+[PASS] State key preserved · luxScholarGardenV1
+[PASS] State key preserved · latinSummerV8State
+[PASS] State key preserved · biologyY8MasteryV1
+[PASS] State key preserved · monJardinFrancais.progress.v2
+[PASS] Garden stage 1 artwork present — garden_growth_01_seed.webp
+[PASS] Garden stage 1 source canvas retained — (1254, 1254)
+[PASS] Garden stage 1 WebP alpha available — RGBA
+[PASS] Garden stage 2 artwork present — garden_growth_02_young.webp
+[PASS] Garden stage 2 source canvas retained — (1254, 1254)
+[PASS] Garden stage 2 WebP alpha available — RGBA
+[PASS] Garden stage 3 artwork present — garden_growth_03_budding.webp
+[PASS] Garden stage 3 source canvas retained — (1254, 1254)
+[PASS] Garden stage 3 WebP alpha available — RGBA
+[PASS] Garden stage 4 artwork present — garden_growth_04_bloom.webp
+[PASS] Garden stage 4 source canvas retained — (1254, 1254)
+[PASS] Garden stage 4 WebP alpha available — RGBA
+[PASS] Garden runtime config enabled
+[PASS] Avatar layer runtime remains disabled
+[PASS] Garden runtime maps Stage 1
+[PASS] Garden runtime maps Stage 2
+[PASS] Garden runtime maps Stage 3
+[PASS] Garden runtime maps Stage 4
+[PASS] UI hook exists · gardenGrowthSpecimen
+[PASS] UI hook exists · gardenGrowthTimeline
+[PASS] UI hook exists · gardenGrowthName
+[PASS] UI hook exists · gardenGrowthCopy
+[PASS] UI hook exists · gardenGrowthNextText
+[PASS] UI hook exists · scholarGardenSpecimen
+[PASS] Growth thresholds unchanged in protected growth.js
+[PASS] Presentation timeline uses matching 400/1000/2200 milestones
+[PASS] SW precache references all exist — []
+[PASS] SW Alpha 4 cache key
+[PASS] Index has no stale a3 query refs
+[PASS] Index uses a4 query refs — 25
+[PASS] Alpha4 stylesheet linked
+[PASS] Footer identifies Alpha 4
+[PASS] Pending outfit ingested · avatar_outfit_pink_tweed_academy.png — (1086, 1448)
+[PASS] Pending outfit canvas 1086x1448 · avatar_outfit_pink_tweed_academy.png — (1086, 1448)
+[PASS] Pending outfit ingested · avatar_outfit_sage_academy_cardigan.png — (1086, 1448)
+[PASS] Pending outfit canvas 1086x1448 · avatar_outfit_sage_academy_cardigan.png — (1086, 1448)
+[PASS] Pending outfit registry is non-active
+[PASS] Alpha4 support file exists · V04_ALPHA4_ASSET_REGISTRY.json
+[PASS] Alpha4 support file exists · V04_ALPHA4_IMPLEMENTATION.md
+[PASS] Alpha4 support file exists · UPLOAD_ME.txt
+[PASS] Alpha4 support file exists · v04-alpha4.css
+
+[NOT RUN] Headless browser smoke test
+Reason: Playwright package is installed but the Chromium executable is not present in this environment.
+Static route hooks, local asset references, JS syntax and service-worker references were checked instead.
