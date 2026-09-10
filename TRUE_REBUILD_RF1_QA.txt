@@ -1,0 +1,49 @@
+Lux et Labor — The Scholar's Garden
+V0.4.0 Alpha 5 — True Rebuild RF1
+Static QA Report
+Date: 2026-09-09
+
+Scope
+- Rebuilt the presentation layer from clean RC4.
+- Added production artwork supplied in this conversation as optimized WebP assets.
+- Added v04-rebuild-final.css and v04-rebuild-final.js.
+- Replaced Latin game hub thumbnails with unique Forma Forge, Sentence Mosaic, Verbum Match and Manuscript Mystery art.
+- Replaced Collection placeholder/duplicate art with item-specific object art.
+- Replaced Achievement generic badge art with item-specific medal art.
+- Added Collection detail dialog interactions.
+- Added Garden collection preview using real unlock state.
+- Added stage-aware Garden hero artwork.
+- Added a top Home greeting/welcome composition and clickable journey affordances.
+- Improved responsive Home, Study, Subject, Games, Garden, Scholar, Wardrobe, Collection, Achievements and Profile layouts.
+- Removed the Alpha5 fake Study dashboard injection and hard-coded Home/Garden/Achievement progress overlays.
+
+Regression protection
+Core academic/runtime files compared byte-for-byte with clean RC4:
+- latin-question-bank.js: UNCHANGED
+- growth.js: UNCHANGED
+- latin-module.js: UNCHANGED
+- french-module.js: UNCHANGED
+- latin-games.js: UNCHANGED
+- science-notes.js: UNCHANGED
+- biology-y8.js: UNCHANGED
+- language-y8.js: UNCHANGED
+- daily-plan.js: UNCHANGED
+- garden-growth.js: UNCHANGED
+- subject-hub.js: UNCHANGED
+- app.js: UNCHANGED
+
+Static QA
+- JavaScript syntax checked with Node: 29 / 29 PASS
+- Duplicate HTML IDs: PASS
+- Missing local index refs: PASS
+- Missing CSS url() refs: PASS
+- Service-worker precache refs: 99 checked, 0 missing
+- Manifest JSON parse: PASS
+- MutationObserver count: 1 (alpha5-rc2.js: 1)
+- New asset set: 37 optimized WebP files
+
+Browser test note
+A real Chromium acceptance run was attempted in this environment, but the container Chromium process aborts before loading the page (exit -6 / DBus-headless environment issue). Therefore no claim of browser visual acceptance is made. Static QA and engine hash verification passed.
+
+Important state rule
+No demo mastery, XP, streak, due-review or level values were introduced by RF1. Garden collection unlock labels read existing LuxGrowth state. Academic scoring, mastery, XP, review scheduling, question banks and progression engines remain unchanged.

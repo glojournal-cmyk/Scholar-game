@@ -1,0 +1,40 @@
+{
+  "latin": {
+    "questions": 2492,
+    "concepts": 778,
+    "runtimeTopics": 65,
+    "statuses": {
+      "enabled": 2492
+    },
+    "formats": {
+      "typed_exact": 702,
+      "mc_single": 986,
+      "unordered_set": 5,
+      "controlled_translation": 65,
+      "spelling_restore": 368,
+      "word_tiles": 366
+    }
+  },
+  "french": {
+    "questions": 5585,
+    "concepts": 1913,
+    "runtimeTopics": 32,
+    "statuses": {
+      "enabled": 4555,
+      "disabled": 859,
+      "preview": 171
+    },
+    "formats": {
+      "typed_equivalent": 897,
+      "controlled_translation": 1195,
+      "mc_single": 1734,
+      "unordered_set": 9,
+      "spelling_restore": 617,
+      "listen_type": 617,
+      "word_tiles": 516
+    }
+  },
+  "biology": {
+    "questions": 989
+  }
+}

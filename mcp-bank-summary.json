@@ -1,0 +1,104 @@
+{
+  "version": "1.0.0",
+  "buildDate": "2026-09-06",
+  "scope": "Latin, French and Biology Year 8 consolidation; French Year 9 preview intake prepared but empty until a verified school source is supplied.",
+  "stats": {
+    "latin": {
+      "questionCount": 2492,
+      "enabledCount": 2492,
+      "previewCount": 0,
+      "disabledCount": 0,
+      "sourcePreservedCount": 1056,
+      "generatedVariantCount": 1436,
+      "conceptCount": 778,
+      "formatCounts": {
+        "controlled_translation": 65,
+        "mc_single": 986,
+        "spelling_restore": 368,
+        "typed_exact": 702,
+        "unordered_set": 5,
+        "word_tiles": 366
+      },
+      "recognitionCount": 986,
+      "productionApplicationCount": 1506,
+      "directAutoMarkCount": 2492,
+      "checklistReviewCount": 0,
+      "manualReviewCount": 0,
+      "diagramAssetReviewCount": 0
+    },
+    "french": {
+      "questionCount": 5585,
+      "enabledCount": 4555,
+      "previewCount": 171,
+      "disabledCount": 859,
+      "sourcePreservedCount": 2601,
+      "generatedVariantCount": 2984,
+      "conceptCount": 1913,
+      "formatCounts": {
+        "controlled_translation": 1195,
+        "listen_type": 617,
+        "mc_single": 1734,
+        "spelling_restore": 617,
+        "typed_equivalent": 897,
+        "unordered_set": 9,
+        "word_tiles": 516
+      },
+      "recognitionCount": 1734,
+      "productionApplicationCount": 3851,
+      "directAutoMarkCount": 5433,
+      "checklistReviewCount": 0,
+      "manualReviewCount": 152,
+      "diagramAssetReviewCount": 0
+    },
+    "biology": {
+      "questionCount": 989,
+      "enabledCount": 989,
+      "previewCount": 0,
+      "disabledCount": 0,
+      "sourcePreservedCount": 0,
+      "generatedVariantCount": 989,
+      "conceptCount": 455,
+      "formatCounts": {
+        "calculation": 11,
+        "diagram_label": 14,
+        "extended_response": 1,
+        "mark_points": 316,
+        "matching": 88,
+        "mc_single": 270,
+        "practical_design": 1,
+        "sequence": 6,
+        "sorting": 4,
+        "typed_exact": 267,
+        "typed_short": 4,
+        "unordered_set": 7
+      },
+      "recognitionCount": 358,
+      "productionApplicationCount": 631,
+      "directAutoMarkCount": 657,
+      "checklistReviewCount": 318,
+      "manualReviewCount": 0,
+      "diagramAssetReviewCount": 14
+    },
+    "all": {
+      "questionCount": 9066,
+      "conceptCount": 3146,
+      "enabledCount": 8036,
+      "previewCount": 171,
+      "disabledCount": 859,
+      "directAutoMarkCount": 8582,
+      "checklistReviewCount": 318,
+      "manualReviewCount": 152,
+      "diagramAssetReviewCount": 14
+    }
+  },
+  "sourceBaselines": {
+    "latinPreserved": 1056,
+    "frenchPreserved": 2601,
+    "frenchVocab": 617,
+    "frenchWriting": 32,
+    "biologyTopics": 37,
+    "biologyFacts": 267,
+    "biologyAppliedQuestions": 96
+  },
+  "designDecision": "MC is retained for confidence and recognition, while each core concept is also tested through production or application."
+}

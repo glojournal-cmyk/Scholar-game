@@ -1,0 +1,3665 @@
+[
+  {
+    "subject": "latin",
+    "topicId": "la-y8-accusative-forms",
+    "title": "Accusative forms",
+    "noteId": "la-y8-note-accusative-forms",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 11,
+    "enabledCount": 11,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 11,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 11
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-adjective-agreement",
+    "title": "Adjective agreement",
+    "noteId": "la-y8-note-adjective-agreement",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 24,
+    "enabledCount": 24,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 6,
+    "productionApplicationCount": 18,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 6,
+      "spelling_restore": 6,
+      "typed_exact": 6,
+      "word_tiles": 6
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-case-and-grammar-role",
+    "title": "Case and grammar role",
+    "noteId": "la-y8-note-case-and-grammar-role",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 7,
+    "enabledCount": 7,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 7,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 7
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-case-functions",
+    "title": "Case functions",
+    "noteId": "la-y8-note-case-functions",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 10,
+    "enabledCount": 10,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 10,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 10
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-case-role-introduction",
+    "title": "Case-role introduction",
+    "noteId": "la-y8-note-case-role-introduction",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 5,
+    "enabledCount": 5,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 5,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 5
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-choose-the-complete-translation",
+    "title": "Choose the complete translation",
+    "noteId": "la-y8-note-choose-the-complete-translation",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 6,
+    "enabledCount": 6,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 6,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 6
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-choose-the-exact-latin",
+    "title": "Choose the exact Latin",
+    "noteId": "la-y8-note-choose-the-exact-latin",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 7,
+    "enabledCount": 7,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 7,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 7
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-choose-the-set-text-translation",
+    "title": "Choose the set-text translation",
+    "noteId": "la-y8-note-choose-the-set-text-translation",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 35,
+    "enabledCount": 35,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 35,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 35
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-complete-comprehension",
+    "title": "Complete comprehension",
+    "noteId": "la-y8-note-complete-comprehension",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 7,
+    "enabledCount": 7,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 7,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 7
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-core-verbs",
+    "title": "Core verbs",
+    "noteId": "la-y8-note-core-verbs",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 98,
+    "enabledCount": 98,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 33,
+    "productionApplicationCount": 65,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "mc_single": 33,
+      "spelling_restore": 16,
+      "typed_exact": 33,
+      "word_tiles": 16
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-declension-recognition",
+    "title": "Declension recognition",
+    "noteId": "la-y8-note-declension-recognition",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 5,
+    "enabledCount": 5,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 5,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 5
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-english-latin",
+    "title": "English → Latin",
+    "noteId": "la-y8-note-english-latin",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 6,
+    "enabledCount": 6,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 0,
+    "productionApplicationCount": 6,
+    "difficultyRange": [
+      4,
+      4
+    ],
+    "formats": {
+      "controlled_translation": 6
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-find-the-finite-verb",
+    "title": "Find the finite verb",
+    "noteId": "la-y8-note-find-the-finite-verb",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 12,
+    "enabledCount": 12,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 6,
+    "productionApplicationCount": 6,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 6,
+      "typed_exact": 6
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-finite-verb-control",
+    "title": "Finite verb control",
+    "noteId": "la-y8-note-finite-verb-control",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 14,
+    "enabledCount": 14,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 7,
+    "productionApplicationCount": 7,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 7,
+      "typed_exact": 7
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-genitive-phrases",
+    "title": "Genitive phrases",
+    "noteId": "la-y8-note-genitive-phrases",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 12,
+    "enabledCount": 12,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 6,
+    "productionApplicationCount": 6,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 6,
+      "typed_exact": 6
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-ille-plural",
+    "title": "ille plural",
+    "noteId": "la-y8-note-ille-plural",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 60,
+    "enabledCount": 60,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 15,
+    "productionApplicationCount": 45,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 15,
+      "spelling_restore": 15,
+      "typed_exact": 15,
+      "word_tiles": 15
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-ille-singular",
+    "title": "ille singular",
+    "noteId": "la-y8-note-ille-singular",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 60,
+    "enabledCount": 60,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 15,
+    "productionApplicationCount": 45,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 15,
+      "spelling_restore": 15,
+      "typed_exact": 15,
+      "word_tiles": 15
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-latin-english",
+    "title": "Latin → English",
+    "noteId": "la-y8-note-latin-english",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 6,
+    "enabledCount": 6,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 0,
+    "productionApplicationCount": 6,
+    "difficultyRange": [
+      4,
+      4
+    ],
+    "formats": {
+      "controlled_translation": 6
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-map-locations",
+    "title": "Map locations",
+    "noteId": "la-y8-note-map-locations",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 10,
+    "enabledCount": 10,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 10,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 10
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-miscellaneous-words",
+    "title": "Miscellaneous words",
+    "noteId": "la-y8-note-miscellaneous-words",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 42,
+    "enabledCount": 42,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 14,
+    "productionApplicationCount": 28,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 14,
+      "spelling_restore": 7,
+      "typed_exact": 14,
+      "word_tiles": 7
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-nouns-and-dictionary-entries",
+    "title": "Nouns and dictionary entries",
+    "noteId": "la-y8-note-nouns-and-dictionary-entries",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 70,
+    "enabledCount": 70,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 35,
+    "productionApplicationCount": 35,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 35,
+      "typed_exact": 35
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-nouns-with-genitives",
+    "title": "Nouns with genitives",
+    "noteId": "la-y8-note-nouns-with-genitives",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 140,
+    "enabledCount": 140,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 35,
+    "productionApplicationCount": 105,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "mc_single": 35,
+      "spelling_restore": 35,
+      "typed_exact": 35,
+      "word_tiles": 35
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-perfect-cues",
+    "title": "Perfect cues",
+    "noteId": "la-y8-note-perfect-cues",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 116,
+    "enabledCount": 116,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 29,
+    "productionApplicationCount": 87,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 29,
+      "spelling_restore": 29,
+      "typed_exact": 29,
+      "word_tiles": 29
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-perfect-patterns",
+    "title": "Perfect patterns",
+    "noteId": "la-y8-note-perfect-patterns",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 5,
+    "enabledCount": 5,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 5,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 5
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-person-and-number",
+    "title": "Person and number",
+    "noteId": "la-y8-note-person-and-number",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 6,
+    "enabledCount": 6,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 6,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 6
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-personal-pronouns",
+    "title": "personal pronouns",
+    "noteId": "la-y8-note-personal-pronouns",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 78,
+    "enabledCount": 78,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 20,
+    "productionApplicationCount": 58,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "mc_single": 20,
+      "spelling_restore": 20,
+      "typed_exact": 20,
+      "word_tiles": 18
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-photo-prepositions",
+    "title": "Photo prepositions",
+    "noteId": "la-y8-note-photo-prepositions",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 26,
+    "enabledCount": 26,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 13,
+    "productionApplicationCount": 13,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 13,
+      "typed_exact": 13
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-pluperfect-recognition",
+    "title": "Pluperfect recognition",
+    "noteId": "la-y8-note-pluperfect-recognition",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 6,
+    "enabledCount": 6,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 3,
+    "productionApplicationCount": 3,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 3,
+      "typed_exact": 3
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-possessives",
+    "title": "Possessives",
+    "noteId": "la-y8-note-possessives",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 5,
+    "enabledCount": 5,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 0,
+    "productionApplicationCount": 5,
+    "difficultyRange": [
+      2,
+      2
+    ],
+    "formats": {
+      "unordered_set": 5
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-preposition-dictionary-entries",
+    "title": "Preposition dictionary entries",
+    "noteId": "la-y8-note-preposition-dictionary-entries",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 52,
+    "enabledCount": 52,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 13,
+    "productionApplicationCount": 39,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 13,
+      "spelling_restore": 13,
+      "typed_exact": 13,
+      "word_tiles": 13
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-prepositions",
+    "title": "Prepositions",
+    "noteId": "la-y8-note-prepositions",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 39,
+    "enabledCount": 39,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 26,
+    "productionApplicationCount": 13,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 26,
+      "typed_exact": 13
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-present-person-and-number",
+    "title": "Present person and number",
+    "noteId": "la-y8-note-present-person-and-number",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 24,
+    "enabledCount": 24,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 24,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 24
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-production-method",
+    "title": "Production method",
+    "noteId": "la-y8-note-production-method",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 1,
+    "enabledCount": 1,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 1,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 1
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-research-questions",
+    "title": "Research questions",
+    "noteId": "la-y8-note-research-questions",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 4,
+    "enabledCount": 4,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 0,
+    "productionApplicationCount": 4,
+    "difficultyRange": [
+      4,
+      4
+    ],
+    "formats": {
+      "controlled_translation": 4
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-restore-the-exact-verb",
+    "title": "Restore the exact verb",
+    "noteId": "la-y8-note-restore-the-exact-verb",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 7,
+    "enabledCount": 7,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 7,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 7
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-restore-the-sentence",
+    "title": "Restore the sentence",
+    "noteId": "la-y8-note-restore-the-sentence",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 6,
+    "enabledCount": 6,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 6,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 6
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-restore-the-set-text",
+    "title": "Restore the set text",
+    "noteId": "la-y8-note-restore-the-set-text",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 15,
+    "enabledCount": 15,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 15,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 15
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-set-text-comprehension",
+    "title": "Set-text comprehension",
+    "noteId": "la-y8-note-set-text-comprehension",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 14,
+    "enabledCount": 14,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 14,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 14
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-set-text-grammar",
+    "title": "Set-text grammar",
+    "noteId": "la-y8-note-set-text-grammar",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 28,
+    "enabledCount": 28,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 28,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 28
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-set-text-translation",
+    "title": "Set-text translation",
+    "noteId": "la-y8-note-set-text-translation",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 35,
+    "enabledCount": 35,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 0,
+    "productionApplicationCount": 35,
+    "difficultyRange": [
+      4,
+      4
+    ],
+    "formats": {
+      "controlled_translation": 35
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-set-text-verb-meaning",
+    "title": "Set-text verb meaning",
+    "noteId": "la-y8-note-set-text-verb-meaning",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 22,
+    "enabledCount": 22,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 11,
+    "productionApplicationCount": 11,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 11,
+      "typed_exact": 11
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-set-text-verb-tense",
+    "title": "Set-text verb tense",
+    "noteId": "la-y8-note-set-text-verb-tense",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 11,
+    "enabledCount": 11,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 11,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 11
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-stage-1-vocabulary",
+    "title": "Stage 1 vocabulary",
+    "noteId": "la-y8-note-stage-1-vocabulary",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 72,
+    "enabledCount": 72,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 24,
+    "productionApplicationCount": 48,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 24,
+      "spelling_restore": 12,
+      "typed_exact": 24,
+      "word_tiles": 12
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-stage-10-vocabulary",
+    "title": "Stage 10 vocabulary",
+    "noteId": "la-y8-note-stage-10-vocabulary",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 114,
+    "enabledCount": 114,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 38,
+    "productionApplicationCount": 76,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 38,
+      "spelling_restore": 19,
+      "typed_exact": 38,
+      "word_tiles": 19
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-stage-11-vocabulary",
+    "title": "Stage 11 vocabulary",
+    "noteId": "la-y8-note-stage-11-vocabulary",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 114,
+    "enabledCount": 114,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 38,
+    "productionApplicationCount": 76,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 38,
+      "spelling_restore": 19,
+      "typed_exact": 38,
+      "word_tiles": 19
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-stage-12-vocabulary",
+    "title": "Stage 12 vocabulary",
+    "noteId": "la-y8-note-stage-12-vocabulary",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 120,
+    "enabledCount": 120,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 40,
+    "productionApplicationCount": 80,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 40,
+      "spelling_restore": 20,
+      "typed_exact": 40,
+      "word_tiles": 20
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-stage-2-vocabulary",
+    "title": "Stage 2 vocabulary",
+    "noteId": "la-y8-note-stage-2-vocabulary",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 72,
+    "enabledCount": 72,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 24,
+    "productionApplicationCount": 48,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 24,
+      "spelling_restore": 12,
+      "typed_exact": 24,
+      "word_tiles": 12
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-stage-3-vocabulary",
+    "title": "Stage 3 vocabulary",
+    "noteId": "la-y8-note-stage-3-vocabulary",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 132,
+    "enabledCount": 132,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 44,
+    "productionApplicationCount": 88,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "mc_single": 44,
+      "spelling_restore": 22,
+      "typed_exact": 44,
+      "word_tiles": 22
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-stage-4-vocabulary",
+    "title": "Stage 4 vocabulary",
+    "noteId": "la-y8-note-stage-4-vocabulary",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 90,
+    "enabledCount": 90,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 30,
+    "productionApplicationCount": 60,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 30,
+      "spelling_restore": 15,
+      "typed_exact": 30,
+      "word_tiles": 15
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-stage-5-vocabulary",
+    "title": "Stage 5 vocabulary",
+    "noteId": "la-y8-note-stage-5-vocabulary",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 120,
+    "enabledCount": 120,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 40,
+    "productionApplicationCount": 80,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 40,
+      "spelling_restore": 20,
+      "typed_exact": 40,
+      "word_tiles": 20
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-stage-6-vocabulary",
+    "title": "Stage 6 vocabulary",
+    "noteId": "la-y8-note-stage-6-vocabulary",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 114,
+    "enabledCount": 114,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 38,
+    "productionApplicationCount": 76,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 38,
+      "spelling_restore": 19,
+      "typed_exact": 38,
+      "word_tiles": 19
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-stage-7-vocabulary",
+    "title": "Stage 7 vocabulary",
+    "noteId": "la-y8-note-stage-7-vocabulary",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 108,
+    "enabledCount": 108,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 36,
+    "productionApplicationCount": 72,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 36,
+      "spelling_restore": 18,
+      "typed_exact": 36,
+      "word_tiles": 18
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-stage-8-vocabulary",
+    "title": "Stage 8 vocabulary",
+    "noteId": "la-y8-note-stage-8-vocabulary",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 102,
+    "enabledCount": 102,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 34,
+    "productionApplicationCount": 68,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 34,
+      "spelling_restore": 17,
+      "typed_exact": 34,
+      "word_tiles": 17
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-stage-9-vocabulary",
+    "title": "Stage 9 vocabulary",
+    "noteId": "la-y8-note-stage-9-vocabulary",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 114,
+    "enabledCount": 114,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 38,
+    "productionApplicationCount": 76,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 38,
+      "spelling_restore": 19,
+      "typed_exact": 38,
+      "word_tiles": 19
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-tense-in-context",
+    "title": "Tense in context",
+    "noteId": "la-y8-note-tense-in-context",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 6,
+    "enabledCount": 6,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 6,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 6
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-tense-meaning",
+    "title": "Tense meaning",
+    "noteId": "la-y8-note-tense-meaning",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 8,
+    "enabledCount": 8,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 4,
+    "productionApplicationCount": 4,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 4,
+      "typed_exact": 4
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-tense-purpose",
+    "title": "Tense purpose",
+    "noteId": "la-y8-note-tense-purpose",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 2,
+    "enabledCount": 2,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 2,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 2
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-tense-recognition",
+    "title": "Tense recognition",
+    "noteId": "la-y8-note-tense-recognition",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 4,
+    "enabledCount": 4,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 4,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 4
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-tense-recognition-from-models",
+    "title": "Tense recognition from models",
+    "noteId": "la-y8-note-tense-recognition-from-models",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 16,
+    "enabledCount": 16,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 16,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 16
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-test-style-production",
+    "title": "Test-style production",
+    "noteId": "la-y8-note-test-style-production",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 7,
+    "enabledCount": 7,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 0,
+    "productionApplicationCount": 7,
+    "difficultyRange": [
+      4,
+      4
+    ],
+    "formats": {
+      "controlled_translation": 7
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-test-style-translation",
+    "title": "Test-style translation",
+    "noteId": "la-y8-note-test-style-translation",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 7,
+    "enabledCount": 7,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 0,
+    "productionApplicationCount": 7,
+    "difficultyRange": [
+      4,
+      4
+    ],
+    "formats": {
+      "controlled_translation": 7
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-translation-method",
+    "title": "Translation method",
+    "noteId": "la-y8-note-translation-method",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 6,
+    "enabledCount": 6,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 6,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 6
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-vocative",
+    "title": "Vocative",
+    "noteId": "la-y8-note-vocative",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 6,
+    "enabledCount": 6,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 6,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 6
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-whole-passage-understanding",
+    "title": "Whole-passage understanding",
+    "noteId": "la-y8-note-whole-passage-understanding",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 1,
+    "enabledCount": 1,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 1,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 1
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "latin",
+    "topicId": "la-y8-why-each-place-matters",
+    "title": "Why each place matters",
+    "noteId": "la-y8-note-why-each-place-matters",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 10,
+    "enabledCount": 10,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 10,
+    "productionApplicationCount": 0,
+    "difficultyRange": [
+      1,
+      1
+    ],
+    "formats": {
+      "mc_single": 10
+    },
+    "sourceFiles": [
+      "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s01-quick-rules",
+    "title": "Quick rules",
+    "noteId": "fr-y8-note-s01",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 50,
+    "enabledCount": 50,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 18,
+    "productionApplicationCount": 32,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "controlled_translation": 8,
+      "mc_single": 18,
+      "typed_equivalent": 24
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s02-weather-activities-and-opinions",
+    "title": "Weather, activities and opinions",
+    "noteId": "fr-y8-note-s02",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 443,
+    "enabledCount": 383,
+    "previewCount": 0,
+    "disabledCount": 60,
+    "recognitionCount": 148,
+    "productionApplicationCount": 295,
+    "difficultyRange": [
+      1,
+      5
+    ],
+    "formats": {
+      "controlled_translation": 88,
+      "listen_type": 59,
+      "mc_single": 148,
+      "spelling_restore": 59,
+      "typed_equivalent": 40,
+      "word_tiles": 49
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s03-home-family-and-descriptions",
+    "title": "Home, family and descriptions",
+    "noteId": "fr-y8-note-s03",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 591,
+    "enabledCount": 343,
+    "previewCount": 0,
+    "disabledCount": 248,
+    "recognitionCount": 210,
+    "productionApplicationCount": 381,
+    "difficultyRange": [
+      1,
+      4
+    ],
+    "formats": {
+      "controlled_translation": 126,
+      "listen_type": 84,
+      "mc_single": 210,
+      "spelling_restore": 84,
+      "typed_equivalent": 35,
+      "word_tiles": 52
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s04-food-drink-and-restaurants",
+    "title": "Food, drink and restaurants",
+    "noteId": "fr-y8-note-s04",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 191,
+    "enabledCount": 143,
+    "previewCount": 0,
+    "disabledCount": 48,
+    "recognitionCount": 65,
+    "productionApplicationCount": 126,
+    "difficultyRange": [
+      1,
+      5
+    ],
+    "formats": {
+      "controlled_translation": 39,
+      "listen_type": 26,
+      "mc_single": 65,
+      "spelling_restore": 26,
+      "typed_equivalent": 17,
+      "word_tiles": 18
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s05-town-time-and-aller",
+    "title": "Town, time and aller",
+    "noteId": "fr-y8-note-s05",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 248,
+    "enabledCount": 216,
+    "previewCount": 0,
+    "disabledCount": 32,
+    "recognitionCount": 82,
+    "productionApplicationCount": 166,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "controlled_translation": 50,
+      "listen_type": 33,
+      "mc_single": 82,
+      "spelling_restore": 33,
+      "typed_equivalent": 20,
+      "word_tiles": 30
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s06-present-tense",
+    "title": "Present tense",
+    "noteId": "fr-y8-note-s06",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 52,
+    "enabledCount": 52,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 0,
+    "productionApplicationCount": 52,
+    "difficultyRange": [
+      2,
+      2
+    ],
+    "formats": {
+      "typed_equivalent": 49,
+      "unordered_set": 3
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s07-passe-compose",
+    "title": "Passé composé",
+    "noteId": "fr-y8-note-s07",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 251,
+    "enabledCount": 223,
+    "previewCount": 0,
+    "disabledCount": 28,
+    "recognitionCount": 78,
+    "productionApplicationCount": 173,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "controlled_translation": 46,
+      "listen_type": 31,
+      "mc_single": 78,
+      "spelling_restore": 31,
+      "typed_equivalent": 34,
+      "word_tiles": 31
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s08-expanded-past-participle-bank",
+    "title": "Expanded past-participle bank",
+    "noteId": "fr-y8-note-s08",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 400,
+    "enabledCount": 365,
+    "previewCount": 0,
+    "disabledCount": 35,
+    "recognitionCount": 125,
+    "productionApplicationCount": 275,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "controlled_translation": 75,
+      "listen_type": 50,
+      "mc_single": 125,
+      "spelling_restore": 50,
+      "typed_equivalent": 50,
+      "word_tiles": 50
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s09-model-answers-and-sentence-building",
+    "title": "Model answers and sentence building",
+    "noteId": "fr-y8-note-s09",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 50,
+    "enabledCount": 50,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 26,
+    "productionApplicationCount": 24,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "controlled_translation": 12,
+      "mc_single": 26,
+      "typed_equivalent": 12
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s10-accuracy-traps",
+    "title": "Accuracy traps",
+    "noteId": "fr-y8-note-s10",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 50,
+    "enabledCount": 50,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 24,
+    "productionApplicationCount": 26,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 24,
+      "typed_equivalent": 26
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s11-master-vocabulary",
+    "title": "Master vocabulary",
+    "noteId": "fr-y8-note-s11",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 390,
+    "enabledCount": 390,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 132,
+    "productionApplicationCount": 258,
+    "difficultyRange": [
+      1,
+      5
+    ],
+    "formats": {
+      "controlled_translation": 80,
+      "listen_type": 53,
+      "mc_single": 132,
+      "spelling_restore": 53,
+      "typed_equivalent": 19,
+      "word_tiles": 53
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s12-ks3-extension-irregular-verbs",
+    "title": "KS3 extension irregular verbs",
+    "noteId": "fr-y8-note-s12",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 126,
+    "enabledCount": 126,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 23,
+    "productionApplicationCount": 103,
+    "difficultyRange": [
+      1,
+      4
+    ],
+    "formats": {
+      "controlled_translation": 13,
+      "listen_type": 9,
+      "mc_single": 23,
+      "spelling_restore": 9,
+      "typed_equivalent": 63,
+      "word_tiles": 9
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s13-reflexives-and-routine",
+    "title": "Reflexives and routine",
+    "noteId": "fr-y8-note-s13",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 227,
+    "enabledCount": 215,
+    "previewCount": 0,
+    "disabledCount": 12,
+    "recognitionCount": 72,
+    "productionApplicationCount": 155,
+    "difficultyRange": [
+      1,
+      4
+    ],
+    "formats": {
+      "controlled_translation": 44,
+      "listen_type": 29,
+      "mc_single": 72,
+      "spelling_restore": 29,
+      "typed_equivalent": 26,
+      "word_tiles": 27
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s14-future-time",
+    "title": "Future time",
+    "noteId": "fr-y8-note-s14",
+    "contentTiers": [
+      "extension_preview"
+    ],
+    "questionCount": 91,
+    "enabledCount": 0,
+    "previewCount": 85,
+    "disabledCount": 6,
+    "recognitionCount": 32,
+    "productionApplicationCount": 59,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "controlled_translation": 18,
+      "listen_type": 8,
+      "mc_single": 32,
+      "spelling_restore": 8,
+      "typed_equivalent": 18,
+      "word_tiles": 7
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s15-imperfect-conditional-light-exposure",
+    "title": "Imperfect/conditional light exposure",
+    "noteId": "fr-y8-note-s15",
+    "contentTiers": [
+      "extension_preview"
+    ],
+    "questionCount": 107,
+    "enabledCount": 0,
+    "previewCount": 86,
+    "disabledCount": 21,
+    "recognitionCount": 40,
+    "productionApplicationCount": 67,
+    "difficultyRange": [
+      1,
+      4
+    ],
+    "formats": {
+      "controlled_translation": 30,
+      "listen_type": 10,
+      "mc_single": 40,
+      "spelling_restore": 10,
+      "typed_equivalent": 7,
+      "word_tiles": 10
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s16-daily-routine-toolkit",
+    "title": "Daily routine toolkit",
+    "noteId": "fr-y8-note-s16",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 108,
+    "enabledCount": 101,
+    "previewCount": 0,
+    "disabledCount": 7,
+    "recognitionCount": 40,
+    "productionApplicationCount": 68,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "controlled_translation": 28,
+      "listen_type": 11,
+      "mc_single": 40,
+      "spelling_restore": 11,
+      "typed_equivalent": 7,
+      "word_tiles": 11
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s17-unit-3-overview",
+    "title": "Unit 3 overview",
+    "noteId": "fr-y8-note-s17",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 83,
+    "enabledCount": 77,
+    "previewCount": 0,
+    "disabledCount": 6,
+    "recognitionCount": 34,
+    "productionApplicationCount": 49,
+    "difficultyRange": [
+      1,
+      5
+    ],
+    "formats": {
+      "controlled_translation": 21,
+      "listen_type": 6,
+      "mc_single": 34,
+      "spelling_restore": 6,
+      "typed_equivalent": 11,
+      "word_tiles": 5
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s18-school-descriptions",
+    "title": "School descriptions",
+    "noteId": "fr-y8-note-s18",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 138,
+    "enabledCount": 84,
+    "previewCount": 0,
+    "disabledCount": 54,
+    "recognitionCount": 25,
+    "productionApplicationCount": 113,
+    "difficultyRange": [
+      1,
+      5
+    ],
+    "formats": {
+      "controlled_translation": 55,
+      "listen_type": 10,
+      "mc_single": 25,
+      "spelling_restore": 10,
+      "typed_equivalent": 37,
+      "word_tiles": 1
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s19-subjects-opinions-and-reasons",
+    "title": "Subjects, opinions and reasons",
+    "noteId": "fr-y8-note-s19",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 179,
+    "enabledCount": 148,
+    "previewCount": 0,
+    "disabledCount": 31,
+    "recognitionCount": 60,
+    "productionApplicationCount": 119,
+    "difficultyRange": [
+      1,
+      4
+    ],
+    "formats": {
+      "controlled_translation": 36,
+      "listen_type": 24,
+      "mc_single": 60,
+      "spelling_restore": 24,
+      "typed_equivalent": 15,
+      "word_tiles": 20
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s20-school-activities",
+    "title": "School activities",
+    "noteId": "fr-y8-note-s20",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 50,
+    "enabledCount": 50,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 14,
+    "productionApplicationCount": 36,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "controlled_translation": 18,
+      "mc_single": 14,
+      "typed_equivalent": 18
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s21-reflexives-and-negatives",
+    "title": "Reflexives and negatives",
+    "noteId": "fr-y8-note-s21",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 62,
+    "enabledCount": 62,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 0,
+    "productionApplicationCount": 62,
+    "difficultyRange": [
+      2,
+      2
+    ],
+    "formats": {
+      "controlled_translation": 20,
+      "typed_equivalent": 42
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s22-high-scoring-structures",
+    "title": "High-scoring structures",
+    "noteId": "fr-y8-note-s22",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 52,
+    "enabledCount": 52,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 0,
+    "productionApplicationCount": 52,
+    "difficultyRange": [
+      2,
+      2
+    ],
+    "formats": {
+      "controlled_translation": 40,
+      "typed_equivalent": 12
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s23-targeted-practice",
+    "title": "Targeted practice",
+    "noteId": "fr-y8-note-s23",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 123,
+    "enabledCount": 107,
+    "previewCount": 0,
+    "disabledCount": 16,
+    "recognitionCount": 37,
+    "productionApplicationCount": 86,
+    "difficultyRange": [
+      1,
+      5
+    ],
+    "formats": {
+      "controlled_translation": 36,
+      "listen_type": 11,
+      "mc_single": 37,
+      "spelling_restore": 11,
+      "typed_equivalent": 19,
+      "word_tiles": 9
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s24-numbers-and-age",
+    "title": "Numbers and age",
+    "noteId": "fr-y8-note-s24",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 279,
+    "enabledCount": 279,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 97,
+    "productionApplicationCount": 182,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "controlled_translation": 59,
+      "listen_type": 39,
+      "mc_single": 97,
+      "spelling_restore": 39,
+      "typed_equivalent": 6,
+      "word_tiles": 39
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s25-classroom-objects",
+    "title": "Classroom objects",
+    "noteId": "fr-y8-note-s25",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 265,
+    "enabledCount": 239,
+    "previewCount": 0,
+    "disabledCount": 26,
+    "recognitionCount": 85,
+    "productionApplicationCount": 180,
+    "difficultyRange": [
+      1,
+      4
+    ],
+    "formats": {
+      "controlled_translation": 51,
+      "listen_type": 34,
+      "mc_single": 85,
+      "spelling_restore": 34,
+      "typed_equivalent": 29,
+      "word_tiles": 32
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s26-passe-compose-activity-bank",
+    "title": "Passé composé activity bank",
+    "noteId": "fr-y8-note-s26",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 283,
+    "enabledCount": 127,
+    "previewCount": 0,
+    "disabledCount": 156,
+    "recognitionCount": 78,
+    "productionApplicationCount": 205,
+    "difficultyRange": [
+      1,
+      5
+    ],
+    "formats": {
+      "controlled_translation": 79,
+      "listen_type": 31,
+      "mc_single": 78,
+      "spelling_restore": 31,
+      "typed_equivalent": 59,
+      "word_tiles": 5
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s27-teacher-targets-extension-structures",
+    "title": "Teacher targets/extension structures",
+    "noteId": "fr-y8-note-s27",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 54,
+    "enabledCount": 54,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 5,
+    "productionApplicationCount": 49,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "controlled_translation": 19,
+      "mc_single": 5,
+      "typed_equivalent": 30
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s28-french-speaking-school-life-reading",
+    "title": "French-speaking school-life reading",
+    "noteId": "fr-y8-note-s28",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 54,
+    "enabledCount": 54,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 24,
+    "productionApplicationCount": 30,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mc_single": 24,
+      "typed_equivalent": 30
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s29-mixed-assessment",
+    "title": "Mixed assessment",
+    "noteId": "fr-y8-note-s29",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 62,
+    "enabledCount": 60,
+    "previewCount": 0,
+    "disabledCount": 2,
+    "recognitionCount": 8,
+    "productionApplicationCount": 54,
+    "difficultyRange": [
+      1,
+      4
+    ],
+    "formats": {
+      "controlled_translation": 10,
+      "mc_single": 8,
+      "typed_equivalent": 41,
+      "unordered_set": 3
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s30-supplementary-teacher-vocabulary",
+    "title": "Supplementary teacher vocabulary",
+    "noteId": "fr-y8-note-s30",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 420,
+    "enabledCount": 351,
+    "previewCount": 0,
+    "disabledCount": 69,
+    "recognitionCount": 147,
+    "productionApplicationCount": 273,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "controlled_translation": 89,
+      "listen_type": 59,
+      "mc_single": 147,
+      "spelling_restore": 59,
+      "typed_equivalent": 8,
+      "word_tiles": 58
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s31-regular-present-patterns",
+    "title": "Regular present patterns",
+    "noteId": "fr-y8-note-s31",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 54,
+    "enabledCount": 54,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 5,
+    "productionApplicationCount": 49,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "controlled_translation": 5,
+      "mc_single": 5,
+      "typed_equivalent": 41,
+      "unordered_set": 3
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "french",
+    "topicId": "fr-y8-s32-accuracy-repair",
+    "title": "Accuracy repair",
+    "noteId": "fr-y8-note-s32",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 52,
+    "enabledCount": 50,
+    "previewCount": 0,
+    "disabledCount": 2,
+    "recognitionCount": 0,
+    "productionApplicationCount": 52,
+    "difficultyRange": [
+      2,
+      2
+    ],
+    "formats": {
+      "typed_equivalent": 52
+    },
+    "sourceFiles": [
+      "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-balanced-diet",
+    "title": "Balanced diet and nutrients",
+    "noteId": "bio-y8-note-balanced-diet",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 39,
+    "enabledCount": 39,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 15,
+    "productionApplicationCount": 24,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mark_points": 12,
+      "matching": 4,
+      "mc_single": 11,
+      "typed_exact": 11,
+      "unordered_set": 1
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-ber",
+    "title": "Basal energy requirement calculation",
+    "noteId": "bio-y8-note-ber",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 10,
+    "enabledCount": 10,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 3,
+    "productionApplicationCount": 7,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "calculation": 2,
+      "mark_points": 3,
+      "matching": 1,
+      "mc_single": 2,
+      "typed_exact": 2
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-binomial-naming",
+    "title": "Classification hierarchy and binomial naming",
+    "noteId": "bio-y8-note-binomial-naming",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 31,
+    "enabledCount": 31,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 11,
+    "productionApplicationCount": 20,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mark_points": 9,
+      "matching": 2,
+      "mc_single": 9,
+      "sequence": 1,
+      "typed_exact": 9,
+      "typed_short": 1
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-classification",
+    "title": "Classification and identification keys",
+    "noteId": "bio-y8-note-classification",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 37,
+    "enabledCount": 37,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 14,
+    "productionApplicationCount": 23,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "mark_points": 12,
+      "matching": 3,
+      "mc_single": 11,
+      "typed_exact": 11
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-competition",
+    "title": "Competition and limiting factors",
+    "noteId": "bio-y8-note-competition",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 22,
+    "enabledCount": 22,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 8,
+    "productionApplicationCount": 14,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "mark_points": 8,
+      "matching": 2,
+      "mc_single": 6,
+      "typed_exact": 6
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-continuous-variation",
+    "title": "Continuous variation and bell-shaped distributions",
+    "noteId": "bio-y8-note-continuous-variation",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 13,
+    "enabledCount": 13,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 5,
+    "productionApplicationCount": 8,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "diagram_label": 1,
+      "mark_points": 4,
+      "matching": 1,
+      "mc_single": 4,
+      "typed_exact": 3
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-correlation",
+    "title": "Correlation: hand span and height",
+    "noteId": "bio-y8-note-correlation",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 13,
+    "enabledCount": 13,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 4,
+    "productionApplicationCount": 9,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "diagram_label": 1,
+      "mark_points": 4,
+      "matching": 1,
+      "mc_single": 3,
+      "typed_exact": 3,
+      "unordered_set": 1
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-digestion-absorption",
+    "title": "Digestive system and absorption",
+    "noteId": "bio-y8-note-digestion-absorption",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 48,
+    "enabledCount": 48,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 18,
+    "productionApplicationCount": 30,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "diagram_label": 1,
+      "mark_points": 15,
+      "matching": 5,
+      "mc_single": 13,
+      "sequence": 1,
+      "typed_exact": 13
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-dna-genes",
+    "title": "DNA, chromosomes, genes and alleles",
+    "noteId": "bio-y8-note-dna-genes",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 31,
+    "enabledCount": 31,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 12,
+    "productionApplicationCount": 19,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mark_points": 9,
+      "matching": 3,
+      "mc_single": 9,
+      "typed_exact": 9,
+      "unordered_set": 1
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-dna-structure",
+    "title": "DNA structure, homologous pairs and karyograms",
+    "noteId": "bio-y8-note-dna-structure",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 18,
+    "enabledCount": 18,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 6,
+    "productionApplicationCount": 12,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "diagram_label": 2,
+      "mark_points": 5,
+      "matching": 2,
+      "mc_single": 4,
+      "sequence": 1,
+      "typed_exact": 4
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-drugs-alcohol",
+    "title": "Recreational drugs, caffeine and alcohol",
+    "noteId": "bio-y8-note-drugs-alcohol",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 37,
+    "enabledCount": 37,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 13,
+    "productionApplicationCount": 24,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "calculation": 1,
+      "mark_points": 12,
+      "matching": 3,
+      "mc_single": 10,
+      "typed_exact": 10,
+      "unordered_set": 1
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-ecology-terms",
+    "title": "Organisms, populations, communities and habitats",
+    "noteId": "bio-y8-note-ecology-terms",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 29,
+    "enabledCount": 29,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 11,
+    "productionApplicationCount": 18,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mark_points": 9,
+      "matching": 3,
+      "mc_single": 8,
+      "sorting": 1,
+      "typed_exact": 8
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-energy-bmi",
+    "title": "Energy balance, deficiency and BMI",
+    "noteId": "bio-y8-note-energy-bmi",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 30,
+    "enabledCount": 30,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 10,
+    "productionApplicationCount": 20,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "calculation": 2,
+      "mark_points": 10,
+      "matching": 2,
+      "mc_single": 8,
+      "typed_exact": 8
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-enzymes-gut",
+    "title": "Enzymes and gut bacteria",
+    "noteId": "bio-y8-note-enzymes-gut",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 41,
+    "enabledCount": 41,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 15,
+    "productionApplicationCount": 26,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "diagram_label": 1,
+      "mark_points": 13,
+      "matching": 4,
+      "mc_single": 11,
+      "typed_exact": 11,
+      "unordered_set": 1
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-fats-cholesterol",
+    "title": "Saturated and unsaturated fats",
+    "noteId": "bio-y8-note-fats-cholesterol",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 19,
+    "enabledCount": 19,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 7,
+    "productionApplicationCount": 12,
+    "difficultyRange": [
+      1,
+      4
+    ],
+    "formats": {
+      "mark_points": 7,
+      "matching": 2,
+      "mc_single": 5,
+      "typed_exact": 5
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-fertilisation-inheritance",
+    "title": "Fertilisation and inheritance",
+    "noteId": "bio-y8-note-fertilisation-inheritance",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 35,
+    "enabledCount": 35,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 13,
+    "productionApplicationCount": 22,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mark_points": 10,
+      "matching": 3,
+      "mc_single": 10,
+      "sequence": 1,
+      "typed_exact": 10,
+      "typed_short": 1
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-food-chains-webs",
+    "title": "Food chains, food webs and trophic levels",
+    "noteId": "bio-y8-note-food-chains-webs",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 32,
+    "enabledCount": 32,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 11,
+    "productionApplicationCount": 21,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "diagram_label": 1,
+      "mark_points": 11,
+      "matching": 2,
+      "mc_single": 9,
+      "typed_exact": 9
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-food-tests",
+    "title": "Food tests and laboratory safety",
+    "noteId": "bio-y8-note-food-tests",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 33,
+    "enabledCount": 33,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 12,
+    "productionApplicationCount": 21,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "mark_points": 11,
+      "matching": 3,
+      "mc_single": 9,
+      "typed_exact": 9,
+      "typed_short": 1
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-genetic-disorders",
+    "title": "Genetic disorders",
+    "noteId": "bio-y8-note-genetic-disorders",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 15,
+    "enabledCount": 15,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 7,
+    "productionApplicationCount": 8,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mark_points": 4,
+      "matching": 2,
+      "mc_single": 5,
+      "typed_exact": 4
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-graphs-calculations",
+    "title": "Graphs, calculations and unit conversions",
+    "noteId": "bio-y8-note-graphs-calculations",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 36,
+    "enabledCount": 36,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 14,
+    "productionApplicationCount": 22,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "calculation": 4,
+      "mark_points": 9,
+      "matching": 4,
+      "mc_single": 10,
+      "typed_exact": 9
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-leaf-structure",
+    "title": "Plant and leaf structure",
+    "noteId": "bio-y8-note-leaf-structure",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 37,
+    "enabledCount": 37,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 14,
+    "productionApplicationCount": 23,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "diagram_label": 2,
+      "mark_points": 11,
+      "matching": 4,
+      "mc_single": 10,
+      "typed_exact": 10
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-light-colour-practical",
+    "title": "Colour of light practical",
+    "noteId": "bio-y8-note-light-colour-practical",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 29,
+    "enabledCount": 29,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 11,
+    "productionApplicationCount": 18,
+    "difficultyRange": [
+      1,
+      4
+    ],
+    "formats": {
+      "mark_points": 9,
+      "matching": 3,
+      "mc_single": 8,
+      "practical_design": 1,
+      "typed_exact": 8
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-limiting-factors",
+    "title": "Limiting factors and graphs",
+    "noteId": "bio-y8-note-limiting-factors",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 20,
+    "enabledCount": 20,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 6,
+    "productionApplicationCount": 14,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "diagram_label": 2,
+      "mark_points": 7,
+      "matching": 1,
+      "mc_single": 5,
+      "typed_exact": 5
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-minerals-greenhouse",
+    "title": "Mineral ions and greenhouses",
+    "noteId": "bio-y8-note-minerals-greenhouse",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 28,
+    "enabledCount": 28,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 10,
+    "productionApplicationCount": 18,
+    "difficultyRange": [
+      1,
+      4
+    ],
+    "formats": {
+      "mark_points": 10,
+      "matching": 2,
+      "mc_single": 8,
+      "typed_exact": 8
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-natural-selection",
+    "title": "Natural selection and evolution",
+    "noteId": "bio-y8-note-natural-selection",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 26,
+    "enabledCount": 26,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 10,
+    "productionApplicationCount": 16,
+    "difficultyRange": [
+      1,
+      4
+    ],
+    "formats": {
+      "extended_response": 1,
+      "mark_points": 8,
+      "matching": 3,
+      "mc_single": 7,
+      "typed_exact": 7
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-nutrition-labels",
+    "title": "Reading nutrition labels",
+    "noteId": "bio-y8-note-nutrition-labels",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 16,
+    "enabledCount": 16,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 5,
+    "productionApplicationCount": 11,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "calculation": 2,
+      "mark_points": 4,
+      "matching": 1,
+      "mc_single": 4,
+      "typed_exact": 4,
+      "unordered_set": 1
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-photosynthesis-glucose",
+    "title": "Photosynthesis and uses of glucose",
+    "noteId": "bio-y8-note-photosynthesis-glucose",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 29,
+    "enabledCount": 29,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 10,
+    "productionApplicationCount": 19,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mark_points": 9,
+      "matching": 2,
+      "mc_single": 8,
+      "typed_exact": 8,
+      "typed_short": 1,
+      "unordered_set": 1
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-pollutants-indicators",
+    "title": "Human impact, pollutants and indicator species",
+    "noteId": "bio-y8-note-pollutants-indicators",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 39,
+    "enabledCount": 39,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 15,
+    "productionApplicationCount": 24,
+    "difficultyRange": [
+      1,
+      4
+    ],
+    "formats": {
+      "mark_points": 13,
+      "matching": 4,
+      "mc_single": 11,
+      "typed_exact": 11
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-practical-conclusions",
+    "title": "Practical methods and conclusions",
+    "noteId": "bio-y8-note-practical-conclusions",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 16,
+    "enabledCount": 16,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 6,
+    "productionApplicationCount": 10,
+    "difficultyRange": [
+      1,
+      2
+    ],
+    "formats": {
+      "mark_points": 5,
+      "matching": 2,
+      "mc_single": 4,
+      "sorting": 1,
+      "typed_exact": 4
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-predator-prey-adaptations",
+    "title": "Predator-prey relationships and adaptations",
+    "noteId": "bio-y8-note-predator-prey-adaptations",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 27,
+    "enabledCount": 27,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 9,
+    "productionApplicationCount": 18,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "diagram_label": 1,
+      "mark_points": 8,
+      "matching": 2,
+      "mc_single": 7,
+      "sequence": 1,
+      "sorting": 1,
+      "typed_exact": 7
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-punnett-squares",
+    "title": "Punnett squares and probability",
+    "noteId": "bio-y8-note-punnett-squares",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 17,
+    "enabledCount": 17,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 5,
+    "productionApplicationCount": 12,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "diagram_label": 1,
+      "mark_points": 7,
+      "matching": 1,
+      "mc_single": 4,
+      "typed_exact": 4
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-pyramids-energy",
+    "title": "Pyramids and energy transfer",
+    "noteId": "bio-y8-note-pyramids-energy",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 23,
+    "enabledCount": 23,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 8,
+    "productionApplicationCount": 15,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "diagram_label": 1,
+      "mark_points": 8,
+      "matching": 2,
+      "mc_single": 6,
+      "typed_exact": 6
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-smoking-health",
+    "title": "Smoking and tobacco smoke",
+    "noteId": "bio-y8-note-smoking-health",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 23,
+    "enabledCount": 23,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 8,
+    "productionApplicationCount": 15,
+    "difficultyRange": [
+      1,
+      4
+    ],
+    "formats": {
+      "mark_points": 9,
+      "matching": 2,
+      "mc_single": 6,
+      "typed_exact": 6
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-starch-evidence",
+    "title": "Evidence and starch experiments",
+    "noteId": "bio-y8-note-starch-evidence",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 36,
+    "enabledCount": 36,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 13,
+    "productionApplicationCount": 23,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "mark_points": 12,
+      "matching": 3,
+      "mc_single": 10,
+      "sequence": 1,
+      "typed_exact": 10
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-variables-quality",
+    "title": "Variables, controls, reliability and validity",
+    "noteId": "bio-y8-note-variables-quality",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 29,
+    "enabledCount": 29,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 10,
+    "productionApplicationCount": 19,
+    "difficultyRange": [
+      1,
+      3
+    ],
+    "formats": {
+      "mark_points": 11,
+      "matching": 2,
+      "mc_single": 8,
+      "typed_exact": 8
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  },
+  {
+    "subject": "biology",
+    "topicId": "bio-y8-variation-mutation",
+    "title": "Variation and mutation",
+    "noteId": "bio-y8-note-variation-mutation",
+    "contentTiers": [
+      "confirmed_learned"
+    ],
+    "questionCount": 25,
+    "enabledCount": 25,
+    "previewCount": 0,
+    "disabledCount": 0,
+    "recognitionCount": 9,
+    "productionApplicationCount": 16,
+    "difficultyRange": [
+      1,
+      4
+    ],
+    "formats": {
+      "mark_points": 8,
+      "matching": 2,
+      "mc_single": 7,
+      "sorting": 1,
+      "typed_exact": 7
+    },
+    "sourceFiles": [
+      "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf"
+    ]
+  }
+]

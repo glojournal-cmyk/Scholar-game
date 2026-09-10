@@ -1,0 +1,15 @@
+{
+  "version": "V8 Reliable Practice",
+  "scope": "Year 8 Latin summer revision, 18 July–3 September 2026",
+  "questionCount": 1056,
+  "source": "Year8 Latin Complete Teacher Coverage Final + reconciled summer schedule",
+  "generated": "2026-09-02",
+  "features": [
+    "natural-answer and unordered-set marking",
+    "focus-first dated sampling with balanced question types",
+    "cycle-based mastery",
+    "question-specific feedback and fuller notes",
+    "2-day and 7-day due-only review advancement",
+    "resumable sessions and local progress backup"
+  ]
+}

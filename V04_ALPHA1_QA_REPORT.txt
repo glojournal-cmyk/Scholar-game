@@ -1,0 +1,42 @@
+LUX ET LABOR — THE SCHOLAR'S GARDEN
+V0.4.0 ALPHA 1 · VISUAL REBUILD
+
+Deterministic integration QA: 29/29 PASS
+
+IMPLEMENTED IN ALPHA 1
+- New V0.4 presentation layer
+- Deep navy sticky navigation styling
+- Warm ivory / sage / muted gold visual system
+- Home visual hierarchy polish while preserving dynamic equipped Scholar art
+- New Study Hub hero
+- Functional Year 9 / Year 8 Study selector
+- Subject cards receive subject-specific visual art
+- Subject Hub hero changes by subject and tab
+- Latin Learn / Practise / Progress / Games scene mapping
+- French Learn / Practise / Progress scene mapping
+- Biology Learn / Progress scene mapping
+- Chemistry / Physics landing visual mapping
+- Garden / Scholar presentation polish
+- Responsive tablet/mobile overrides
+- 20 active scene assets integrated
+- 9 extra supplied scenes preserved as named reserved alternates
+
+ACADEMIC SAFETY
+- Growth / XP engine unchanged
+- DailyPlan unchanged
+- Latin/French/Biology Master Pack engines unchanged
+- Question/answer/concept banks unchanged
+- Latin Games V2 unchanged
+- learner state keys preserved
+- prior topic Learn route fix retained
+- no unsupported Chemistry/Physics practice was invented
+
+PERFORMANCE
+- V0.4 scene art is WebP
+- 29 V0.4 scene files total
+- no scene file exceeds 2 MiB
+- scene art is runtime/lazy cached rather than all precached
+
+IMPORTANT
+This is Alpha 1, not the finished V0.4 visual rebuild.
+Manual public GitHub Pages / physical iPad acceptance is not claimed.

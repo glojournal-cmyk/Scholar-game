@@ -1,0 +1,49 @@
+{
+  "defaultSession": {
+    "durationMinutes": 4,
+    "questionTarget": 12,
+    "opening": "two accessible MC or matching questions",
+    "ending": "one production/application question"
+  },
+  "quickSession": {
+    "durationMinutes": 2,
+    "questionTarget": 7,
+    "use": "due reviews or a single weak concept"
+  },
+  "standardSession": {
+    "durationMinutes": 5,
+    "questionTarget": 15,
+    "use": "recommended daily play"
+  },
+  "longerSession": {
+    "durationMinutes": 10,
+    "questionTarget": 25,
+    "use": "optional mixed assessment or boss; never the compulsory daily default"
+  },
+  "adaptiveMix": {
+    "newOrWeak": {
+      "recognitionPercent": 50,
+      "productionPercent": 50
+    },
+    "familiar": {
+      "recognitionPercent": 30,
+      "productionPercent": 70
+    },
+    "nearlySecure": {
+      "recognitionPercent": 20,
+      "productionPercent": 80
+    }
+  },
+  "topicDiversity": "A 15-question language session should use at least four task labels when available.",
+  "previewWords": {
+    "perSession": "3-5 maximum",
+    "firstFormat": "MC or matching",
+    "laterFormats": [
+      "spelling restore",
+      "listen and type",
+      "sentence use"
+    ],
+    "wrongFirstExposurePenalty": "no life loss"
+  },
+  "bossEligibility": "Use concepts already introduced; preview content can appear only as a clearly labelled bonus and cannot decide pass/fail."
+}

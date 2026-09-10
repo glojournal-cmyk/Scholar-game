@@ -1,0 +1,82 @@
+
+/* V0.4 Alpha 2 — micro-asset layer. Decorative only; no academic state or scoring rules. */
+.brand-mark{
+  width:42px;height:42px;border-radius:13px;overflow:hidden;display:grid;place-items:center;
+  background:#fffdf8;border:1px solid rgba(179,138,72,.35);box-shadow:0 5px 16px rgba(13,49,80,.08)
+}
+.brand-mark img{width:100%;height:100%;object-fit:cover;display:block}
+
+.v04-home-overview{
+  max-width:1240px;margin:0 auto 18px;padding:18px 22px;display:flex;gap:22px;align-items:center;justify-content:space-between;
+  border:1px solid rgba(18,49,75,.12);border-radius:22px;
+  background:
+    linear-gradient(90deg,rgba(255,253,248,.98),rgba(248,244,234,.94)),
+    url("./ui_v04_nameplate_slim.webp") center/cover no-repeat;
+  box-shadow:0 9px 26px rgba(28,41,37,.07);position:relative;overflow:hidden
+}
+.v04-home-overview::after{
+  content:"";position:absolute;right:16px;bottom:-26px;width:150px;height:90px;
+  background:url("./ui_v04_laurel_wreath.webp") center/contain no-repeat;opacity:.10;pointer-events:none
+}
+.v04-journey-title{min-width:260px;position:relative;z-index:1}
+.v04-journey-title strong{display:block;color:#17314b;font-family:Georgia,"Times New Roman",serif;font-size:1.22rem;font-weight:600}
+.v04-journey-stats{display:grid;grid-template-columns:repeat(3,minmax(120px,1fr));gap:10px;min-width:min(100%,520px);position:relative;z-index:1}
+.v04-journey-chip{
+  min-height:60px;padding:10px 14px;border-radius:15px;border:1px solid rgba(18,49,75,.11);
+  background:rgba(255,255,255,.84);display:flex;flex-direction:column;align-items:flex-start;justify-content:center;
+  color:#17314b;text-align:left;box-shadow:none
+}
+button.v04-journey-chip{cursor:pointer}
+button.v04-journey-chip:hover{transform:translateY(-1px);box-shadow:0 7px 18px rgba(13,49,80,.08)}
+.v04-journey-chip small{font-size:.67rem;letter-spacing:.09em;color:#6c746f}
+.v04-journey-chip b{font-size:.96rem;margin-top:2px}
+.v04-section-lede{margin:-4px 0 18px;color:#6c746f;max-width:760px}
+
+.subject-training-card,.training-access-card,.quick-play-card,#studyScreen .study-card{position:relative;overflow:hidden}
+.v04-card-corner{
+  position:absolute;right:-18px;bottom:-18px;width:76px;height:76px;object-fit:contain;opacity:.13;pointer-events:none
+}
+.v04-play-spark{
+  position:absolute;right:10px;top:8px;width:28px;height:28px;object-fit:contain;opacity:.34;pointer-events:none
+}
+.v04-study-flower{
+  position:absolute;right:8px;top:8px;width:34px;height:34px;object-fit:contain;opacity:.20;pointer-events:none
+}
+.section-title::after{
+  content:"";display:block;width:74px;height:18px;margin-left:auto;
+  background:url("./ui_divider_laurel.webp") center/contain no-repeat;opacity:.38
+}
+
+.v04-ui-badge{width:42px;height:42px;object-fit:contain;display:block}
+.wardrobe-lock{
+  display:flex!important;align-items:center;gap:6px;padding:5px 9px!important
+}
+.wardrobe-lock::before{
+  content:"";width:20px;height:20px;background:url("./ui_v04_lock_crest.webp") center/contain no-repeat;display:block
+}
+.medal-card .v04-achievement-badge{width:64px;height:64px;object-fit:contain;margin:0 auto 8px}
+.collect-art .v04-collection-state{width:70px;height:70px;object-fit:contain;margin:auto}
+.collect-art.has-reward-art .v04-collection-state{display:none}
+.v04-empty-art{display:block;max-width:240px;width:62%;margin:8px auto 12px;opacity:.82}
+
+.quiet-status::before{
+  content:"";display:inline-block;width:20px;height:20px;vertical-align:middle;margin-right:7px;
+  background:url("./ui_loading_flower.webp") center/contain no-repeat
+}
+#gardenExplorePanel:not(.hidden)::before{
+  content:"";display:block;width:76px;height:22px;margin:0 auto 12px;
+  background:url("./ui_v04_laurel_wreath.webp") center/contain no-repeat;opacity:.45
+}
+
+@media (max-width:760px){
+  .v04-home-overview{margin:0 14px 14px;padding:15px;display:block}
+  .v04-journey-stats{margin-top:12px;grid-template-columns:repeat(3,1fr);min-width:0}
+  .v04-journey-chip{min-height:54px;padding:8px 9px}
+  .v04-journey-chip small{font-size:.58rem}
+  .v04-journey-chip b{font-size:.83rem}
+  .section-title::after{display:none}
+}
+@media (max-width:470px){
+  .v04-journey-stats{grid-template-columns:1fr 1fr}
+  .v04-journey-stats .v04-journey-chip:last-child{grid-column:1 / -1}
+}

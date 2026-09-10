@@ -1,0 +1,162 @@
+[
+  {
+    "file": "assets/rf6/english_literature_hero.png",
+    "bytes": 3137868,
+    "sha256": "168eaf30b793d770c02667d27b8ea0ef2e68af1e87ee6ed13020f69fe4a318d4"
+  },
+  {
+    "file": "assets/rf6/english_literature_hero.webp",
+    "bytes": 206390,
+    "sha256": "4e10d72d72dde8c8cbd5907c15f3a948477799660a8ea18cc938df3d569b93ca"
+  },
+  {
+    "file": "assets/rf6/outfit_default_complete.png",
+    "bytes": 895695,
+    "sha256": "af640f32b7c87cb0d4fed47cc5a700ab646fc2be3d13cc93d5813c078f17760f"
+  },
+  {
+    "file": "assets/rf6/outfit_default_complete.webp",
+    "bytes": 111500,
+    "sha256": "3edcd830b1e6686a958ea0168484baf81fff245a77aa88d0504c472881701e51"
+  },
+  {
+    "file": "assets/rf6/outfit_garden_athletics_complete.png",
+    "bytes": 876246,
+    "sha256": "ff1be1e0c50c9db1df1614c622d5ab6d29fdfa29a2472f3545c679525f63b3cd"
+  },
+  {
+    "file": "assets/rf6/outfit_garden_athletics_complete.webp",
+    "bytes": 109838,
+    "sha256": "38a53e1f7c369af92c325e543e293dd0073f497602301db7e6d7b85fe8456b14"
+  },
+  {
+    "file": "assets/rf6/outfit_midnight_atelier_complete.png",
+    "bytes": 879821,
+    "sha256": "9fe10a57624990b2c53ab126d073dd33406b144cc64e481ae8bff948a80ef0e8"
+  },
+  {
+    "file": "assets/rf6/outfit_midnight_atelier_complete.webp",
+    "bytes": 108562,
+    "sha256": "c9593d7aa62fc176e5123907c7d90c3ecdbda6866796f7166929271875fc2acb"
+  },
+  {
+    "file": "assets/rf6/outfit_midnight_track_complete.png",
+    "bytes": 846569,
+    "sha256": "2ae44a4cb66ba82c17ab4eca039269c17db4a1eaf79456dab95c5e6dbc32527c"
+  },
+  {
+    "file": "assets/rf6/outfit_midnight_track_complete.webp",
+    "bytes": 109764,
+    "sha256": "0bef8a3ddaa46949e8a4fcc534b46f70fe9bdb0a0874505d3e46b526bddfdf9f"
+  },
+  {
+    "file": "assets/rf6/outfit_noir_academy_complete.png",
+    "bytes": 838648,
+    "sha256": "2122250f0fd665a289051c058168be1b2010606e7a299fe1a7738093bfbe99f0"
+  },
+  {
+    "file": "assets/rf6/outfit_noir_academy_complete.webp",
+    "bytes": 103694,
+    "sha256": "9095ac95484f499401e40f87e30cbe53b911b2d23b9a5681a7956bd943dd4f64"
+  },
+  {
+    "file": "assets/rf6/outfit_onyx_prefect_complete.png",
+    "bytes": 834754,
+    "sha256": "f62552a0bd2e6cd60e39ac9867da02e2a0a7e2091fcbd4985944324b3eb3c23a"
+  },
+  {
+    "file": "assets/rf6/outfit_onyx_prefect_complete.webp",
+    "bytes": 98612,
+    "sha256": "4faf94aa2fb9f16f8b71233a15c6a9015f7c220490646c8933330c740d174bda"
+  },
+  {
+    "file": "assets/rf6/outfit_rose_academy_complete.png",
+    "bytes": 832707,
+    "sha256": "6c8a56288d5f6981fd38729ecdcfeae96e755c2d511540563b77f402416ec509"
+  },
+  {
+    "file": "assets/rf6/outfit_rose_academy_complete.webp",
+    "bytes": 97222,
+    "sha256": "c4c184437916bc68b0c7acf39febb714d3f5186b0ffa61c39388f883d36aded2"
+  },
+  {
+    "file": "assets/rf6/outfit_scholar_athletics_complete.png",
+    "bytes": 853652,
+    "sha256": "84fdb7e571ad61754fb37ec29db3723d93b027fed715ba40c6f2df9948b8ce97"
+  },
+  {
+    "file": "assets/rf6/outfit_scholar_athletics_complete.webp",
+    "bytes": 109154,
+    "sha256": "c2b616d5bc613e06e6a032763d4a327fe4de98f9aa6b8b15ee1c0e4c9edca1e9"
+  },
+  {
+    "file": "assets/rf6/profile_settings_hero.png",
+    "bytes": 3226555,
+    "sha256": "853b27c00e11cbd594ae5520da0ec49e253c0a5e2b796359c71ec73cc3c6d83c"
+  },
+  {
+    "file": "assets/rf6/profile_settings_hero.webp",
+    "bytes": 221300,
+    "sha256": "800b52ddee63e61ef53500e84b47aeaa6be5f5c65d24af797f2228ac728d6525"
+  },
+  {
+    "file": "assets/rf6/raising_conservatory.png",
+    "bytes": 4116997,
+    "sha256": "cff72a522c9a34f77b00a68f750c6d38535cb77384209881ebf5824f0289aa37"
+  },
+  {
+    "file": "assets/rf6/raising_conservatory.webp",
+    "bytes": 498404,
+    "sha256": "bf1257ed499f55428ad2e263cc6282651a9f336adabbac914fe313b991019246"
+  },
+  {
+    "file": "assets/rf6/raising_garden.png",
+    "bytes": 4038017,
+    "sha256": "1b718c1c30e0d109c3ff2ead255b64db25fc4b2aa35fbfb24673a017a2ebdbdf"
+  },
+  {
+    "file": "assets/rf6/raising_garden.webp",
+    "bytes": 448508,
+    "sha256": "28c8730a301f812cf43f4a899426cb261a9538d3bb4c88f70911777d51ab17a7"
+  },
+  {
+    "file": "assets/rf6/raising_library.png",
+    "bytes": 3812071,
+    "sha256": "7ad38b1575017a82458574dfdfc811c2c6844dd9d425bebfb2a12a069e289012"
+  },
+  {
+    "file": "assets/rf6/raising_library.webp",
+    "bytes": 409166,
+    "sha256": "e6b3d3a7399d70b997f6d66e68a80eb1a256856fd93c6dc5d371892407d69a6f"
+  },
+  {
+    "file": "assets/rf6/raising_observatory.png",
+    "bytes": 3609834,
+    "sha256": "9db745bdf9e0ec249fc47ec56c155f96d41d77a021c6726665d536812759798e"
+  },
+  {
+    "file": "assets/rf6/raising_observatory.webp",
+    "bytes": 318730,
+    "sha256": "a3e1ab8a69fa2a99e1146217dc27e6d13782277085444a011e36fc380c711966"
+  },
+  {
+    "file": "assets/rf6/raising_study_day.png",
+    "bytes": 3601935,
+    "sha256": "9016dffb4ef085ffef722a47c024e4e491a971f9c5f3234b33dec0d866b7626e"
+  },
+  {
+    "file": "assets/rf6/raising_study_day.webp",
+    "bytes": 347496,
+    "sha256": "5ecd668e91b3a3e3abfa1ebfddf97eeb9e6e8a4d5699f55cd442ec214d7dea8f"
+  },
+  {
+    "file": "assets/rf6/raising_study_evening.png",
+    "bytes": 3315324,
+    "sha256": "859ba231b326c8136d5e9f8049559168e816fc779ff0bdd1ab32cdfe0ff3d9e1"
+  },
+  {
+    "file": "assets/rf6/raising_study_evening.webp",
+    "bytes": 279376,
+    "sha256": "d4befdb8c4eac2d3b1cac104b714e36025812fb6de9ffad8224522e627b5f5d6"
+  }
+]

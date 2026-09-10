@@ -1,0 +1,961 @@
+{
+  "name": "Master Content Pack V1",
+  "version": "1.0.0",
+  "buildDate": "2026-09-06",
+  "files": [
+    {
+      "path": "bank-summary.json",
+      "bytes": 3015,
+      "sha256": "95318016ae253a1085b6e06d634aa3d3dffffe639132515249c8d71373a967a8"
+    },
+    {
+      "path": "biology/answer-bank.json",
+      "bytes": 1155029,
+      "sha256": "f5a5a6a56b54bc1fcc81cc2374b828138cc187714f40977ee30caf21f6209754"
+    },
+    {
+      "path": "biology/concept-bank.json",
+      "bytes": 445627,
+      "sha256": "ea4a974f10a2599a2ce64822a559f3fcc4ef9950bdf9a821b30faea6eb1f5c3d"
+    },
+    {
+      "path": "biology/diagram-specs.json",
+      "bytes": 4282,
+      "sha256": "f9ed95b8f1cf06beebb44ac93ecf73bf99cac2a83341ae619f33d2d7d4ea62c8"
+    },
+    {
+      "path": "biology/keyword-bank.json",
+      "bytes": 158473,
+      "sha256": "4e1ddd57988ef6167d96937e8e4aef1c0dbb5c8600b2210609a1a143dc201858"
+    },
+    {
+      "path": "biology/notes-by-topic.json",
+      "bytes": 108436,
+      "sha256": "e5b928a5ccc2c1bb661022e5a267aaed2a929b9b8af4e5ab1d1d42fe249868bf"
+    },
+    {
+      "path": "biology/question-bank.json",
+      "bytes": 2984378,
+      "sha256": "ff20fc6aa264071ea8267338a2af5b148c4b24bb0610288757e1d66a0a295f8b"
+    },
+    {
+      "path": "CODEX_HANDOFF.md",
+      "bytes": 1734,
+      "sha256": "320a5f59cce1839fb83e14fb23880dad8860351990bf938e1d6f2f7b4163805d"
+    },
+    {
+      "path": "CONTENT_CATALOG.md",
+      "bytes": 8124,
+      "sha256": "4af4025454963eb7900778e9296a6c8b7613f82e0ba6862db9a15106d27c0256"
+    },
+    {
+      "path": "content-map.json",
+      "bytes": 85659,
+      "sha256": "20d0fece54105741660874c44bbc201121b1b4e080404f08cd6215223aaa2bd9"
+    },
+    {
+      "path": "french/answer-bank.json",
+      "bytes": 6727107,
+      "sha256": "646395a1ca8d247f091058b39923e3dc700e0f2f119bdc7623347d4e8f7c3187"
+    },
+    {
+      "path": "french/concept-bank.json",
+      "bytes": 2142415,
+      "sha256": "a7b06b40db6bddce5545ec728c882fa9828d6fced1d30ea475690f36f5260529"
+    },
+    {
+      "path": "french/notes-by-date.json",
+      "bytes": 214972,
+      "sha256": "e80abe4124f9b6fc743ea1759cb0c380b960f1baa9ce0efec07677af1984ff90"
+    },
+    {
+      "path": "french/notes-by-topic.json",
+      "bytes": 197147,
+      "sha256": "569b608f7b213ece3b393541fad50ec0a775dbeeedc7e8198bd4f61dcaca3cc7"
+    },
+    {
+      "path": "french/question-bank.json",
+      "bytes": 17048016,
+      "sha256": "851de5161d614466529c32be2215e85632a1600fd4cefc58c10364aeae6184f3"
+    },
+    {
+      "path": "french/vocab-bank.json",
+      "bytes": 574413,
+      "sha256": "d4ec4c37cc82f48a8abaec0841cb107ce5bbcac346b7e638d6c1ef59be9d2800"
+    },
+    {
+      "path": "french/writing-bank.json",
+      "bytes": 103729,
+      "sha256": "9f9dd891c3d863bd23257f90c1f21c910fb7e8f8301619af9c443a4d1644f499"
+    },
+    {
+      "path": "french/year9-preview-bank.json",
+      "bytes": 450,
+      "sha256": "77498367a3e12909b91e871ac05f0ca95d0d27d0f6c30edacb0296d8fee0f15a"
+    },
+    {
+      "path": "latin/answer-bank.json",
+      "bytes": 2522229,
+      "sha256": "feffe1923fb8311dc5b224fedc0218493d54f89f3b7fcc60152c1f809dca515d"
+    },
+    {
+      "path": "latin/concept-bank.json",
+      "bytes": 783212,
+      "sha256": "c15750627814bd7edc19b18c004b4be0b86a5767895794fc22279cfe68d59333"
+    },
+    {
+      "path": "latin/notes-by-block.json",
+      "bytes": 42425,
+      "sha256": "4cbab62676569f81810355889360e68f244003850581d0f0b8ff8b4d39aa52ff"
+    },
+    {
+      "path": "latin/notes-by-topic.json",
+      "bytes": 222690,
+      "sha256": "30524415175662c05c9186bb417ad256daed30a05df590ddc115b9335864b493"
+    },
+    {
+      "path": "latin/question-bank.json",
+      "bytes": 7004490,
+      "sha256": "c8be2fbafababdc95be4767f6a001cf887c84a4d54c3c6e532c8acb89423a297"
+    },
+    {
+      "path": "latin/source-meta.json",
+      "bytes": 565,
+      "sha256": "eb09aea3d2085343c5ec0427f0d1357490994ead0e42268b5fe199360f69a19c"
+    },
+    {
+      "path": "latin/vocab-bank.json",
+      "bytes": 148308,
+      "sha256": "81915442e5782929a2edae9e77788022959927c74718e19de7b7b5d95520d20b"
+    },
+    {
+      "path": "qa/duplicate-review.json",
+      "bytes": 57569,
+      "sha256": "a9b614aa105faf42e60c94281f71d37ee5a51ad299894c3f76f6e5616b52e299"
+    },
+    {
+      "path": "qa/QA_REPORT.md",
+      "bytes": 3237,
+      "sha256": "11c0a2a64b20edee4e2c4c5a7020694b732d036d45664c157f3989239a83dea3"
+    },
+    {
+      "path": "qa/qa-report.json",
+      "bytes": 4391,
+      "sha256": "f032f6fbfe57266fb43ec9bc8c0fd901868dca81d1b0a262bd58557d016ae865"
+    },
+    {
+      "path": "qa/run_qa.mjs",
+      "bytes": 29491,
+      "sha256": "066a6530fa95cebb022a267f165c2a5df00a8dc655c27aeeb78ff538dd208c87"
+    },
+    {
+      "path": "README_HANDOFF.md",
+      "bytes": 3822,
+      "sha256": "b8869b2630d3de6c1ea89c8d1ab0a12327281a556f033c238480b4492f0e51ff"
+    },
+    {
+      "path": "runtime/biology/bio-y8-balanced-diet.json",
+      "bytes": 94519,
+      "sha256": "32aa003048140c27dfd95ed047835c654f5ce3bfd6ab9052d39c5d4982096e34"
+    },
+    {
+      "path": "runtime/biology/bio-y8-ber.json",
+      "bytes": 24601,
+      "sha256": "d891f49df8dc84557f5126da6e19e4e81b50924bb94f016e43f98969f79de58c"
+    },
+    {
+      "path": "runtime/biology/bio-y8-binomial-naming.json",
+      "bytes": 73158,
+      "sha256": "af184507d68b10d719e6c8b7fbfd29438712c0f50b89aad545b5cb7c2f18114f"
+    },
+    {
+      "path": "runtime/biology/bio-y8-classification.json",
+      "bytes": 89152,
+      "sha256": "2016784957aa49d93aab43de7ac0631065ccc22fd88ed3e04e1f75b2e8cd8eaf"
+    },
+    {
+      "path": "runtime/biology/bio-y8-competition.json",
+      "bytes": 55681,
+      "sha256": "1cc023d2629d76a2ddcc097f239325a872171232b1657cd71d2969d1dc406c26"
+    },
+    {
+      "path": "runtime/biology/bio-y8-continuous-variation.json",
+      "bytes": 33740,
+      "sha256": "8ef010c0fcb5b74aec3b2f409bac7c4baf7334d9b01971f28c8effffc2bac514"
+    },
+    {
+      "path": "runtime/biology/bio-y8-correlation.json",
+      "bytes": 34466,
+      "sha256": "3d30713122dcb2f585fb573f68786ae4c9d8c2659c0395bccbd040177190b72c"
+    },
+    {
+      "path": "runtime/biology/bio-y8-digestion-absorption.json",
+      "bytes": 116248,
+      "sha256": "96dcdbd3c705de70a3af055669ec8c16110c58ff2482f617b2e36567faf6e295"
+    },
+    {
+      "path": "runtime/biology/bio-y8-dna-genes.json",
+      "bytes": 69576,
+      "sha256": "1b46ad73021d1f6e4aeb49c4342e3a03309bc79b05fa033398d174b4146c091e"
+    },
+    {
+      "path": "runtime/biology/bio-y8-dna-structure.json",
+      "bytes": 44473,
+      "sha256": "b4bf4ed3065804274855575edcd5f2ad2af121284d3ba851e8deb51c7a64c3bf"
+    },
+    {
+      "path": "runtime/biology/bio-y8-drugs-alcohol.json",
+      "bytes": 90499,
+      "sha256": "b45c7e20913793c0b9845ad7860bc7deafec3738f7b19aa0758ff7a6a3c6c015"
+    },
+    {
+      "path": "runtime/biology/bio-y8-ecology-terms.json",
+      "bytes": 70074,
+      "sha256": "bb14814629771c530c920ec21a99d27eca685fbc82595ee3f67e065e229f24f1"
+    },
+    {
+      "path": "runtime/biology/bio-y8-energy-bmi.json",
+      "bytes": 72575,
+      "sha256": "3fe8d53f745ab0f6e017b1efc705c63fb620bddba93218dcc115ff41c53b3ef0"
+    },
+    {
+      "path": "runtime/biology/bio-y8-enzymes-gut.json",
+      "bytes": 99199,
+      "sha256": "cf84e6e32875d9f58241fbdf9bb815d90885be8710ba2b7c0061d11e3bfef7eb"
+    },
+    {
+      "path": "runtime/biology/bio-y8-fats-cholesterol.json",
+      "bytes": 47759,
+      "sha256": "8ed9677a5b14eed5491c73131fc530504d6458b110e10b668d91091e0a2a0856"
+    },
+    {
+      "path": "runtime/biology/bio-y8-fertilisation-inheritance.json",
+      "bytes": 86363,
+      "sha256": "54961b7cf8e887d295685fd40598919144f7726bb911c2675bc4551d407aacb9"
+    },
+    {
+      "path": "runtime/biology/bio-y8-food-chains-webs.json",
+      "bytes": 76046,
+      "sha256": "cccfff940c0cd52a06c32ae1062cd9c0598d809ca5f65ac7a5dd2853af4f703d"
+    },
+    {
+      "path": "runtime/biology/bio-y8-food-tests.json",
+      "bytes": 79756,
+      "sha256": "2621fa2a278650b1ced71a15c27712458c1d021e67322c0b375cff55fb3c7d65"
+    },
+    {
+      "path": "runtime/biology/bio-y8-genetic-disorders.json",
+      "bytes": 39501,
+      "sha256": "f8eff92e2b32779c0a54d4f67c186b640d6f4b294efa69b9a052cbbd235d1143"
+    },
+    {
+      "path": "runtime/biology/bio-y8-graphs-calculations.json",
+      "bytes": 83836,
+      "sha256": "4433ad377551ac532a4ee76eec54a08d26e213a3044231cc1ab17e5b5df5c7dd"
+    },
+    {
+      "path": "runtime/biology/bio-y8-leaf-structure.json",
+      "bytes": 88529,
+      "sha256": "dab448e6ee715d5e392549556e323dc7498eb3501dc2176545dc9f971f5e0e39"
+    },
+    {
+      "path": "runtime/biology/bio-y8-light-colour-practical.json",
+      "bytes": 73392,
+      "sha256": "3d8dcd0b05438458f557c6b25fdd3d0c5b65806f7823633f7e37ff6530ab4d5c"
+    },
+    {
+      "path": "runtime/biology/bio-y8-limiting-factors.json",
+      "bytes": 52289,
+      "sha256": "41ede1f1f37f0afec175e2cffb0af9f4571ac78dd9e02f6c4bb1fbfde506b658"
+    },
+    {
+      "path": "runtime/biology/bio-y8-minerals-greenhouse.json",
+      "bytes": 70655,
+      "sha256": "2a71f6928e9e35289ffe443d6c3b63a9e9894cddd9f828442cf701d43eb8b308"
+    },
+    {
+      "path": "runtime/biology/bio-y8-natural-selection.json",
+      "bytes": 67209,
+      "sha256": "f09eb2a67f0d36ed3b462cdf612719e8c76003cf051696a8294057c8446a3017"
+    },
+    {
+      "path": "runtime/biology/bio-y8-nutrition-labels.json",
+      "bytes": 39151,
+      "sha256": "d716ab0fcae82ce4edd056d117337e4f931826b3259c79aa72269668ba0729e9"
+    },
+    {
+      "path": "runtime/biology/bio-y8-photosynthesis-glucose.json",
+      "bytes": 72215,
+      "sha256": "bcd5b3b6cfe8a12f1f111e30ceb6a7de37665e63f6fb50e87f1be86bc10a6807"
+    },
+    {
+      "path": "runtime/biology/bio-y8-pollutants-indicators.json",
+      "bytes": 97733,
+      "sha256": "0b11cf7eac0795b26d11189368972b8b8d54bb8f019ad65007a304ff4c7f807f"
+    },
+    {
+      "path": "runtime/biology/bio-y8-practical-conclusions.json",
+      "bytes": 40399,
+      "sha256": "4b876e240fdce3b35258ed2e434198f7e6f1300b963bd737e47c8ca58a0fd27d"
+    },
+    {
+      "path": "runtime/biology/bio-y8-predator-prey-adaptations.json",
+      "bytes": 68436,
+      "sha256": "0a85921475accc6f42c4fda3d6b9c85c1e1f8f211640344e67d5ee4048841c1b"
+    },
+    {
+      "path": "runtime/biology/bio-y8-punnett-squares.json",
+      "bytes": 42754,
+      "sha256": "d46387aaae5125c8ea5251fa069c7aff00adaf2924bccd9be4f42831aadc0250"
+    },
+    {
+      "path": "runtime/biology/bio-y8-pyramids-energy.json",
+      "bytes": 58908,
+      "sha256": "e57230b92c6fa5afa9a5ad83246db14874c4f8091095156e9961bc21986457a2"
+    },
+    {
+      "path": "runtime/biology/bio-y8-smoking-health.json",
+      "bytes": 57784,
+      "sha256": "dfce82b454adcedfda35b5703f93c1fa8b87ad07955ed644444c6db559da82f7"
+    },
+    {
+      "path": "runtime/biology/bio-y8-starch-evidence.json",
+      "bytes": 90679,
+      "sha256": "985a4db1fc2f86b262756fb853f649abdd64da86ec5c8a2d5ce83cead6983be8"
+    },
+    {
+      "path": "runtime/biology/bio-y8-variables-quality.json",
+      "bytes": 70689,
+      "sha256": "ee619f56cb5a24467c5b71e3af42ff22e990672061bda1808f6bce18f7c1bfdc"
+    },
+    {
+      "path": "runtime/biology/bio-y8-variation-mutation.json",
+      "bytes": 61545,
+      "sha256": "e3c46a4890c36795cf180a4b3823ad465395e483921c8b210a50cd267f50b7ef"
+    },
+    {
+      "path": "runtime/french/fr-y8-s01-quick-rules.json",
+      "bytes": 124544,
+      "sha256": "9e059d135b1dc6f3065219309be824678240796afb7121758b2396f1647b05cc"
+    },
+    {
+      "path": "runtime/french/fr-y8-s02-weather-activities-and-opinions.json",
+      "bytes": 1055270,
+      "sha256": "9ee6f6b6ee0bf9cb5c937ada4ce8286f55ca3695a9aeeddfeac7171b3a5eaf9b"
+    },
+    {
+      "path": "runtime/french/fr-y8-s03-home-family-and-descriptions.json",
+      "bytes": 1385580,
+      "sha256": "10068d17c743a9d967b921a87ef207a74ed4f2bade24833925d74d3b4178f381"
+    },
+    {
+      "path": "runtime/french/fr-y8-s04-food-drink-and-restaurants.json",
+      "bytes": 479640,
+      "sha256": "3e5890536ba190cbf04c6d63e4a5bf08dd1536283749736eadbc0da6696a0b19"
+    },
+    {
+      "path": "runtime/french/fr-y8-s05-town-time-and-aller.json",
+      "bytes": 573692,
+      "sha256": "aec397ff87679beb5bb2c4fa49564948fa320d7090d335b08f949e27331cab46"
+    },
+    {
+      "path": "runtime/french/fr-y8-s06-present-tense.json",
+      "bytes": 137343,
+      "sha256": "c4824b3e74531527cc59a6cec895a684e2cd1c5c22ecb498fab6dc5d6f27cf7a"
+    },
+    {
+      "path": "runtime/french/fr-y8-s07-passe-compose.json",
+      "bytes": 576963,
+      "sha256": "e451de8dcb5b1dc707e8dcca82cb424ca1b976f2b12b4ceec42e8ea53209719c"
+    },
+    {
+      "path": "runtime/french/fr-y8-s08-expanded-past-participle-bank.json",
+      "bytes": 928002,
+      "sha256": "7fc810a69e32fbf28f9b7e807eb06a55ddb9bb72fa90ebb7e69c9e5175dcd633"
+    },
+    {
+      "path": "runtime/french/fr-y8-s09-model-answers-and-sentence-building.json",
+      "bytes": 131062,
+      "sha256": "76dc419c03f98f3077412e5c4ea707032ca6d710722e424c791cfe2ffad92eb6"
+    },
+    {
+      "path": "runtime/french/fr-y8-s10-accuracy-traps.json",
+      "bytes": 124960,
+      "sha256": "b28f8aef832f83adf674004512fca171dd186ef3f0ff93c0feaa934cec01f9ba"
+    },
+    {
+      "path": "runtime/french/fr-y8-s11-master-vocabulary.json",
+      "bytes": 881641,
+      "sha256": "3915b9c3b9fb67f304d5359941e1ee17c6b3d072ae89c05c6ff30dff464284f8"
+    },
+    {
+      "path": "runtime/french/fr-y8-s12-ks3-extension-irregular-verbs.json",
+      "bytes": 323245,
+      "sha256": "dbf9ce59269c0ea477d5d4e32bcf78a06818779aaf42c05e9dc87e383bd66018"
+    },
+    {
+      "path": "runtime/french/fr-y8-s13-reflexives-and-routine.json",
+      "bytes": 537475,
+      "sha256": "7c66038a9803ae3b22558096f5d7177a0b2a81800610bdf44476ba060a5d84d9"
+    },
+    {
+      "path": "runtime/french/fr-y8-s14-future-time.json",
+      "bytes": 214258,
+      "sha256": "d0c7f3b9b25198b1fed15338eca6fd0cb6544979d1aaa56fdcfd55d41437a7b4"
+    },
+    {
+      "path": "runtime/french/fr-y8-s15-imperfect-conditional-light-exposure.json",
+      "bytes": 263598,
+      "sha256": "7ecc18ae17dd9bf61c7eaca29b1d593c3c5900ce3c7a34d1abdf06ebbb374ee6"
+    },
+    {
+      "path": "runtime/french/fr-y8-s16-daily-routine-toolkit.json",
+      "bytes": 259765,
+      "sha256": "363146bf5ddf3eaa4342dba02203139cb6b24cc46b692d9104cfca3bbc377949"
+    },
+    {
+      "path": "runtime/french/fr-y8-s17-unit-3-overview.json",
+      "bytes": 215368,
+      "sha256": "99fe543174141193896253dee19fb9dfceb0ca544e55ead821b2ffdd948d2ed1"
+    },
+    {
+      "path": "runtime/french/fr-y8-s18-school-descriptions.json",
+      "bytes": 351180,
+      "sha256": "8a4d6d6f64de6c9ebf4512e30d867e94b113c22c43c5238703ba5520bda96653"
+    },
+    {
+      "path": "runtime/french/fr-y8-s19-subjects-opinions-and-reasons.json",
+      "bytes": 427219,
+      "sha256": "eb4bbc900fe17b7d0ec3eba59fe16996d5d95bb4399acd9aac3ea6b9a2f8185c"
+    },
+    {
+      "path": "runtime/french/fr-y8-s20-school-activities.json",
+      "bytes": 127332,
+      "sha256": "29156951f50eaab828f317a18ca432c969cfe6b25cd4d268ea45e696ed1e44d6"
+    },
+    {
+      "path": "runtime/french/fr-y8-s21-reflexives-and-negatives.json",
+      "bytes": 164334,
+      "sha256": "c111ec618a6c3e8418610b34592f968d4d3b8e92402eff109ccbaaa0660ed257"
+    },
+    {
+      "path": "runtime/french/fr-y8-s22-high-scoring-structures.json",
+      "bytes": 133724,
+      "sha256": "9be5e4f3303688b6d97ada121cd879a558ac8ca102f690be406d1680b78228bf"
+    },
+    {
+      "path": "runtime/french/fr-y8-s23-targeted-practice.json",
+      "bytes": 352863,
+      "sha256": "abf577acd967fe5a80435028fe03e67092b9a7f3d5dc2f8f6223d141cf2f2c95"
+    },
+    {
+      "path": "runtime/french/fr-y8-s24-numbers-and-age.json",
+      "bytes": 616449,
+      "sha256": "56c2700548796116fbdb8d7d1b7a451c02a0ab3c4613310d8caf92f6970a99ee"
+    },
+    {
+      "path": "runtime/french/fr-y8-s25-classroom-objects.json",
+      "bytes": 614567,
+      "sha256": "b3a52e1b6e930aa13182580693fc047a5ec0f19a1e120289a5b751c4b4524970"
+    },
+    {
+      "path": "runtime/french/fr-y8-s26-passe-compose-activity-bank.json",
+      "bytes": 757116,
+      "sha256": "bb7c154dfcc5cedfe34e4840e6d26df9640e4f014e4b689bf5104fb9edb4f9e2"
+    },
+    {
+      "path": "runtime/french/fr-y8-s27-teacher-targets-extension-structures.json",
+      "bytes": 140967,
+      "sha256": "0a0188b74edbfa23998de25bacfaeda697501a63f8e42482918eb14e3196ed92"
+    },
+    {
+      "path": "runtime/french/fr-y8-s28-french-speaking-school-life-reading.json",
+      "bytes": 188442,
+      "sha256": "b730b74419f6913b34441190577ecb6a81e80a4d2ab720b05cba0f61eaaf07c2"
+    },
+    {
+      "path": "runtime/french/fr-y8-s29-mixed-assessment.json",
+      "bytes": 182794,
+      "sha256": "488a5262d6a0061049d264aba0039e7bec4e82847495d7305610b9986f1a9234"
+    },
+    {
+      "path": "runtime/french/fr-y8-s30-supplementary-teacher-vocabulary.json",
+      "bytes": 958625,
+      "sha256": "d9a17fdb50a5ef9263bb13121a2d9977139a4381cf5eb8611b689011ae159d58"
+    },
+    {
+      "path": "runtime/french/fr-y8-s31-regular-present-patterns.json",
+      "bytes": 143156,
+      "sha256": "c2ab7efcb5167ba79e8f6c2135e3ca219b811d83eb43dce69f3d3536f9d50f8d"
+    },
+    {
+      "path": "runtime/french/fr-y8-s32-accuracy-repair.json",
+      "bytes": 148071,
+      "sha256": "1946801f8983b65a10c7f2e69542f0db357a4e30abe9118c41c2daad4acd7b0c"
+    },
+    {
+      "path": "runtime/index.json",
+      "bytes": 30551,
+      "sha256": "5a3484599cbd5400f049cff7dfb303f5538747428036760c6d904c86b1f04f36"
+    },
+    {
+      "path": "runtime/latin/la-y8-accusative-forms.json",
+      "bytes": 24852,
+      "sha256": "aea3238003388d2b9287778e173b1ff4fc9fb414d15901cff288e12423dc2128"
+    },
+    {
+      "path": "runtime/latin/la-y8-adjective-agreement.json",
+      "bytes": 56603,
+      "sha256": "c672a0219d57d72ccce382bbc7e664945d9707d8055001dc397d5c46277b766a"
+    },
+    {
+      "path": "runtime/latin/la-y8-case-and-grammar-role.json",
+      "bytes": 17110,
+      "sha256": "033b7d4bb6440688e87bb30dcf9fef34057b28518009bf07027f91f52586e084"
+    },
+    {
+      "path": "runtime/latin/la-y8-case-functions.json",
+      "bytes": 24690,
+      "sha256": "73f37f5c4a771f7a22f970f08b30611d06c20084ce9dc172032fd0ad37ded08f"
+    },
+    {
+      "path": "runtime/latin/la-y8-case-role-introduction.json",
+      "bytes": 13570,
+      "sha256": "87fb01a9cb460759bbd85f81c31a6dc68474832637717c1b1924cd0cdc690ccb"
+    },
+    {
+      "path": "runtime/latin/la-y8-choose-the-complete-translation.json",
+      "bytes": 16656,
+      "sha256": "f7534caf59a623e6343293c49377e5988bc604068db3ba715d1afdd21ae34a43"
+    },
+    {
+      "path": "runtime/latin/la-y8-choose-the-exact-latin.json",
+      "bytes": 17951,
+      "sha256": "1bfcfbda03a5ee555062235f65a02cd280a0f2dc7433c11b30be6c770ae017ff"
+    },
+    {
+      "path": "runtime/latin/la-y8-choose-the-set-text-translation.json",
+      "bytes": 87653,
+      "sha256": "2c1a13e58b86019b39dc0c772947a1b1d28d9c5d6b336197591d1bb552ce2af3"
+    },
+    {
+      "path": "runtime/latin/la-y8-complete-comprehension.json",
+      "bytes": 17903,
+      "sha256": "c4ab47845837deb2cacb5c3bc28d1a5e48b1f5de5f639a1d5b01d2d4bae53421"
+    },
+    {
+      "path": "runtime/latin/la-y8-core-verbs.json",
+      "bytes": 209025,
+      "sha256": "c7314c1464a9dfa47235c8bd9d9ad6246e0567fd98b422141ecb607da5753110"
+    },
+    {
+      "path": "runtime/latin/la-y8-declension-recognition.json",
+      "bytes": 12726,
+      "sha256": "184c38eaff26c4e3bd8a9c2c95818acbd992545ae4a9ed8b201b75d96273a854"
+    },
+    {
+      "path": "runtime/latin/la-y8-english-latin.json",
+      "bytes": 17398,
+      "sha256": "85931153d2b202934ead4a277fbc5672d15190dc0529b7ab65dac518c8fe0a7b"
+    },
+    {
+      "path": "runtime/latin/la-y8-find-the-finite-verb.json",
+      "bytes": 28855,
+      "sha256": "0100a331552a8512816ce6638d1256258a170c4b6b82bf1bc182d59d150b58a9"
+    },
+    {
+      "path": "runtime/latin/la-y8-finite-verb-control.json",
+      "bytes": 32748,
+      "sha256": "bc32a0a11394b24d101a960b0244a5e69af2bd18b75114b40f9b063511325d42"
+    },
+    {
+      "path": "runtime/latin/la-y8-genitive-phrases.json",
+      "bytes": 29105,
+      "sha256": "ed2afd26a6b21c33b51d81ae8a16655d88348fd7aa1030f22a2e3db239666898"
+    },
+    {
+      "path": "runtime/latin/la-y8-ille-plural.json",
+      "bytes": 138692,
+      "sha256": "27588281fbc9588e6edbb8c21e3ed41113d39b93e6e185f73fd5d2f28354c8c6"
+    },
+    {
+      "path": "runtime/latin/la-y8-ille-singular.json",
+      "bytes": 139544,
+      "sha256": "49151cf25ff7043c6283c640fb22b982b863ae75eccb17eb00d3cb6960dce111"
+    },
+    {
+      "path": "runtime/latin/la-y8-latin-english.json",
+      "bytes": 16805,
+      "sha256": "88da9c3ab20005a50568e2b32d05586f63d61076f4a342075846c8badc6b96e7"
+    },
+    {
+      "path": "runtime/latin/la-y8-map-locations.json",
+      "bytes": 23447,
+      "sha256": "e8d1c69ec46123eeb5a710dca032bd89fb7c8525e99fd4935c04e58b87d38f03"
+    },
+    {
+      "path": "runtime/latin/la-y8-miscellaneous-words.json",
+      "bytes": 92686,
+      "sha256": "04df0371606341e002ccf72d2d89a8e48bb0384e3d743a80893b20b2936bc53a"
+    },
+    {
+      "path": "runtime/latin/la-y8-nouns-and-dictionary-entries.json",
+      "bytes": 153017,
+      "sha256": "a90aee6392a6379746ff101a330b19d8ad31c88dd5f664d69e2b8373df9863d9"
+    },
+    {
+      "path": "runtime/latin/la-y8-nouns-with-genitives.json",
+      "bytes": 307785,
+      "sha256": "6c2ccf895bd844d18c781d689cf2ea3e10133231a97c76e83ec23dec32cd7bfd"
+    },
+    {
+      "path": "runtime/latin/la-y8-perfect-cues.json",
+      "bytes": 254094,
+      "sha256": "8ed0989528d5fca5e538659bfd0419fc9b5e07f54c32dd47c14f0aa1d3a581c6"
+    },
+    {
+      "path": "runtime/latin/la-y8-perfect-patterns.json",
+      "bytes": 12961,
+      "sha256": "e7a2921ca18be12d069077601e789d82054322276bf729c1393b29883beae126"
+    },
+    {
+      "path": "runtime/latin/la-y8-person-and-number.json",
+      "bytes": 15421,
+      "sha256": "97a0ccd75f757408365ce69af91011c13ac22ee78e85ae7e823f03e5a31b1d8b"
+    },
+    {
+      "path": "runtime/latin/la-y8-personal-pronouns.json",
+      "bytes": 183343,
+      "sha256": "fd71d29c624dbc2de215588b316fcda20b679075f1a58d2d37927adb993198a4"
+    },
+    {
+      "path": "runtime/latin/la-y8-photo-prepositions.json",
+      "bytes": 60484,
+      "sha256": "1acaccf3b2c4439164c64905cdb0b1ec3b136bc7d5455c16e8e15fcb34c2143e"
+    },
+    {
+      "path": "runtime/latin/la-y8-pluperfect-recognition.json",
+      "bytes": 15306,
+      "sha256": "e427ca60ef298303ac38aa6bb3bd1571993d1c74b1abab20df251471b7480269"
+    },
+    {
+      "path": "runtime/latin/la-y8-possessives.json",
+      "bytes": 15223,
+      "sha256": "dba2397d9eb8e4a49ec4e12383c355aa1820b3f3abfd56e5e742e18757ee9e67"
+    },
+    {
+      "path": "runtime/latin/la-y8-preposition-dictionary-entries.json",
+      "bytes": 115639,
+      "sha256": "80535a260db469e25a953637f2de60eff0e84167bcc1e7b515c52bc9750f3519"
+    },
+    {
+      "path": "runtime/latin/la-y8-prepositions.json",
+      "bytes": 87426,
+      "sha256": "baf74d931f84faa455d929a2e12e63eaa00385d21a30c592d4a26b2a812c739f"
+    },
+    {
+      "path": "runtime/latin/la-y8-present-person-and-number.json",
+      "bytes": 56596,
+      "sha256": "4e827e4a9271285444ad86b64c78c9f70ea20f673d0a9f1f12a2fdc2a67b2b27"
+    },
+    {
+      "path": "runtime/latin/la-y8-production-method.json",
+      "bytes": 3898,
+      "sha256": "58b19b122101d4656b509f231c0fb27835ea8816073126cb1f131e0a5c631817"
+    },
+    {
+      "path": "runtime/latin/la-y8-research-questions.json",
+      "bytes": 12309,
+      "sha256": "649f04f432e69565d68b5bc8855ef67c0418024d2c4f01cf47274c4c9808f1b6"
+    },
+    {
+      "path": "runtime/latin/la-y8-restore-the-exact-verb.json",
+      "bytes": 16498,
+      "sha256": "225b6aa6db15c83125df271251fa616951dcc0964f3353c14fbfe12e61c0dd29"
+    },
+    {
+      "path": "runtime/latin/la-y8-restore-the-sentence.json",
+      "bytes": 15211,
+      "sha256": "e1e4e5a440b33b65473694ca63a94637840c60263c22124d025ea46668a81588"
+    },
+    {
+      "path": "runtime/latin/la-y8-restore-the-set-text.json",
+      "bytes": 33263,
+      "sha256": "c1116dcc884028bf8039543678030b237f86c22bbcd0ba7e97529a3a03f353c1"
+    },
+    {
+      "path": "runtime/latin/la-y8-set-text-comprehension.json",
+      "bytes": 31480,
+      "sha256": "9e61e81a627dd4fcfc6bc9f5f9182c610d5b2a808f9f7dc3711a6f9f8f81a1dc"
+    },
+    {
+      "path": "runtime/latin/la-y8-set-text-grammar.json",
+      "bytes": 60682,
+      "sha256": "5d937397b5ea46fcd727634c9cecc114e22bd5089185410d3ea686f4ed5c94a3"
+    },
+    {
+      "path": "runtime/latin/la-y8-set-text-translation.json",
+      "bytes": 92969,
+      "sha256": "59ae085a8e80d37201a5c921788af37132bddd6edfa2116d4d3ccac6bf11ad22"
+    },
+    {
+      "path": "runtime/latin/la-y8-set-text-verb-meaning.json",
+      "bytes": 52770,
+      "sha256": "4fcacc9e1d976a8f855c5b9fd8872215aaa34048d636d682dacbc076d5d5cbcb"
+    },
+    {
+      "path": "runtime/latin/la-y8-set-text-verb-tense.json",
+      "bytes": 25142,
+      "sha256": "5f017b67c216dabf42141fa7f5e2857a5ebf9e1c05d87dcc9d481b83e9bae2fe"
+    },
+    {
+      "path": "runtime/latin/la-y8-stage-1-vocabulary.json",
+      "bytes": 155920,
+      "sha256": "78c5afcdbb5fd5d73375930041683c80ffdb4d2890b594361d3bd0ce05c62a56"
+    },
+    {
+      "path": "runtime/latin/la-y8-stage-10-vocabulary.json",
+      "bytes": 248792,
+      "sha256": "ac8d45994fd4d41bfe4def4bdbbccd63655560fae91d6b5a3dea2be05b3f3afe"
+    },
+    {
+      "path": "runtime/latin/la-y8-stage-11-vocabulary.json",
+      "bytes": 248622,
+      "sha256": "4b52adeda2600b6301cdc0d95e01cf5f3cf4d055d2cb4a2e2c2b68f33a2b5c1c"
+    },
+    {
+      "path": "runtime/latin/la-y8-stage-12-vocabulary.json",
+      "bytes": 260186,
+      "sha256": "bacc6381426c424a816111a959eee4c39e90ffa66f9e54283dfa0f3449734193"
+    },
+    {
+      "path": "runtime/latin/la-y8-stage-2-vocabulary.json",
+      "bytes": 157157,
+      "sha256": "56fe3afc9497c97a2a61987d75513163021e7f0abfc3fc363ddb8efc46847e54"
+    },
+    {
+      "path": "runtime/latin/la-y8-stage-3-vocabulary.json",
+      "bytes": 285216,
+      "sha256": "2a0894abc41567eb1014ad07cdf62a42a3416e4dfc8dff1017b1910e23a28b07"
+    },
+    {
+      "path": "runtime/latin/la-y8-stage-4-vocabulary.json",
+      "bytes": 194624,
+      "sha256": "a8264cc9c980dde1059cf38c66df84f5cebd1b4ec885cbc635c4ada963f80b10"
+    },
+    {
+      "path": "runtime/latin/la-y8-stage-5-vocabulary.json",
+      "bytes": 260551,
+      "sha256": "693d1c93cbcfeb1e74eb1b06392ed884cf1ca5861e226d012672c3c7ce72630e"
+    },
+    {
+      "path": "runtime/latin/la-y8-stage-6-vocabulary.json",
+      "bytes": 247300,
+      "sha256": "89c278e1fedfca992ff321fcd5b6fbbc4c6113369db90b204672ccdee5044750"
+    },
+    {
+      "path": "runtime/latin/la-y8-stage-7-vocabulary.json",
+      "bytes": 234613,
+      "sha256": "8754e3ec119a45fae034f149bc63284296042f18c3056bb657ddc729aa99932e"
+    },
+    {
+      "path": "runtime/latin/la-y8-stage-8-vocabulary.json",
+      "bytes": 220310,
+      "sha256": "034ea8f2c2721969c4bc645cb63ec964724787f9f9a7afc9a4fcc901c4bfc2b6"
+    },
+    {
+      "path": "runtime/latin/la-y8-stage-9-vocabulary.json",
+      "bytes": 248817,
+      "sha256": "84e3495c04de6380116eaa15af28eddaf5b0bc736d3bb60093d808b3de545a5d"
+    },
+    {
+      "path": "runtime/latin/la-y8-tense-in-context.json",
+      "bytes": 14762,
+      "sha256": "577d33323bea9879147b1a81a0413ed490323e2ab9147fd7dc1d6bff873850de"
+    },
+    {
+      "path": "runtime/latin/la-y8-tense-meaning.json",
+      "bytes": 19979,
+      "sha256": "91007a2b1ad2e26ed9adddfefcdb56bd3336c9f9ae20d40b21d570b0ff379f2c"
+    },
+    {
+      "path": "runtime/latin/la-y8-tense-purpose.json",
+      "bytes": 5803,
+      "sha256": "d6cd100b922bb2d5e7a1838ec8ebb74074b8ce2089f3b0865b2904deea0e0e6b"
+    },
+    {
+      "path": "runtime/latin/la-y8-tense-recognition-from-models.json",
+      "bytes": 36265,
+      "sha256": "6b3dc03ca1b6f5c888720e9050f5ed89aff1fff9c429a9823bc9c9b7b1e65aac"
+    },
+    {
+      "path": "runtime/latin/la-y8-tense-recognition.json",
+      "bytes": 10006,
+      "sha256": "ae5d3b3f1b0d23a0a78b495da8ca338561a9fcd18b832c7d02f67e3116ee65fa"
+    },
+    {
+      "path": "runtime/latin/la-y8-test-style-production.json",
+      "bytes": 19549,
+      "sha256": "32e21654955e69ccdc032800fb9230be006c2fbbcea40e44ff7509d9fa4a5617"
+    },
+    {
+      "path": "runtime/latin/la-y8-test-style-translation.json",
+      "bytes": 19447,
+      "sha256": "6b0e7e039ee4164030ff12de8bc2de912149ac2e233e031e22b2e63c62225604"
+    },
+    {
+      "path": "runtime/latin/la-y8-translation-method.json",
+      "bytes": 17428,
+      "sha256": "cd8443f5c4384b49b1810a2f5a05e2bd8bbb79c17aa67add8c1f9d6d0ad3fd25"
+    },
+    {
+      "path": "runtime/latin/la-y8-vocative.json",
+      "bytes": 14022,
+      "sha256": "a1fec1a7f57137f01d0cad1c53462f6da878af56c54d9761892bc2013f6cb779"
+    },
+    {
+      "path": "runtime/latin/la-y8-whole-passage-understanding.json",
+      "bytes": 4007,
+      "sha256": "190175fd6c77840d22290e6efb46d832421aa2c53f5e704d306d4115cce18a85"
+    },
+    {
+      "path": "runtime/latin/la-y8-why-each-place-matters.json",
+      "bytes": 24703,
+      "sha256": "003d349e1da9e9b86224b13185cb08b95031df63be69ecc1773ad06100663a22"
+    },
+    {
+      "path": "schema/question.schema.json",
+      "bytes": 1701,
+      "sha256": "594918fb519963fd46e2e188aa009a3622eb5c1664f30434cc1c6704bee00a88"
+    },
+    {
+      "path": "shared/error-taxonomy.json",
+      "bytes": 764,
+      "sha256": "26b16aae542dd6fccf55074efca45ef25966464ea15a7a06c5e659acbf692848"
+    },
+    {
+      "path": "shared/marking-spec.json",
+      "bytes": 2343,
+      "sha256": "e4e1eab2125e6757da355ee4f328eaab78d6feada96fa61f790b1c5630b7f68d"
+    },
+    {
+      "path": "shared/mastery-review-spec.json",
+      "bytes": 3568,
+      "sha256": "aa4d08b241cfbe5575fa9d60dc821d0c2b55be0baeded398be54b2cefa3fbdeb"
+    },
+    {
+      "path": "shared/question-type-registry.json",
+      "bytes": 4399,
+      "sha256": "b6d58271ffb3fa7152fd0cbb2314353b8240e276ab4422c6bef3cd22812a6fa2"
+    },
+    {
+      "path": "shared/reference-marker.mjs",
+      "bytes": 10392,
+      "sha256": "ce0b4190e35223a97fbb44bed22f6163247d54b7e5fcd2a15087fe4c965126a1"
+    },
+    {
+      "path": "shared/session-blueprints.json",
+      "bytes": 1382,
+      "sha256": "657f962b8f43adaabc9ef3ff33b01a7e41de2efca78237d20bfb491a4e08cdfb"
+    },
+    {
+      "path": "SOURCE_AUDIT.md",
+      "bytes": 1520,
+      "sha256": "b7dd5b44430f14cddb45f49d9a7834349a6f86f2739da2229385c4045b2d8b75"
+    },
+    {
+      "path": "source-index.json",
+      "bytes": 1739,
+      "sha256": "f96bcc52e741440e1a0de431f7fab3b90e61b3a9ac7b02382eae541803117561"
+    }
+  ],
+  "stats": {
+    "latin": {
+      "questionCount": 2492,
+      "enabledCount": 2492,
+      "previewCount": 0,
+      "disabledCount": 0,
+      "sourcePreservedCount": 1056,
+      "generatedVariantCount": 1436,
+      "conceptCount": 778,
+      "formatCounts": {
+        "controlled_translation": 65,
+        "mc_single": 986,
+        "spelling_restore": 368,
+        "typed_exact": 702,
+        "unordered_set": 5,
+        "word_tiles": 366
+      },
+      "recognitionCount": 986,
+      "productionApplicationCount": 1506,
+      "directAutoMarkCount": 2492,
+      "checklistReviewCount": 0,
+      "manualReviewCount": 0,
+      "diagramAssetReviewCount": 0
+    },
+    "french": {
+      "questionCount": 5585,
+      "enabledCount": 4555,
+      "previewCount": 171,
+      "disabledCount": 859,
+      "sourcePreservedCount": 2601,
+      "generatedVariantCount": 2984,
+      "conceptCount": 1913,
+      "formatCounts": {
+        "controlled_translation": 1195,
+        "listen_type": 617,
+        "mc_single": 1734,
+        "spelling_restore": 617,
+        "typed_equivalent": 897,
+        "unordered_set": 9,
+        "word_tiles": 516
+      },
+      "recognitionCount": 1734,
+      "productionApplicationCount": 3851,
+      "directAutoMarkCount": 5433,
+      "checklistReviewCount": 0,
+      "manualReviewCount": 152,
+      "diagramAssetReviewCount": 0
+    },
+    "biology": {
+      "questionCount": 989,
+      "enabledCount": 989,
+      "previewCount": 0,
+      "disabledCount": 0,
+      "sourcePreservedCount": 0,
+      "generatedVariantCount": 989,
+      "conceptCount": 455,
+      "formatCounts": {
+        "calculation": 11,
+        "diagram_label": 14,
+        "extended_response": 1,
+        "mark_points": 316,
+        "matching": 88,
+        "mc_single": 270,
+        "practical_design": 1,
+        "sequence": 6,
+        "sorting": 4,
+        "typed_exact": 267,
+        "typed_short": 4,
+        "unordered_set": 7
+      },
+      "recognitionCount": 358,
+      "productionApplicationCount": 631,
+      "directAutoMarkCount": 657,
+      "checklistReviewCount": 318,
+      "manualReviewCount": 0,
+      "diagramAssetReviewCount": 14
+    },
+    "all": {
+      "questionCount": 9066,
+      "conceptCount": 3146,
+      "enabledCount": 8036,
+      "previewCount": 171,
+      "disabledCount": 859,
+      "directAutoMarkCount": 8582,
+      "checklistReviewCount": 318,
+      "manualReviewCount": 152,
+      "diagramAssetReviewCount": 14
+    }
+  }
+}
