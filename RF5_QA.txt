@@ -1,0 +1,68 @@
+Lux et Labor — The Scholar's Garden
+V0.4.0 Alpha 5 — True Rebuild RF5
+Build date: 2026-09-09
+
+RF5 scope
+---------
+- Reworked page composition again around the uploaded editorial/illustrated reference style.
+- Home now uses one complete study-room scene as the hero instead of a split dashboard composition.
+- Study Hub keeps large illustrated subject plates with intentionally varied size.
+- Subject pages use a single illustrated folio composition with the section controls as a restrained bookmark rail.
+- Garden remains scene-first; supporting content is styled as garden plaques.
+- Scholar overview uses a complete full-body illustrated profile scene.
+- Wardrobe no longer shows known headless outfit assets as the large Scholar portrait.
+  Known headless sources are labelled and presented only as garment plates.
+- Added 10 selected Chemistry / Physics scene artworks from NOTYET3; near-duplicate alternatives were not all forced into the UI.
+
+Year 8 Chemistry + Physics integration
+--------------------------------------
+- Integrated the supplied TGS Year 8 Chemistry + Physics Master Content Pack V1 as lazy-loaded runtime topic bundles.
+- 23 topics
+- 207 mastery concepts
+- 805 questions
+- 735 ordinary enabled questions
+- 70 clearly separated preview questions
+- 213 recognition questions
+- 592 production/application questions (73.5%)
+- Ordinary sessions filter status=enabled only.
+- Preview content is separate, labelled, and does not award Scholar XP in RF5.
+- Session selection uses the supplied recognition/production principle:
+  new/weak work may approach 50:50; familiar work targets about 30:70;
+  due review is production-heavy and sessions end on production/application when possible.
+- Wrong answers are not immediately repeated as the identical card.
+- 2-day / 7-day repair scheduling and the recognition-only mastery gate are preserved.
+- Existing LuxGrowth XP rules remain the app-wide XP source; the new pack does not overwrite them.
+
+Protected existing academic engines
+------------------------------------
+Byte-for-byte unchanged versus RF4:
+latin-module.js
+french-module.js
+biology-y8.js
+growth.js
+latin-games.js
+garden-growth.js
+latin-question-bank.js
+science-notes.js
+language-y8.js
+daily-plan.js
+
+Static QA
+---------
+- JavaScript syntax: PASS (31/31 root .js files)
+- Duplicate HTML IDs: PASS (index.html and 404.html)
+- Local HTML src/href references: PASS
+- Local CSS url() references: PASS
+- Service-worker precache local references: PASS
+- index.html / 404.html synchronized: PASS
+- Upstream Chemistry/Physics content-pack QA: PASS
+  Expected and verified totals: 805 questions, 207 concepts, 23 topics
+- Shipped Chemistry/Physics runtime totals independently re-counted:
+  805 questions / 735 enabled / 70 preview / 592 production-application / 213 recognition
+
+Browser visual QA note
+----------------------
+A Chromium screenshot run was attempted with xvfb and --disable-gpu, but this container's Chromium
+still terminates because its GPU process is unavailable. Therefore RF5 does not falsely claim
+pixel-perfect browser acceptance from an automated screenshot in this environment.
+The source hierarchy, responsive CSS and local references were checked statically.

@@ -1,0 +1,52 @@
+{
+  "release": "V0.4.0 Alpha 1",
+  "policy": {
+    "uiIsHTML": true,
+    "sceneAssetsAreDecorative": true,
+    "academicLogicUntouched": true,
+    "reservedAssetsNotRandomlyRotated": true
+  },
+  "activeScenes": {
+    "home": "v04_home_hero.webp",
+    "studyHub": "v04_study_hub_hero.webp",
+    "garden": "v04_garden_hero.webp",
+    "scholar": "v04_scholar_profile_hero.webp",
+    "subjectLanding": {
+      "latin": "v04_latin_subject_hero.webp",
+      "french": "v04_french_subject_hero.webp",
+      "biology": "v04_biology_subject_hero.webp",
+      "chemistry": "v04_chemistry_subject_hero.webp",
+      "physics": "v04_physics_subject_hero.webp"
+    },
+    "subjectTabs": {
+      "latin": {
+        "learn": "v04_latin_learn_hero.webp",
+        "practice": "v04_latin_practice_hero.webp",
+        "progress": "v04_latin_progress_hero.webp",
+        "play": "v04_latin_games_hero.webp"
+      },
+      "french": {
+        "learn": "v04_french_learn_hero.webp",
+        "practice": "v04_french_practice_hero.webp",
+        "progress": "v04_french_progress_hero.webp",
+        "writing": "v04_french_writing_hero.webp"
+      },
+      "biology": {
+        "learn": "v04_biology_learn_hero.webp",
+        "progress": "v04_biology_progress_hero.webp"
+      }
+    },
+    "decorative": "v04_decorative_banner.webp"
+  },
+  "reservedAlternates": [
+    "v04_alt_study_scene_01.webp",
+    "v04_alt_study_scene_02.webp",
+    "v04_alt_study_scene_03.webp",
+    "v04_alt_study_scene_04.webp",
+    "v04_alt_study_scene_05.webp",
+    "v04_alt_study_scene_06.webp",
+    "v04_alt_study_scene_07.webp",
+    "v04_alt_study_scene_08.webp",
+    "v04_alt_study_scene_09.webp"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-09-06",
+  "files": [
+    {
+      "id": "daily",
+      "file": "Year8_Daily_Revision_Extracted_Content_Booklet_18Jul-3Sep2026(3).docx",
+      "sha256": "64c714e1434af7245dea4c9fa97b160cf0665bc65b28357a95974fc32a8fbd0f",
+      "use": "Complete embedded Latin Year 8 pages and cross-subject revision schedule."
+    },
+    {
+      "id": "french",
+      "file": "Year8_French_COMPLETE_Teacher_Coverage_Final(7).docx",
+      "sha256": "ebbe9078a2372b94c4d5a425d0dd3251369325383aed16bd3f5b801e7abb68af",
+      "use": "Parent-supplied complete Year 8 French teacher coverage."
+    },
+    {
+      "id": "latin-test",
+      "file": "Year8_Latin_24_July_Notes_60min_Test(1).docx",
+      "sha256": "ef92aefe3bea160ca353a5009db0ed8d538da60bb6b50d6e9cda9306871039b1",
+      "use": "Specific 24 July test evidence; not treated as the complete Latin source by itself."
+    },
+    {
+      "id": "biology",
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "sha256": "a2880bd757d740f2e5760202365ba3db63dbcb5ff5eecdb5337ec27b1867ddb4",
+      "use": "42-page complete Year 8 Biology revision source, questions, diagrams and mark schemes."
+    },
+    {
+      "id": "french-core",
+      "file": "French_Content_Core_V3_Expanded(1).zip",
+      "sha256": "75fa38ca90102caaca58d14f1ae944291a5d728e534f7c105ab092cabe8d5fe6",
+      "use": "Verified French V3 application content core preserved and extended."
+    },
+    {
+      "id": "latin-bank",
+      "file": "Latin Revision V10 question-bank.js",
+      "sha256": "be2ab3d544bdc029955d76c8bed9982bd8b8f6430ff262a24bcacc8e488b884b",
+      "use": "1,056 source-locked Latin questions preserved and adapted."
+    }
+  ]
+}
