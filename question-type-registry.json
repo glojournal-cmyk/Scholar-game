@@ -1,0 +1,138 @@
+{
+  "mc_single": {
+    "label": "CHOOSE THE ANSWER",
+    "instruction": "Choose the one correct option.",
+    "answerFormat": "Select one option.",
+    "masteryWeight": 0.4,
+    "xp": 5,
+    "recognition": true
+  },
+  "typed_exact": {
+    "label": "TYPE THE ANSWER",
+    "instruction": "Type the complete answer requested.",
+    "answerFormat": "Enter one complete answer.",
+    "masteryWeight": 1,
+    "xp": 10,
+    "recognition": false
+  },
+  "typed_equivalent": {
+    "label": "WRITE A SHORT ANSWER",
+    "instruction": "Write a scientifically or linguistically equivalent answer.",
+    "answerFormat": "Enter a short answer.",
+    "masteryWeight": 1,
+    "xp": 10,
+    "recognition": false
+  },
+  "typed_short": {
+    "label": "WRITE A SHORT ANSWER",
+    "instruction": "Write the precise short answer requested.",
+    "answerFormat": "Enter one concise answer.",
+    "masteryWeight": 1,
+    "xp": 10,
+    "recognition": false
+  },
+  "controlled_translation": {
+    "label": "TRANSLATE",
+    "instruction": "Translate the complete stimulus and preserve every required idea and form.",
+    "answerFormat": "Write one complete translation.",
+    "masteryWeight": 1.2,
+    "xp": 14,
+    "recognition": false
+  },
+  "spelling_restore": {
+    "label": "RESTORE THE SPELLING",
+    "instruction": "Use the clue and restore the complete target-language spelling.",
+    "answerFormat": "Type the whole word or phrase.",
+    "masteryWeight": 1.1,
+    "xp": 12,
+    "recognition": false
+  },
+  "listen_type": {
+    "label": "LISTEN AND TYPE",
+    "instruction": "Listen, then type the complete French word or phrase.",
+    "answerFormat": "Type what you hear; accents are taught but not deducted.",
+    "masteryWeight": 1.1,
+    "xp": 12,
+    "recognition": false
+  },
+  "word_tiles": {
+    "label": "BUILD THE ANSWER",
+    "instruction": "Arrange all tiles to build the complete correct answer.",
+    "answerFormat": "Use every required tile.",
+    "masteryWeight": 0.8,
+    "xp": 8,
+    "recognition": false
+  },
+  "unordered_set": {
+    "label": "GIVE ALL ITEMS",
+    "instruction": "Give every requested item; order does not matter.",
+    "answerFormat": "Separate items with commas, slashes, semicolons, 'and', 'et', or new lines.",
+    "masteryWeight": 1.1,
+    "xp": 12,
+    "recognition": false
+  },
+  "matching": {
+    "label": "MATCH THE PAIRS",
+    "instruction": "Match every item to its correct partner.",
+    "answerFormat": "Complete all pairs.",
+    "masteryWeight": 0.65,
+    "xp": 7,
+    "recognition": true
+  },
+  "sequence": {
+    "label": "PUT IN ORDER",
+    "instruction": "Arrange every step or item in the correct order.",
+    "answerFormat": "Use every item once.",
+    "masteryWeight": 0.9,
+    "xp": 10,
+    "recognition": false
+  },
+  "sorting": {
+    "label": "SORT THE ITEMS",
+    "instruction": "Place every item in the correct scientific category.",
+    "answerFormat": "Use every item once.",
+    "masteryWeight": 0.85,
+    "xp": 9,
+    "recognition": false
+  },
+  "calculation": {
+    "label": "CALCULATE",
+    "instruction": "Show the method, calculate the answer and include the required unit.",
+    "answerFormat": "Enter working and a final value with unit.",
+    "masteryWeight": 1.2,
+    "xp": 14,
+    "recognition": false
+  },
+  "mark_points": {
+    "label": "SHORT EXAM ANSWER",
+    "instruction": "Write enough distinct scientific points for the available marks.",
+    "answerFormat": "Use precise scientific sentences.",
+    "masteryWeight": 1.2,
+    "xp": 14,
+    "recognition": false
+  },
+  "practical_design": {
+    "label": "DESIGN THE PRACTICAL",
+    "instruction": "Specify variables, controls, method quality and the requested analysis.",
+    "answerFormat": "Write a structured method.",
+    "masteryWeight": 1.35,
+    "xp": 18,
+    "recognition": false
+  },
+  "diagram_label": {
+    "label": "LABEL THE DIAGRAM",
+    "instruction": "Place every required label on the correct structure.",
+    "answerFormat": "Use each label once unless instructed otherwise.",
+    "masteryWeight": 0.9,
+    "xp": 10,
+    "recognition": false
+  },
+  "extended_response": {
+    "label": "EXTENDED RESPONSE",
+    "instruction": "Build a linked answer using the mark points as a checklist after submitting.",
+    "answerFormat": "Write linked scientific sentences, then self-check against the rubric.",
+    "masteryWeight": 1.4,
+    "xp": 20,
+    "recognition": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "title": "TGS Year 8 Chemistry + Physics Master Content Pack V1",
+  "generated": "2026-09-08",
+  "qaStatus": "PASS",
+  "topicCount": 23,
+  "noteCount": 23,
+  "conceptCount": 207,
+  "questionCount": 805,
+  "answerCount": 805,
+  "questionsBySubject": {
+    "chemistry": 350,
+    "physics": 455
+  },
+  "questionsByStatus": {
+    "enabled": 735,
+    "preview": 70
+  },
+  "questionsByFormat": {
+    "mc_single": 184,
+    "typed_short": 184,
+    "mark_points": 339,
+    "matching": 29,
+    "extended_response": 21,
+    "sorting": 4,
+    "calculation": 34,
+    "sequence": 3,
+    "practical_design": 7
+  },
+  "recognitionCount": 213,
+  "productionApplicationCount": 592,
+  "productionApplicationPercent": 73.5,
+  "exactDuplicatePromptCount": 0,
+  "allConceptsHaveRecognitionAndProduction": true,
+  "previewExcludedFromOrdinaryModes": true,
+  "previewTopics": [
+    "chem-y8-energy-changes",
+    "chem-y8-earth-rocks-resources"
+  ]
+}

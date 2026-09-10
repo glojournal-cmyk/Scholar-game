@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta content="#173a52" name="theme-color"/>
+<meta content="Lux et Labor — The Scholar's Garden" name="description"/>
+<title>Lux et Labor — The Scholar’s Garden</title>
+<link href="./manifest.webmanifest" rel="manifest"/>
+<link href="./favicon_32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="./favicon_192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="./apple_touch_icon_180.png" rel="apple-touch-icon" sizes="180x180"/>
+<link as="image" href="./scholar_idle.png" rel="preload"/>
+<meta content="V0.4.0 Alpha 5 RF7" name="scholar-garden-build"/><link href="./rf7-production.css?v=20260909" rel="stylesheet"/>
+</head>
+<body>
+<div class="app-shell">
+<header class="brandbar">
+<button aria-label="Home" class="brand" data-brand-home="" type="button">
+<span aria-hidden="true" class="brand-mark"><img alt="" decoding="async" src="./favicon_192.png"/></span>
+<span><strong>Lux et Labor</strong><small>The Scholar’s Garden</small></span>
+</button>
+<div class="scholar-chip"><span>Lv <b data-growth="level">1</b></span><span><b data-growth="xp">0</b> XP</span></div>
+</header>
+<nav aria-label="Primary" class="global-nav">
+<button data-global-route="home"><span aria-hidden="true">⌂</span><b>Home</b></button>
+<button data-global-route="study"><span aria-hidden="true">◇</span><b>Study</b></button>
+<button data-global-route="garden"><span aria-hidden="true">❧</span><b>Garden</b></button>
+<button data-global-route="scholar"><span aria-hidden="true">♙</span><b>Scholar</b></button>
+</nav>
+<main class="main-stage">
+<section class="route-screen" data-route-screen="home" id="homeScreen">
+<section aria-labelledby="homeGreeting" class="rf4-home-hero">
+<div class="rf4-home-copy">
+<p class="eyebrow">LUX ET LABOR · THE SCHOLAR’S GARDEN</p>
+<h1 id="homeGreeting">Good afternoon</h1>
+<p class="rf4-home-date" id="homeDate"></p>
+<p class="rf4-home-lede">A quiet place to learn, practise and grow. Choose one clear next step for today.</p>
+<div class="rf4-home-actions">
+<button class="primary" data-global-route="study" type="button">Continue studying</button>
+<button class="secondary light" data-global-route="garden" type="button">Visit the Garden</button>
+</div>
+<div class="rf4-home-vitals" aria-label="Scholar growth">
+<span><small>SCHOLAR LEVEL</small><b>Lv <i data-growth="level">1</i></b></span>
+<span><small>SCHOLAR XP</small><b><i data-growth="xp">0</i> XP</b></span>
+</div>
+</div>
+<aside aria-label="Current Scholar" class="rf4-scholar-scene" id="scholarScene">
+<div class="rf4-scholar-stage" data-art-slot="master-scholar" id="scholarArtSlot">
+<img alt="Scholar" class="scholar-character-art home-scholar-art" decoding="async" fetchpriority="high" id="homeScholarImage" src="./assets/rf7/outfit_default_complete.webp"/>
+<div class="home-avatar-layer" data-home-avatar-layer="back-hair"></div>
+<div class="home-avatar-layer home-avatar-body" data-home-avatar-layer="base-character"></div>
+<div class="home-avatar-layer" data-home-avatar-layer="outfit"></div>
+<div class="home-avatar-layer" data-home-avatar-layer="front-hair"></div>
+<div class="home-avatar-layer" data-home-avatar-layer="accessory"></div>
+<div class="home-avatar-layer" data-home-avatar-layer="hand-item"></div>
+</div>
+<div class="rf4-growth-note">
+<small>WORLD GROWTH</small>
+<strong id="homeGrowthStage">Garden Stage 1</strong>
+<span id="homeGrowthHint">Your Scholar world is beginning to grow.</span>
+<div class="scene-unlocks" id="sceneUnlockedDecor"></div>
+</div>
+</aside>
+</section>
+
+<section aria-label="Today's journey" class="rf4-today">
+<header class="rf4-today-head">
+<div><p class="eyebrow">TODAY’S JOURNEY</p><h2 id="journeyHeadline">Choose one clear next step.</h2></div>
+<div class="rf4-journey-stats">
+<button class="rf4-journey-chip" data-global-route="garden" data-journey="garden" type="button"><small>GARDEN</small><b id="journeyGarden">Stage 1</b></button>
+<div class="rf4-journey-chip" data-journey="daily"><small>DAILY QUEST</small><b id="journeyDaily">0 / 3</b></div>
+<div class="rf4-journey-chip" data-journey="reward"><small>NEXT REWARD</small><b id="journeyReward">Ink Pot</b></div>
+</div>
+</header>
+<div class="rf4-today-body">
+<div class="rf4-main-journey">
+<div aria-label="Seven-day learning status" class="week-strip quest-week" id="weekStrip"></div>
+<article class="main-quest quest-log-main" id="mainQuest"></article>
+<section class="home-progress quest-progress">
+<div><small>TODAY’S PROGRESS</small><strong id="todayProgressText">0 / 3 tasks complete</strong></div>
+<div class="progress-track"><i id="todayProgressBar"></i></div>
+</section>
+</div>
+<aside class="rf4-today-aside">
+<div class="secondary-task-grid quest-side-list" id="secondaryTasks"></div>
+<article class="rf4-reward-card" id="nextRewardCard">
+<div aria-label="Next reward artwork" class="reward-art-slot large" data-art-slot="next-reward" id="nextRewardArt"></div>
+<div class="reward-copy"><small>NEXT UNLOCK</small><h3 id="nextRewardName">Ink Pot</h3><p id="nextRewardCopy">40 XP to unlock</p><div class="progress-track"><i id="nextRewardBar"></i></div><span class="reward-destination">For your Scholar world</span></div>
+</article>
+<div class="scene-loadout sr-only" id="sceneLoadout"></div>
+</aside>
+</div>
+</section>
+
+<section class="subject-training-section home-zone rf4-learning-shelf" id="continueLearningSection">
+<div class="section-title"><div><p class="eyebrow">CONTINUE LEARNING</p><h2>Return to your studies</h2></div><button class="text-button" data-global-route="study" type="button">See all subjects</button></div>
+<p class="v04-section-lede">Recommendations come from your real recent activity, due review and available learning.</p>
+<div class="subject-training-grid" id="subjectTrainingGrid"></div>
+</section>
+<section class="quick-play-section home-zone rf4-quick-shelf">
+<div class="section-title"><div><p class="eyebrow">QUICK PLAY</p><h2>A short change of pace</h2></div><button class="text-button" id="seeAllGames">See all games</button></div>
+<div class="quick-play-grid" id="quickPlayGrid"></div>
+<div class="all-games-drawer hidden" id="allGamesDrawer"></div>
+</section>
+</section>
+<section class="route-screen hidden" data-route-screen="study" id="studyScreen">
+<section aria-labelledby="v04StudyTitle" class="v04-study-hero">
+<div class="v04-study-hero-copy">
+<p class="eyebrow">DISCOVER · PRACTISE · MAKE PROGRESS</p>
+<h1 id="v04StudyTitle">Study Hub</h1>
+<p>Choose a subject and continue your learning journey. Current Year 9 learning stays separate from Year 8 Foundation Review.</p>
+<div aria-label="Study year" class="v04-year-switch">
+<button aria-pressed="true" data-v04-year="current" type="button">Year 9 · Current</button>
+<button aria-pressed="false" data-v04-year="foundation" type="button">Year 8 · Foundation</button>
+</div>
+</div>
+</section>
+<section class="study-band">
+<div class="section-title"><div><p class="eyebrow">CURRENT</p><h2>Year 9</h2></div><span class="route-pill current">Current curriculum</span></div>
+<div class="study-grid" id="currentStudyGrid"></div>
+</section>
+<section class="study-band foundation-band">
+<div class="section-title"><div><p class="eyebrow">FOUNDATION REVIEW</p><h2>Year 8</h2></div><span class="route-pill foundation">Consolidation</span></div>
+<div class="study-grid" id="foundationStudyGrid"></div>
+</section>
+</section>
+<section class="route-screen hidden" data-route-screen="subject" id="subjectScreen">
+<button class="back-link" data-global-route="study" type="button">← Study</button>
+<header class="subject-hub-header">
+<div>
+<div class="subject-kicker"><span id="subjectIcon">L</span><span class="route-pill foundation" id="subjectTrack">Foundation Review</span></div>
+<h1 id="subjectTitle">Latin</h1>
+<p id="subjectSubtitle">Build fluency through short, focused sessions.</p>
+</div>
+<div class="subject-summary">
+<img alt="" class="subject-scholar-pose hidden" decoding="async" id="subjectScholarPose" loading="lazy"/>
+<span id="subjectMastery">Learning in progress</span>
+<span id="subjectDue">0 due</span>
+<button class="primary" id="subjectContinue">Continue today</button>
+</div>
+<figure class="rf4-subject-art"><img alt="" decoding="async" loading="eager"/><figcaption><span class="eyebrow">ILLUSTRATED STUDY</span><b>Learn through clear ideas</b></figcaption></figure>
+</header>
+<nav aria-label="Subject sections" class="subject-tabs unified-tabs">
+<button data-subject-tab="learn">Learn</button>
+<button data-subject-tab="practice">Practise</button>
+<button data-subject-tab="play">Play</button>
+<button data-subject-tab="progress">Progress</button>
+</nav>
+<div id="subjectContent">
+<section class="subject-pane" data-subject-pane="learn" id="genericLearnPane"></section>
+<section class="subject-pane hidden" data-subject-pane="practice" id="genericPracticePane"></section>
+<section class="subject-pane hidden" data-subject-pane="review" id="genericReviewPane"></section>
+<section class="subject-pane hidden" data-subject-pane="play" id="genericPlayPane"></section>
+<section class="subject-pane hidden" data-subject-pane="progress" id="genericProgressPane"></section>
+<div class="engine-host hidden" id="latinScreen">
+<section class="latin-view" id="latinHome">
+<div class="subject-stats card"><div><b data-latin-stat="attempts">0</b><span>Practice</span></div><div><b data-latin-stat="due">0</b><span>Due reviews</span></div><div><b>Focus</b><span>Mixed learning</span></div></div>
+<div class="quick-actions"><button class="primary" id="latinMixed">Balanced mixed 15</button><button class="secondary" id="latinQuick">Quick 8</button></div>
+<div class="learning-grid" id="latinPracticeCards"></div>
+</section>
+<section class="latin-view hidden" id="latinQuiz"><div class="quiz-card card" id="latinQuizBox"></div></section>
+<section class="latin-view hidden" id="latinVocab"><div class="page-head"><div><p class="eyebrow">VOCABULARY</p><h2>Vocabulary review</h2></div><span id="latinVocabCount"></span></div><input class="search" id="latinVocabSearch" placeholder="Search Latin or English…"/><div class="vocab-list" id="latinVocabList"></div></section>
+<section class="latin-view hidden" id="latinNotes"><div class="page-head"><div><p class="eyebrow">TEACHER NOTES</p><h2>Browse by content, not summer date</h2></div></div><input class="search" id="latinNotesSearch" placeholder="Search notes…"/><div class="notes-list" id="latinNotesList"></div></section>
+<section class="latin-view hidden" id="latinNoteDetail"><article class="note-detail card" id="latinNoteDetailBox"></article></section>
+<section class="latin-view hidden" id="latinProgress"><div class="page-head"><div><p class="eyebrow">FORMAL LATIN PROGRESS</p><h2>Mastery stays academic</h2></div><p>Scholar XP is separate.</p></div><div class="progress-stats" id="latinProgressStats"></div><div class="topic-progress" id="latinMasteryList"></div></section>
+<section class="latin-view hidden" id="gamesHub">
+<div class="page-head"><div><p class="eyebrow">LATIN GAMES</p><h2>Learn by doing</h2></div><p>Game Points do not change formal Mastery.</p></div>
+<div class="game-card-grid">
+<button class="game-card" data-gamev2-start="forma"><img alt="" src="final_game_forma.webp"/><span><small>FORMS</small><strong>Forma Forge</strong><em>Repair forms, endings and patterns.</em><u data-game-summary="forma"></u></span></button>
+<button class="game-card" data-gamev2-start="mosaic"><img alt="" src="final_game_mosaic.webp"/><span><small>SENTENCES</small><strong>Sentence Mosaic</strong><em>Build valid Latin sentences.</em><u data-game-summary="mosaic"></u></span></button>
+<button class="game-card" data-gamev2-start="verbum"><img alt="" src="final_game_verbum.webp"/><span><small>CONNECTIONS</small><strong>Verbum Match 2.0</strong><em>Meanings, forms and grammar links.</em><u data-game-summary="verbum"></u></span></button>
+<button class="game-card" data-gamev2-start="manuscript"><img alt="" src="final_game_manuscript.webp"/><span><small>INVESTIGATE</small><strong>Manuscript Mystery</strong><em>Restore, inspect and interpret.</em><u data-game-summary="manuscript"></u></span></button>
+</div>
+</section>
+<section class="latin-view hidden" id="gamePlay">
+<div class="game-shell-v2">
+<header class="game-top-v2"><div><button class="secondaryButton" data-gamev2-hub="" type="button">← Games</button><p class="eyebrow">LATIN GAME</p><h1 id="gameTitle">Game</h1><p id="gameSubtitle"></p></div>
+<div class="game-hud-v2"><div><span id="gameLevel">Level 1 / 6</span><div class="game-level-dots" id="gameLevelDots"></div></div><div><small>Game Points</small><strong id="gamePoints">0</strong></div><div><small>Streak</small><strong id="gameStreak">0</strong></div><div><small>Focus Shields</small><strong id="gameShields">◆ ◆ ◆</strong></div><button id="gameSoundButton" type="button">♪ Soft sound</button></div></header>
+<div class="game-progress-v2"><i id="gameProgressFill"></i></div><p class="game-mood-v2" id="gameMood">Choose a level.</p><div id="gameArea"></div>
+</div>
+</section>
+</div>
+<div class="engine-host hidden" id="frenchScreen">
+<small class="quiet-status" id="frenchLoadStatus">Preparing French learning tools…</small>
+<section class="french-view" id="frenchHome">
+<div class="subject-stats card" id="frenchHomeStats"><div><b>Practice</b><span>Focused session</span></div><div><b>Review</b><span>Weak areas</span></div><div><b>—</b><span>Due review</span></div></div>
+<div class="practice-setup card"><div><label>Topic<select id="frenchTopic"><option value="all">Loading…</option></select></label><label>Questions<select id="frenchCount"><option>8</option><option selected="">10</option><option>15</option><option>20</option></select></label></div><div><button class="primary" id="frenchStartPractice">Start practice</button><button class="secondary" id="frenchDue">Due review</button></div></div>
+<div class="learning-grid" id="frenchTopicCards"></div>
+</section>
+<section class="french-view hidden" id="frenchQuiz"><div class="quiz-card card" id="frenchQuizBox"></div></section>
+<section class="french-view hidden" id="frenchVocab"><div class="page-head"><div><p class="eyebrow">VOCABULAIRE</p><h2>Vocabulary review</h2></div><span id="frenchVocabCount"></span></div><div class="filter-line"><input class="search" id="frenchVocabSearch" placeholder="Search French or English…"/><select id="frenchVocabTopic"><option value="all">All topics</option></select></div><div class="vocab-list" id="frenchVocabList"></div></section>
+<section class="french-view hidden" id="frenchWriting"><div class="page-head"><div><p class="eyebrow">ÉCRITURE</p><h2>Writing challenges</h2></div><p>Model answers are examples, not the only valid response.</p></div><div class="writing-grid"><aside id="frenchWritingTasks"></aside><article class="card" id="frenchWritingEditor"></article></div></section>
+<section class="french-view hidden" id="frenchSpelling"><article class="spelling-hero card"><img alt="" src="hero_08.webp"/><div><p class="eyebrow">ATELIER D’ORTHOGRAPHE</p><h2>Spell what you really know</h2><p>Exact learned French spelling. Accents count. Wrong words return later, not immediately.</p><p>Due spelling words: <b id="frenchSpellDue">0</b></p><button class="primary" id="startFrenchSpelling">Start 8-word session</button></div></article><div class="quiz-card card" id="frenchSpellingBox"></div></section>
+<section class="french-view hidden" id="frenchProgress"><div class="page-head"><div><p class="eyebrow">FRENCH PROGRESS</p><h2>Practice evidence</h2></div></div><div class="progress-stats" id="frenchProgressStats"></div><div class="topic-progress" id="frenchTopicProgress"></div></section>
+</div>
+</div>
+</section>
+<section class="route-screen hidden" data-route-screen="garden" id="gardenScreen">
+<article class="garden-world">
+<img alt="Scholar's Garden" fetchpriority="low" id="gardenImage" src="garden_01.webp"/>
+<div class="garden-overlay">
+<p class="eyebrow">YOUR GROWTH WORLD</p>
+<h1>Scholar’s Garden</h1>
+<div aria-live="polite" class="garden-growth-specimen" hidden="" id="gardenGrowthSpecimen"></div>
+<div class="garden-meta">
+<span><small>Garden stage</small><strong id="gardenStageText">Stage 1</strong></span>
+<span><small>Scholar level</small><strong>Lv <span data-growth="level">1</span></strong></span>
+</div>
+<div class="garden-growth-live-copy">
+<strong id="gardenGrowthName">Seedling</strong>
+<span id="gardenGrowthCopy">The first signs of your study habit are taking root.</span>
+<small id="gardenGrowthNextText">400 XP until Stage 2</small>
+</div>
+<div class="garden-progress"><div><span>Next stage</span><b id="gardenNextLabel">400 XP</b></div><div class="progress-track"><i id="gardenStageBar"></i></div></div>
+<div class="garden-next"><small>NEXT VISUAL UNLOCK</small><strong id="gardenUnlockName">Ink Pot</strong></div>
+<button class="secondary light" id="gardenExplore">Explore growth</button>
+</div>
+</article>
+<section class="garden-explore hidden" id="gardenExplorePanel">
+<section class="garden-growth-path">
+<div class="section-title"><div><p class="eyebrow">GROWTH PATH</p><h2>Your Garden through study</h2></div></div>
+<p class="v04-section-lede">The plant follows your existing Scholar XP milestones. It does not change academic mastery or review scheduling.</p>
+<div class="garden-growth-timeline" id="gardenGrowthTimeline"></div>
+</section>
+<section class="garden-recent-growth">
+<div class="section-title"><div><p class="eyebrow">RECENT GROWTH</p><h2>What your study has grown</h2></div></div>
+<div class="reward-grid" id="gardenRewards"></div>
+</section>
+</section>
+</section>
+<section class="route-screen hidden" data-route-screen="scholar" id="scholarScreen">
+<header class="page-title"><p class="eyebrow">YOUR SCHOLAR</p><h1>Scholar</h1><p>Your style, collection and achievements in one place.</p></header>
+<nav aria-label="Scholar sections" class="scholar-tabs">
+<button data-scholar-tab="overview">Overview</button>
+<button data-scholar-tab="wardrobe">Wardrobe</button>
+<button data-scholar-tab="collection">Collection</button>
+<button data-scholar-tab="achievements">Achievements</button>
+<button data-scholar-tab="profile">Profile</button>
+</nav>
+<section class="scholar-pane" data-scholar-pane="overview">
+<article class="rf4-scholar-portrait">
+<div class="rf4-scholar-portrait-art"><img alt="Scholar" decoding="async" id="scholarOverviewImage" loading="eager" src="./assets/rf7/outfit_default_complete.webp"/></div>
+<div class="rf4-scholar-identity">
+<p class="eyebrow">YOUR SCHOLAR</p>
+<h2 id="scholarOverviewName">Scholar</h2>
+<p class="rf4-scholar-level" id="scholarOverviewLevel">Level 1</p>
+<div class="scholar-overview-xp"><div><span>Scholar XP</span><b id="scholarOverviewXP">0 / 100</b></div><div class="progress-track"><i id="scholarOverviewXPBar"></i></div></div>
+<div class="scholar-recent" id="scholarOverviewRecent"></div>
+<button class="secondary light" data-scholar-tab="wardrobe" type="button">Open wardrobe</button>
+</div>
+<aside class="rf4-scholar-growth">
+<div class="scholar-garden-specimen" hidden="" id="scholarGardenSpecimen"></div>
+<p class="eyebrow">GROWTH SNAPSHOT</p>
+<div class="scholar-stats-grid">
+<div class="scholar-stat"><small>STUDY DAYS</small><strong id="scholarStatDays">0</strong></div>
+<div class="scholar-stat"><small>GARDEN</small><strong id="scholarStatGarden">Stage 1</strong></div>
+<div class="scholar-stat"><small>LATIN XP</small><strong id="scholarStatLatin">0</strong></div>
+<div class="scholar-stat"><small>FRENCH XP</small><strong id="scholarStatFrench">0</strong></div>
+<div class="scholar-stat"><small>CHEMISTRY XP</small><strong id="scholarStatChemistry">0</strong></div>
+<div class="scholar-stat"><small>PHYSICS XP</small><strong id="scholarStatPhysics">0</strong></div>
+</div>
+</aside>
+</article>
+</section>
+<section class="scholar-pane hidden" data-scholar-pane="wardrobe">
+<div class="scholar-layout">
+<article aria-label="Avatar preview area" class="avatar-stage card-soft">
+<div class="avatar-canvas" data-avatar-canvas="560x760" id="avatarCanvas">
+<img alt="Equipped Scholar outfit" class="scholar-character-art wardrobe-scholar-art" decoding="async" id="wardrobeScholarImage" loading="lazy" src="./assets/rf7/outfit_default_complete.webp"/>
+<div class="avatar-layer layer-backhair" data-avatar-layer="back-hair"></div>
+<div class="avatar-layer layer-body" data-avatar-layer="base-body"><span>Scholar</span></div>
+<div class="avatar-layer layer-outfit" data-avatar-layer="outfit"></div>
+<div class="avatar-layer layer-fronthair" data-avatar-layer="front-hair"></div>
+<div class="avatar-layer layer-expression" data-avatar-layer="expression"></div>
+<div class="avatar-layer layer-accessory" data-avatar-layer="accessory"></div>
+<div class="avatar-layer layer-hand" data-avatar-layer="hand-item"></div>
+</div>
+<p class="avatar-note">Complete Scholar portrait. Outfit plates stay separate from the character preview.</p>
+</article>
+<aside class="wardrobe-panel">
+<p class="eyebrow">WARDROBE</p><h2>Build your look</h2>
+<div id="wardrobeControls"></div>
+<div hidden="" id="avatarLayerControls"></div>
+</aside>
+</div>
+</section>
+<section class="scholar-pane hidden" data-scholar-pane="collection">
+<div class="filter-row" id="collectionFilters">
+<button class="active" data-collection-filter="All">All</button>
+<button data-collection-filter="Scholar">Scholar</button>
+<button data-collection-filter="Latin">Latin</button>
+<button data-collection-filter="French">French</button>
+<button data-collection-filter="Prestige">Prestige</button>
+</div>
+<div class="collection-grid" id="collectionGrid"></div>
+</section>
+<section class="scholar-pane hidden" data-scholar-pane="achievements">
+<div class="medal-grid" id="medalGrid"></div>
+</section>
+<section class="scholar-pane hidden" data-scholar-pane="profile">
+<article class="rf7-profile-hero">
+<img alt="Scholar in her academic study room" decoding="async" loading="lazy" src="./assets/rf7/profile_settings_hero.webp"/>
+<div class="rf7-profile-copy"><p class="eyebrow">PROFILE · SETTINGS</p><h2>Your academic life</h2><p>Preferences, learner identity and the quiet details of your Scholar’s Garden.</p></div>
+</article>
+<div class="profile-layout">
+<article class="profile-card">
+<p class="eyebrow">PROFILE</p><h2>Learner details</h2>
+<p class="profile-note">Your display name is stored only in this browser’s Scholar Garden UX state. Changing it does not alter mastery, XP or revision history.</p>
+<div class="profile-field">
+<label for="scholarDisplayName">Display name</label>
+<input autocomplete="nickname" id="scholarDisplayName" maxlength="32" placeholder="Scholar" type="text"/>
+</div>
+<div class="profile-actions">
+<button class="primary" id="saveScholarProfile">Save name</button>
+<button class="secondary" id="clearScholarProfile">Clear</button>
+</div>
+</article>
+<aside class="profile-card">
+<p class="eyebrow">LOCAL DATA</p><h2>State summary</h2>
+<div class="profile-data-list" id="scholarProfileData"></div>
+</aside>
+</div>
+</section>
+</section>
+</main>
+</div>
+<div aria-live="polite" class="toast" id="toast" role="status"></div>
+<script src="./latin-question-bank.js?v=0.4.0-a5-rc4"></script>
+<script src="./growth.js?v=0.4.0-a5-rc4"></script>
+<script src="./latin-module.js?v=0.4.0-a5-rc4"></script>
+<script src="./french-module.js?v=0.4.0-a5-rc4"></script>
+<script src="./latin-games.js?v=0.4.0-a5-rc4"></script>
+<script src="./science-notes.js?v=0.4.0-a5-rc4"></script>
+<script src="./biology-y8.js?v=0.4.0-a5-rc4"></script>
+<script src="./science-y8.js?v=0.4.0-a5-rf5"></script>
+<script src="./language-y8.js?v=0.4.0-a5-rc4"></script>
+<script src="./daily-plan.js?v=0.4.0-a5-rc4"></script>
+<script src="./scholar-assets.js?v=0.4.0-a5-rc4"></script>
+<script src="./v04-art-config.js?v=0.4.0-a5-rc4"></script>
+<script src="./avatar-layer-system.js?v=0.4.0-a5-rc4"></script>
+<script src="./garden-growth.js?v=0.4.0-a5-rc4"></script>
+<script src="./v04-ui-assets.js?v=0.4.0-a5-rc4"></script>
+<script src="./subject-hub.js?v=0.4.0-a5-rf5"></script>
+<script src="./scholar.js?v=0.4.0-a5-rf5"></script>
+<script src="./app.js?v=0.4.0-a5-rf5"></script>
+<footer class="build-footer">Lux et Labor · Scholar’s Garden · V0.4.0 Alpha 5 · Final Editorial RF7</footer>
+<script src="./rf7-production.js?v=20260909"></script>
+</body>
+</html>
