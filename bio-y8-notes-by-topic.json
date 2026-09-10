@@ -1,0 +1,2809 @@
+[
+  {
+    "id": "bio-y8-note-balanced-diet",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-balanced-diet",
+    "title": "Balanced diet and nutrients",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "A balanced diet supplies the right amount of energy and all essential nutrients for health, growth and repair.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for balanced diet and nutrients.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Seven components: carbohydrate, protein, lipid, fibre, vitamins, minerals and water.",
+      "Carbohydrate is the main respiration fuel; protein supports growth and repair; lipids store energy and insulate.",
+      "Starch becomes simple sugars, protein becomes amino acids, and lipid becomes fatty acids plus glycerol."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "balanced diet",
+        "meaning": "a diet supplying the right amounts of energy and all essential nutrients for health, growth and repair"
+      },
+      {
+        "term": "carbohydrate",
+        "meaning": "the body's main source of energy for respiration"
+      },
+      {
+        "term": "protein",
+        "meaning": "needed for growth, repair and making enzymes and other proteins"
+      },
+      {
+        "term": "lipid",
+        "meaning": "a long-term energy store that also insulates and protects organs"
+      },
+      {
+        "term": "fibre",
+        "meaning": "adds bulk and helps food move through the gut, reducing constipation"
+      },
+      {
+        "term": "vitamins",
+        "meaning": "organic nutrients needed in small amounts to keep body processes healthy"
+      },
+      {
+        "term": "minerals",
+        "meaning": "elements needed for functions including bones, blood and nerves"
+      },
+      {
+        "term": "water",
+        "meaning": "acts as a solvent and transport medium and supports temperature control and reactions"
+      },
+      {
+        "term": "glucose",
+        "meaning": "a simple soluble sugar produced when starch or carbohydrate is digested"
+      },
+      {
+        "term": "amino acids",
+        "meaning": "small soluble products of protein digestion used for growth and repair"
+      },
+      {
+        "term": "fatty acids and glycerol",
+        "meaning": "the smaller products formed when lipids are digested"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why does a growing teenager need protein?",
+        "answer": "For growth and repair and for making new cells and proteins."
+      }
+    ],
+    "commonMistakes": [
+      "Calling fibre a nutrient that releases energy.",
+      "Forgetting water or minerals when listing all seven components.",
+      "Giving a food example when the question asks for a function."
+    ],
+    "examTips": [
+      "For a list question, count the requested number of separate items.",
+      "For an explain question, link the nutrient to what the body uses it for."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 1; booklet page 4",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-food-tests",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-food-tests",
+    "title": "Food tests and laboratory safety",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Each food test requires the correct reagent, method, starting colour, positive result and safety precaution.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for food tests and laboratory safety.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Iodine: orange-brown to blue-black for starch.",
+      "Benedict's: heat in a water bath; blue to green/yellow/orange/brick-red for reducing sugar.",
+      "Biuret: blue to lilac/purple for protein.",
+      "Ethanol emulsion: cloudy white for lipid; never heat ethanol directly."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "iodine solution",
+        "meaning": "the reagent used to test for starch"
+      },
+      {
+        "term": "Benedict's solution",
+        "meaning": "the reagent heated in a water bath to test for reducing sugar"
+      },
+      {
+        "term": "Biuret solution",
+        "meaning": "the reagent used to test for protein"
+      },
+      {
+        "term": "ethanol emulsion test",
+        "meaning": "the lipid test in which ethanol is shaken with the sample before water is added"
+      },
+      {
+        "term": "blue-black",
+        "meaning": "the positive colour for starch after iodine is added"
+      },
+      {
+        "term": "brick-red",
+        "meaning": "a strong positive Benedict's result for reducing sugar after heating"
+      },
+      {
+        "term": "lilac or purple",
+        "meaning": "the positive colour produced by protein in the Biuret test"
+      },
+      {
+        "term": "cloudy white emulsion",
+        "meaning": "the positive result for lipid in the ethanol emulsion test"
+      },
+      {
+        "term": "water bath",
+        "meaning": "a safer, even way to heat Benedict's test and the required indirect heating method for ethanol"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "A sample stays blue after heated Benedict's solution.",
+        "answer": "No reducing sugar was detected."
+      }
+    ],
+    "commonMistakes": [
+      "Forgetting to heat Benedict's test.",
+      "Giving only the final colour and not the starting colour.",
+      "Using a naked flame with ethanol."
+    ],
+    "examTips": [
+      "Write reagent + action + positive observation.",
+      "Name a specific safety control, not only 'be careful'."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 2; booklet pages 4-5",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-energy-bmi",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-energy-bmi",
+    "title": "Energy balance, deficiency and BMI",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Body mass tends to remain stable when energy intake equals energy use. BMI is mass divided by height squared and is a screening calculation, not a diagnosis.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for energy balance, deficiency and bmi.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "BMI = body mass (kg) / height squared (m squared).",
+      "Vitamin A deficiency can cause night blindness; vitamin D deficiency can cause rickets; vitamin C deficiency can cause scurvy.",
+      "Energy needs vary with growth, body size, activity, pregnancy and metabolic rate."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "energy balance",
+        "meaning": "the state in which energy intake equals energy use so body mass tends to remain stable"
+      },
+      {
+        "term": "deficiency",
+        "meaning": "a shortage of a vitamin or mineral that can damage health"
+      },
+      {
+        "term": "night blindness",
+        "meaning": "a possible consequence of vitamin A deficiency"
+      },
+      {
+        "term": "rickets",
+        "meaning": "weak or poorly mineralised bones caused by vitamin D deficiency"
+      },
+      {
+        "term": "scurvy",
+        "meaning": "a disease caused by vitamin C deficiency that weakens connective tissue"
+      },
+      {
+        "term": "body mass index",
+        "meaning": "mass in kilograms divided by height in metres squared"
+      },
+      {
+        "term": "undernutrition",
+        "meaning": "receiving too little energy or nutrients, which may cause tiredness, underweight and deficiency illness"
+      },
+      {
+        "term": "obesity",
+        "meaning": "excess body fat associated with increased risk of cardiovascular disease, type 2 diabetes and some cancers"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "BMI for 60 kg and 1.50 m",
+        "answer": "60 / (1.50 x 1.50) = 26.7 kg/m2."
+      }
+    ],
+    "commonMistakes": [
+      "Dividing by height instead of height squared.",
+      "Treating BMI alone as a diagnosis, especially for children.",
+      "Confusing a deficiency with simply feeling hungry."
+    ],
+    "examTips": [
+      "Show the squared-height step and include kg/m2.",
+      "Use 'may' when discussing possible health consequences."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 3; booklet pages 5-6",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-digestion-absorption",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-digestion-absorption",
+    "title": "Digestive system and absorption",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Mechanical and chemical digestion produce small soluble molecules; most absorption occurs through the adapted wall of the small intestine.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for digestive system and absorption.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Oesophagus moves food by peristalsis; stomach churns and begins protein digestion; liver makes bile; gall bladder stores bile; pancreas makes digestive enzymes.",
+      "Small intestine completes digestion and absorbs soluble products; large intestine absorbs water.",
+      "Villi and microvilli increase area, thin walls shorten diffusion distance, and a good blood supply maintains gradients."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "mouth",
+        "meaning": "mechanically breaks food with teeth; saliva moistens it and supplies amylase"
+      },
+      {
+        "term": "oesophagus",
+        "meaning": "a muscular tube moving food to the stomach by peristalsis"
+      },
+      {
+        "term": "stomach",
+        "meaning": "churns food, provides acidic conditions, kills many microbes and begins protein digestion"
+      },
+      {
+        "term": "liver",
+        "meaning": "produces bile, processes absorbed nutrients and detoxifies substances including alcohol"
+      },
+      {
+        "term": "gall bladder",
+        "meaning": "stores and releases bile"
+      },
+      {
+        "term": "pancreas",
+        "meaning": "produces digestive enzymes that enter the small intestine"
+      },
+      {
+        "term": "small intestine",
+        "meaning": "completes digestion and absorbs soluble digestion products into the blood"
+      },
+      {
+        "term": "large intestine",
+        "meaning": "absorbs water from undigested material"
+      },
+      {
+        "term": "rectum",
+        "meaning": "stores faeces before removal"
+      },
+      {
+        "term": "anus",
+        "meaning": "the opening through which faeces leave the body"
+      },
+      {
+        "term": "absorption",
+        "meaning": "movement of digested soluble molecules through the small-intestine wall into the blood"
+      },
+      {
+        "term": "villi",
+        "meaning": "finger-like structures that greatly increase the surface area of the small intestine"
+      },
+      {
+        "term": "peristalsis",
+        "meaning": "wave-like muscular contractions that push food through the gut"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why are villi useful?",
+        "answer": "They provide a large surface area for absorption."
+      }
+    ],
+    "commonMistakes": [
+      "Saying the stomach absorbs most nutrients.",
+      "Confusing the liver with the gall bladder.",
+      "Writing 'villi absorb food' without saying digested, soluble molecules."
+    ],
+    "examTips": [
+      "For adaptation questions, give feature and linked advantage.",
+      "Trace the route in anatomical order."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 4; booklet pages 6-7",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-enzymes-gut",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-enzymes-gut",
+    "title": "Enzymes and gut bacteria",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Enzymes are protein biological catalysts with specific active sites; temperature and pH affect their activity.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for enzymes and gut bacteria.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Amylase/carbohydrase: starch to simple sugars; protease: protein to amino acids; lipase: lipid to fatty acids and glycerol.",
+      "Above the optimum temperature an enzyme may denature because its active site changes shape.",
+      "Beneficial gut bacteria compete with harmful microbes, help break down some substances and produce useful substances such as vitamins."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "enzyme",
+        "meaning": "a protein biological catalyst that speeds up a reaction without being used up"
+      },
+      {
+        "term": "substrate",
+        "meaning": "the molecule that binds to an enzyme's active site"
+      },
+      {
+        "term": "active site",
+        "meaning": "the specifically shaped part of an enzyme where the substrate binds"
+      },
+      {
+        "term": "specificity",
+        "meaning": "the property that only a substrate with a complementary shape fits an enzyme's active site"
+      },
+      {
+        "term": "denaturation",
+        "meaning": "a change in active-site shape so the substrate no longer fits"
+      },
+      {
+        "term": "amylase",
+        "meaning": "a carbohydrase that digests starch into simple sugars"
+      },
+      {
+        "term": "protease",
+        "meaning": "an enzyme that digests protein into amino acids"
+      },
+      {
+        "term": "lipase",
+        "meaning": "an enzyme that digests lipid into fatty acids and glycerol"
+      },
+      {
+        "term": "optimum temperature",
+        "meaning": "the temperature at which an enzyme-controlled reaction has its highest rate"
+      },
+      {
+        "term": "low temperature",
+        "meaning": "a condition that slows molecules and reduces successful enzyme-substrate collisions"
+      },
+      {
+        "term": "beneficial gut bacteria",
+        "meaning": "microorganisms that compete with harmful microbes, help break down some substances and produce useful substances"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why can amylase not digest protein?",
+        "answer": "Its active site is not complementary to a protein substrate."
+      }
+    ],
+    "commonMistakes": [
+      "Saying enzymes are living organisms.",
+      "Saying high temperature kills an enzyme rather than denatures it.",
+      "Mixing up substrate and product."
+    ],
+    "examTips": [
+      "Use active-site language when explaining specificity or denaturation.",
+      "Name both the enzyme and products in digestion questions."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 5; booklet pages 7-8",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-drugs-alcohol",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-drugs-alcohol",
+    "title": "Recreational drugs, caffeine and alcohol",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Drugs change how the body works. Caffeine is a stimulant; ethanol is a depressant that impairs reaction, judgement and coordination.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for recreational drugs, caffeine and alcohol.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "The liver detoxifies alcohol.",
+      "Alcohol crosses the placenta and a foetal liver cannot process it effectively.",
+      "An observational association does not by itself prove causation."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "drug",
+        "meaning": "a substance that changes the way the body works"
+      },
+      {
+        "term": "recreational drug",
+        "meaning": "a drug taken for pleasure rather than as medicine"
+      },
+      {
+        "term": "caffeine",
+        "meaning": "a stimulant that can affect alertness, sleep and the nervous system"
+      },
+      {
+        "term": "association",
+        "meaning": "a link between two variables that does not by itself prove causation"
+      },
+      {
+        "term": "ethanol",
+        "meaning": "the alcohol in alcoholic drinks that is absorbed into blood and reaches the brain and other organs"
+      },
+      {
+        "term": "depressant",
+        "meaning": "a substance that slows nervous-system activity"
+      },
+      {
+        "term": "liver",
+        "meaning": "the main organ responsible for detoxifying alcohol"
+      },
+      {
+        "term": "placenta",
+        "meaning": "the organ across which alcohol can pass from the mother's blood to the developing baby"
+      },
+      {
+        "term": "foetal alcohol spectrum disorder",
+        "meaning": "a range of learning, behavioural, communication, organ and development problems linked to alcohol exposure before birth"
+      },
+      {
+        "term": "increased reaction time",
+        "meaning": "taking longer to respond, which raises accident risk"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why does alcohol increase accident risk?",
+        "answer": "It slows nervous-system activity, increasing reaction time and impairing judgement and coordination."
+      }
+    ],
+    "commonMistakes": [
+      "Calling alcohol a stimulant.",
+      "Claiming a correlation proves caffeine caused an outcome.",
+      "Giving only 'alcohol is harmful' without a mechanism."
+    ],
+    "examTips": [
+      "Link nervous-system slowing to increased reaction time and accident risk.",
+      "Use cautious language for observational data."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 6; booklet pages 8-9",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-leaf-structure",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-leaf-structure",
+    "title": "Plant and leaf structure",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Leaf tissues and palisade-cell structures are adapted to absorb light, exchange gases, transport substances and limit water loss.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for plant and leaf structure.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Broad and flat gives a large area; thin gives a short diffusion distance.",
+      "Palisade cells near the upper surface contain many chloroplasts.",
+      "Spongy mesophyll air spaces aid diffusion; stomata control gas exchange; xylem brings water and phloem carries sugars."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "broad flat leaf",
+        "meaning": "a shape providing a large surface area for absorbing light"
+      },
+      {
+        "term": "thin leaf",
+        "meaning": "a leaf form giving a short diffusion distance and allowing light to reach cells"
+      },
+      {
+        "term": "upper epidermis",
+        "meaning": "a transparent layer that allows light to reach palisade cells"
+      },
+      {
+        "term": "palisade mesophyll",
+        "meaning": "a layer near the upper leaf surface with cells containing many chloroplasts"
+      },
+      {
+        "term": "spongy mesophyll",
+        "meaning": "a tissue with air spaces that allow carbon dioxide and oxygen to diffuse"
+      },
+      {
+        "term": "stomata",
+        "meaning": "pores controlled by guard cells that regulate gas exchange and water loss"
+      },
+      {
+        "term": "xylem",
+        "meaning": "vascular tissue bringing water and mineral ions to the leaf"
+      },
+      {
+        "term": "phloem",
+        "meaning": "vascular tissue carrying sugars away from the leaf"
+      },
+      {
+        "term": "waxy cuticle",
+        "meaning": "a waterproof layer that reduces water loss"
+      },
+      {
+        "term": "chloroplast",
+        "meaning": "an organelle containing chlorophyll where photosynthesis occurs"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why is the upper epidermis transparent?",
+        "answer": "It allows light to reach the palisade cells."
+      }
+    ],
+    "commonMistakes": [
+      "Saying stomata absorb light.",
+      "Explaining a feature without linking it to photosynthesis.",
+      "Confusing xylem and phloem."
+    ],
+    "examTips": [
+      "Answer adaptation questions as feature -> function -> benefit.",
+      "Biological drawings use single lines, no shading and ruled labels."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 7; booklet page 10",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-photosynthesis-glucose",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-photosynthesis-glucose",
+    "title": "Photosynthesis and uses of glucose",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Photosynthesis transfers light energy into chemical energy stored in glucose; plants use glucose in several ways.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for photosynthesis and uses of glucose.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Carbon dioxide + water -> glucose + oxygen; light and chlorophyll are required.",
+      "Glucose is used in respiration and to make starch, cellulose, lipids, proteins and other sugars.",
+      "Nitrate-derived nitrogen is needed to make amino acids and proteins."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "photosynthesis",
+        "meaning": "the process using light energy to make glucose from carbon dioxide and water, releasing oxygen"
+      },
+      {
+        "term": "chlorophyll",
+        "meaning": "the green pigment that absorbs light energy for photosynthesis"
+      },
+      {
+        "term": "respiration",
+        "meaning": "the process that releases energy from glucose for cell processes"
+      },
+      {
+        "term": "starch",
+        "meaning": "an insoluble compact storage carbohydrate made from glucose"
+      },
+      {
+        "term": "cellulose",
+        "meaning": "a carbohydrate made from glucose that strengthens plant cell walls"
+      },
+      {
+        "term": "plant oils",
+        "meaning": "lipid stores made from glucose, especially in seeds"
+      },
+      {
+        "term": "amino acids",
+        "meaning": "molecules made using glucose and nitrate-derived nitrogen before proteins are assembled"
+      },
+      {
+        "term": "autotroph",
+        "meaning": "an organism such as a plant or alga that makes its own organic food"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why is starch useful for storage?",
+        "answer": "It is insoluble, compact and can be converted back to glucose."
+      }
+    ],
+    "commonMistakes": [
+      "Putting light or chlorophyll on the reactant side of the word equation.",
+      "Saying plants get food from soil.",
+      "Confusing photosynthesis with respiration."
+    ],
+    "examTips": [
+      "State the complete word equation in the correct direction.",
+      "When asked about protein, include nitrate ions and amino acids."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 8; booklet pages 10-11",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-starch-evidence",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-starch-evidence",
+    "title": "Evidence and starch experiments",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Historical and leaf-starch experiments provide evidence for the requirements and products of photosynthesis.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for evidence and starch experiments.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Boil leaf in water, heat in ethanol in a water bath, rinse, add iodine.",
+      "Blue-black shows starch; orange-brown shows no starch.",
+      "Covered leaf areas test light; soda lime removes carbon dioxide; variegated leaves test chlorophyll."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "Van Helmont",
+        "meaning": "the scientist whose willow experiment showed plant mass did not mainly come directly from soil"
+      },
+      {
+        "term": "Priestley",
+        "meaning": "the scientist whose mint-and-candle experiment supported that plants restore oxygen in light"
+      },
+      {
+        "term": "Ingenhousz",
+        "meaning": "the scientist whose light/dark work showed light and green parts are needed for oxygen production"
+      },
+      {
+        "term": "Senebier",
+        "meaning": "the scientist whose aquatic-plant work supported that carbon dioxide is required"
+      },
+      {
+        "term": "boiling water",
+        "meaning": "the first leaf-test treatment that stops reactions and kills cells"
+      },
+      {
+        "term": "ethanol",
+        "meaning": "the liquid used in a hot-water bath to remove chlorophyll from a leaf"
+      },
+      {
+        "term": "iodine",
+        "meaning": "the reagent added after decolourising a leaf to reveal starch"
+      },
+      {
+        "term": "soda lime",
+        "meaning": "a substance used to remove carbon dioxide in a photosynthesis experiment"
+      },
+      {
+        "term": "variegated leaf",
+        "meaning": "a leaf whose green and non-green regions can test whether chlorophyll is needed"
+      },
+      {
+        "term": "black paper",
+        "meaning": "an opaque covering used to test whether light is needed for starch formation"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why use ethanol?",
+        "answer": "To remove chlorophyll so the iodine colour change can be seen."
+      }
+    ],
+    "commonMistakes": [
+      "Heating ethanol over a flame.",
+      "Saying ethanol tests for starch.",
+      "Failing to destarch a plant before a controlled investigation."
+    ],
+    "examTips": [
+      "Give the purpose of each step as well as the method.",
+      "Link the controlled difference to the scientific conclusion."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 9; booklet pages 11-12",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-limiting-factors",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-limiting-factors",
+    "title": "Limiting factors and graphs",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "The factor in shortest supply limits photosynthesis. Graph shape changes when the limiting factor changes or enzymes denature.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for limiting factors and graphs.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Increasing light or carbon dioxide increases rate only while that factor is limiting.",
+      "A plateau means another factor is limiting.",
+      "Temperature raises rate to an optimum, then high temperature lowers it because enzymes denature."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "limiting factor",
+        "meaning": "the factor in shortest supply that prevents a process rate increasing further"
+      },
+      {
+        "term": "light intensity",
+        "meaning": "a factor that raises photosynthesis rate at low levels until another factor limits it"
+      },
+      {
+        "term": "carbon dioxide concentration",
+        "meaning": "a reactant factor that can limit photosynthesis even in warm bright conditions"
+      },
+      {
+        "term": "temperature",
+        "meaning": "a factor affecting enzyme-controlled photosynthesis, with an optimum and denaturation at high values"
+      },
+      {
+        "term": "plateau",
+        "meaning": "a level part of a graph showing that increasing the x-variable no longer raises the rate"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why does a light-intensity curve level off?",
+        "answer": "Another factor such as carbon dioxide or temperature has become limiting."
+      }
+    ],
+    "commonMistakes": [
+      "Calling a plateau 'maximum light'.",
+      "Describing a graph without explaining the change.",
+      "Saying enzymes work faster indefinitely as temperature rises."
+    ],
+    "examTips": [
+      "Describe trend, identify change, quote data if supplied, then explain.",
+      "Use 'another factor becomes limiting' for a plateau."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 10; booklet pages 12-13",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-light-colour-practical",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-light-colour-practical",
+    "title": "Colour of light practical",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "A fair pondweed investigation changes light colour and measures oxygen production while controlling other factors.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for colour of light practical.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "IV: light colour; DV: bubbles or oxygen volume per minute.",
+      "Control lamp distance/intensity, temperature, pondweed species and length, carbon dioxide solution and counting time.",
+      "Repeat, calculate a mean and use a bar chart because colour is discrete."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "light colour",
+        "meaning": "the independent variable in the teacher pondweed colour investigation"
+      },
+      {
+        "term": "oxygen production rate",
+        "meaning": "the dependent variable measured as bubbles or gas volume per minute"
+      },
+      {
+        "term": "equilibration time",
+        "meaning": "a waiting period after changing a filter so the pondweed adjusts before measurement"
+      },
+      {
+        "term": "mean",
+        "meaning": "a summary calculated from repeated measurements to improve reliability"
+      },
+      {
+        "term": "gas syringe",
+        "meaning": "equipment giving a more accurate oxygen-volume measure than bubble counting"
+      },
+      {
+        "term": "red and blue light",
+        "meaning": "wavelength regions strongly absorbed by chlorophyll and often supporting a higher rate"
+      },
+      {
+        "term": "green light",
+        "meaning": "light largely reflected by chlorophyll and often supporting a lower rate"
+      },
+      {
+        "term": "bar chart",
+        "meaning": "the suitable display because light colour is a discrete category"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why may red and blue give higher rates than green?",
+        "answer": "Chlorophyll absorbs red and blue strongly but reflects much green light."
+      }
+    ],
+    "commonMistakes": [
+      "Changing filters without controlling intensity or temperature.",
+      "Treating bubble size as constant.",
+      "Using a line graph for unordered light colours."
+    ],
+    "examTips": [
+      "Gas volume is more accurate than bubble count.",
+      "Allow equilibration after changing the filter."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 11; booklet page 13",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-minerals-greenhouse",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-minerals-greenhouse",
+    "title": "Mineral ions and greenhouses",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Plants require mineral ions for specific molecules and growers balance extra yield against financial and environmental cost.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for mineral ions and greenhouses.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Nitrate: amino acids/proteins; deficiency causes stunting and older leaves yellowing.",
+      "Magnesium: chlorophyll; deficiency causes yellowing between veins.",
+      "Phosphate supports DNA, membranes and roots; potassium supports enzymes, stomata, flowers and fruit."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "nitrate ions",
+        "meaning": "mineral ions needed to make amino acids and proteins for growth"
+      },
+      {
+        "term": "magnesium ions",
+        "meaning": "mineral ions needed to make chlorophyll"
+      },
+      {
+        "term": "phosphate ions",
+        "meaning": "mineral ions needed for DNA, membranes, energy-transfer molecules and root growth"
+      },
+      {
+        "term": "potassium ions",
+        "meaning": "mineral ions supporting enzyme activity, stomata, flowers and fruit"
+      },
+      {
+        "term": "interveinal chlorosis",
+        "meaning": "yellowing between leaf veins caused by magnesium deficiency"
+      },
+      {
+        "term": "carbon dioxide enrichment",
+        "meaning": "adding controlled carbon dioxide to prevent it limiting photosynthesis"
+      },
+      {
+        "term": "ventilation",
+        "meaning": "using vents or fans to refresh air and control temperature and humidity"
+      },
+      {
+        "term": "cost-effective choice",
+        "meaning": "a decision comparing extra crop yield with the cost and risks of inputs"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Warm, bright greenhouse: possible limiting factor?",
+        "answer": "Carbon dioxide concentration may be limiting."
+      }
+    ],
+    "commonMistakes": [
+      "Saying nitrate makes chlorophyll.",
+      "Giving a greenhouse control without a cost.",
+      "Assuming the fastest rate is automatically most profitable."
+    ],
+    "examTips": [
+      "For evaluate questions, compare extra yield with input cost and risk.",
+      "Pair each ion with both its role and symptom."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 12; booklet page 14",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-classification",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-classification",
+    "title": "Classification and identification keys",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Classification groups organisms by shared characteristics and evolutionary relationships; branching keys use observable alternatives.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for classification and identification keys.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Five KS3 kingdoms: Animalia, Plantae, Fungi, Protoctista and Prokaryotae.",
+      "Mammals have hair/fur and produce milk; birds have feathers; reptiles have dry scales; amphibians have moist skin; fish have gills and fins.",
+      "A good key uses clear observable features."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "Animalia",
+        "meaning": "multicellular organisms without cell walls that obtain food by consuming organisms"
+      },
+      {
+        "term": "Plantae",
+        "meaning": "multicellular organisms with cellulose cell walls that photosynthesise"
+      },
+      {
+        "term": "Fungi",
+        "meaning": "organisms with chitin cell walls that feed by extracellular digestion and absorption"
+      },
+      {
+        "term": "Protoctista",
+        "meaning": "mostly single-celled eukaryotes with a nucleus and varied nutrition"
+      },
+      {
+        "term": "Prokaryotae",
+        "meaning": "single-celled organisms with no nucleus and circular DNA"
+      },
+      {
+        "term": "mammals",
+        "meaning": "vertebrates with hair or fur whose females produce milk"
+      },
+      {
+        "term": "birds",
+        "meaning": "vertebrates with feathers that lay hard-shelled eggs"
+      },
+      {
+        "term": "reptiles",
+        "meaning": "vertebrates with dry scales and leathery eggs laid on land"
+      },
+      {
+        "term": "amphibians",
+        "meaning": "vertebrates with moist skin and jelly-coated eggs in water"
+      },
+      {
+        "term": "fish",
+        "meaning": "vertebrates with gills, fins and wet scales"
+      },
+      {
+        "term": "branching key",
+        "meaning": "a sequence of clear yes/no choices based on observable features"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Feature of Prokaryotae",
+        "answer": "Single-celled organisms with no nucleus and circular DNA."
+      }
+    ],
+    "commonMistakes": [
+      "Using vague opinions such as 'large' without a measurement.",
+      "Saying fungi photosynthesise.",
+      "Saying bacteria have a nucleus."
+    ],
+    "examTips": [
+      "Follow only the matching branch.",
+      "Use a feature that divides the organisms unambiguously."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 13; booklet pages 16-34",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-ecology-terms",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-ecology-terms",
+    "title": "Organisms, populations, communities and habitats",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Ecology describes nested levels from one organism to populations, communities and ecosystems, plus biotic and abiotic influences.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for organisms, populations, communities and habitats.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Population: one species in an area; community: all populations; ecosystem: community plus non-living environment and interactions.",
+      "Biotic means living; abiotic means non-living.",
+      "Habitat is the place where an organism lives."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "organism",
+        "meaning": "one individual living thing"
+      },
+      {
+        "term": "population",
+        "meaning": "all organisms of one species living in an area and capable of interbreeding"
+      },
+      {
+        "term": "community",
+        "meaning": "all populations of different species living in the same area"
+      },
+      {
+        "term": "habitat",
+        "meaning": "the place where an organism lives"
+      },
+      {
+        "term": "ecosystem",
+        "meaning": "a community plus its non-living environment and their interactions"
+      },
+      {
+        "term": "ecology",
+        "meaning": "the study of interactions between organisms and their environment"
+      },
+      {
+        "term": "biotic factor",
+        "meaning": "a living influence such as a predator, prey, competitor, pathogen or food organism"
+      },
+      {
+        "term": "abiotic factor",
+        "meaning": "a non-living influence such as light, water, temperature, oxygen or soil pH"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Community versus ecosystem",
+        "answer": "An ecosystem includes the community, the non-living environment and their interactions."
+      }
+    ],
+    "commonMistakes": [
+      "Defining a population as all living things in an area.",
+      "Leaving the non-living environment out of ecosystem.",
+      "Classifying light or temperature as biotic."
+    ],
+    "examTips": [
+      "Use the words species, area and interactions precisely.",
+      "Name whether a factor is biotic or abiotic before explaining its effect."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 14; booklet page 16",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-food-chains-webs",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-food-chains-webs",
+    "title": "Food chains, food webs and trophic levels",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Food chains and webs represent feeding relationships and the direction of energy transfer.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for food chains, food webs and trophic levels.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Arrows point from food to eater.",
+      "Producer makes organic food; consumers eat organisms; decomposers recycle minerals.",
+      "A trophic level is a feeding position."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "producer",
+        "meaning": "an organism making its own organic food, usually by photosynthesis"
+      },
+      {
+        "term": "consumer",
+        "meaning": "an organism obtaining energy by eating other organisms"
+      },
+      {
+        "term": "herbivore",
+        "meaning": "a consumer that eats plants"
+      },
+      {
+        "term": "carnivore",
+        "meaning": "a consumer that eats animals"
+      },
+      {
+        "term": "omnivore",
+        "meaning": "a consumer that eats plants and animals"
+      },
+      {
+        "term": "decomposer",
+        "meaning": "an organism breaking down dead material and waste and recycling minerals"
+      },
+      {
+        "term": "trophic level",
+        "meaning": "a feeding position in a food chain"
+      },
+      {
+        "term": "food web",
+        "meaning": "a set of interconnected food chains in a community"
+      },
+      {
+        "term": "food-to-eater arrow",
+        "meaning": "an arrow direction showing the transfer of energy from food to the organism that eats it"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "grass -> rabbit -> fox",
+        "answer": "Grass is the producer; rabbit is the primary consumer; arrows show energy transfer to the eater."
+      }
+    ],
+    "commonMistakes": [
+      "Drawing arrows towards the food.",
+      "Calling a herbivore a producer.",
+      "Predicting a food-web change without considering alternative foods."
+    ],
+    "examTips": [
+      "Explain the arrow as energy transfer, not merely 'what eats what'.",
+      "For food webs, trace more than one possible consequence."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 15; booklet page 17",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-pyramids-energy",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-pyramids-energy",
+    "title": "Pyramids and energy transfer",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Pyramids of numbers count organisms; pyramids of biomass show living mass. Energy decreases between trophic levels.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for pyramids and energy transfer.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "A pyramid of numbers can be inverted; biomass usually represents available energy better.",
+      "Energy is lost through respiration, movement, heat, waste and uneaten material.",
+      "Only energy stored in new biomass is available to the next level."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "pyramid of numbers",
+        "meaning": "a diagram whose bar widths represent organism numbers at each trophic level"
+      },
+      {
+        "term": "pyramid of biomass",
+        "meaning": "a diagram whose bar widths represent total living mass at each trophic level"
+      },
+      {
+        "term": "respiration loss",
+        "meaning": "energy transferred for movement and body processes and eventually to surroundings as heat"
+      },
+      {
+        "term": "uneaten material",
+        "meaning": "biomass not consumed and therefore not transferred to the next trophic level"
+      },
+      {
+        "term": "egestion and excretion",
+        "meaning": "energy-containing material leaving as faeces or urine instead of becoming consumer biomass"
+      },
+      {
+        "term": "new biomass",
+        "meaning": "stored material containing the energy available to the next trophic level"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why are food chains short?",
+        "answer": "Too little energy remains in biomass after losses at each trophic level to support many further levels."
+      }
+    ],
+    "commonMistakes": [
+      "Saying energy is destroyed.",
+      "Forgetting waste or uneaten material.",
+      "Assuming every pyramid of numbers must be pyramid-shaped."
+    ],
+    "examTips": [
+      "A four-mark explanation needs several distinct loss routes and the consequence for chain length.",
+      "Use 'transferred to surroundings' rather than 'used up'."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 16; booklet pages 17-18",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-competition",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-competition",
+    "title": "Competition and limiting factors",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Competition occurs when organisms need the same limited resource; it may be within or between species.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for competition and limiting factors.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Intraspecific: same species; interspecific: different species.",
+      "Animals compete for food, water, space and mates; plants compete for light, water, space and mineral ions.",
+      "Population growth slows as limiting factors strengthen."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "competition",
+        "meaning": "interaction occurring when two or more organisms require the same limited resource"
+      },
+      {
+        "term": "intraspecific competition",
+        "meaning": "competition between members of the same species"
+      },
+      {
+        "term": "interspecific competition",
+        "meaning": "competition between members of different species"
+      },
+      {
+        "term": "limiting factor",
+        "meaning": "a resource shortage or pressure that slows population growth"
+      },
+      {
+        "term": "exponential growth",
+        "meaning": "rapid increase that cannot continue indefinitely as limiting factors strengthen"
+      },
+      {
+        "term": "outcompete",
+        "meaning": "to use a shared resource more successfully, reducing another species' survival or reproduction"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Two male deer competing for mates",
+        "answer": "Intraspecific competition."
+      }
+    ],
+    "commonMistakes": [
+      "Reversing intra- and interspecific.",
+      "Giving a resource that is not limited.",
+      "Assuming exponential growth continues forever."
+    ],
+    "examTips": [
+      "State the type, identify the competitors and name the shared resource.",
+      "Link density to increasing limitation."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 17; booklet page 18",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-predator-prey-adaptations",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-predator-prey-adaptations",
+    "title": "Predator-prey relationships and adaptations",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Predator and prey populations cycle with a time lag; structural, behavioural and physiological adaptations affect survival.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for predator-prey relationships and adaptations.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Prey rise first; predators rise after a time lag; more predators reduce prey; less prey then reduces predators.",
+      "Structural is physical, behavioural is an action, physiological is an internal process.",
+      "Camouflage, large snow feet, hunting behaviour and venom are different adaptation examples."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "time lag",
+        "meaning": "the delay between an increase in prey and the later increase in predators"
+      },
+      {
+        "term": "structural adaptation",
+        "meaning": "a physical body feature helping survival or reproduction"
+      },
+      {
+        "term": "behavioural adaptation",
+        "meaning": "an action or response helping survival or reproduction"
+      },
+      {
+        "term": "physiological adaptation",
+        "meaning": "an internal process helping survival or reproduction"
+      },
+      {
+        "term": "camouflage",
+        "meaning": "colouring or pattern reducing the chance of being seen"
+      },
+      {
+        "term": "large snow feet",
+        "meaning": "a structural adaptation spreading weight and reducing sinking into snow"
+      },
+      {
+        "term": "venom production",
+        "meaning": "a physiological adaptation that can help capture prey or deter predators"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why do predator numbers rise later?",
+        "answer": "More prey supports predator survival and reproduction, but this takes time."
+      }
+    ],
+    "commonMistakes": [
+      "Drawing predator peaks before prey peaks.",
+      "Calling an action a structural adaptation.",
+      "Saying organisms choose to develop adaptations because they need them."
+    ],
+    "examTips": [
+      "Mention the time lag explicitly.",
+      "For an adaptation, link feature to survival or reproduction."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 18; booklet pages 19-20",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-pollutants-indicators",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-pollutants-indicators",
+    "title": "Human impact, pollutants and indicator species",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Persistent pollutants build up within organisms and may become more concentrated at higher trophic levels; indicator species reveal environmental conditions.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for human impact, pollutants and indicator species.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Bioaccumulation: build-up within one organism; biomagnification: concentration increases up a food chain.",
+      "DDT thinned bird eggshells; mercury can magnify in aquatic food chains.",
+      "Bushy lichens suggest clean air; mayfly/stonefly larvae suggest clean oxygen-rich water; sludgeworms tolerate very polluted low-oxygen water."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "pesticide",
+        "meaning": "a chemical used to kill pests"
+      },
+      {
+        "term": "persistent pollutant",
+        "meaning": "a harmful substance that does not break down readily in the environment"
+      },
+      {
+        "term": "bioaccumulation",
+        "meaning": "build-up of a persistent substance within one organism over time"
+      },
+      {
+        "term": "biomagnification",
+        "meaning": "increase in pollutant concentration at higher trophic levels"
+      },
+      {
+        "term": "DDT",
+        "meaning": "a persistent pesticide associated with thinner eggshells and reduced hatching in birds of prey"
+      },
+      {
+        "term": "mercury",
+        "meaning": "a persistent pollutant that can biomagnify through aquatic food chains"
+      },
+      {
+        "term": "indicator species",
+        "meaning": "an organism whose presence, absence or abundance indicates environmental conditions"
+      },
+      {
+        "term": "bushy lichens",
+        "meaning": "air-pollution indicators associated with very clean air"
+      },
+      {
+        "term": "mayfly larvae",
+        "meaning": "water indicators associated with clean oxygen-rich water"
+      },
+      {
+        "term": "water louse",
+        "meaning": "a water indicator associated with higher pollution or lower dissolved oxygen"
+      },
+      {
+        "term": "sludgeworm",
+        "meaning": "an indicator able to tolerate very polluted low-oxygen water"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why do top predators have high DDT concentration?",
+        "answer": "They eat many contaminated organisms and persistent DDT is retained in tissues."
+      }
+    ],
+    "commonMistakes": [
+      "Using bioaccumulation and biomagnification interchangeably.",
+      "Claiming one absent indicator proves a single cause.",
+      "Forgetting that predators eat many contaminated prey."
+    ],
+    "examTips": [
+      "Use repeated samples, several species and abiotic measurements.",
+      "Explain persistence before explaining magnification."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 19; booklet page 20",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-dna-genes",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-dna-genes",
+    "title": "DNA, chromosomes, genes and alleles",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Genetic information is stored in DNA; chromosomes are long coiled DNA molecules and genes are sections that code for proteins.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for dna, chromosomes, genes and alleles.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "DNA has bases A, T, C and G; A pairs with T and C with G.",
+      "Chromosome contains many genes; an allele is a version of a gene; genome is all genetic material.",
+      "Most human body cells have 46 chromosomes in 23 pairs; gametes have 23 single chromosomes."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "DNA",
+        "meaning": "the double-helix molecule carrying genetic information"
+      },
+      {
+        "term": "chromosome",
+        "meaning": "a long coiled DNA molecule containing many genes"
+      },
+      {
+        "term": "gene",
+        "meaning": "a section of DNA containing instructions for making a protein"
+      },
+      {
+        "term": "allele",
+        "meaning": "a different version of the same gene"
+      },
+      {
+        "term": "genome",
+        "meaning": "all of an organism's genetic material"
+      },
+      {
+        "term": "adenine",
+        "meaning": "the DNA base A that pairs with thymine"
+      },
+      {
+        "term": "thymine",
+        "meaning": "the DNA base T that pairs with adenine"
+      },
+      {
+        "term": "cytosine",
+        "meaning": "the DNA base C that pairs with guanine"
+      },
+      {
+        "term": "guanine",
+        "meaning": "the DNA base G that pairs with cytosine"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Relationship between a gene and protein",
+        "answer": "A gene is a DNA sequence that codes for a particular protein."
+      }
+    ],
+    "commonMistakes": [
+      "Calling a gene a whole chromosome.",
+      "Confusing an allele with a characteristic.",
+      "Pairing A with C."
+    ],
+    "examTips": [
+      "Use the hierarchy nucleus -> chromosome -> DNA -> gene -> nucleotide.",
+      "For a gene, include both 'section of DNA' and 'codes for a protein'."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 20; booklet pages 22-36",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-fertilisation-inheritance",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-fertilisation-inheritance",
+    "title": "Fertilisation and inheritance",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Meiosis halves chromosome number; fertilisation restores pairs and combines alleles from two parents.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for fertilisation and inheritance.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Gametes contain 23 single chromosomes; a zygote receives one chromosome of each pair from each parent.",
+      "Dominant alleles show with one copy; recessive alleles show only without a dominant allele.",
+      "Genotype is the allele combination; phenotype is the observable characteristic."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "meiosis",
+        "meaning": "cell division producing gametes with half the usual chromosome number"
+      },
+      {
+        "term": "fertilisation",
+        "meaning": "fusion of a sperm nucleus and egg nucleus"
+      },
+      {
+        "term": "zygote",
+        "meaning": "the cell formed at fertilisation containing chromosomes from both parents"
+      },
+      {
+        "term": "dominant allele",
+        "meaning": "an allele expressed when at least one copy is present"
+      },
+      {
+        "term": "recessive allele",
+        "meaning": "an allele expressed only when no dominant allele is present"
+      },
+      {
+        "term": "genotype",
+        "meaning": "the combination of alleles an organism has for a gene"
+      },
+      {
+        "term": "phenotype",
+        "meaning": "the observable characteristic resulting from genotype and environment"
+      },
+      {
+        "term": "homozygous",
+        "meaning": "having two identical alleles for a gene"
+      },
+      {
+        "term": "heterozygous",
+        "meaning": "having two different alleles for a gene"
+      },
+      {
+        "term": "carrier",
+        "meaning": "a heterozygous individual with one recessive disorder allele who usually does not show the recessive phenotype"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "What is a carrier?",
+        "answer": "A heterozygous person with one recessive disorder allele who usually does not show the recessive phenotype."
+      }
+    ],
+    "commonMistakes": [
+      "Saying fertilisation halves chromosome number.",
+      "Using different letters for two alleles of one gene.",
+      "Calling a carrier homozygous recessive."
+    ],
+    "examTips": [
+      "Use uppercase and lowercase versions of the same letter.",
+      "Separate genotype notation from phenotype description."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 21; booklet page 22",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-punnett-squares",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-punnett-squares",
+    "title": "Punnett squares and probability",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Punnett squares predict genotype and phenotype probabilities from parental gametes; each child is a new independent event.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for punnett squares and probability.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Write parent genotypes, gametes and all four offspring combinations.",
+      "Bb x bb gives 50% Bb and 50% bb in the simple model.",
+      "A probability does not guarantee an exact outcome in a small family."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "gamete",
+        "meaning": "a sex cell carrying one allele for each gene considered in a simple cross"
+      },
+      {
+        "term": "probability",
+        "meaning": "the chance of an outcome rather than a guarantee for a small number of births"
+      },
+      {
+        "term": "genotype ratio",
+        "meaning": "the relative predicted frequencies of allele combinations"
+      },
+      {
+        "term": "phenotype probability",
+        "meaning": "the predicted chance of each observable characteristic"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why can a recessive trait skip a generation?",
+        "answer": "Heterozygous carriers can pass the recessive allele without showing the phenotype."
+      }
+    ],
+    "commonMistakes": [
+      "Putting two alleles into one gamete.",
+      "Reporting only a ratio without saying genotype or phenotype.",
+      "Treating 50% as exactly one of every two children."
+    ],
+    "examTips": [
+      "State the dominant allele before the cross.",
+      "Finish with both genotype and phenotype probabilities when asked."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 22; booklet page 23",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-variation-mutation",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-variation-mutation",
+    "title": "Variation and mutation",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Variation may be genetic, environmental or both. Mutation creates new alleles through random DNA change.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for variation and mutation.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Blood group is genetic; scars and language are environmental; height and body mass involve both genes and environment.",
+      "Mutations may be beneficial, neutral or harmful depending on context.",
+      "Body-cell mutations are not normally inherited; mutations in gamete-producing cells can be inherited."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "genetic variation",
+        "meaning": "differences caused by alleles inherited from parents"
+      },
+      {
+        "term": "environmental variation",
+        "meaning": "differences caused by conditions or experiences"
+      },
+      {
+        "term": "combined variation",
+        "meaning": "differences influenced by both genes and environmental conditions"
+      },
+      {
+        "term": "mutation",
+        "meaning": "a random change in the DNA base sequence of a gene or chromosome"
+      },
+      {
+        "term": "mutagen",
+        "meaning": "radiation or a chemical that increases mutation rate"
+      },
+      {
+        "term": "body-cell mutation",
+        "meaning": "a mutation affecting a cell line that is not normally inherited"
+      },
+      {
+        "term": "gamete-line mutation",
+        "meaning": "a mutation in a gamete-producing cell that can be passed to offspring"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Define mutation",
+        "answer": "A random change in the DNA base sequence of a gene or chromosome."
+      }
+    ],
+    "commonMistakes": [
+      "Saying all mutations are harmful.",
+      "Saying organisms mutate because they need an adaptation.",
+      "Treating continuous variation as purely genetic."
+    ],
+    "examTips": [
+      "Name the source of variation and justify it.",
+      "Natural selection acts on variation; it does not deliberately create useful mutations."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 23; booklet pages 23-24",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-genetic-disorders",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-genetic-disorders",
+    "title": "Genetic disorders",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Different genetic disorders have different inheritance patterns, effects and management; accurate non-stigmatising language matters.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for genetic disorders.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Huntington's disease is linked to a dominant allele; sickle cell disease to a recessive allele; haemophilia is usually X-linked recessive; polydactyly is often dominant or a new mutation.",
+      "A carrier has an allele; the disorder is not the person's whole identity.",
+      "Management is not the same as cure."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "Huntington's disease",
+        "meaning": "a progressive disorder associated with a dominant allele and movement, thinking, mood and coordination problems"
+      },
+      {
+        "term": "sickle cell disease",
+        "meaning": "a recessive haemoglobin disorder causing sickled red cells, anaemia, pain and blocked vessels"
+      },
+      {
+        "term": "polydactyly",
+        "meaning": "an inherited characteristic, often dominant or a new mutation, causing an extra finger or toe"
+      },
+      {
+        "term": "haemophilia",
+        "meaning": "a usually X-linked recessive disorder in which blood clots slowly"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why may a carrier not show sickle cell disease?",
+        "answer": "The normal dominant allele masks the recessive disease allele in a heterozygous genotype."
+      }
+    ],
+    "commonMistakes": [
+      "Calling every disorder recessive.",
+      "Saying a carrier necessarily shows the disorder.",
+      "Using stigmatising labels for a person."
+    ],
+    "examTips": [
+      "State inheritance, main biological effect and management separately.",
+      "Use 'person with...' wording."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 24; booklet page 24",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-natural-selection",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-natural-selection",
+    "title": "Natural selection and evolution",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Populations evolve across generations when inherited variants differ in survival and reproduction and allele frequencies change.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for natural selection and evolution.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Inherited variation -> competition -> better-adapted variants survive -> reproduce more -> pass alleles -> alleles become more common.",
+      "Individuals do not evolve during their lifetime.",
+      "Evidence includes fossils, anatomy, DNA/proteins, observed selection and geographical distribution."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "evolution",
+        "meaning": "change in inherited characteristics of populations over many generations"
+      },
+      {
+        "term": "natural selection",
+        "meaning": "the process in which better-adapted inherited variants survive and reproduce more, making their alleles more common"
+      },
+      {
+        "term": "inherited variation",
+        "meaning": "pre-existing heritable differences among individuals in a population"
+      },
+      {
+        "term": "selection pressure",
+        "meaning": "an environmental factor affecting which variants survive and reproduce"
+      },
+      {
+        "term": "differential reproduction",
+        "meaning": "better-adapted individuals producing more surviving offspring"
+      },
+      {
+        "term": "fossil record",
+        "meaning": "preserved evidence showing organisms and forms changing through time"
+      },
+      {
+        "term": "DNA similarity",
+        "meaning": "molecular evidence that can indicate evolutionary relationships"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Peppered moth selection",
+        "answer": "Soot changed camouflage; better-camouflaged moths survived bird predation and passed the colour allele more often."
+      }
+    ],
+    "commonMistakes": [
+      "Saying the environment makes organisms acquire needed traits.",
+      "Leaving out inheritance or reproduction.",
+      "Saying one individual evolves."
+    ],
+    "examTips": [
+      "Use linked causal steps and mention many generations.",
+      "For moths, link camouflage to predation, survival, reproduction and allele frequency."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 25; booklet pages 24-25",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-variables-quality",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-variables-quality",
+    "title": "Variables, controls, reliability and validity",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Strong practical design identifies variables precisely and distinguishes consistency, validity and accuracy.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for variables, controls, reliability and validity.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "IV is changed; DV is measured; control variables are kept constant.",
+      "Reliability concerns consistency of repeats; validity concerns whether the method tests the intended relationship; accuracy concerns closeness to the true value.",
+      "An anomaly does not fit the pattern and should be investigated."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "independent variable",
+        "meaning": "the factor deliberately changed in an investigation"
+      },
+      {
+        "term": "dependent variable",
+        "meaning": "the factor measured in an investigation"
+      },
+      {
+        "term": "control variable",
+        "meaning": "a factor kept the same to make a test valid"
+      },
+      {
+        "term": "control group",
+        "meaning": "a comparison group without the tested treatment or with a standard treatment"
+      },
+      {
+        "term": "reliability",
+        "meaning": "the extent to which repeated measurements are consistent"
+      },
+      {
+        "term": "validity",
+        "meaning": "the extent to which a method tests the intended relationship"
+      },
+      {
+        "term": "accuracy",
+        "meaning": "closeness of a measurement to the true value"
+      },
+      {
+        "term": "anomaly",
+        "meaning": "a result that does not fit the overall pattern"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Fertiliser experiment IV",
+        "answer": "The type of fertiliser deliberately changed."
+      }
+    ],
+    "commonMistakes": [
+      "Calling the control group a control variable.",
+      "Using reliable and accurate as synonyms.",
+      "Deleting an anomaly without justification."
+    ],
+    "examTips": [
+      "Name the actual variable, not only 'IV' or 'CV'.",
+      "Repeat with several samples and calculate a mean to improve reliability."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 26; booklet page 26",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-graphs-calculations",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-graphs-calculations",
+    "title": "Graphs, calculations and unit conversions",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Graph type follows data type; calculations require working, units and sensible treatment of anomalies.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for graphs, calculations and unit conversions.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Categorical/discrete data: bar chart; continuous pairs: line or scatter graph.",
+      "IV on x-axis and DV on y-axis; label axes with units.",
+      "Percentage change = (new - original) / original x 100; g to mg, mg to micrograms and mm to micrometres multiply by 1000."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "bar chart",
+        "meaning": "a graph suitable for discrete or categorical independent variables"
+      },
+      {
+        "term": "line graph",
+        "meaning": "a graph suitable for showing change in a continuous variable"
+      },
+      {
+        "term": "scatter graph",
+        "meaning": "a graph comparing two continuous variables to look for correlation"
+      },
+      {
+        "term": "mean",
+        "meaning": "the sum of valid repeat values divided by the number of values"
+      },
+      {
+        "term": "percentage change",
+        "meaning": "the change divided by the original value and multiplied by 100"
+      },
+      {
+        "term": "grams to milligrams",
+        "meaning": "multiply the gram value by 1000"
+      },
+      {
+        "term": "millimetres to micrometres",
+        "meaning": "multiply the millimetre value by 1000"
+      },
+      {
+        "term": "x-axis",
+        "meaning": "the axis normally carrying the independent variable"
+      },
+      {
+        "term": "y-axis",
+        "meaning": "the axis normally carrying the dependent variable"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "0.75 mm in micrometres",
+        "answer": "750 micrometres."
+      }
+    ],
+    "commonMistakes": [
+      "Joining categorical bars.",
+      "Putting the dependent variable on the x-axis.",
+      "Using the new value rather than original as percentage-change denominator."
+    ],
+    "examTips": [
+      "Show substitution and units.",
+      "Investigate an anomaly before excluding it."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 27; booklet pages 26-27",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-practical-conclusions",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-practical-conclusions",
+    "title": "Practical methods and conclusions",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "A conclusion states what results show; an explanation gives the scientific reason. High-quality responses use evidence.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for practical methods and conclusions.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Food tests, pondweed, leaf starch, mineral-deficiency and competition practicals each need specific controls.",
+      "A good conclusion includes a pattern and data reference.",
+      "An explanation links the pattern to biological mechanism."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "conclusion",
+        "meaning": "a statement of what the results show, including the pattern and evidence"
+      },
+      {
+        "term": "explanation",
+        "meaning": "a scientific reason accounting for the observed pattern"
+      },
+      {
+        "term": "repeat",
+        "meaning": "another measurement used to assess consistency and calculate a mean"
+      },
+      {
+        "term": "measurement improvement",
+        "meaning": "a change making a result more precise or accurate without changing the intended variable"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Conclusion versus explanation",
+        "answer": "The conclusion states the pattern; the explanation gives the biological reason for it."
+      }
+    ],
+    "commonMistakes": [
+      "Repeating the method instead of writing a conclusion.",
+      "Giving a conclusion with no evidence.",
+      "Giving a reason but not stating the observed trend."
+    ],
+    "examTips": [
+      "Use pattern + evidence + biological reason.",
+      "Distinguish measurement improvement from control of variables."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 28; booklet page 27",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-mixed-exam",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-mixed-exam",
+    "title": "Mixed exam practice",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "A 60-mark mixed assessment combines recall, calculation, practical planning and linked explanations across the Year 8 course.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for mixed exam practice.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Read the command word and mark allocation.",
+      "One clear scientific point normally earns one mark.",
+      "Calculations need working and units; long answers need linked causal steps."
+    ],
+    "mustMemoriseVocabulary": [],
+    "workedExamples": [
+      {
+        "prompt": "Six-mark natural selection",
+        "answer": "Write six linked stages from variation to allele-frequency change."
+      }
+    ],
+    "commonMistakes": [
+      "Writing more without adding mark points.",
+      "Missing a subpart of a multi-part question.",
+      "Using vague words where a precise term is required."
+    ],
+    "examTips": [
+      "Plan long answers as one point per available mark.",
+      "Check every requested element before submitting."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 29; booklet pages 27-28-29",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-smoking-health",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-smoking-health",
+    "title": "Smoking and tobacco smoke",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Tar, nicotine and carbon monoxide harm different body systems through specific mechanisms.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for smoking and tobacco smoke.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Tar contains carcinogens and damages cilia and alveoli.",
+      "Nicotine is addictive, raises heart rate/blood pressure and narrows vessels.",
+      "Carbon monoxide binds haemoglobin and reduces oxygen transport."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "tar",
+        "meaning": "a sticky mixture containing carcinogens that damages cilia and alveoli"
+      },
+      {
+        "term": "nicotine",
+        "meaning": "an addictive stimulant that raises heart rate and blood pressure and narrows vessels"
+      },
+      {
+        "term": "carbon monoxide",
+        "meaning": "a gas that binds strongly to haemoglobin and reduces oxygen transport"
+      },
+      {
+        "term": "emphysema",
+        "meaning": "damage in which alveolar walls break down, reducing surface area and elastic recoil"
+      },
+      {
+        "term": "chronic bronchitis",
+        "meaning": "long-term airway inflammation and mucus associated with damaged cilia"
+      },
+      {
+        "term": "carcinogen",
+        "meaning": "a substance increasing mutation risk and therefore the chance of uncontrolled cell division"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Tar and infections",
+        "answer": "Tar damages cilia, so mucus and pathogens are not removed and infections become more likely."
+      }
+    ],
+    "commonMistakes": [
+      "Saying tar blocks haemoglobin.",
+      "Saying nicotine is the main carcinogen in tar.",
+      "Writing only 'smoking causes cancer'."
+    ],
+    "examTips": [
+      "Name substance -> affected structure/process -> consequence.",
+      "Correlation in smoking data needs biological evidence and control of confounders before a causal conclusion."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 31; booklet page 32",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-fats-cholesterol",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-fats-cholesterol",
+    "title": "Saturated and unsaturated fats",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Fats are essential, but type and quantity matter; cholesterol has normal functions and different lipoprotein contexts.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for saturated and unsaturated fats.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Saturated fatty acids have no carbon-carbon double bonds; unsaturated have one or more.",
+      "High saturated-fat intake can raise LDL cholesterol and cardiovascular risk.",
+      "Cholesterol is needed in membranes and for some hormones; HDL helps transport it towards the liver."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "saturated fat",
+        "meaning": "fat whose fatty-acid chains contain no carbon-carbon double bonds"
+      },
+      {
+        "term": "unsaturated fat",
+        "meaning": "fat whose fatty-acid chains contain one or more carbon-carbon double bonds"
+      },
+      {
+        "term": "cholesterol",
+        "meaning": "a lipid needed in cell membranes and for some hormones and carried in lipoproteins"
+      },
+      {
+        "term": "LDL",
+        "meaning": "a lipoprotein associated with cholesterol deposition in artery walls"
+      },
+      {
+        "term": "HDL",
+        "meaning": "a lipoprotein helping transport cholesterol back towards the liver"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why can fatty deposits be dangerous?",
+        "answer": "They can narrow arteries and raise coronary heart disease and stroke risk."
+      }
+    ],
+    "commonMistakes": [
+      "Calling all fat unhealthy.",
+      "Calling cholesterol simply 'bad'.",
+      "Claiming diet is the only cardiovascular factor."
+    ],
+    "examTips": [
+      "Give a balanced conclusion and distinguish LDL from HDL.",
+      "Compare like portions or per-100-g values."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 31.2; booklet page 33",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-nutrition-labels",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-nutrition-labels",
+    "title": "Reading nutrition labels",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Food-label comparisons require the same basis and units, with values scaled to the actual amount eaten.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for reading nutrition labels.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Amount eaten = per-100-g value x portion mass / 100.",
+      "Check whether data are per 100 g, per serving or per pack.",
+      "kJ and kcal both measure energy but are not interchangeable."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "per 100 g",
+        "meaning": "a standard comparison basis allowing fair comparison between foods"
+      },
+      {
+        "term": "portion mass",
+        "meaning": "the actual mass eaten and used to scale a per-100-g value"
+      },
+      {
+        "term": "kilojoule",
+        "meaning": "an energy unit that should not be treated as numerically interchangeable with a kilocalorie"
+      },
+      {
+        "term": "kilocalorie",
+        "meaning": "an energy unit different in numerical scale from a kilojoule"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "12 g sugar per 100 g in a 45 g serving",
+        "answer": "12 x 45 / 100 = 5.4 g."
+      }
+    ],
+    "commonMistakes": [
+      "Comparing one per-serving value with another per-100-g value.",
+      "Forgetting to divide by 100.",
+      "Assuming 'low fat' automatically means healthy."
+    ],
+    "examTips": [
+      "Write the scaling calculation and unit.",
+      "Interpret using more than one nutrient and realistic portion size."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 31.3; booklet page 33",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-binomial-naming",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-binomial-naming",
+    "title": "Classification hierarchy and binomial naming",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "A universal two-part scientific name identifies genus and species and follows capitalisation and formatting rules.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for classification hierarchy and binomial naming.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Domain -> kingdom -> phylum -> class -> order -> family -> genus -> species.",
+      "Genus capitalised, species lower case; both italicised when typed or separately underlined when handwritten.",
+      "After first use, the genus may be abbreviated if clear."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "domain",
+        "meaning": "the broadest classification rank in the source hierarchy"
+      },
+      {
+        "term": "kingdom",
+        "meaning": "a major classification group below domain"
+      },
+      {
+        "term": "phylum",
+        "meaning": "the body-plan rank below kingdom"
+      },
+      {
+        "term": "class",
+        "meaning": "the classification rank below phylum and above order"
+      },
+      {
+        "term": "order",
+        "meaning": "the classification rank below class and above family"
+      },
+      {
+        "term": "family",
+        "meaning": "the classification rank below order and above genus"
+      },
+      {
+        "term": "genus",
+        "meaning": "the first, capitalised word in a binomial name"
+      },
+      {
+        "term": "species",
+        "meaning": "the most specific rank; a group able to interbreed to produce fertile offspring"
+      },
+      {
+        "term": "binomial name",
+        "meaning": "a universal two-part scientific name consisting of Genus followed by species"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Correct homo Sapiens",
+        "answer": "Homo sapiens, italicised or separately underlined."
+      }
+    ],
+    "commonMistakes": [
+      "Writing homo Sapiens.",
+      "Using a common name as a binomial.",
+      "Reversing genus and species."
+    ],
+    "examTips": [
+      "Correct all three features: order, capitals and italics/underlining.",
+      "Advantages include universality and precise identification."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 31.4; booklet page 34",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-dna-structure",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-dna-structure",
+    "title": "DNA structure, homologous pairs and karyograms",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "DNA consists of nucleotide units and a sugar-phosphate backbone; karyograms arrange chromosomes into homologous pairs.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for dna structure, homologous pairs and karyograms.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Nucleotide = sugar + phosphate + base.",
+      "Homologous chromosomes carry the same types of genes at the same positions, one from each parent.",
+      "A karyogram arranges chromosomes by size and banding pattern."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "nucleotide",
+        "meaning": "one DNA unit made from a sugar, phosphate and base"
+      },
+      {
+        "term": "sugar-phosphate backbone",
+        "meaning": "the alternating chain forming each outside edge of DNA"
+      },
+      {
+        "term": "homologous pair",
+        "meaning": "two chromosomes carrying the same gene types at the same positions, one from each parent"
+      },
+      {
+        "term": "karyogram",
+        "meaning": "a picture of chromosomes arranged in homologous pairs by size and banding pattern"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why homologous pairs?",
+        "answer": "One chromosome of each pair is inherited from each parent; they carry the same gene types."
+      }
+    ],
+    "commonMistakes": [
+      "Saying homologous chromosomes have identical alleles.",
+      "Calling a nucleotide only a base.",
+      "Confusing a karyogram with a DNA sequence."
+    ],
+    "examTips": [
+      "Same genes does not necessarily mean same alleles.",
+      "Use the structure hierarchy from nucleus to nucleotide."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 31.5; booklet pages 36-37",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-continuous-variation",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-continuous-variation",
+    "title": "Continuous variation and bell-shaped distributions",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "Continuous measurements take any value in a range and often cluster around a mean, giving an approximately bell-shaped distribution.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for continuous variation and bell-shaped distributions.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Height is usually influenced by many genes and environment.",
+      "Values near the mean are common and extremes are rarer.",
+      "Use the graph type requested; a histogram is suitable when continuous class boundaries are treated precisely."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "continuous variation",
+        "meaning": "variation that can take any value within a range"
+      },
+      {
+        "term": "bell-shaped distribution",
+        "meaning": "a pattern with many values near the mean and fewer at the extremes"
+      },
+      {
+        "term": "histogram",
+        "meaning": "a graph suitable for grouped continuous data when class boundaries are treated precisely"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Why bell-shaped?",
+        "answer": "Many measurements cluster near the mean and progressively fewer occur at the extremes."
+      }
+    ],
+    "commonMistakes": [
+      "Calling height discontinuous.",
+      "Using separated bars for precise continuous class intervals without instruction.",
+      "Saying a bell curve proves a single gene controls the trait."
+    ],
+    "examTips": [
+      "Describe centre and extremes.",
+      "Distinguish grouped frequency display from a scatter graph."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 32; booklet page 38",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-correlation",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-correlation",
+    "title": "Correlation: hand span and height",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "A scatter graph of two continuous variables can show association; it does not by itself establish causation.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for correlation: hand span and height.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Hand span and height show positive correlation in the teacher data.",
+      "A line of best fit shows the overall trend; do not join points dot-to-dot.",
+      "Variation explains why points do not lie exactly on the line."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "positive correlation",
+        "meaning": "an association in which larger values of one variable tend to occur with larger values of the other"
+      },
+      {
+        "term": "line of best fit",
+        "meaning": "a line showing the overall trend through scatter data"
+      },
+      {
+        "term": "correlation is not causation",
+        "meaning": "the rule that an association alone does not prove one variable causes the other"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "Full-mark conclusion",
+        "answer": "There is a positive association: taller students tend to have larger hand spans, but this does not prove causation."
+      }
+    ],
+    "commonMistakes": [
+      "Saying hand span causes height.",
+      "Joining scatter points in order.",
+      "Omitting units from axes."
+    ],
+    "examTips": [
+      "State direction, name both variables and use data if asked.",
+      "Add the causation limitation."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 33; booklet pages 39-40",
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-note-ber",
+    "subject": "biology",
+    "year": 8,
+    "topicId": "bio-y8-ber",
+    "title": "Basal energy requirement calculation",
+    "contentTier": "confirmed_learned",
+    "status": "enabled",
+    "overview": "BER estimates energy needed for essential resting functions; total need is higher when activity and growth are included.",
+    "learningGoals": [
+      "Recall the precise Year 8 vocabulary for basal energy requirement calculation.",
+      "Apply the knowledge rather than relying on recognition alone.",
+      "Use the command word and include every required scientific point."
+    ],
+    "mustMemoriseRules": [
+      "Daily BER = 5.4 kJ kg-1 h-1 x 24 h x body mass (kg).",
+      "BER includes breathing, circulation and temperature control at rest.",
+      "Activity and growth require additional energy."
+    ],
+    "mustMemoriseVocabulary": [
+      {
+        "term": "basal energy requirement",
+        "meaning": "the approximate energy needed for essential body functions at rest"
+      },
+      {
+        "term": "total daily energy requirement",
+        "meaning": "BER plus energy needed for activity, growth and other demands"
+      }
+    ],
+    "workedExamples": [
+      {
+        "prompt": "BER for 55 kg",
+        "answer": "5.4 x 24 x 55 = 7,128 kJ/day."
+      }
+    ],
+    "commonMistakes": [
+      "Forgetting the 24 hours.",
+      "Calling BER the total daily requirement.",
+      "Omitting kJ/day."
+    ],
+    "examTips": [
+      "Show all factors and units.",
+      "For a change in mass, calculate the BER change using the mass difference."
+    ],
+    "beforeStartingPractice": [
+      "Read the key terms once, then cover them.",
+      "Say or write the answer before using MC recognition.",
+      "For exam questions, count the marks and check each point."
+    ],
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "section 34; booklet page 41",
+      "status": "confirmed_learned"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "default": {
+    "asset": "assets/scholar/home/scholar_idle.png",
+    "trigger": "No stronger state applies."
+  },
+  "activeTasks": {
+    "asset": "assets/scholar/home/scholar_ready.png",
+    "trigger": "DailyPlan has at least one incomplete task and there is no due-review override."
+  },
+  "dueReview": {
+    "asset": "assets/scholar/home/scholar_thinking.png",
+    "trigger": "Any current task/review is marked Due review."
+  },
+  "allDailyTasksComplete": {
+    "asset": "assets/scholar/home/scholar_success.png",
+    "trigger": "DailyPlan total > 0 and done >= total."
+  },
+  "optionalStates": {
+    "welcome": "assets/scholar/home/scholar_welcome.png",
+    "outstanding": "assets/scholar/home/scholar_unfinished.png",
+    "progress": "assets/scholar/home/scholar_confident.png",
+    "sessionEnd": "assets/scholar/home/scholar_resting.png",
+    "rewardUnlock": "assets/scholar/home/scholar_reward_unlock.png",
+    "reading": "assets/scholar/home/scholar_reading_notes.png"
+  },
+  "outfitPrecedence": {
+    "rule": "If wardrobe.outfit is not 'school-uniform'/'starter', show the equipped outfit full-render in the Home Scholar scene. Because alternate outfits do not have matching semantic pose variants, outfit appearance takes precedence over home pose. Base school uniform uses the semantic home states above.",
+    "reason": "Avoid pretending a non-school outfit is equipped while visually showing the school-uniform pose."
+  }
+}

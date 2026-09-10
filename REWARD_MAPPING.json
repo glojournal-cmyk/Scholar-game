@@ -1,0 +1,44 @@
+{
+  "exactVisualMappings": {
+    "ink-pot": {
+      "interactionAsset": "assets/scholar/reward-interactions/reward_interaction_ink_pot.png",
+      "use": [
+        "unlock celebration",
+        "reward detail"
+      ]
+    },
+    "study-books": {
+      "interactionAsset": "assets/scholar/reward-interactions/reward_interaction_book_stack.png",
+      "use": [
+        "unlock celebration",
+        "reward detail"
+      ]
+    },
+    "ivy-pot": {
+      "interactionAsset": "assets/scholar/reward-interactions/reward_interaction_plant.png",
+      "use": [
+        "unlock celebration",
+        "reward detail"
+      ]
+    }
+  },
+  "generalCelebrationAssets": {
+    "ribbon": "assets/scholar/reward-interactions/reward_interaction_ribbon.png",
+    "medal": "assets/scholar/reward-interactions/reward_interaction_medal.png",
+    "laurel": "assets/scholar/reward-interactions/reward_interaction_laurel.png",
+    "letter": "assets/scholar/reward-interactions/reward_interaction_letter.png",
+    "mastery": "assets/scholar/reward-interactions/reward_interaction_proud_book.png",
+    "prestige": "assets/scholar/reward-interactions/reward_interaction_classical_ornament.png",
+    "quill": "assets/scholar/reward-interactions/reward_interaction_quill.png"
+  },
+  "missingStandaloneItemArt": [
+    "desk-lamp",
+    "bronze-stylus",
+    "wax-tablet",
+    "fountain-pen",
+    "lavender-vase",
+    "scholars-globe",
+    "golden-lexicon"
+  ],
+  "important": "The supplied pack contains character-with-reward interaction renders, not standalone room-object cutouts. Do not place these full-character images as room furniture. Use them for unlock celebration/detail screens only."
+}

@@ -1,0 +1,135 @@
+{
+  "version": "1.0.0",
+  "principle": "Recognition builds confidence; production and application prove mastery.",
+  "formatWeights": {
+    "mc_single": {
+      "masteryWeight": 0.4,
+      "xp": 5,
+      "recognition": true
+    },
+    "typed_exact": {
+      "masteryWeight": 1,
+      "xp": 10,
+      "recognition": false
+    },
+    "typed_equivalent": {
+      "masteryWeight": 1,
+      "xp": 10,
+      "recognition": false
+    },
+    "typed_short": {
+      "masteryWeight": 1,
+      "xp": 10,
+      "recognition": false
+    },
+    "controlled_translation": {
+      "masteryWeight": 1.2,
+      "xp": 14,
+      "recognition": false
+    },
+    "spelling_restore": {
+      "masteryWeight": 1.1,
+      "xp": 12,
+      "recognition": false
+    },
+    "listen_type": {
+      "masteryWeight": 1.1,
+      "xp": 12,
+      "recognition": false
+    },
+    "word_tiles": {
+      "masteryWeight": 0.8,
+      "xp": 8,
+      "recognition": false
+    },
+    "unordered_set": {
+      "masteryWeight": 1.1,
+      "xp": 12,
+      "recognition": false
+    },
+    "matching": {
+      "masteryWeight": 0.65,
+      "xp": 7,
+      "recognition": true
+    },
+    "sequence": {
+      "masteryWeight": 0.9,
+      "xp": 10,
+      "recognition": false
+    },
+    "sorting": {
+      "masteryWeight": 0.85,
+      "xp": 9,
+      "recognition": false
+    },
+    "calculation": {
+      "masteryWeight": 1.2,
+      "xp": 14,
+      "recognition": false
+    },
+    "mark_points": {
+      "masteryWeight": 1.2,
+      "xp": 14,
+      "recognition": false
+    },
+    "practical_design": {
+      "masteryWeight": 1.35,
+      "xp": 18,
+      "recognition": false
+    },
+    "diagram_label": {
+      "masteryWeight": 0.9,
+      "xp": 10,
+      "recognition": false
+    },
+    "extended_response": {
+      "masteryWeight": 1.4,
+      "xp": 20,
+      "recognition": false
+    }
+  },
+  "conceptStates": [
+    {
+      "state": "new",
+      "requirement": "No successful evidence yet."
+    },
+    {
+      "state": "recognised",
+      "requirement": "At least one successful recognition item."
+    },
+    {
+      "state": "learning",
+      "requirement": "At least one successful production/application item."
+    },
+    {
+      "state": "consolidating",
+      "requirement": "Successful production on the 2-day review."
+    },
+    {
+      "state": "secure",
+      "requirement": "Successful production/application on the 7-day review and weighted accuracy at least 85%."
+    }
+  ],
+  "antiInflationRules": [
+    "Recognition-only answers may contribute no more than 40% of the evidence needed for secure mastery.",
+    "Repeated variants of one concept update one concept record, not separate mastery records.",
+    "A lucky MC answer cannot override a later failed typed answer.",
+    "Identical wording is not repeated within the same ordinary session."
+  ],
+  "wrongAnswerFlow": [
+    "Show the complete correct answer and a specific explanation.",
+    "Do not immediately repeat the identical card.",
+    "Re-present the same concept later through an easier or different format.",
+    "Schedule due review after about 2 days and again after about 7 days.",
+    "A wrong due review resets the next review to 2 days."
+  ],
+  "lifeRules": {
+    "noLifeLoss": [
+      "first exposure to a preview word",
+      "manual-review writing",
+      "accessibility retry"
+    ],
+    "standardLifeLoss": "Only after a learner has seen the teaching feedback and misses a previously taught concept.",
+    "bossRule": "A boss may use lives, but its score report must separate knowledge gaps from spelling/attention errors."
+  }
+}

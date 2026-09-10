@@ -1,0 +1,27 @@
+{
+  "home": {
+    "idle": "assets/scholar/home/scholar_idle.png",
+    "ready": "assets/scholar/home/scholar_ready.png",
+    "success": "assets/scholar/home/scholar_success.png",
+    "thinking": "assets/scholar/home/scholar_thinking.png"
+  },
+  "sessionAndLearning": {
+    "latinLearn": "assets/scholar/study/study_latin_textbook.png",
+    "frenchLearn": "assets/scholar/study/study_french_notebook.png",
+    "biologyLearn": "assets/scholar/study/study_biology_book.png",
+    "writing": "assets/scholar/study/study_writing_notebook.png",
+    "vocabReview": "assets/scholar/study/study_flashcards.png",
+    "dailyPlan": "assets/scholar/study/study_planner.png",
+    "worksheet": "assets/scholar/study/study_worksheet.png",
+    "readyGeneral": "assets/scholar/study/study_pen_and_book.png"
+  },
+  "feedback": {
+    "masteryMilestone": "assets/scholar/emotions/emotion_proud.png",
+    "retentionConfirmed": "assets/scholar/emotions/emotion_happy.png",
+    "extraTraining": "assets/scholar/emotions/emotion_determined.png",
+    "newTopic": "assets/scholar/emotions/emotion_curious.png",
+    "reviewDue": "assets/scholar/emotions/emotion_thoughtful.png",
+    "tiredEnd": "assets/scholar/emotions/emotion_sleepy.png",
+    "softSuccess": "assets/scholar/emotions/emotion_shy_pleased.png"
+  }
+}
