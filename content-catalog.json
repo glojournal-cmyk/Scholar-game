@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0-extension-cp",
+  "title": "TGS Year 8 Chemistry + Physics Master Content Pack V1",
+  "compatibleWith": "Master_Content_Pack_V1",
+  "subjects": [
+    "chemistry",
+    "physics"
+  ],
+  "ordinaryPlayStatus": [
+    "enabled"
+  ],
+  "previewPlayStatus": [
+    "preview"
+  ],
+  "topicCount": 23,
+  "questionCount": 805,
+  "conceptCount": 207
+}

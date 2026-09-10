@@ -1,0 +1,259 @@
+{
+  "version": "1.0.0-extension-cp",
+  "strategy": "Load this small index first, then fetch only the selected topic bundle. Ordinary sessions filter to enabled.",
+  "topics": [
+    {
+      "subject": "chemistry",
+      "topicId": "chem-y8-working-scientifically",
+      "title": "Working scientifically, safety and evidence",
+      "file": "chemistry/chem-y8-working-scientifically.json",
+      "bytes": 256093,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "chemistry",
+      "topicId": "chem-y8-formulae-valency",
+      "title": "Chemical symbols, formulae, valency and the Periodic Table",
+      "file": "chemistry/chem-y8-formulae-valency.json",
+      "bytes": 236922,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "chemistry",
+      "topicId": "chem-y8-conservation-equations",
+      "title": "Conservation of mass and balanced equations",
+      "file": "chemistry/chem-y8-conservation-equations.json",
+      "bytes": 240748,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "chemistry",
+      "topicId": "chem-y8-acids-indicators-ph",
+      "title": "Acids, alkalis, indicators and pH",
+      "file": "chemistry/chem-y8-acids-indicators-ph.json",
+      "bytes": 237027,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "chemistry",
+      "topicId": "chem-y8-neutralisation-salts",
+      "title": "Neutralisation, salts and carbonates",
+      "file": "chemistry/chem-y8-neutralisation-salts.json",
+      "bytes": 230493,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "chemistry",
+      "topicId": "chem-y8-metals-reactions",
+      "title": "Properties of metals and reactions with acids, oxygen and water",
+      "file": "chemistry/chem-y8-metals-reactions.json",
+      "bytes": 237059,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "chemistry",
+      "topicId": "chem-y8-reactivity-displacement-rusting",
+      "title": "Reactivity series, displacement and rusting",
+      "file": "chemistry/chem-y8-reactivity-displacement-rusting.json",
+      "bytes": 242200,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "chemistry",
+      "topicId": "chem-y8-chemical-analysis",
+      "title": "Chemical analysis, separation and interpreting evidence",
+      "file": "chemistry/chem-y8-chemical-analysis.json",
+      "bytes": 246364,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "chemistry",
+      "topicId": "chem-y8-energy-changes",
+      "title": "Energy changes in reactions",
+      "file": "chemistry/chem-y8-energy-changes.json",
+      "bytes": 232095,
+      "questionCount": 35,
+      "enabledCount": 0,
+      "previewCount": 35,
+      "disabledCount": 0
+    },
+    {
+      "subject": "chemistry",
+      "topicId": "chem-y8-earth-rocks-resources",
+      "title": "Earth structure, rocks, resources and carbon dioxide",
+      "file": "chemistry/chem-y8-earth-rocks-resources.json",
+      "bytes": 241584,
+      "questionCount": 35,
+      "enabledCount": 0,
+      "previewCount": 35,
+      "disabledCount": 0
+    },
+    {
+      "subject": "physics",
+      "topicId": "phys-y8-forces-newton-motion",
+      "title": "Forces, Newton's laws and motion",
+      "file": "physics/phys-y8-forces-newton-motion.json",
+      "bytes": 237633,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "physics",
+      "topicId": "phys-y8-moments-levers",
+      "title": "Moments, levers and equilibrium",
+      "file": "physics/phys-y8-moments-levers.json",
+      "bytes": 229751,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "physics",
+      "topicId": "phys-y8-pressure-density-fluids",
+      "title": "Pressure, density and fluids",
+      "file": "physics/phys-y8-pressure-density-fluids.json",
+      "bytes": 228483,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "physics",
+      "topicId": "phys-y8-speed-time-graphs",
+      "title": "Speed-time graphs and describing motion",
+      "file": "physics/phys-y8-speed-time-graphs.json",
+      "bytes": 230981,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "physics",
+      "topicId": "phys-y8-universe-stars-gravity",
+      "title": "The Universe, gravity, eclipses and stellar life cycles",
+      "file": "physics/phys-y8-universe-stars-gravity.json",
+      "bytes": 239765,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "physics",
+      "topicId": "phys-y8-light-reflection-refraction",
+      "title": "Light, reflection and refraction",
+      "file": "physics/phys-y8-light-reflection-refraction.json",
+      "bytes": 235961,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "physics",
+      "topicId": "phys-y8-colour-eye",
+      "title": "Colour, vision and the eye",
+      "file": "physics/phys-y8-colour-eye.json",
+      "bytes": 229114,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "physics",
+      "topicId": "phys-y8-circuits-current-voltage",
+      "title": "Electric circuits, current and potential difference",
+      "file": "physics/phys-y8-circuits-current-voltage.json",
+      "bytes": 239668,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "physics",
+      "topicId": "phys-y8-resistance-series-parallel",
+      "title": "Resistance in series and parallel circuits",
+      "file": "physics/phys-y8-resistance-series-parallel.json",
+      "bytes": 235150,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "physics",
+      "topicId": "phys-y8-magnets-domains",
+      "title": "Magnets, fields and domain theory",
+      "file": "physics/phys-y8-magnets-domains.json",
+      "bytes": 234226,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "physics",
+      "topicId": "phys-y8-electromagnets",
+      "title": "Electromagnets and magnetic devices",
+      "file": "physics/phys-y8-electromagnets.json",
+      "bytes": 234901,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "physics",
+      "topicId": "phys-y8-energy-stores-transfers",
+      "title": "Energy stores, transfers and dissipation",
+      "file": "physics/phys-y8-energy-stores-transfers.json",
+      "bytes": 241997,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    },
+    {
+      "subject": "physics",
+      "topicId": "phys-y8-power-efficiency",
+      "title": "Power, efficiency and energy calculations",
+      "file": "physics/phys-y8-power-efficiency.json",
+      "bytes": 230012,
+      "questionCount": 35,
+      "enabledCount": 35,
+      "previewCount": 0,
+      "disabledCount": 0
+    }
+  ]
+}

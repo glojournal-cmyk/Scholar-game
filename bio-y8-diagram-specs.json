@@ -1,0 +1,185 @@
+[
+  {
+    "id": "bio-digestive-system",
+    "title": "Digestive system",
+    "sourcePage": 6,
+    "labels": [
+      "mouth",
+      "oesophagus",
+      "stomach",
+      "liver",
+      "gall bladder",
+      "pancreas",
+      "small intestine",
+      "large intestine",
+      "rectum",
+      "anus"
+    ],
+    "treatment": "clean unlabelled scientific line diagram with separate label-anchor coordinates"
+  },
+  {
+    "id": "bio-enzyme-active-site",
+    "title": "Enzyme, substrate and active site",
+    "sourcePage": 7,
+    "labels": [
+      "enzyme",
+      "active site",
+      "substrate",
+      "enzyme-substrate complex",
+      "products"
+    ],
+    "treatment": "three-stage lock-and-key sequence without decorative detail"
+  },
+  {
+    "id": "bio-leaf-cross-section",
+    "title": "Leaf cross-section",
+    "sourcePage": 10,
+    "labels": [
+      "waxy cuticle",
+      "upper epidermis",
+      "palisade mesophyll",
+      "spongy mesophyll",
+      "air space",
+      "vascular bundle",
+      "xylem",
+      "phloem",
+      "stoma",
+      "guard cells"
+    ],
+    "treatment": "unlabelled cross-section plus independent label map"
+  },
+  {
+    "id": "bio-palisade-cell",
+    "title": "Palisade cell",
+    "sourcePage": 10,
+    "labels": [
+      "cell wall",
+      "cell membrane",
+      "cytoplasm",
+      "nucleus",
+      "vacuole",
+      "chloroplasts"
+    ],
+    "treatment": "clean unlabelled plant-cell diagram"
+  },
+  {
+    "id": "bio-light-intensity-graph",
+    "title": "Light intensity limiting-factor graph",
+    "sourcePage": 12,
+    "labels": [
+      "rate of photosynthesis",
+      "light intensity",
+      "light-limited region",
+      "plateau"
+    ],
+    "treatment": "editable vector-style graph data, not baked text"
+  },
+  {
+    "id": "bio-temperature-graph",
+    "title": "Temperature and photosynthesis",
+    "sourcePage": 13,
+    "labels": [
+      "temperature",
+      "rate",
+      "optimum",
+      "denaturation region"
+    ],
+    "treatment": "editable vector-style curve"
+  },
+  {
+    "id": "bio-food-chain",
+    "title": "Food chain energy arrows",
+    "sourcePage": 17,
+    "labels": [
+      "producer",
+      "primary consumer",
+      "secondary consumer",
+      "energy-transfer arrow"
+    ],
+    "treatment": "simple organisms with separate arrow layer"
+  },
+  {
+    "id": "bio-pyramid-biomass",
+    "title": "Pyramid of biomass",
+    "sourcePage": 17,
+    "labels": [
+      "producer",
+      "primary consumer",
+      "secondary consumer"
+    ],
+    "treatment": "three-level blank pyramid with draggable labels"
+  },
+  {
+    "id": "bio-predator-prey",
+    "title": "Predator-prey cycle",
+    "sourcePage": 19,
+    "labels": [
+      "prey line",
+      "predator line",
+      "time lag",
+      "time",
+      "population"
+    ],
+    "treatment": "two editable curves with no answer labels on learner version"
+  },
+  {
+    "id": "bio-dna-hierarchy",
+    "title": "DNA structure hierarchy",
+    "sourcePage": 36,
+    "labels": [
+      "nucleus",
+      "chromosome",
+      "DNA",
+      "gene",
+      "nucleotide"
+    ],
+    "treatment": "nested scientific diagram with separate label layer"
+  },
+  {
+    "id": "bio-punnett-square",
+    "title": "Punnett square",
+    "sourcePage": 23,
+    "labels": [
+      "parent gametes",
+      "offspring genotypes",
+      "genotype ratio",
+      "phenotype probability"
+    ],
+    "treatment": "blank 2-by-2 interactive grid"
+  },
+  {
+    "id": "bio-karyogram",
+    "title": "Karyogram and homologous pairs",
+    "sourcePage": 36,
+    "labels": [
+      "homologous pair",
+      "one maternal chromosome",
+      "one paternal chromosome"
+    ],
+    "treatment": "schematic chromosome pairs, not a diagnostic human karyotype"
+  },
+  {
+    "id": "bio-height-distribution",
+    "title": "Bell-shaped height distribution",
+    "sourcePage": 38,
+    "labels": [
+      "height class",
+      "frequency",
+      "mean region",
+      "extremes"
+    ],
+    "treatment": "chart rebuilt from the teacher grouped data"
+  },
+  {
+    "id": "bio-handspan-scatter",
+    "title": "Hand span and height scatter graph",
+    "sourcePage": 39,
+    "labels": [
+      "hand span (cm)",
+      "height (cm)",
+      "line of best fit",
+      "positive correlation"
+    ],
+    "treatment": "chart rebuilt from the exact teacher dataset"
+  }
+]

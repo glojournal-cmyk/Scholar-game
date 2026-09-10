@@ -1,0 +1,4951 @@
+[
+  {
+    "id": "bio-y8-balanced-diet-balanced-diet",
+    "topicId": "balanced-diet",
+    "group": "nutrients",
+    "term": "balanced diet",
+    "definition": "a diet supplying the right amounts of energy and all essential nutrients for health, growth and repair",
+    "aliases": [],
+    "keyPoints": [
+      "a diet supplying the right amounts of energy and all essential nutrients for health, growth and repair"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 4",
+      "page": 4,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-balanced-diet-carbohydrate",
+    "topicId": "balanced-diet",
+    "group": "nutrients",
+    "term": "carbohydrate",
+    "definition": "the body's main source of energy for respiration",
+    "aliases": [
+      "carbohydrates"
+    ],
+    "keyPoints": [
+      "the body's main source of energy for respiration"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 4",
+      "page": 4,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-balanced-diet-protein",
+    "topicId": "balanced-diet",
+    "group": "nutrients",
+    "term": "protein",
+    "definition": "needed for growth, repair and making enzymes and other proteins",
+    "aliases": [
+      "proteins"
+    ],
+    "keyPoints": [
+      "needed for growth, repair and making enzymes and other proteins"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 4",
+      "page": 4,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-balanced-diet-lipid",
+    "topicId": "balanced-diet",
+    "group": "nutrients",
+    "term": "lipid",
+    "definition": "a long-term energy store that also insulates and protects organs",
+    "aliases": [
+      "fat",
+      "fats",
+      "lipids"
+    ],
+    "keyPoints": [
+      "a long-term energy store that also insulates and protects organs"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 4",
+      "page": 4,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-balanced-diet-fibre",
+    "topicId": "balanced-diet",
+    "group": "nutrients",
+    "term": "fibre",
+    "definition": "adds bulk and helps food move through the gut, reducing constipation",
+    "aliases": [
+      "dietary fibre"
+    ],
+    "keyPoints": [
+      "adds bulk and helps food move through the gut, reducing constipation"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 4",
+      "page": 4,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-balanced-diet-vitamins",
+    "topicId": "balanced-diet",
+    "group": "nutrients",
+    "term": "vitamins",
+    "definition": "organic nutrients needed in small amounts to keep body processes healthy",
+    "aliases": [
+      "vitamin"
+    ],
+    "keyPoints": [
+      "organic nutrients needed in small amounts to keep body processes healthy"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 4",
+      "page": 4,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-balanced-diet-minerals",
+    "topicId": "balanced-diet",
+    "group": "nutrients",
+    "term": "minerals",
+    "definition": "elements needed for functions including bones, blood and nerves",
+    "aliases": [
+      "mineral ions"
+    ],
+    "keyPoints": [
+      "elements needed for functions including bones, blood and nerves"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 4",
+      "page": 4,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-balanced-diet-water",
+    "topicId": "balanced-diet",
+    "group": "nutrients",
+    "term": "water",
+    "definition": "acts as a solvent and transport medium and supports temperature control and reactions",
+    "aliases": [],
+    "keyPoints": [
+      "acts as a solvent and transport medium and supports temperature control and reactions"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 4",
+      "page": 4,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-balanced-diet-glucose",
+    "topicId": "balanced-diet",
+    "group": "digestion-products",
+    "term": "glucose",
+    "definition": "a simple soluble sugar produced when starch or carbohydrate is digested",
+    "aliases": [
+      "simple sugar",
+      "simple sugars"
+    ],
+    "keyPoints": [
+      "a simple soluble sugar produced when starch or carbohydrate is digested"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 4",
+      "page": 4,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-balanced-diet-amino-acids",
+    "topicId": "balanced-diet",
+    "group": "digestion-products",
+    "term": "amino acids",
+    "definition": "small soluble products of protein digestion used for growth and repair",
+    "aliases": [
+      "amino acid"
+    ],
+    "keyPoints": [
+      "small soluble products of protein digestion used for growth and repair"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 4",
+      "page": 4,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-balanced-diet-fatty-acids-and-glycerol",
+    "topicId": "balanced-diet",
+    "group": "digestion-products",
+    "term": "fatty acids and glycerol",
+    "definition": "the smaller products formed when lipids are digested",
+    "aliases": [
+      "fatty acids plus glycerol"
+    ],
+    "keyPoints": [
+      "the smaller products formed when lipids are digested"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 4",
+      "page": 4,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-tests-iodine-solution",
+    "topicId": "food-tests",
+    "group": "food-test-reagents",
+    "term": "iodine solution",
+    "definition": "the reagent used to test for starch",
+    "aliases": [
+      "iodine"
+    ],
+    "keyPoints": [
+      "the reagent used to test for starch"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-tests-benedict-s-solution",
+    "topicId": "food-tests",
+    "group": "food-test-reagents",
+    "term": "Benedict's solution",
+    "definition": "the reagent heated in a water bath to test for reducing sugar",
+    "aliases": [
+      "Benedict solution",
+      "Benedict's"
+    ],
+    "keyPoints": [
+      "the reagent heated in a water bath to test for reducing sugar"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-tests-biuret-solution",
+    "topicId": "food-tests",
+    "group": "food-test-reagents",
+    "term": "Biuret solution",
+    "definition": "the reagent used to test for protein",
+    "aliases": [
+      "Biuret reagent",
+      "Biuret"
+    ],
+    "keyPoints": [
+      "the reagent used to test for protein"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-tests-ethanol-emulsion-test",
+    "topicId": "food-tests",
+    "group": "food-test-reagents",
+    "term": "ethanol emulsion test",
+    "definition": "the lipid test in which ethanol is shaken with the sample before water is added",
+    "aliases": [
+      "emulsion test"
+    ],
+    "keyPoints": [
+      "the lipid test in which ethanol is shaken with the sample before water is added"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-tests-blue-black",
+    "topicId": "food-tests",
+    "group": "food-test-results",
+    "term": "blue-black",
+    "definition": "the positive colour for starch after iodine is added",
+    "aliases": [],
+    "keyPoints": [
+      "the positive colour for starch after iodine is added"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-tests-brick-red",
+    "topicId": "food-tests",
+    "group": "food-test-results",
+    "term": "brick-red",
+    "definition": "a strong positive Benedict's result for reducing sugar after heating",
+    "aliases": [
+      "orange or brick-red",
+      "green yellow orange or brick-red"
+    ],
+    "keyPoints": [
+      "a strong positive Benedict's result for reducing sugar after heating"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-tests-lilac-or-purple",
+    "topicId": "food-tests",
+    "group": "food-test-results",
+    "term": "lilac or purple",
+    "definition": "the positive colour produced by protein in the Biuret test",
+    "aliases": [
+      "purple",
+      "lilac"
+    ],
+    "keyPoints": [
+      "the positive colour produced by protein in the Biuret test"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-tests-cloudy-white-emulsion",
+    "topicId": "food-tests",
+    "group": "food-test-results",
+    "term": "cloudy white emulsion",
+    "definition": "the positive result for lipid in the ethanol emulsion test",
+    "aliases": [
+      "white emulsion",
+      "cloudy emulsion"
+    ],
+    "keyPoints": [
+      "the positive result for lipid in the ethanol emulsion test"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-tests-water-bath",
+    "topicId": "food-tests",
+    "group": "lab-safety",
+    "term": "water bath",
+    "definition": "a safer, even way to heat Benedict's test and the required indirect heating method for ethanol",
+    "aliases": [],
+    "keyPoints": [
+      "a safer, even way to heat Benedict's test and the required indirect heating method for ethanol"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-energy-bmi-energy-balance",
+    "topicId": "energy-bmi",
+    "group": "energy-health",
+    "term": "energy balance",
+    "definition": "the state in which energy intake equals energy use so body mass tends to remain stable",
+    "aliases": [],
+    "keyPoints": [
+      "the state in which energy intake equals energy use so body mass tends to remain stable"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-energy-bmi-deficiency",
+    "topicId": "energy-bmi",
+    "group": "energy-health",
+    "term": "deficiency",
+    "definition": "a shortage of a vitamin or mineral that can damage health",
+    "aliases": [],
+    "keyPoints": [
+      "a shortage of a vitamin or mineral that can damage health"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-energy-bmi-night-blindness",
+    "topicId": "energy-bmi",
+    "group": "deficiencies",
+    "term": "night blindness",
+    "definition": "a possible consequence of vitamin A deficiency",
+    "aliases": [],
+    "keyPoints": [
+      "a possible consequence of vitamin A deficiency"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-energy-bmi-rickets",
+    "topicId": "energy-bmi",
+    "group": "deficiencies",
+    "term": "rickets",
+    "definition": "weak or poorly mineralised bones caused by vitamin D deficiency",
+    "aliases": [],
+    "keyPoints": [
+      "weak or poorly mineralised bones caused by vitamin D deficiency"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-energy-bmi-scurvy",
+    "topicId": "energy-bmi",
+    "group": "deficiencies",
+    "term": "scurvy",
+    "definition": "a disease caused by vitamin C deficiency that weakens connective tissue",
+    "aliases": [],
+    "keyPoints": [
+      "a disease caused by vitamin C deficiency that weakens connective tissue"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-energy-bmi-body-mass-index",
+    "topicId": "energy-bmi",
+    "group": "energy-health",
+    "term": "body mass index",
+    "definition": "mass in kilograms divided by height in metres squared",
+    "aliases": [
+      "BMI"
+    ],
+    "keyPoints": [
+      "mass in kilograms divided by height in metres squared"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-energy-bmi-undernutrition",
+    "topicId": "energy-bmi",
+    "group": "energy-health",
+    "term": "undernutrition",
+    "definition": "receiving too little energy or nutrients, which may cause tiredness, underweight and deficiency illness",
+    "aliases": [],
+    "keyPoints": [
+      "receiving too little energy or nutrients, which may cause tiredness, underweight and deficiency illness"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-energy-bmi-obesity",
+    "topicId": "energy-bmi",
+    "group": "energy-health",
+    "term": "obesity",
+    "definition": "excess body fat associated with increased risk of cardiovascular disease, type 2 diabetes and some cancers",
+    "aliases": [],
+    "keyPoints": [
+      "excess body fat associated with increased risk of cardiovascular disease, type 2 diabetes and some cancers"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 5",
+      "page": 5,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-digestion-absorption-mouth",
+    "topicId": "digestion-absorption",
+    "group": "digestive-organs",
+    "term": "mouth",
+    "definition": "mechanically breaks food with teeth; saliva moistens it and supplies amylase",
+    "aliases": [],
+    "keyPoints": [
+      "mechanically breaks food with teeth; saliva moistens it and supplies amylase"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 6",
+      "page": 6,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-digestion-absorption-oesophagus",
+    "topicId": "digestion-absorption",
+    "group": "digestive-organs",
+    "term": "oesophagus",
+    "definition": "a muscular tube moving food to the stomach by peristalsis",
+    "aliases": [
+      "esophagus"
+    ],
+    "keyPoints": [
+      "a muscular tube moving food to the stomach by peristalsis"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 6",
+      "page": 6,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-digestion-absorption-stomach",
+    "topicId": "digestion-absorption",
+    "group": "digestive-organs",
+    "term": "stomach",
+    "definition": "churns food, provides acidic conditions, kills many microbes and begins protein digestion",
+    "aliases": [],
+    "keyPoints": [
+      "churns food, provides acidic conditions, kills many microbes and begins protein digestion"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 6",
+      "page": 6,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-digestion-absorption-liver",
+    "topicId": "digestion-absorption",
+    "group": "digestive-organs",
+    "term": "liver",
+    "definition": "produces bile, processes absorbed nutrients and detoxifies substances including alcohol",
+    "aliases": [],
+    "keyPoints": [
+      "produces bile, processes absorbed nutrients and detoxifies substances including alcohol"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 6",
+      "page": 6,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-digestion-absorption-gall-bladder",
+    "topicId": "digestion-absorption",
+    "group": "digestive-organs",
+    "term": "gall bladder",
+    "definition": "stores and releases bile",
+    "aliases": [
+      "gallbladder"
+    ],
+    "keyPoints": [
+      "stores and releases bile"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 6",
+      "page": 6,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-digestion-absorption-pancreas",
+    "topicId": "digestion-absorption",
+    "group": "digestive-organs",
+    "term": "pancreas",
+    "definition": "produces digestive enzymes that enter the small intestine",
+    "aliases": [],
+    "keyPoints": [
+      "produces digestive enzymes that enter the small intestine"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 6",
+      "page": 6,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-digestion-absorption-small-intestine",
+    "topicId": "digestion-absorption",
+    "group": "digestive-organs",
+    "term": "small intestine",
+    "definition": "completes digestion and absorbs soluble digestion products into the blood",
+    "aliases": [],
+    "keyPoints": [
+      "completes digestion and absorbs soluble digestion products into the blood"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 6",
+      "page": 6,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-digestion-absorption-large-intestine",
+    "topicId": "digestion-absorption",
+    "group": "digestive-organs",
+    "term": "large intestine",
+    "definition": "absorbs water from undigested material",
+    "aliases": [
+      "colon"
+    ],
+    "keyPoints": [
+      "absorbs water from undigested material"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 6",
+      "page": 6,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-digestion-absorption-rectum",
+    "topicId": "digestion-absorption",
+    "group": "digestive-organs",
+    "term": "rectum",
+    "definition": "stores faeces before removal",
+    "aliases": [],
+    "keyPoints": [
+      "stores faeces before removal"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 6",
+      "page": 6,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-digestion-absorption-anus",
+    "topicId": "digestion-absorption",
+    "group": "digestive-organs",
+    "term": "anus",
+    "definition": "the opening through which faeces leave the body",
+    "aliases": [],
+    "keyPoints": [
+      "the opening through which faeces leave the body"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 6",
+      "page": 6,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-digestion-absorption-absorption",
+    "topicId": "digestion-absorption",
+    "group": "absorption",
+    "term": "absorption",
+    "definition": "movement of digested soluble molecules through the small-intestine wall into the blood",
+    "aliases": [],
+    "keyPoints": [
+      "movement of digested soluble molecules through the small-intestine wall into the blood"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 6",
+      "page": 6,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-digestion-absorption-villi",
+    "topicId": "digestion-absorption",
+    "group": "absorption",
+    "term": "villi",
+    "definition": "finger-like structures that greatly increase the surface area of the small intestine",
+    "aliases": [
+      "villus"
+    ],
+    "keyPoints": [
+      "finger-like structures that greatly increase the surface area of the small intestine"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 6",
+      "page": 6,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-digestion-absorption-peristalsis",
+    "topicId": "digestion-absorption",
+    "group": "absorption",
+    "term": "peristalsis",
+    "definition": "wave-like muscular contractions that push food through the gut",
+    "aliases": [],
+    "keyPoints": [
+      "wave-like muscular contractions that push food through the gut"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 6",
+      "page": 6,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-enzymes-gut-enzyme",
+    "topicId": "enzymes-gut",
+    "group": "enzyme-terms",
+    "term": "enzyme",
+    "definition": "a protein biological catalyst that speeds up a reaction without being used up",
+    "aliases": [],
+    "keyPoints": [
+      "a protein biological catalyst that speeds up a reaction without being used up"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 7",
+      "page": 7,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-enzymes-gut-substrate",
+    "topicId": "enzymes-gut",
+    "group": "enzyme-terms",
+    "term": "substrate",
+    "definition": "the molecule that binds to an enzyme's active site",
+    "aliases": [],
+    "keyPoints": [
+      "the molecule that binds to an enzyme's active site"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 7",
+      "page": 7,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-enzymes-gut-active-site",
+    "topicId": "enzymes-gut",
+    "group": "enzyme-terms",
+    "term": "active site",
+    "definition": "the specifically shaped part of an enzyme where the substrate binds",
+    "aliases": [],
+    "keyPoints": [
+      "the specifically shaped part of an enzyme where the substrate binds"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 7",
+      "page": 7,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-enzymes-gut-specificity",
+    "topicId": "enzymes-gut",
+    "group": "enzyme-terms",
+    "term": "specificity",
+    "definition": "the property that only a substrate with a complementary shape fits an enzyme's active site",
+    "aliases": [
+      "specific"
+    ],
+    "keyPoints": [
+      "the property that only a substrate with a complementary shape fits an enzyme's active site"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 7",
+      "page": 7,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-enzymes-gut-denaturation",
+    "topicId": "enzymes-gut",
+    "group": "enzyme-terms",
+    "term": "denaturation",
+    "definition": "a change in active-site shape so the substrate no longer fits",
+    "aliases": [
+      "denatured",
+      "denaturing"
+    ],
+    "keyPoints": [
+      "a change in active-site shape so the substrate no longer fits"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 7",
+      "page": 7,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-enzymes-gut-amylase",
+    "topicId": "enzymes-gut",
+    "group": "digestive-enzymes",
+    "term": "amylase",
+    "definition": "a carbohydrase that digests starch into simple sugars",
+    "aliases": [],
+    "keyPoints": [
+      "a carbohydrase that digests starch into simple sugars"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 7",
+      "page": 7,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-enzymes-gut-protease",
+    "topicId": "enzymes-gut",
+    "group": "digestive-enzymes",
+    "term": "protease",
+    "definition": "an enzyme that digests protein into amino acids",
+    "aliases": [],
+    "keyPoints": [
+      "an enzyme that digests protein into amino acids"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 7",
+      "page": 7,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-enzymes-gut-lipase",
+    "topicId": "enzymes-gut",
+    "group": "digestive-enzymes",
+    "term": "lipase",
+    "definition": "an enzyme that digests lipid into fatty acids and glycerol",
+    "aliases": [],
+    "keyPoints": [
+      "an enzyme that digests lipid into fatty acids and glycerol"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 7",
+      "page": 7,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-enzymes-gut-optimum-temperature",
+    "topicId": "enzymes-gut",
+    "group": "enzyme-factors",
+    "term": "optimum temperature",
+    "definition": "the temperature at which an enzyme-controlled reaction has its highest rate",
+    "aliases": [],
+    "keyPoints": [
+      "the temperature at which an enzyme-controlled reaction has its highest rate"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 7",
+      "page": 7,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-enzymes-gut-low-temperature",
+    "topicId": "enzymes-gut",
+    "group": "enzyme-factors",
+    "term": "low temperature",
+    "definition": "a condition that slows molecules and reduces successful enzyme-substrate collisions",
+    "aliases": [],
+    "keyPoints": [
+      "a condition that slows molecules and reduces successful enzyme-substrate collisions"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 7",
+      "page": 7,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-enzymes-gut-beneficial-gut-bacteria",
+    "topicId": "enzymes-gut",
+    "group": "gut-bacteria",
+    "term": "beneficial gut bacteria",
+    "definition": "microorganisms that compete with harmful microbes, help break down some substances and produce useful substances",
+    "aliases": [],
+    "keyPoints": [
+      "microorganisms that compete with harmful microbes, help break down some substances and produce useful substances"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 8",
+      "page": 8,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-drugs-alcohol-drug",
+    "topicId": "drugs-alcohol",
+    "group": "drug-terms",
+    "term": "drug",
+    "definition": "a substance that changes the way the body works",
+    "aliases": [],
+    "keyPoints": [
+      "a substance that changes the way the body works"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 8",
+      "page": 8,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-drugs-alcohol-recreational-drug",
+    "topicId": "drugs-alcohol",
+    "group": "drug-terms",
+    "term": "recreational drug",
+    "definition": "a drug taken for pleasure rather than as medicine",
+    "aliases": [],
+    "keyPoints": [
+      "a drug taken for pleasure rather than as medicine"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 8",
+      "page": 8,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-drugs-alcohol-caffeine",
+    "topicId": "drugs-alcohol",
+    "group": "drug-terms",
+    "term": "caffeine",
+    "definition": "a stimulant that can affect alertness, sleep and the nervous system",
+    "aliases": [],
+    "keyPoints": [
+      "a stimulant that can affect alertness, sleep and the nervous system"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 8",
+      "page": 8,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-drugs-alcohol-association",
+    "topicId": "drugs-alcohol",
+    "group": "data-language",
+    "term": "association",
+    "definition": "a link between two variables that does not by itself prove causation",
+    "aliases": [
+      "correlation"
+    ],
+    "keyPoints": [
+      "a link between two variables that does not by itself prove causation"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 8",
+      "page": 8,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-drugs-alcohol-ethanol",
+    "topicId": "drugs-alcohol",
+    "group": "alcohol-effects",
+    "term": "ethanol",
+    "definition": "the alcohol in alcoholic drinks that is absorbed into blood and reaches the brain and other organs",
+    "aliases": [
+      "alcohol"
+    ],
+    "keyPoints": [
+      "the alcohol in alcoholic drinks that is absorbed into blood and reaches the brain and other organs"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 8",
+      "page": 8,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-drugs-alcohol-depressant",
+    "topicId": "drugs-alcohol",
+    "group": "alcohol-effects",
+    "term": "depressant",
+    "definition": "a substance that slows nervous-system activity",
+    "aliases": [],
+    "keyPoints": [
+      "a substance that slows nervous-system activity"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 8",
+      "page": 8,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-drugs-alcohol-liver",
+    "topicId": "drugs-alcohol",
+    "group": "alcohol-effects",
+    "term": "liver",
+    "definition": "the main organ responsible for detoxifying alcohol",
+    "aliases": [],
+    "keyPoints": [
+      "the main organ responsible for detoxifying alcohol"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 8",
+      "page": 8,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-drugs-alcohol-placenta",
+    "topicId": "drugs-alcohol",
+    "group": "alcohol-pregnancy",
+    "term": "placenta",
+    "definition": "the organ across which alcohol can pass from the mother's blood to the developing baby",
+    "aliases": [],
+    "keyPoints": [
+      "the organ across which alcohol can pass from the mother's blood to the developing baby"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 9",
+      "page": 9,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-drugs-alcohol-foetal-alcohol-spectrum-disorder",
+    "topicId": "drugs-alcohol",
+    "group": "alcohol-pregnancy",
+    "term": "foetal alcohol spectrum disorder",
+    "definition": "a range of learning, behavioural, communication, organ and development problems linked to alcohol exposure before birth",
+    "aliases": [
+      "FASD"
+    ],
+    "keyPoints": [
+      "a range of learning, behavioural, communication, organ and development problems linked to alcohol exposure before birth"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 9",
+      "page": 9,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-drugs-alcohol-increased-reaction-time",
+    "topicId": "drugs-alcohol",
+    "group": "alcohol-effects",
+    "term": "increased reaction time",
+    "definition": "taking longer to respond, which raises accident risk",
+    "aliases": [],
+    "keyPoints": [
+      "taking longer to respond, which raises accident risk"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 8",
+      "page": 8,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-leaf-structure-broad-flat-leaf",
+    "topicId": "leaf-structure",
+    "group": "leaf-adaptations",
+    "term": "broad flat leaf",
+    "definition": "a shape providing a large surface area for absorbing light",
+    "aliases": [],
+    "keyPoints": [
+      "a shape providing a large surface area for absorbing light"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 10",
+      "page": 10,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-leaf-structure-thin-leaf",
+    "topicId": "leaf-structure",
+    "group": "leaf-adaptations",
+    "term": "thin leaf",
+    "definition": "a leaf form giving a short diffusion distance and allowing light to reach cells",
+    "aliases": [],
+    "keyPoints": [
+      "a leaf form giving a short diffusion distance and allowing light to reach cells"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 10",
+      "page": 10,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-leaf-structure-upper-epidermis",
+    "topicId": "leaf-structure",
+    "group": "leaf-tissues",
+    "term": "upper epidermis",
+    "definition": "a transparent layer that allows light to reach palisade cells",
+    "aliases": [],
+    "keyPoints": [
+      "a transparent layer that allows light to reach palisade cells"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 10",
+      "page": 10,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-leaf-structure-palisade-mesophyll",
+    "topicId": "leaf-structure",
+    "group": "leaf-tissues",
+    "term": "palisade mesophyll",
+    "definition": "a layer near the upper leaf surface with cells containing many chloroplasts",
+    "aliases": [
+      "palisade layer"
+    ],
+    "keyPoints": [
+      "a layer near the upper leaf surface with cells containing many chloroplasts"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 10",
+      "page": 10,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-leaf-structure-spongy-mesophyll",
+    "topicId": "leaf-structure",
+    "group": "leaf-tissues",
+    "term": "spongy mesophyll",
+    "definition": "a tissue with air spaces that allow carbon dioxide and oxygen to diffuse",
+    "aliases": [],
+    "keyPoints": [
+      "a tissue with air spaces that allow carbon dioxide and oxygen to diffuse"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 10",
+      "page": 10,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-leaf-structure-stomata",
+    "topicId": "leaf-structure",
+    "group": "leaf-tissues",
+    "term": "stomata",
+    "definition": "pores controlled by guard cells that regulate gas exchange and water loss",
+    "aliases": [
+      "stoma"
+    ],
+    "keyPoints": [
+      "pores controlled by guard cells that regulate gas exchange and water loss"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 10",
+      "page": 10,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-leaf-structure-xylem",
+    "topicId": "leaf-structure",
+    "group": "leaf-transport",
+    "term": "xylem",
+    "definition": "vascular tissue bringing water and mineral ions to the leaf",
+    "aliases": [],
+    "keyPoints": [
+      "vascular tissue bringing water and mineral ions to the leaf"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 10",
+      "page": 10,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-leaf-structure-phloem",
+    "topicId": "leaf-structure",
+    "group": "leaf-transport",
+    "term": "phloem",
+    "definition": "vascular tissue carrying sugars away from the leaf",
+    "aliases": [],
+    "keyPoints": [
+      "vascular tissue carrying sugars away from the leaf"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 10",
+      "page": 10,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-leaf-structure-waxy-cuticle",
+    "topicId": "leaf-structure",
+    "group": "leaf-adaptations",
+    "term": "waxy cuticle",
+    "definition": "a waterproof layer that reduces water loss",
+    "aliases": [],
+    "keyPoints": [
+      "a waterproof layer that reduces water loss"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 10",
+      "page": 10,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-leaf-structure-chloroplast",
+    "topicId": "leaf-structure",
+    "group": "cell-parts",
+    "term": "chloroplast",
+    "definition": "an organelle containing chlorophyll where photosynthesis occurs",
+    "aliases": [
+      "chloroplasts"
+    ],
+    "keyPoints": [
+      "an organelle containing chlorophyll where photosynthesis occurs"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 10",
+      "page": 10,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-photosynthesis-glucose-photosynthesis",
+    "topicId": "photosynthesis-glucose",
+    "group": "photosynthesis",
+    "term": "photosynthesis",
+    "definition": "the process using light energy to make glucose from carbon dioxide and water, releasing oxygen",
+    "aliases": [],
+    "keyPoints": [
+      "the process using light energy to make glucose from carbon dioxide and water, releasing oxygen"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 10",
+      "page": 10,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-photosynthesis-glucose-chlorophyll",
+    "topicId": "photosynthesis-glucose",
+    "group": "photosynthesis",
+    "term": "chlorophyll",
+    "definition": "the green pigment that absorbs light energy for photosynthesis",
+    "aliases": [],
+    "keyPoints": [
+      "the green pigment that absorbs light energy for photosynthesis"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 10",
+      "page": 10,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-photosynthesis-glucose-respiration",
+    "topicId": "photosynthesis-glucose",
+    "group": "glucose-uses",
+    "term": "respiration",
+    "definition": "the process that releases energy from glucose for cell processes",
+    "aliases": [],
+    "keyPoints": [
+      "the process that releases energy from glucose for cell processes"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 11",
+      "page": 11,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-photosynthesis-glucose-starch",
+    "topicId": "photosynthesis-glucose",
+    "group": "glucose-uses",
+    "term": "starch",
+    "definition": "an insoluble compact storage carbohydrate made from glucose",
+    "aliases": [],
+    "keyPoints": [
+      "an insoluble compact storage carbohydrate made from glucose"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 11",
+      "page": 11,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-photosynthesis-glucose-cellulose",
+    "topicId": "photosynthesis-glucose",
+    "group": "glucose-uses",
+    "term": "cellulose",
+    "definition": "a carbohydrate made from glucose that strengthens plant cell walls",
+    "aliases": [],
+    "keyPoints": [
+      "a carbohydrate made from glucose that strengthens plant cell walls"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 11",
+      "page": 11,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-photosynthesis-glucose-plant-oils",
+    "topicId": "photosynthesis-glucose",
+    "group": "glucose-uses",
+    "term": "plant oils",
+    "definition": "lipid stores made from glucose, especially in seeds",
+    "aliases": [
+      "lipids",
+      "oils"
+    ],
+    "keyPoints": [
+      "lipid stores made from glucose, especially in seeds"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 11",
+      "page": 11,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-photosynthesis-glucose-amino-acids",
+    "topicId": "photosynthesis-glucose",
+    "group": "glucose-uses",
+    "term": "amino acids",
+    "definition": "molecules made using glucose and nitrate-derived nitrogen before proteins are assembled",
+    "aliases": [],
+    "keyPoints": [
+      "molecules made using glucose and nitrate-derived nitrogen before proteins are assembled"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 11",
+      "page": 11,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-photosynthesis-glucose-autotroph",
+    "topicId": "photosynthesis-glucose",
+    "group": "ecosystem-link",
+    "term": "autotroph",
+    "definition": "an organism such as a plant or alga that makes its own organic food",
+    "aliases": [
+      "producer"
+    ],
+    "keyPoints": [
+      "an organism such as a plant or alga that makes its own organic food"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 11",
+      "page": 11,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-starch-evidence-van-helmont",
+    "topicId": "starch-evidence",
+    "group": "historical-evidence",
+    "term": "Van Helmont",
+    "definition": "the scientist whose willow experiment showed plant mass did not mainly come directly from soil",
+    "aliases": [],
+    "keyPoints": [
+      "the scientist whose willow experiment showed plant mass did not mainly come directly from soil"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 11",
+      "page": 11,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-starch-evidence-priestley",
+    "topicId": "starch-evidence",
+    "group": "historical-evidence",
+    "term": "Priestley",
+    "definition": "the scientist whose mint-and-candle experiment supported that plants restore oxygen in light",
+    "aliases": [],
+    "keyPoints": [
+      "the scientist whose mint-and-candle experiment supported that plants restore oxygen in light"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 11",
+      "page": 11,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-starch-evidence-ingenhousz",
+    "topicId": "starch-evidence",
+    "group": "historical-evidence",
+    "term": "Ingenhousz",
+    "definition": "the scientist whose light/dark work showed light and green parts are needed for oxygen production",
+    "aliases": [],
+    "keyPoints": [
+      "the scientist whose light/dark work showed light and green parts are needed for oxygen production"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 11",
+      "page": 11,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-starch-evidence-senebier",
+    "topicId": "starch-evidence",
+    "group": "historical-evidence",
+    "term": "Senebier",
+    "definition": "the scientist whose aquatic-plant work supported that carbon dioxide is required",
+    "aliases": [],
+    "keyPoints": [
+      "the scientist whose aquatic-plant work supported that carbon dioxide is required"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 11",
+      "page": 11,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-starch-evidence-boiling-water",
+    "topicId": "starch-evidence",
+    "group": "leaf-test",
+    "term": "boiling water",
+    "definition": "the first leaf-test treatment that stops reactions and kills cells",
+    "aliases": [],
+    "keyPoints": [
+      "the first leaf-test treatment that stops reactions and kills cells"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 12",
+      "page": 12,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-starch-evidence-ethanol",
+    "topicId": "starch-evidence",
+    "group": "leaf-test",
+    "term": "ethanol",
+    "definition": "the liquid used in a hot-water bath to remove chlorophyll from a leaf",
+    "aliases": [],
+    "keyPoints": [
+      "the liquid used in a hot-water bath to remove chlorophyll from a leaf"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 12",
+      "page": 12,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-starch-evidence-iodine",
+    "topicId": "starch-evidence",
+    "group": "leaf-test",
+    "term": "iodine",
+    "definition": "the reagent added after decolourising a leaf to reveal starch",
+    "aliases": [],
+    "keyPoints": [
+      "the reagent added after decolourising a leaf to reveal starch"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 12",
+      "page": 12,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-starch-evidence-soda-lime",
+    "topicId": "starch-evidence",
+    "group": "photosynthesis-requirements",
+    "term": "soda lime",
+    "definition": "a substance used to remove carbon dioxide in a photosynthesis experiment",
+    "aliases": [],
+    "keyPoints": [
+      "a substance used to remove carbon dioxide in a photosynthesis experiment"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 12",
+      "page": 12,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-starch-evidence-variegated-leaf",
+    "topicId": "starch-evidence",
+    "group": "photosynthesis-requirements",
+    "term": "variegated leaf",
+    "definition": "a leaf whose green and non-green regions can test whether chlorophyll is needed",
+    "aliases": [],
+    "keyPoints": [
+      "a leaf whose green and non-green regions can test whether chlorophyll is needed"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 12",
+      "page": 12,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-starch-evidence-black-paper",
+    "topicId": "starch-evidence",
+    "group": "photosynthesis-requirements",
+    "term": "black paper",
+    "definition": "an opaque covering used to test whether light is needed for starch formation",
+    "aliases": [],
+    "keyPoints": [
+      "an opaque covering used to test whether light is needed for starch formation"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 12",
+      "page": 12,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-limiting-factors-limiting-factor",
+    "topicId": "limiting-factors",
+    "group": "limiting-factors",
+    "term": "limiting factor",
+    "definition": "the factor in shortest supply that prevents a process rate increasing further",
+    "aliases": [],
+    "keyPoints": [
+      "the factor in shortest supply that prevents a process rate increasing further"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 12",
+      "page": 12,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-limiting-factors-light-intensity",
+    "topicId": "limiting-factors",
+    "group": "limiting-factors",
+    "term": "light intensity",
+    "definition": "a factor that raises photosynthesis rate at low levels until another factor limits it",
+    "aliases": [],
+    "keyPoints": [
+      "a factor that raises photosynthesis rate at low levels until another factor limits it"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 12",
+      "page": 12,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-limiting-factors-carbon-dioxide-concentration",
+    "topicId": "limiting-factors",
+    "group": "limiting-factors",
+    "term": "carbon dioxide concentration",
+    "definition": "a reactant factor that can limit photosynthesis even in warm bright conditions",
+    "aliases": [],
+    "keyPoints": [
+      "a reactant factor that can limit photosynthesis even in warm bright conditions"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 13",
+      "page": 13,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-limiting-factors-temperature",
+    "topicId": "limiting-factors",
+    "group": "limiting-factors",
+    "term": "temperature",
+    "definition": "a factor affecting enzyme-controlled photosynthesis, with an optimum and denaturation at high values",
+    "aliases": [],
+    "keyPoints": [
+      "a factor affecting enzyme-controlled photosynthesis, with an optimum and denaturation at high values"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 13",
+      "page": 13,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-limiting-factors-plateau",
+    "topicId": "limiting-factors",
+    "group": "graph-features",
+    "term": "plateau",
+    "definition": "a level part of a graph showing that increasing the x-variable no longer raises the rate",
+    "aliases": [],
+    "keyPoints": [
+      "a level part of a graph showing that increasing the x-variable no longer raises the rate"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 12",
+      "page": 12,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-light-colour-practical-light-colour",
+    "topicId": "light-colour-practical",
+    "group": "variables",
+    "term": "light colour",
+    "definition": "the independent variable in the teacher pondweed colour investigation",
+    "aliases": [],
+    "keyPoints": [
+      "the independent variable in the teacher pondweed colour investigation"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 13",
+      "page": 13,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-light-colour-practical-oxygen-production-rate",
+    "topicId": "light-colour-practical",
+    "group": "variables",
+    "term": "oxygen production rate",
+    "definition": "the dependent variable measured as bubbles or gas volume per minute",
+    "aliases": [
+      "bubbles per minute",
+      "oxygen volume per minute"
+    ],
+    "keyPoints": [
+      "the dependent variable measured as bubbles or gas volume per minute"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 13",
+      "page": 13,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-light-colour-practical-equilibration-time",
+    "topicId": "light-colour-practical",
+    "group": "method-quality",
+    "term": "equilibration time",
+    "definition": "a waiting period after changing a filter so the pondweed adjusts before measurement",
+    "aliases": [],
+    "keyPoints": [
+      "a waiting period after changing a filter so the pondweed adjusts before measurement"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 13",
+      "page": 13,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-light-colour-practical-mean",
+    "topicId": "light-colour-practical",
+    "group": "method-quality",
+    "term": "mean",
+    "definition": "a summary calculated from repeated measurements to improve reliability",
+    "aliases": [],
+    "keyPoints": [
+      "a summary calculated from repeated measurements to improve reliability"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 13",
+      "page": 13,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-light-colour-practical-gas-syringe",
+    "topicId": "light-colour-practical",
+    "group": "method-quality",
+    "term": "gas syringe",
+    "definition": "equipment giving a more accurate oxygen-volume measure than bubble counting",
+    "aliases": [
+      "inverted measuring cylinder"
+    ],
+    "keyPoints": [
+      "equipment giving a more accurate oxygen-volume measure than bubble counting"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 13",
+      "page": 13,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-light-colour-practical-red-and-blue-light",
+    "topicId": "light-colour-practical",
+    "group": "light-colours",
+    "term": "red and blue light",
+    "definition": "wavelength regions strongly absorbed by chlorophyll and often supporting a higher rate",
+    "aliases": [],
+    "keyPoints": [
+      "wavelength regions strongly absorbed by chlorophyll and often supporting a higher rate"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 13",
+      "page": 13,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-light-colour-practical-green-light",
+    "topicId": "light-colour-practical",
+    "group": "light-colours",
+    "term": "green light",
+    "definition": "light largely reflected by chlorophyll and often supporting a lower rate",
+    "aliases": [],
+    "keyPoints": [
+      "light largely reflected by chlorophyll and often supporting a lower rate"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 13",
+      "page": 13,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-light-colour-practical-bar-chart",
+    "topicId": "light-colour-practical",
+    "group": "graph-choice",
+    "term": "bar chart",
+    "definition": "the suitable display because light colour is a discrete category",
+    "aliases": [],
+    "keyPoints": [
+      "the suitable display because light colour is a discrete category"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 13",
+      "page": 13,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-minerals-greenhouse-nitrate-ions",
+    "topicId": "minerals-greenhouse",
+    "group": "plant-minerals",
+    "term": "nitrate ions",
+    "definition": "mineral ions needed to make amino acids and proteins for growth",
+    "aliases": [
+      "nitrates"
+    ],
+    "keyPoints": [
+      "mineral ions needed to make amino acids and proteins for growth"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 14",
+      "page": 14,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-minerals-greenhouse-magnesium-ions",
+    "topicId": "minerals-greenhouse",
+    "group": "plant-minerals",
+    "term": "magnesium ions",
+    "definition": "mineral ions needed to make chlorophyll",
+    "aliases": [
+      "magnesium"
+    ],
+    "keyPoints": [
+      "mineral ions needed to make chlorophyll"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 14",
+      "page": 14,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-minerals-greenhouse-phosphate-ions",
+    "topicId": "minerals-greenhouse",
+    "group": "plant-minerals",
+    "term": "phosphate ions",
+    "definition": "mineral ions needed for DNA, membranes, energy-transfer molecules and root growth",
+    "aliases": [
+      "phosphates"
+    ],
+    "keyPoints": [
+      "mineral ions needed for DNA, membranes, energy-transfer molecules and root growth"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 14",
+      "page": 14,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-minerals-greenhouse-potassium-ions",
+    "topicId": "minerals-greenhouse",
+    "group": "plant-minerals",
+    "term": "potassium ions",
+    "definition": "mineral ions supporting enzyme activity, stomata, flowers and fruit",
+    "aliases": [
+      "potassium"
+    ],
+    "keyPoints": [
+      "mineral ions supporting enzyme activity, stomata, flowers and fruit"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 14",
+      "page": 14,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-minerals-greenhouse-interveinal-chlorosis",
+    "topicId": "minerals-greenhouse",
+    "group": "deficiency-symptoms",
+    "term": "interveinal chlorosis",
+    "definition": "yellowing between leaf veins caused by magnesium deficiency",
+    "aliases": [
+      "yellowing between veins"
+    ],
+    "keyPoints": [
+      "yellowing between leaf veins caused by magnesium deficiency"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 14",
+      "page": 14,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-minerals-greenhouse-carbon-dioxide-enrichment",
+    "topicId": "minerals-greenhouse",
+    "group": "greenhouse-control",
+    "term": "carbon dioxide enrichment",
+    "definition": "adding controlled carbon dioxide to prevent it limiting photosynthesis",
+    "aliases": [
+      "CO2 enrichment"
+    ],
+    "keyPoints": [
+      "adding controlled carbon dioxide to prevent it limiting photosynthesis"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 14",
+      "page": 14,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-minerals-greenhouse-ventilation",
+    "topicId": "minerals-greenhouse",
+    "group": "greenhouse-control",
+    "term": "ventilation",
+    "definition": "using vents or fans to refresh air and control temperature and humidity",
+    "aliases": [],
+    "keyPoints": [
+      "using vents or fans to refresh air and control temperature and humidity"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 14",
+      "page": 14,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-minerals-greenhouse-cost-effective-choice",
+    "topicId": "minerals-greenhouse",
+    "group": "greenhouse-economics",
+    "term": "cost-effective choice",
+    "definition": "a decision comparing extra crop yield with the cost and risks of inputs",
+    "aliases": [],
+    "keyPoints": [
+      "a decision comparing extra crop yield with the cost and risks of inputs"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 14",
+      "page": 14,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-classification-animalia",
+    "topicId": "classification",
+    "group": "kingdoms",
+    "term": "Animalia",
+    "definition": "multicellular organisms without cell walls that obtain food by consuming organisms",
+    "aliases": [],
+    "keyPoints": [
+      "multicellular organisms without cell walls that obtain food by consuming organisms"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-classification-plantae",
+    "topicId": "classification",
+    "group": "kingdoms",
+    "term": "Plantae",
+    "definition": "multicellular organisms with cellulose cell walls that photosynthesise",
+    "aliases": [],
+    "keyPoints": [
+      "multicellular organisms with cellulose cell walls that photosynthesise"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-classification-fungi",
+    "topicId": "classification",
+    "group": "kingdoms",
+    "term": "Fungi",
+    "definition": "organisms with chitin cell walls that feed by extracellular digestion and absorption",
+    "aliases": [],
+    "keyPoints": [
+      "organisms with chitin cell walls that feed by extracellular digestion and absorption"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-classification-protoctista",
+    "topicId": "classification",
+    "group": "kingdoms",
+    "term": "Protoctista",
+    "definition": "mostly single-celled eukaryotes with a nucleus and varied nutrition",
+    "aliases": [],
+    "keyPoints": [
+      "mostly single-celled eukaryotes with a nucleus and varied nutrition"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-classification-prokaryotae",
+    "topicId": "classification",
+    "group": "kingdoms",
+    "term": "Prokaryotae",
+    "definition": "single-celled organisms with no nucleus and circular DNA",
+    "aliases": [],
+    "keyPoints": [
+      "single-celled organisms with no nucleus and circular DNA"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-classification-mammals",
+    "topicId": "classification",
+    "group": "vertebrates",
+    "term": "mammals",
+    "definition": "vertebrates with hair or fur whose females produce milk",
+    "aliases": [],
+    "keyPoints": [
+      "vertebrates with hair or fur whose females produce milk"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-classification-birds",
+    "topicId": "classification",
+    "group": "vertebrates",
+    "term": "birds",
+    "definition": "vertebrates with feathers that lay hard-shelled eggs",
+    "aliases": [],
+    "keyPoints": [
+      "vertebrates with feathers that lay hard-shelled eggs"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-classification-reptiles",
+    "topicId": "classification",
+    "group": "vertebrates",
+    "term": "reptiles",
+    "definition": "vertebrates with dry scales and leathery eggs laid on land",
+    "aliases": [],
+    "keyPoints": [
+      "vertebrates with dry scales and leathery eggs laid on land"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-classification-amphibians",
+    "topicId": "classification",
+    "group": "vertebrates",
+    "term": "amphibians",
+    "definition": "vertebrates with moist skin and jelly-coated eggs in water",
+    "aliases": [],
+    "keyPoints": [
+      "vertebrates with moist skin and jelly-coated eggs in water"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-classification-fish",
+    "topicId": "classification",
+    "group": "vertebrates",
+    "term": "fish",
+    "definition": "vertebrates with gills, fins and wet scales",
+    "aliases": [],
+    "keyPoints": [
+      "vertebrates with gills, fins and wet scales"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-classification-branching-key",
+    "topicId": "classification",
+    "group": "classification-tools",
+    "term": "branching key",
+    "definition": "a sequence of clear yes/no choices based on observable features",
+    "aliases": [
+      "identification key"
+    ],
+    "keyPoints": [
+      "a sequence of clear yes/no choices based on observable features"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-ecology-terms-organism",
+    "topicId": "ecology-terms",
+    "group": "ecology-levels",
+    "term": "organism",
+    "definition": "one individual living thing",
+    "aliases": [],
+    "keyPoints": [
+      "one individual living thing"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-ecology-terms-population",
+    "topicId": "ecology-terms",
+    "group": "ecology-levels",
+    "term": "population",
+    "definition": "all organisms of one species living in an area and capable of interbreeding",
+    "aliases": [],
+    "keyPoints": [
+      "all organisms of one species living in an area and capable of interbreeding"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-ecology-terms-community",
+    "topicId": "ecology-terms",
+    "group": "ecology-levels",
+    "term": "community",
+    "definition": "all populations of different species living in the same area",
+    "aliases": [],
+    "keyPoints": [
+      "all populations of different species living in the same area"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-ecology-terms-habitat",
+    "topicId": "ecology-terms",
+    "group": "ecology-levels",
+    "term": "habitat",
+    "definition": "the place where an organism lives",
+    "aliases": [],
+    "keyPoints": [
+      "the place where an organism lives"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-ecology-terms-ecosystem",
+    "topicId": "ecology-terms",
+    "group": "ecology-levels",
+    "term": "ecosystem",
+    "definition": "a community plus its non-living environment and their interactions",
+    "aliases": [],
+    "keyPoints": [
+      "a community plus its non-living environment and their interactions"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-ecology-terms-ecology",
+    "topicId": "ecology-terms",
+    "group": "ecology-levels",
+    "term": "ecology",
+    "definition": "the study of interactions between organisms and their environment",
+    "aliases": [],
+    "keyPoints": [
+      "the study of interactions between organisms and their environment"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-ecology-terms-biotic-factor",
+    "topicId": "ecology-terms",
+    "group": "environmental-factors",
+    "term": "biotic factor",
+    "definition": "a living influence such as a predator, prey, competitor, pathogen or food organism",
+    "aliases": [
+      "biotic"
+    ],
+    "keyPoints": [
+      "a living influence such as a predator, prey, competitor, pathogen or food organism"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-ecology-terms-abiotic-factor",
+    "topicId": "ecology-terms",
+    "group": "environmental-factors",
+    "term": "abiotic factor",
+    "definition": "a non-living influence such as light, water, temperature, oxygen or soil pH",
+    "aliases": [
+      "abiotic"
+    ],
+    "keyPoints": [
+      "a non-living influence such as light, water, temperature, oxygen or soil pH"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 16",
+      "page": 16,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-chains-webs-producer",
+    "topicId": "food-chains-webs",
+    "group": "feeding-terms",
+    "term": "producer",
+    "definition": "an organism making its own organic food, usually by photosynthesis",
+    "aliases": [],
+    "keyPoints": [
+      "an organism making its own organic food, usually by photosynthesis"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 17",
+      "page": 17,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-chains-webs-consumer",
+    "topicId": "food-chains-webs",
+    "group": "feeding-terms",
+    "term": "consumer",
+    "definition": "an organism obtaining energy by eating other organisms",
+    "aliases": [],
+    "keyPoints": [
+      "an organism obtaining energy by eating other organisms"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 17",
+      "page": 17,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-chains-webs-herbivore",
+    "topicId": "food-chains-webs",
+    "group": "feeding-terms",
+    "term": "herbivore",
+    "definition": "a consumer that eats plants",
+    "aliases": [],
+    "keyPoints": [
+      "a consumer that eats plants"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 17",
+      "page": 17,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-chains-webs-carnivore",
+    "topicId": "food-chains-webs",
+    "group": "feeding-terms",
+    "term": "carnivore",
+    "definition": "a consumer that eats animals",
+    "aliases": [],
+    "keyPoints": [
+      "a consumer that eats animals"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 17",
+      "page": 17,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-chains-webs-omnivore",
+    "topicId": "food-chains-webs",
+    "group": "feeding-terms",
+    "term": "omnivore",
+    "definition": "a consumer that eats plants and animals",
+    "aliases": [],
+    "keyPoints": [
+      "a consumer that eats plants and animals"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 17",
+      "page": 17,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-chains-webs-decomposer",
+    "topicId": "food-chains-webs",
+    "group": "feeding-terms",
+    "term": "decomposer",
+    "definition": "an organism breaking down dead material and waste and recycling minerals",
+    "aliases": [],
+    "keyPoints": [
+      "an organism breaking down dead material and waste and recycling minerals"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 17",
+      "page": 17,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-chains-webs-trophic-level",
+    "topicId": "food-chains-webs",
+    "group": "feeding-terms",
+    "term": "trophic level",
+    "definition": "a feeding position in a food chain",
+    "aliases": [],
+    "keyPoints": [
+      "a feeding position in a food chain"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 17",
+      "page": 17,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-chains-webs-food-web",
+    "topicId": "food-chains-webs",
+    "group": "feeding-terms",
+    "term": "food web",
+    "definition": "a set of interconnected food chains in a community",
+    "aliases": [],
+    "keyPoints": [
+      "a set of interconnected food chains in a community"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 17",
+      "page": 17,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-food-chains-webs-food-to-eater-arrow",
+    "topicId": "food-chains-webs",
+    "group": "feeding-rule",
+    "term": "food-to-eater arrow",
+    "definition": "an arrow direction showing the transfer of energy from food to the organism that eats it",
+    "aliases": [
+      "arrow points from food to eater"
+    ],
+    "keyPoints": [
+      "an arrow direction showing the transfer of energy from food to the organism that eats it"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 17",
+      "page": 17,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pyramids-energy-pyramid-of-numbers",
+    "topicId": "pyramids-energy",
+    "group": "pyramids",
+    "term": "pyramid of numbers",
+    "definition": "a diagram whose bar widths represent organism numbers at each trophic level",
+    "aliases": [],
+    "keyPoints": [
+      "a diagram whose bar widths represent organism numbers at each trophic level"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 17",
+      "page": 17,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pyramids-energy-pyramid-of-biomass",
+    "topicId": "pyramids-energy",
+    "group": "pyramids",
+    "term": "pyramid of biomass",
+    "definition": "a diagram whose bar widths represent total living mass at each trophic level",
+    "aliases": [],
+    "keyPoints": [
+      "a diagram whose bar widths represent total living mass at each trophic level"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 17",
+      "page": 17,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pyramids-energy-respiration-loss",
+    "topicId": "pyramids-energy",
+    "group": "energy-loss",
+    "term": "respiration loss",
+    "definition": "energy transferred for movement and body processes and eventually to surroundings as heat",
+    "aliases": [],
+    "keyPoints": [
+      "energy transferred for movement and body processes and eventually to surroundings as heat"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 18",
+      "page": 18,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pyramids-energy-uneaten-material",
+    "topicId": "pyramids-energy",
+    "group": "energy-loss",
+    "term": "uneaten material",
+    "definition": "biomass not consumed and therefore not transferred to the next trophic level",
+    "aliases": [],
+    "keyPoints": [
+      "biomass not consumed and therefore not transferred to the next trophic level"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 18",
+      "page": 18,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pyramids-energy-egestion-and-excretion",
+    "topicId": "pyramids-energy",
+    "group": "energy-loss",
+    "term": "egestion and excretion",
+    "definition": "energy-containing material leaving as faeces or urine instead of becoming consumer biomass",
+    "aliases": [
+      "waste"
+    ],
+    "keyPoints": [
+      "energy-containing material leaving as faeces or urine instead of becoming consumer biomass"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 18",
+      "page": 18,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pyramids-energy-new-biomass",
+    "topicId": "pyramids-energy",
+    "group": "energy-transfer",
+    "term": "new biomass",
+    "definition": "stored material containing the energy available to the next trophic level",
+    "aliases": [],
+    "keyPoints": [
+      "stored material containing the energy available to the next trophic level"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 18",
+      "page": 18,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-competition-competition",
+    "topicId": "competition",
+    "group": "competition-terms",
+    "term": "competition",
+    "definition": "interaction occurring when two or more organisms require the same limited resource",
+    "aliases": [],
+    "keyPoints": [
+      "interaction occurring when two or more organisms require the same limited resource"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 18",
+      "page": 18,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-competition-intraspecific-competition",
+    "topicId": "competition",
+    "group": "competition-terms",
+    "term": "intraspecific competition",
+    "definition": "competition between members of the same species",
+    "aliases": [],
+    "keyPoints": [
+      "competition between members of the same species"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 18",
+      "page": 18,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-competition-interspecific-competition",
+    "topicId": "competition",
+    "group": "competition-terms",
+    "term": "interspecific competition",
+    "definition": "competition between members of different species",
+    "aliases": [],
+    "keyPoints": [
+      "competition between members of different species"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 18",
+      "page": 18,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-competition-limiting-factor",
+    "topicId": "competition",
+    "group": "population-growth",
+    "term": "limiting factor",
+    "definition": "a resource shortage or pressure that slows population growth",
+    "aliases": [],
+    "keyPoints": [
+      "a resource shortage or pressure that slows population growth"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 18",
+      "page": 18,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-competition-exponential-growth",
+    "topicId": "competition",
+    "group": "population-growth",
+    "term": "exponential growth",
+    "definition": "rapid increase that cannot continue indefinitely as limiting factors strengthen",
+    "aliases": [],
+    "keyPoints": [
+      "rapid increase that cannot continue indefinitely as limiting factors strengthen"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 18",
+      "page": 18,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-competition-outcompete",
+    "topicId": "competition",
+    "group": "competition-terms",
+    "term": "outcompete",
+    "definition": "to use a shared resource more successfully, reducing another species' survival or reproduction",
+    "aliases": [],
+    "keyPoints": [
+      "to use a shared resource more successfully, reducing another species' survival or reproduction"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 18",
+      "page": 18,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-predator-prey-adaptations-time-lag",
+    "topicId": "predator-prey-adaptations",
+    "group": "predator-prey",
+    "term": "time lag",
+    "definition": "the delay between an increase in prey and the later increase in predators",
+    "aliases": [],
+    "keyPoints": [
+      "the delay between an increase in prey and the later increase in predators"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 19",
+      "page": 19,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-predator-prey-adaptations-structural-adaptation",
+    "topicId": "predator-prey-adaptations",
+    "group": "adaptation-types",
+    "term": "structural adaptation",
+    "definition": "a physical body feature helping survival or reproduction",
+    "aliases": [],
+    "keyPoints": [
+      "a physical body feature helping survival or reproduction"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-predator-prey-adaptations-behavioural-adaptation",
+    "topicId": "predator-prey-adaptations",
+    "group": "adaptation-types",
+    "term": "behavioural adaptation",
+    "definition": "an action or response helping survival or reproduction",
+    "aliases": [],
+    "keyPoints": [
+      "an action or response helping survival or reproduction"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-predator-prey-adaptations-physiological-adaptation",
+    "topicId": "predator-prey-adaptations",
+    "group": "adaptation-types",
+    "term": "physiological adaptation",
+    "definition": "an internal process helping survival or reproduction",
+    "aliases": [
+      "functional adaptation"
+    ],
+    "keyPoints": [
+      "an internal process helping survival or reproduction"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-predator-prey-adaptations-camouflage",
+    "topicId": "predator-prey-adaptations",
+    "group": "adaptation-examples",
+    "term": "camouflage",
+    "definition": "colouring or pattern reducing the chance of being seen",
+    "aliases": [],
+    "keyPoints": [
+      "colouring or pattern reducing the chance of being seen"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-predator-prey-adaptations-large-snow-feet",
+    "topicId": "predator-prey-adaptations",
+    "group": "adaptation-examples",
+    "term": "large snow feet",
+    "definition": "a structural adaptation spreading weight and reducing sinking into snow",
+    "aliases": [],
+    "keyPoints": [
+      "a structural adaptation spreading weight and reducing sinking into snow"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-predator-prey-adaptations-venom-production",
+    "topicId": "predator-prey-adaptations",
+    "group": "adaptation-examples",
+    "term": "venom production",
+    "definition": "a physiological adaptation that can help capture prey or deter predators",
+    "aliases": [],
+    "keyPoints": [
+      "a physiological adaptation that can help capture prey or deter predators"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pollutants-indicators-pesticide",
+    "topicId": "pollutants-indicators",
+    "group": "pollution-terms",
+    "term": "pesticide",
+    "definition": "a chemical used to kill pests",
+    "aliases": [],
+    "keyPoints": [
+      "a chemical used to kill pests"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pollutants-indicators-persistent-pollutant",
+    "topicId": "pollutants-indicators",
+    "group": "pollution-terms",
+    "term": "persistent pollutant",
+    "definition": "a harmful substance that does not break down readily in the environment",
+    "aliases": [],
+    "keyPoints": [
+      "a harmful substance that does not break down readily in the environment"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pollutants-indicators-bioaccumulation",
+    "topicId": "pollutants-indicators",
+    "group": "pollution-terms",
+    "term": "bioaccumulation",
+    "definition": "build-up of a persistent substance within one organism over time",
+    "aliases": [],
+    "keyPoints": [
+      "build-up of a persistent substance within one organism over time"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pollutants-indicators-biomagnification",
+    "topicId": "pollutants-indicators",
+    "group": "pollution-terms",
+    "term": "biomagnification",
+    "definition": "increase in pollutant concentration at higher trophic levels",
+    "aliases": [],
+    "keyPoints": [
+      "increase in pollutant concentration at higher trophic levels"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pollutants-indicators-ddt",
+    "topicId": "pollutants-indicators",
+    "group": "pollution-effects",
+    "term": "DDT",
+    "definition": "a persistent pesticide associated with thinner eggshells and reduced hatching in birds of prey",
+    "aliases": [],
+    "keyPoints": [
+      "a persistent pesticide associated with thinner eggshells and reduced hatching in birds of prey"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pollutants-indicators-mercury",
+    "topicId": "pollutants-indicators",
+    "group": "pollution-effects",
+    "term": "mercury",
+    "definition": "a persistent pollutant that can biomagnify through aquatic food chains",
+    "aliases": [],
+    "keyPoints": [
+      "a persistent pollutant that can biomagnify through aquatic food chains"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pollutants-indicators-indicator-species",
+    "topicId": "pollutants-indicators",
+    "group": "indicator-species",
+    "term": "indicator species",
+    "definition": "an organism whose presence, absence or abundance indicates environmental conditions",
+    "aliases": [],
+    "keyPoints": [
+      "an organism whose presence, absence or abundance indicates environmental conditions"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pollutants-indicators-bushy-lichens",
+    "topicId": "pollutants-indicators",
+    "group": "indicator-species",
+    "term": "bushy lichens",
+    "definition": "air-pollution indicators associated with very clean air",
+    "aliases": [],
+    "keyPoints": [
+      "air-pollution indicators associated with very clean air"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pollutants-indicators-mayfly-larvae",
+    "topicId": "pollutants-indicators",
+    "group": "indicator-species",
+    "term": "mayfly larvae",
+    "definition": "water indicators associated with clean oxygen-rich water",
+    "aliases": [
+      "stonefly larvae"
+    ],
+    "keyPoints": [
+      "water indicators associated with clean oxygen-rich water"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pollutants-indicators-water-louse",
+    "topicId": "pollutants-indicators",
+    "group": "indicator-species",
+    "term": "water louse",
+    "definition": "a water indicator associated with higher pollution or lower dissolved oxygen",
+    "aliases": [],
+    "keyPoints": [
+      "a water indicator associated with higher pollution or lower dissolved oxygen"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-pollutants-indicators-sludgeworm",
+    "topicId": "pollutants-indicators",
+    "group": "indicator-species",
+    "term": "sludgeworm",
+    "definition": "an indicator able to tolerate very polluted low-oxygen water",
+    "aliases": [
+      "rat-tailed maggot"
+    ],
+    "keyPoints": [
+      "an indicator able to tolerate very polluted low-oxygen water"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 20",
+      "page": 20,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-dna-genes-dna",
+    "topicId": "dna-genes",
+    "group": "genetic-terms",
+    "term": "DNA",
+    "definition": "the double-helix molecule carrying genetic information",
+    "aliases": [
+      "deoxyribonucleic acid"
+    ],
+    "keyPoints": [
+      "the double-helix molecule carrying genetic information"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-dna-genes-chromosome",
+    "topicId": "dna-genes",
+    "group": "genetic-terms",
+    "term": "chromosome",
+    "definition": "a long coiled DNA molecule containing many genes",
+    "aliases": [],
+    "keyPoints": [
+      "a long coiled DNA molecule containing many genes"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-dna-genes-gene",
+    "topicId": "dna-genes",
+    "group": "genetic-terms",
+    "term": "gene",
+    "definition": "a section of DNA containing instructions for making a protein",
+    "aliases": [],
+    "keyPoints": [
+      "a section of DNA containing instructions for making a protein"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-dna-genes-allele",
+    "topicId": "dna-genes",
+    "group": "genetic-terms",
+    "term": "allele",
+    "definition": "a different version of the same gene",
+    "aliases": [],
+    "keyPoints": [
+      "a different version of the same gene"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-dna-genes-genome",
+    "topicId": "dna-genes",
+    "group": "genetic-terms",
+    "term": "genome",
+    "definition": "all of an organism's genetic material",
+    "aliases": [],
+    "keyPoints": [
+      "all of an organism's genetic material"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-dna-genes-adenine",
+    "topicId": "dna-genes",
+    "group": "dna-bases",
+    "term": "adenine",
+    "definition": "the DNA base A that pairs with thymine",
+    "aliases": [
+      "A"
+    ],
+    "keyPoints": [
+      "the DNA base A that pairs with thymine"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-dna-genes-thymine",
+    "topicId": "dna-genes",
+    "group": "dna-bases",
+    "term": "thymine",
+    "definition": "the DNA base T that pairs with adenine",
+    "aliases": [
+      "T"
+    ],
+    "keyPoints": [
+      "the DNA base T that pairs with adenine"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-dna-genes-cytosine",
+    "topicId": "dna-genes",
+    "group": "dna-bases",
+    "term": "cytosine",
+    "definition": "the DNA base C that pairs with guanine",
+    "aliases": [
+      "C"
+    ],
+    "keyPoints": [
+      "the DNA base C that pairs with guanine"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-dna-genes-guanine",
+    "topicId": "dna-genes",
+    "group": "dna-bases",
+    "term": "guanine",
+    "definition": "the DNA base G that pairs with cytosine",
+    "aliases": [
+      "G"
+    ],
+    "keyPoints": [
+      "the DNA base G that pairs with cytosine"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-fertilisation-inheritance-meiosis",
+    "topicId": "fertilisation-inheritance",
+    "group": "inheritance-terms",
+    "term": "meiosis",
+    "definition": "cell division producing gametes with half the usual chromosome number",
+    "aliases": [],
+    "keyPoints": [
+      "cell division producing gametes with half the usual chromosome number"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-fertilisation-inheritance-fertilisation",
+    "topicId": "fertilisation-inheritance",
+    "group": "inheritance-terms",
+    "term": "fertilisation",
+    "definition": "fusion of a sperm nucleus and egg nucleus",
+    "aliases": [],
+    "keyPoints": [
+      "fusion of a sperm nucleus and egg nucleus"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-fertilisation-inheritance-zygote",
+    "topicId": "fertilisation-inheritance",
+    "group": "inheritance-terms",
+    "term": "zygote",
+    "definition": "the cell formed at fertilisation containing chromosomes from both parents",
+    "aliases": [],
+    "keyPoints": [
+      "the cell formed at fertilisation containing chromosomes from both parents"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-fertilisation-inheritance-dominant-allele",
+    "topicId": "fertilisation-inheritance",
+    "group": "inheritance-terms",
+    "term": "dominant allele",
+    "definition": "an allele expressed when at least one copy is present",
+    "aliases": [],
+    "keyPoints": [
+      "an allele expressed when at least one copy is present"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-fertilisation-inheritance-recessive-allele",
+    "topicId": "fertilisation-inheritance",
+    "group": "inheritance-terms",
+    "term": "recessive allele",
+    "definition": "an allele expressed only when no dominant allele is present",
+    "aliases": [],
+    "keyPoints": [
+      "an allele expressed only when no dominant allele is present"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-fertilisation-inheritance-genotype",
+    "topicId": "fertilisation-inheritance",
+    "group": "inheritance-terms",
+    "term": "genotype",
+    "definition": "the combination of alleles an organism has for a gene",
+    "aliases": [],
+    "keyPoints": [
+      "the combination of alleles an organism has for a gene"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-fertilisation-inheritance-phenotype",
+    "topicId": "fertilisation-inheritance",
+    "group": "inheritance-terms",
+    "term": "phenotype",
+    "definition": "the observable characteristic resulting from genotype and environment",
+    "aliases": [],
+    "keyPoints": [
+      "the observable characteristic resulting from genotype and environment"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-fertilisation-inheritance-homozygous",
+    "topicId": "fertilisation-inheritance",
+    "group": "inheritance-terms",
+    "term": "homozygous",
+    "definition": "having two identical alleles for a gene",
+    "aliases": [],
+    "keyPoints": [
+      "having two identical alleles for a gene"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-fertilisation-inheritance-heterozygous",
+    "topicId": "fertilisation-inheritance",
+    "group": "inheritance-terms",
+    "term": "heterozygous",
+    "definition": "having two different alleles for a gene",
+    "aliases": [],
+    "keyPoints": [
+      "having two different alleles for a gene"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-fertilisation-inheritance-carrier",
+    "topicId": "fertilisation-inheritance",
+    "group": "inheritance-terms",
+    "term": "carrier",
+    "definition": "a heterozygous individual with one recessive disorder allele who usually does not show the recessive phenotype",
+    "aliases": [],
+    "keyPoints": [
+      "a heterozygous individual with one recessive disorder allele who usually does not show the recessive phenotype"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 22",
+      "page": 22,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-punnett-squares-gamete",
+    "topicId": "punnett-squares",
+    "group": "punnett-terms",
+    "term": "gamete",
+    "definition": "a sex cell carrying one allele for each gene considered in a simple cross",
+    "aliases": [],
+    "keyPoints": [
+      "a sex cell carrying one allele for each gene considered in a simple cross"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 23",
+      "page": 23,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-punnett-squares-probability",
+    "topicId": "punnett-squares",
+    "group": "punnett-terms",
+    "term": "probability",
+    "definition": "the chance of an outcome rather than a guarantee for a small number of births",
+    "aliases": [],
+    "keyPoints": [
+      "the chance of an outcome rather than a guarantee for a small number of births"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 23",
+      "page": 23,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-punnett-squares-genotype-ratio",
+    "topicId": "punnett-squares",
+    "group": "punnett-terms",
+    "term": "genotype ratio",
+    "definition": "the relative predicted frequencies of allele combinations",
+    "aliases": [],
+    "keyPoints": [
+      "the relative predicted frequencies of allele combinations"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 23",
+      "page": 23,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-punnett-squares-phenotype-probability",
+    "topicId": "punnett-squares",
+    "group": "punnett-terms",
+    "term": "phenotype probability",
+    "definition": "the predicted chance of each observable characteristic",
+    "aliases": [],
+    "keyPoints": [
+      "the predicted chance of each observable characteristic"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 23",
+      "page": 23,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-variation-mutation-genetic-variation",
+    "topicId": "variation-mutation",
+    "group": "variation-types",
+    "term": "genetic variation",
+    "definition": "differences caused by alleles inherited from parents",
+    "aliases": [
+      "inherited variation"
+    ],
+    "keyPoints": [
+      "differences caused by alleles inherited from parents"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 23",
+      "page": 23,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-variation-mutation-environmental-variation",
+    "topicId": "variation-mutation",
+    "group": "variation-types",
+    "term": "environmental variation",
+    "definition": "differences caused by conditions or experiences",
+    "aliases": [],
+    "keyPoints": [
+      "differences caused by conditions or experiences"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 23",
+      "page": 23,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-variation-mutation-combined-variation",
+    "topicId": "variation-mutation",
+    "group": "variation-types",
+    "term": "combined variation",
+    "definition": "differences influenced by both genes and environmental conditions",
+    "aliases": [
+      "both genetic and environmental"
+    ],
+    "keyPoints": [
+      "differences influenced by both genes and environmental conditions"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 23",
+      "page": 23,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-variation-mutation-mutation",
+    "topicId": "variation-mutation",
+    "group": "mutation-terms",
+    "term": "mutation",
+    "definition": "a random change in the DNA base sequence of a gene or chromosome",
+    "aliases": [],
+    "keyPoints": [
+      "a random change in the DNA base sequence of a gene or chromosome"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 24",
+      "page": 24,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-variation-mutation-mutagen",
+    "topicId": "variation-mutation",
+    "group": "mutation-terms",
+    "term": "mutagen",
+    "definition": "radiation or a chemical that increases mutation rate",
+    "aliases": [],
+    "keyPoints": [
+      "radiation or a chemical that increases mutation rate"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 24",
+      "page": 24,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-variation-mutation-body-cell-mutation",
+    "topicId": "variation-mutation",
+    "group": "mutation-terms",
+    "term": "body-cell mutation",
+    "definition": "a mutation affecting a cell line that is not normally inherited",
+    "aliases": [],
+    "keyPoints": [
+      "a mutation affecting a cell line that is not normally inherited"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 24",
+      "page": 24,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-variation-mutation-gamete-line-mutation",
+    "topicId": "variation-mutation",
+    "group": "mutation-terms",
+    "term": "gamete-line mutation",
+    "definition": "a mutation in a gamete-producing cell that can be passed to offspring",
+    "aliases": [],
+    "keyPoints": [
+      "a mutation in a gamete-producing cell that can be passed to offspring"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 24",
+      "page": 24,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-genetic-disorders-huntington-s-disease",
+    "topicId": "genetic-disorders",
+    "group": "disorders",
+    "term": "Huntington's disease",
+    "definition": "a progressive disorder associated with a dominant allele and movement, thinking, mood and coordination problems",
+    "aliases": [],
+    "keyPoints": [
+      "a progressive disorder associated with a dominant allele and movement, thinking, mood and coordination problems"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 24",
+      "page": 24,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-genetic-disorders-sickle-cell-disease",
+    "topicId": "genetic-disorders",
+    "group": "disorders",
+    "term": "sickle cell disease",
+    "definition": "a recessive haemoglobin disorder causing sickled red cells, anaemia, pain and blocked vessels",
+    "aliases": [],
+    "keyPoints": [
+      "a recessive haemoglobin disorder causing sickled red cells, anaemia, pain and blocked vessels"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 24",
+      "page": 24,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-genetic-disorders-polydactyly",
+    "topicId": "genetic-disorders",
+    "group": "disorders",
+    "term": "polydactyly",
+    "definition": "an inherited characteristic, often dominant or a new mutation, causing an extra finger or toe",
+    "aliases": [],
+    "keyPoints": [
+      "an inherited characteristic, often dominant or a new mutation, causing an extra finger or toe"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 24",
+      "page": 24,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-genetic-disorders-haemophilia",
+    "topicId": "genetic-disorders",
+    "group": "disorders",
+    "term": "haemophilia",
+    "definition": "a usually X-linked recessive disorder in which blood clots slowly",
+    "aliases": [],
+    "keyPoints": [
+      "a usually X-linked recessive disorder in which blood clots slowly"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 24",
+      "page": 24,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-natural-selection-evolution",
+    "topicId": "natural-selection",
+    "group": "evolution-terms",
+    "term": "evolution",
+    "definition": "change in inherited characteristics of populations over many generations",
+    "aliases": [],
+    "keyPoints": [
+      "change in inherited characteristics of populations over many generations"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 24",
+      "page": 24,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-natural-selection-natural-selection",
+    "topicId": "natural-selection",
+    "group": "evolution-terms",
+    "term": "natural selection",
+    "definition": "the process in which better-adapted inherited variants survive and reproduce more, making their alleles more common",
+    "aliases": [],
+    "keyPoints": [
+      "the process in which better-adapted inherited variants survive and reproduce more, making their alleles more common"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 24",
+      "page": 24,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-natural-selection-inherited-variation",
+    "topicId": "natural-selection",
+    "group": "selection-sequence",
+    "term": "inherited variation",
+    "definition": "pre-existing heritable differences among individuals in a population",
+    "aliases": [],
+    "keyPoints": [
+      "pre-existing heritable differences among individuals in a population"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 24",
+      "page": 24,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-natural-selection-selection-pressure",
+    "topicId": "natural-selection",
+    "group": "selection-sequence",
+    "term": "selection pressure",
+    "definition": "an environmental factor affecting which variants survive and reproduce",
+    "aliases": [],
+    "keyPoints": [
+      "an environmental factor affecting which variants survive and reproduce"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 24",
+      "page": 24,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-natural-selection-differential-reproduction",
+    "topicId": "natural-selection",
+    "group": "selection-sequence",
+    "term": "differential reproduction",
+    "definition": "better-adapted individuals producing more surviving offspring",
+    "aliases": [],
+    "keyPoints": [
+      "better-adapted individuals producing more surviving offspring"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 24",
+      "page": 24,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-natural-selection-fossil-record",
+    "topicId": "natural-selection",
+    "group": "evolution-evidence",
+    "term": "fossil record",
+    "definition": "preserved evidence showing organisms and forms changing through time",
+    "aliases": [],
+    "keyPoints": [
+      "preserved evidence showing organisms and forms changing through time"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 24",
+      "page": 24,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-natural-selection-dna-similarity",
+    "topicId": "natural-selection",
+    "group": "evolution-evidence",
+    "term": "DNA similarity",
+    "definition": "molecular evidence that can indicate evolutionary relationships",
+    "aliases": [],
+    "keyPoints": [
+      "molecular evidence that can indicate evolutionary relationships"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 24",
+      "page": 24,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-variables-quality-independent-variable",
+    "topicId": "variables-quality",
+    "group": "variables",
+    "term": "independent variable",
+    "definition": "the factor deliberately changed in an investigation",
+    "aliases": [
+      "IV"
+    ],
+    "keyPoints": [
+      "the factor deliberately changed in an investigation"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 26",
+      "page": 26,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-variables-quality-dependent-variable",
+    "topicId": "variables-quality",
+    "group": "variables",
+    "term": "dependent variable",
+    "definition": "the factor measured in an investigation",
+    "aliases": [
+      "DV"
+    ],
+    "keyPoints": [
+      "the factor measured in an investigation"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 26",
+      "page": 26,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-variables-quality-control-variable",
+    "topicId": "variables-quality",
+    "group": "variables",
+    "term": "control variable",
+    "definition": "a factor kept the same to make a test valid",
+    "aliases": [
+      "CV"
+    ],
+    "keyPoints": [
+      "a factor kept the same to make a test valid"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 26",
+      "page": 26,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-variables-quality-control-group",
+    "topicId": "variables-quality",
+    "group": "variables",
+    "term": "control group",
+    "definition": "a comparison group without the tested treatment or with a standard treatment",
+    "aliases": [],
+    "keyPoints": [
+      "a comparison group without the tested treatment or with a standard treatment"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 26",
+      "page": 26,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-variables-quality-reliability",
+    "topicId": "variables-quality",
+    "group": "data-quality",
+    "term": "reliability",
+    "definition": "the extent to which repeated measurements are consistent",
+    "aliases": [],
+    "keyPoints": [
+      "the extent to which repeated measurements are consistent"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 26",
+      "page": 26,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-variables-quality-validity",
+    "topicId": "variables-quality",
+    "group": "data-quality",
+    "term": "validity",
+    "definition": "the extent to which a method tests the intended relationship",
+    "aliases": [],
+    "keyPoints": [
+      "the extent to which a method tests the intended relationship"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 26",
+      "page": 26,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-variables-quality-accuracy",
+    "topicId": "variables-quality",
+    "group": "data-quality",
+    "term": "accuracy",
+    "definition": "closeness of a measurement to the true value",
+    "aliases": [],
+    "keyPoints": [
+      "closeness of a measurement to the true value"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 26",
+      "page": 26,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-variables-quality-anomaly",
+    "topicId": "variables-quality",
+    "group": "data-quality",
+    "term": "anomaly",
+    "definition": "a result that does not fit the overall pattern",
+    "aliases": [],
+    "keyPoints": [
+      "a result that does not fit the overall pattern"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 26",
+      "page": 26,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-graphs-calculations-bar-chart",
+    "topicId": "graphs-calculations",
+    "group": "graph-types",
+    "term": "bar chart",
+    "definition": "a graph suitable for discrete or categorical independent variables",
+    "aliases": [],
+    "keyPoints": [
+      "a graph suitable for discrete or categorical independent variables"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 26",
+      "page": 26,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-graphs-calculations-line-graph",
+    "topicId": "graphs-calculations",
+    "group": "graph-types",
+    "term": "line graph",
+    "definition": "a graph suitable for showing change in a continuous variable",
+    "aliases": [],
+    "keyPoints": [
+      "a graph suitable for showing change in a continuous variable"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 26",
+      "page": 26,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-graphs-calculations-scatter-graph",
+    "topicId": "graphs-calculations",
+    "group": "graph-types",
+    "term": "scatter graph",
+    "definition": "a graph comparing two continuous variables to look for correlation",
+    "aliases": [],
+    "keyPoints": [
+      "a graph comparing two continuous variables to look for correlation"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 26",
+      "page": 26,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-graphs-calculations-mean",
+    "topicId": "graphs-calculations",
+    "group": "calculations",
+    "term": "mean",
+    "definition": "the sum of valid repeat values divided by the number of values",
+    "aliases": [],
+    "keyPoints": [
+      "the sum of valid repeat values divided by the number of values"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 26",
+      "page": 26,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-graphs-calculations-percentage-change",
+    "topicId": "graphs-calculations",
+    "group": "calculations",
+    "term": "percentage change",
+    "definition": "the change divided by the original value and multiplied by 100",
+    "aliases": [],
+    "keyPoints": [
+      "the change divided by the original value and multiplied by 100"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 26",
+      "page": 26,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-graphs-calculations-grams-to-milligrams",
+    "topicId": "graphs-calculations",
+    "group": "unit-conversions",
+    "term": "grams to milligrams",
+    "definition": "multiply the gram value by 1000",
+    "aliases": [
+      "g to mg"
+    ],
+    "keyPoints": [
+      "multiply the gram value by 1000"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 27",
+      "page": 27,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-graphs-calculations-millimetres-to-micrometres",
+    "topicId": "graphs-calculations",
+    "group": "unit-conversions",
+    "term": "millimetres to micrometres",
+    "definition": "multiply the millimetre value by 1000",
+    "aliases": [
+      "mm to micrometres"
+    ],
+    "keyPoints": [
+      "multiply the millimetre value by 1000"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 27",
+      "page": 27,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-graphs-calculations-x-axis",
+    "topicId": "graphs-calculations",
+    "group": "graph-conventions",
+    "term": "x-axis",
+    "definition": "the axis normally carrying the independent variable",
+    "aliases": [],
+    "keyPoints": [
+      "the axis normally carrying the independent variable"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 26",
+      "page": 26,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-graphs-calculations-y-axis",
+    "topicId": "graphs-calculations",
+    "group": "graph-conventions",
+    "term": "y-axis",
+    "definition": "the axis normally carrying the dependent variable",
+    "aliases": [],
+    "keyPoints": [
+      "the axis normally carrying the dependent variable"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 26",
+      "page": 26,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-practical-conclusions-conclusion",
+    "topicId": "practical-conclusions",
+    "group": "scientific-writing",
+    "term": "conclusion",
+    "definition": "a statement of what the results show, including the pattern and evidence",
+    "aliases": [],
+    "keyPoints": [
+      "a statement of what the results show, including the pattern and evidence"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 27",
+      "page": 27,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-practical-conclusions-explanation",
+    "topicId": "practical-conclusions",
+    "group": "scientific-writing",
+    "term": "explanation",
+    "definition": "a scientific reason accounting for the observed pattern",
+    "aliases": [],
+    "keyPoints": [
+      "a scientific reason accounting for the observed pattern"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 27",
+      "page": 27,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-practical-conclusions-repeat",
+    "topicId": "practical-conclusions",
+    "group": "method-quality",
+    "term": "repeat",
+    "definition": "another measurement used to assess consistency and calculate a mean",
+    "aliases": [
+      "repeats"
+    ],
+    "keyPoints": [
+      "another measurement used to assess consistency and calculate a mean"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 27",
+      "page": 27,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-practical-conclusions-measurement-improvement",
+    "topicId": "practical-conclusions",
+    "group": "method-quality",
+    "term": "measurement improvement",
+    "definition": "a change making a result more precise or accurate without changing the intended variable",
+    "aliases": [],
+    "keyPoints": [
+      "a change making a result more precise or accurate without changing the intended variable"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 27",
+      "page": 27,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-smoking-health-tar",
+    "topicId": "smoking-health",
+    "group": "smoke-substances",
+    "term": "tar",
+    "definition": "a sticky mixture containing carcinogens that damages cilia and alveoli",
+    "aliases": [],
+    "keyPoints": [
+      "a sticky mixture containing carcinogens that damages cilia and alveoli"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 32",
+      "page": 32,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-smoking-health-nicotine",
+    "topicId": "smoking-health",
+    "group": "smoke-substances",
+    "term": "nicotine",
+    "definition": "an addictive stimulant that raises heart rate and blood pressure and narrows vessels",
+    "aliases": [],
+    "keyPoints": [
+      "an addictive stimulant that raises heart rate and blood pressure and narrows vessels"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 32",
+      "page": 32,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-smoking-health-carbon-monoxide",
+    "topicId": "smoking-health",
+    "group": "smoke-substances",
+    "term": "carbon monoxide",
+    "definition": "a gas that binds strongly to haemoglobin and reduces oxygen transport",
+    "aliases": [
+      "CO"
+    ],
+    "keyPoints": [
+      "a gas that binds strongly to haemoglobin and reduces oxygen transport"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 32",
+      "page": 32,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-smoking-health-emphysema",
+    "topicId": "smoking-health",
+    "group": "lung-damage",
+    "term": "emphysema",
+    "definition": "damage in which alveolar walls break down, reducing surface area and elastic recoil",
+    "aliases": [],
+    "keyPoints": [
+      "damage in which alveolar walls break down, reducing surface area and elastic recoil"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 32",
+      "page": 32,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-smoking-health-chronic-bronchitis",
+    "topicId": "smoking-health",
+    "group": "lung-damage",
+    "term": "chronic bronchitis",
+    "definition": "long-term airway inflammation and mucus associated with damaged cilia",
+    "aliases": [],
+    "keyPoints": [
+      "long-term airway inflammation and mucus associated with damaged cilia"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 32",
+      "page": 32,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-smoking-health-carcinogen",
+    "topicId": "smoking-health",
+    "group": "lung-damage",
+    "term": "carcinogen",
+    "definition": "a substance increasing mutation risk and therefore the chance of uncontrolled cell division",
+    "aliases": [],
+    "keyPoints": [
+      "a substance increasing mutation risk and therefore the chance of uncontrolled cell division"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 32",
+      "page": 32,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-fats-cholesterol-saturated-fat",
+    "topicId": "fats-cholesterol",
+    "group": "fat-types",
+    "term": "saturated fat",
+    "definition": "fat whose fatty-acid chains contain no carbon-carbon double bonds",
+    "aliases": [
+      "saturated fats"
+    ],
+    "keyPoints": [
+      "fat whose fatty-acid chains contain no carbon-carbon double bonds"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 33",
+      "page": 33,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-fats-cholesterol-unsaturated-fat",
+    "topicId": "fats-cholesterol",
+    "group": "fat-types",
+    "term": "unsaturated fat",
+    "definition": "fat whose fatty-acid chains contain one or more carbon-carbon double bonds",
+    "aliases": [
+      "unsaturated fats"
+    ],
+    "keyPoints": [
+      "fat whose fatty-acid chains contain one or more carbon-carbon double bonds"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 33",
+      "page": 33,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-fats-cholesterol-cholesterol",
+    "topicId": "fats-cholesterol",
+    "group": "cholesterol",
+    "term": "cholesterol",
+    "definition": "a lipid needed in cell membranes and for some hormones and carried in lipoproteins",
+    "aliases": [],
+    "keyPoints": [
+      "a lipid needed in cell membranes and for some hormones and carried in lipoproteins"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 33",
+      "page": 33,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-fats-cholesterol-ldl",
+    "topicId": "fats-cholesterol",
+    "group": "cholesterol",
+    "term": "LDL",
+    "definition": "a lipoprotein associated with cholesterol deposition in artery walls",
+    "aliases": [],
+    "keyPoints": [
+      "a lipoprotein associated with cholesterol deposition in artery walls"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 33",
+      "page": 33,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-fats-cholesterol-hdl",
+    "topicId": "fats-cholesterol",
+    "group": "cholesterol",
+    "term": "HDL",
+    "definition": "a lipoprotein helping transport cholesterol back towards the liver",
+    "aliases": [],
+    "keyPoints": [
+      "a lipoprotein helping transport cholesterol back towards the liver"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 33",
+      "page": 33,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-nutrition-labels-per-100-g",
+    "topicId": "nutrition-labels",
+    "group": "label-reading",
+    "term": "per 100 g",
+    "definition": "a standard comparison basis allowing fair comparison between foods",
+    "aliases": [],
+    "keyPoints": [
+      "a standard comparison basis allowing fair comparison between foods"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 33",
+      "page": 33,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-nutrition-labels-portion-mass",
+    "topicId": "nutrition-labels",
+    "group": "label-reading",
+    "term": "portion mass",
+    "definition": "the actual mass eaten and used to scale a per-100-g value",
+    "aliases": [],
+    "keyPoints": [
+      "the actual mass eaten and used to scale a per-100-g value"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 33",
+      "page": 33,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-nutrition-labels-kilojoule",
+    "topicId": "nutrition-labels",
+    "group": "label-reading",
+    "term": "kilojoule",
+    "definition": "an energy unit that should not be treated as numerically interchangeable with a kilocalorie",
+    "aliases": [
+      "kJ"
+    ],
+    "keyPoints": [
+      "an energy unit that should not be treated as numerically interchangeable with a kilocalorie"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 33",
+      "page": 33,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-nutrition-labels-kilocalorie",
+    "topicId": "nutrition-labels",
+    "group": "label-reading",
+    "term": "kilocalorie",
+    "definition": "an energy unit different in numerical scale from a kilojoule",
+    "aliases": [
+      "kcal"
+    ],
+    "keyPoints": [
+      "an energy unit different in numerical scale from a kilojoule"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 33",
+      "page": 33,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-binomial-naming-domain",
+    "topicId": "binomial-naming",
+    "group": "classification-ranks",
+    "term": "domain",
+    "definition": "the broadest classification rank in the source hierarchy",
+    "aliases": [],
+    "keyPoints": [
+      "the broadest classification rank in the source hierarchy"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 34",
+      "page": 34,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-binomial-naming-kingdom",
+    "topicId": "binomial-naming",
+    "group": "classification-ranks",
+    "term": "kingdom",
+    "definition": "a major classification group below domain",
+    "aliases": [],
+    "keyPoints": [
+      "a major classification group below domain"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 34",
+      "page": 34,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-binomial-naming-phylum",
+    "topicId": "binomial-naming",
+    "group": "classification-ranks",
+    "term": "phylum",
+    "definition": "the body-plan rank below kingdom",
+    "aliases": [],
+    "keyPoints": [
+      "the body-plan rank below kingdom"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 34",
+      "page": 34,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-binomial-naming-class",
+    "topicId": "binomial-naming",
+    "group": "classification-ranks",
+    "term": "class",
+    "definition": "the classification rank below phylum and above order",
+    "aliases": [],
+    "keyPoints": [
+      "the classification rank below phylum and above order"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 34",
+      "page": 34,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-binomial-naming-order",
+    "topicId": "binomial-naming",
+    "group": "classification-ranks",
+    "term": "order",
+    "definition": "the classification rank below class and above family",
+    "aliases": [],
+    "keyPoints": [
+      "the classification rank below class and above family"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 34",
+      "page": 34,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-binomial-naming-family",
+    "topicId": "binomial-naming",
+    "group": "classification-ranks",
+    "term": "family",
+    "definition": "the classification rank below order and above genus",
+    "aliases": [],
+    "keyPoints": [
+      "the classification rank below order and above genus"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 34",
+      "page": 34,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-binomial-naming-genus",
+    "topicId": "binomial-naming",
+    "group": "classification-ranks",
+    "term": "genus",
+    "definition": "the first, capitalised word in a binomial name",
+    "aliases": [],
+    "keyPoints": [
+      "the first, capitalised word in a binomial name"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 34",
+      "page": 34,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-binomial-naming-species",
+    "topicId": "binomial-naming",
+    "group": "classification-ranks",
+    "term": "species",
+    "definition": "the most specific rank; a group able to interbreed to produce fertile offspring",
+    "aliases": [],
+    "keyPoints": [
+      "the most specific rank; a group able to interbreed to produce fertile offspring"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 34",
+      "page": 34,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-binomial-naming-binomial-name",
+    "topicId": "binomial-naming",
+    "group": "binomial-rules",
+    "term": "binomial name",
+    "definition": "a universal two-part scientific name consisting of Genus followed by species",
+    "aliases": [],
+    "keyPoints": [
+      "a universal two-part scientific name consisting of Genus followed by species"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 34",
+      "page": 34,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-dna-structure-nucleotide",
+    "topicId": "dna-structure",
+    "group": "dna-structure",
+    "term": "nucleotide",
+    "definition": "one DNA unit made from a sugar, phosphate and base",
+    "aliases": [],
+    "keyPoints": [
+      "one DNA unit made from a sugar, phosphate and base"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 36",
+      "page": 36,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-dna-structure-sugar-phosphate-backbone",
+    "topicId": "dna-structure",
+    "group": "dna-structure",
+    "term": "sugar-phosphate backbone",
+    "definition": "the alternating chain forming each outside edge of DNA",
+    "aliases": [],
+    "keyPoints": [
+      "the alternating chain forming each outside edge of DNA"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 36",
+      "page": 36,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-dna-structure-homologous-pair",
+    "topicId": "dna-structure",
+    "group": "chromosomes",
+    "term": "homologous pair",
+    "definition": "two chromosomes carrying the same gene types at the same positions, one from each parent",
+    "aliases": [],
+    "keyPoints": [
+      "two chromosomes carrying the same gene types at the same positions, one from each parent"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 36",
+      "page": 36,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-dna-structure-karyogram",
+    "topicId": "dna-structure",
+    "group": "chromosomes",
+    "term": "karyogram",
+    "definition": "a picture of chromosomes arranged in homologous pairs by size and banding pattern",
+    "aliases": [],
+    "keyPoints": [
+      "a picture of chromosomes arranged in homologous pairs by size and banding pattern"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 36",
+      "page": 36,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-continuous-variation-continuous-variation",
+    "topicId": "continuous-variation",
+    "group": "variation-data",
+    "term": "continuous variation",
+    "definition": "variation that can take any value within a range",
+    "aliases": [],
+    "keyPoints": [
+      "variation that can take any value within a range"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 38",
+      "page": 38,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-continuous-variation-bell-shaped-distribution",
+    "topicId": "continuous-variation",
+    "group": "variation-data",
+    "term": "bell-shaped distribution",
+    "definition": "a pattern with many values near the mean and fewer at the extremes",
+    "aliases": [],
+    "keyPoints": [
+      "a pattern with many values near the mean and fewer at the extremes"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 38",
+      "page": 38,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-continuous-variation-histogram",
+    "topicId": "continuous-variation",
+    "group": "variation-data",
+    "term": "histogram",
+    "definition": "a graph suitable for grouped continuous data when class boundaries are treated precisely",
+    "aliases": [],
+    "keyPoints": [
+      "a graph suitable for grouped continuous data when class boundaries are treated precisely"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 38",
+      "page": 38,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-correlation-positive-correlation",
+    "topicId": "correlation",
+    "group": "correlation-data",
+    "term": "positive correlation",
+    "definition": "an association in which larger values of one variable tend to occur with larger values of the other",
+    "aliases": [],
+    "keyPoints": [
+      "an association in which larger values of one variable tend to occur with larger values of the other"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 39",
+      "page": 39,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-correlation-line-of-best-fit",
+    "topicId": "correlation",
+    "group": "correlation-data",
+    "term": "line of best fit",
+    "definition": "a line showing the overall trend through scatter data",
+    "aliases": [],
+    "keyPoints": [
+      "a line showing the overall trend through scatter data"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 39",
+      "page": 39,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-correlation-correlation-is-not-causation",
+    "topicId": "correlation",
+    "group": "correlation-data",
+    "term": "correlation is not causation",
+    "definition": "the rule that an association alone does not prove one variable causes the other",
+    "aliases": [],
+    "keyPoints": [
+      "the rule that an association alone does not prove one variable causes the other"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 39",
+      "page": 39,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-ber-basal-energy-requirement",
+    "topicId": "ber",
+    "group": "energy-calculations",
+    "term": "basal energy requirement",
+    "definition": "the approximate energy needed for essential body functions at rest",
+    "aliases": [
+      "BER"
+    ],
+    "keyPoints": [
+      "the approximate energy needed for essential body functions at rest"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 41",
+      "page": 41,
+      "status": "confirmed_learned"
+    }
+  },
+  {
+    "id": "bio-y8-ber-total-daily-energy-requirement",
+    "topicId": "ber",
+    "group": "energy-calculations",
+    "term": "total daily energy requirement",
+    "definition": "BER plus energy needed for activity, growth and other demands",
+    "aliases": [],
+    "keyPoints": [
+      "BER plus energy needed for activity, growth and other demands"
+    ],
+    "difficulty": 1,
+    "source": {
+      "file": "Year8_Biology_COMPLETE_Teacher_Coverage_Final_ImageGenerated_Diagrams(5).pdf",
+      "locator": "booklet page 41",
+      "page": 41,
+      "status": "confirmed_learned"
+    }
+  }
+]
