@@ -1,0 +1,4 @@
+Scholar's Garden V0.2 restore point
+Source archive SHA256: 937adc5e784bc7dd8e0d81bbd5f8cd7b7df6f6b20799a4bfab0e8e1029f854ef
+The implementation was derived from V0.2 Full Migration, not from the interim Daily Quest patch.
+No persisted learner-state keys are renamed or deleted by this UX reset.

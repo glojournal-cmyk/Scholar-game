@@ -1,0 +1,43 @@
+{
+  "french": [
+    "meaning",
+    "base_spelling",
+    "accent_only",
+    "article",
+    "gender",
+    "number_agreement",
+    "subject_verb",
+    "auxiliary",
+    "tense",
+    "negative_structure",
+    "missing_required_content"
+  ],
+  "latin": [
+    "meaning",
+    "base_spelling",
+    "case",
+    "declension",
+    "preposition_case",
+    "agreement",
+    "person_number",
+    "tense",
+    "perfect_stem",
+    "missing_semantic_group",
+    "unrelated_extra_token"
+  ],
+  "biology": [
+    "keyword",
+    "definition",
+    "process_order",
+    "cause_effect",
+    "diagram_label",
+    "variable",
+    "method_control",
+    "data_description",
+    "calculation_method",
+    "numeric_value",
+    "unit",
+    "mark_point_missing",
+    "correlation_causation"
+  ]
+}

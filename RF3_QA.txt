@@ -1,0 +1,46 @@
+Lux et Labor — The Scholar's Garden
+V0.4.0 Alpha 5 — True Rebuild RF3
+Build date: 2026-09-09
+
+RF3 scope
+---------
+- Rebuilt Home composition around one large Scholar scene and real journey/task state.
+- Reworked Study Hub into a larger illustrated subject gallery.
+- Reworked Subject header composition into editorial two-column presentation.
+- Integrated 20 newly supplied French/Biology source artworks as optimized WebP assets.
+- French and Biology subject art now changes by Learn / Practise / Play / Progress context.
+- Reworked Garden into a full-scene world page driven by the existing real gardenStage state.
+- Reworked Scholar overview, Collection and Achievements presentation.
+- Removed prototype-facing character-slot wording.
+- No fake academic stats were introduced.
+
+Protected academic/runtime regression check
+-------------------------------------------
+UNCHANGED vs RF2:
+latin-module.js
+french-module.js
+biology-y8.js
+growth.js
+latin-games.js
+garden-growth.js
+latin-question-bank.js
+science-notes.js
+language-y8.js
+daily-plan.js
+subject-hub.js
+app.js
+scholar.js
+
+Static QA
+---------
+- JavaScript syntax: PASS (28/28 .js files)
+- Duplicate IDs: PASS (index.html, 404.html)
+- Local HTML src/href references: PASS
+- Service-worker precache local references: PASS
+- RF3 cache namespace/version updated: PASS
+- 20 RF3 supplied images packaged: PASS
+
+Browser acceptance
+------------------
+Static QA passed. This package does not claim pixel-perfect browser acceptance across every
+browser/device; final visual QA should be performed after GitHub Pages deployment.
