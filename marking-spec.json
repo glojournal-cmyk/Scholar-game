@@ -1,0 +1,83 @@
+{
+  "version": "1.0.0",
+  "globalNormalization": {
+    "ignoreCase": true,
+    "trimAndCollapseWhitespace": true,
+    "normalizeStraightAndCurlyApostrophes": true,
+    "ignoreTerminalPunctuation": true,
+    "neverIgnoreDifferentBaseLetters": true
+  },
+  "french": {
+    "diacritics": "Do not deduct missing French accents, but always display the corrected accented form.",
+    "stillStrict": [
+      "base spelling",
+      "article",
+      "subject",
+      "verb ending",
+      "auxiliary",
+      "reflexive pronoun",
+      "negative order",
+      "agreement",
+      "required content"
+    ],
+    "writing": "Use a criterion checklist. A model is an example, not the only accepted response. Return Review needed when a plausible free response cannot be judged safely."
+  },
+  "latin": {
+    "optional": [
+      "teacher annotations in parentheses",
+      "capitalisation",
+      "terminal punctuation"
+    ],
+    "stillStrict": [
+      "Latin base spelling",
+      "case ending",
+      "person",
+      "number",
+      "tense",
+      "preposition-controlled case",
+      "all required semantic groups"
+    ],
+    "wordOrder": "Accept normal Latin word-order variation only when every required form is present and no unrelated extra token is added.",
+    "unorderedSets": "Accept commas, slashes, semicolons, 'and' or new lines in any order; identify missing and extra forms separately."
+  },
+  "biology": {
+    "typedTerms": "Accept listed scientific synonyms and abbreviations only. Do not accept a related but different term.",
+    "markPoints": "Award each distinct mark point once. A longer sentence can earn several points only when each causal idea is present.",
+    "calculations": "Check method, numerical tolerance and unit separately. Show the source working after submission.",
+    "longAnswers": "Use mark-point or criterion checklists with manual/parent-review fallback; never exact-string mark an extended response.",
+    "diagrams": "Compare label-to-anchor mappings, not raw typed order."
+  },
+  "feedbackOrder": [
+    "result",
+    "learner answer",
+    "accepted answer or mark points",
+    "worked explanation",
+    "specific missing or incorrect element",
+    "memory cue",
+    "next spaced-review date"
+  ],
+  "resultLabels": [
+    "Correct",
+    "Nearly correct — accents",
+    "Needs repair",
+    "Review needed"
+  ],
+  "chemistry": {
+    "typedTerms": "Accept listed scientific equivalents only; do not accept a neighbouring but different concept.",
+    "markPoints": "Award each distinct scientific point once. Credit correct cause-and-effect links, not keyword dumping.",
+    "calculations": "Award method, substitution, numerical result and unit separately when specified. Apply the listed tolerance only.",
+    "practicals": "Mark independent variable, dependent measure, controls, repeat/reliability, analysis and safety as separate points.",
+    "longAnswers": "Use the supplied mark-point checklist with manual/parent-review fallback; never exact-string mark an explanation.",
+    "equations": "Accept word or symbol equations only when all reactants/products and required balancing are correct.",
+    "structured": "Validate every named field independently, then show the worked solution."
+  },
+  "physics": {
+    "typedTerms": "Accept listed scientific equivalents only; do not accept a neighbouring but different concept.",
+    "markPoints": "Award each distinct scientific point once. Credit correct cause-and-effect links, not keyword dumping.",
+    "calculations": "Award method, substitution, numerical result and unit separately when specified. Apply the listed tolerance only.",
+    "practicals": "Mark independent variable, dependent measure, controls, repeat/reliability, analysis and safety as separate points.",
+    "longAnswers": "Use the supplied mark-point checklist with manual/parent-review fallback; never exact-string mark an explanation.",
+    "equations": "Accept word or symbol equations only when all reactants/products and required balancing are correct.",
+    "structured": "Validate every named field independently, then show the worked solution."
+  }
+}

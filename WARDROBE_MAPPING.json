@@ -1,0 +1,107 @@
+{
+  "implementationMode": "full-render appearance variants",
+  "stateKey": "LuxGrowth.load().wardrobe.outfit",
+  "defaultId": "school-uniform",
+  "items": [
+    {
+      "id": "school-uniform",
+      "name": "Tiffin School Uniform",
+      "asset": "assets/scholar/outfits/outfit_school_uniform.png",
+      "unlock": {
+        "type": "always"
+      }
+    },
+    {
+      "id": "winter-scholar",
+      "name": "Winter Scholar",
+      "asset": "assets/scholar/outfits/outfit_winter_scholar.png",
+      "unlock": {
+        "type": "studyDays",
+        "value": 3
+      }
+    },
+    {
+      "id": "summer-scholar",
+      "name": "Summer Scholar",
+      "asset": "assets/scholar/outfits/outfit_summer_scholar.png",
+      "unlock": {
+        "type": "studyDays",
+        "value": 7
+      }
+    },
+    {
+      "id": "casual-study",
+      "name": "Casual Study",
+      "asset": "assets/scholar/outfits/outfit_casual_study.png",
+      "unlock": {
+        "type": "scholarXP",
+        "value": 100
+      }
+    },
+    {
+      "id": "library-scholar",
+      "name": "Library Scholar",
+      "asset": "assets/scholar/outfits/outfit_library_scholar.png",
+      "unlock": {
+        "type": "scholarXP",
+        "value": 250
+      }
+    },
+    {
+      "id": "latin-scholar",
+      "name": "Latin Scholar",
+      "asset": "assets/scholar/outfits/outfit_latin_scholar.png",
+      "unlock": {
+        "type": "subjectXP",
+        "subject": "latin",
+        "value": 250
+      }
+    },
+    {
+      "id": "french-scholar",
+      "name": "French Scholar",
+      "asset": "assets/scholar/outfits/outfit_french_scholar.png",
+      "unlock": {
+        "type": "subjectXP",
+        "subject": "french",
+        "value": 250
+      }
+    },
+    {
+      "id": "reward-cardigan",
+      "name": "Scholar Reward Cardigan",
+      "asset": "assets/scholar/outfits/outfit_reward_cardigan.png",
+      "unlock": {
+        "type": "scholarXP",
+        "value": 400
+      }
+    },
+    {
+      "id": "achievement",
+      "name": "Achievement Outfit",
+      "asset": "assets/scholar/outfits/outfit_achievement.png",
+      "unlock": {
+        "type": "dualSubjectXP",
+        "subjects": [
+          "latin",
+          "french"
+        ],
+        "valueEach": 300
+      }
+    },
+    {
+      "id": "prestige",
+      "name": "Prestige Scholar",
+      "asset": "assets/scholar/outfits/outfit_prestige.png",
+      "unlock": {
+        "type": "scholarXP",
+        "value": 1500
+      }
+    }
+  ],
+  "notes": [
+    "Unlock thresholds deliberately reuse existing Scholar Garden growth milestones instead of creating a second economy.",
+    "Equipped outfit must persist through LuxGrowth wardrobe state and survive reload.",
+    "Do not expose hair/accessory controls as fake choices unless separate compatible layer assets exist."
+  ]
+}

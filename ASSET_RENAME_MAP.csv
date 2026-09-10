@@ -1,0 +1,53 @@
+source_file,asset_path,category,semantic,status,width,height,transparent
+"ChatGPT Image Sep 6, 2026, 07_56_36 PM.png",assets/scholar/master/scholar_master_uniform.png,master,Approved Master Scholar — school uniform,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_05_37 PM.png",assets/scholar/home/scholar_ready_alt.png,home,Ready to study — alternate book-holding pose,alternate,971,1619,True
+"ChatGPT Image Sep 6, 2026, 08_05_52 PM (1).png",assets/scholar/home/scholar_idle.png,home,Idle / neutral,use,971,1619,True
+"ChatGPT Image Sep 6, 2026, 08_05_52 PM (2).png",assets/scholar/home/scholar_ready.png,home,Ready to study,use,971,1619,True
+"ChatGPT Image Sep 6, 2026, 08_05_53 PM (3).png",assets/scholar/home/scholar_success.png,home,Happy / task complete,use,971,1619,True
+"ChatGPT Image Sep 6, 2026, 08_05_53 PM (4).png",assets/scholar/home/scholar_thinking.png,home,Thinking / review due,use,971,1619,True
+"ChatGPT Image Sep 6, 2026, 08_05_53 PM (5).png",assets/scholar/home/scholar_welcome.png,home,Encouraging / welcome back,use,971,1619,True
+"ChatGPT Image Sep 6, 2026, 08_05_53 PM (6).png",assets/scholar/home/scholar_reward_unlock.png,home,Celebrating a reward unlock,use,971,1619,True
+"ChatGPT Image Sep 6, 2026, 08_05_54 PM (7).png",assets/scholar/home/scholar_reading_notes.png,home,Reading notes,use,971,1619,True
+"ChatGPT Image Sep 6, 2026, 08_05_54 PM (8).png",assets/scholar/home/scholar_unfinished.png,home,Slightly concerned / unfinished tasks,use,971,1619,True
+"ChatGPT Image Sep 6, 2026, 08_05_54 PM (9).png",assets/scholar/home/scholar_confident.png,home,Confident / progress made,use,971,1619,True
+"ChatGPT Image Sep 6, 2026, 08_05_54 PM (10).png",assets/scholar/home/scholar_resting.png,home,Resting / end of study session,use,971,1619,True
+"ChatGPT Image Sep 6, 2026, 08_09_03 PM (1).png",assets/scholar/study/study_latin_textbook.png,study,Holding a Latin textbook,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_09_04 PM (2).png",assets/scholar/study/study_french_notebook.png,study,Holding a French notebook,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_09_04 PM (3).png",assets/scholar/study/study_biology_book.png,study,Holding a Biology exercise book,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_09_04 PM (4).png",assets/scholar/study/study_writing_notebook.png,study,Writing in a notebook,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_09_04 PM (5).png",assets/scholar/study/study_flashcards.png,study,Revising flashcards,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_09_05 PM (6).png",assets/scholar/study/study_planner.png,study,Looking at a timetable/planner,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_09_05 PM (7).png",assets/scholar/study/study_book_stack.png,study,Carrying a small stack of books,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_09_05 PM (8).png",assets/scholar/study/study_pointing.png,study,Pointing gently to the side,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_09_05 PM (9).png",assets/scholar/study/study_worksheet.png,study,Looking at a worksheet thoughtfully,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_09_06 PM (10).png",assets/scholar/study/study_pen_and_book.png,study,"Holding a pen and book, ready to begin",use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_12_17 PM (1).png",assets/scholar/emotions/emotion_neutral.png,emotions,Calm neutral,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_12_17 PM (2).png",assets/scholar/emotions/emotion_happy.png,emotions,Happy,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_12_18 PM (3).png",assets/scholar/emotions/emotion_excited.png,emotions,Excited,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_12_18 PM (4).png",assets/scholar/emotions/emotion_proud.png,emotions,Proud,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_12_18 PM (5).png",assets/scholar/emotions/emotion_thoughtful.png,emotions,Thoughtful,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_12_18 PM (6).png",assets/scholar/emotions/emotion_worried.png,emotions,Slightly worried,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_12_19 PM (7).png",assets/scholar/emotions/emotion_sleepy.png,emotions,Sleepy / tired after studying,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_12_19 PM (8).png",assets/scholar/emotions/emotion_determined.png,emotions,Motivated / determined,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_12_19 PM (9).png",assets/scholar/emotions/emotion_shy_pleased.png,emotions,Shy / modest pleased smile,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_12_19 PM (10).png",assets/scholar/emotions/emotion_curious.png,emotions,Curious / interested,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_15_17 PM (1).png",assets/scholar/reward-interactions/reward_interaction_ink_pot.png,reward-interactions,Holding an ink pot,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_15_17 PM (2).png",assets/scholar/reward-interactions/reward_interaction_quill.png,reward-interactions,Holding a quill,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_15_17 PM (3).png",assets/scholar/reward-interactions/reward_interaction_book_stack.png,reward-interactions,Holding a small book stack,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_15_18 PM (4).png",assets/scholar/reward-interactions/reward_interaction_plant.png,reward-interactions,Admiring a potted plant,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_15_18 PM (5).png",assets/scholar/reward-interactions/reward_interaction_ribbon.png,reward-interactions,Holding a ribbon reward,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_15_19 PM (6).png",assets/scholar/reward-interactions/reward_interaction_medal.png,reward-interactions,Holding a medal or badge reward,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_15_19 PM (7).png",assets/scholar/reward-interactions/reward_interaction_laurel.png,reward-interactions,Holding a laurel-themed scholar accessory,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_15_20 PM (8).png",assets/scholar/reward-interactions/reward_interaction_letter.png,reward-interactions,Holding a sealed achievement letter,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_15_20 PM (9).png",assets/scholar/reward-interactions/reward_interaction_proud_book.png,reward-interactions,Book against chest with proud smile,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_15_21 PM (10).png",assets/scholar/reward-interactions/reward_interaction_classical_ornament.png,reward-interactions,Holding a small classical desk ornament,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_17_26 PM (1).png",assets/scholar/outfits/outfit_school_uniform.png,outfits,Current Tiffin-style school uniform,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_17_26 PM (2).png",assets/scholar/outfits/outfit_winter_scholar.png,outfits,Winter scholar variation,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_17_27 PM (3).png",assets/scholar/outfits/outfit_summer_scholar.png,outfits,Summer light scholar variation,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_17_27 PM (4).png",assets/scholar/outfits/outfit_casual_study.png,outfits,Casual study outfit,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_17_27 PM (5).png",assets/scholar/outfits/outfit_library_scholar.png,outfits,Library scholar outfit,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_17_27 PM (6).png",assets/scholar/outfits/outfit_latin_scholar.png,outfits,Special Latin scholar outfit,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_17_28 PM (7).png",assets/scholar/outfits/outfit_french_scholar.png,outfits,Special French scholar outfit,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_17_28 PM (8).png",assets/scholar/outfits/outfit_reward_cardigan.png,outfits,Reward-unlocked cardigan variation,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_17_28 PM (9).png",assets/scholar/outfits/outfit_achievement.png,outfits,Dressier achievement outfit,use,1024,1536,True
+"ChatGPT Image Sep 6, 2026, 08_17_28 PM (10).png",assets/scholar/outfits/outfit_prestige.png,outfits,Prestige scholar outfit,use,1024,1536,True
