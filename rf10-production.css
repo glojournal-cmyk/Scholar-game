@@ -485,3 +485,47 @@ body{scroll-padding-top:18px}
   #studyScreen .study-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
   #studyScreen .foundation-band .study-grid > :last-child:nth-child(odd){grid-column:auto}
 }
+
+/* RF10.2 click-target correction */
+.study-card{padding-bottom:72px}
+.study-status{position:relative;z-index:1;margin-bottom:10px}
+.rf91-study-actions{z-index:5;background:linear-gradient(180deg,rgba(255,253,248,0),var(--card) 24%)}
+.rf91-subject-action{position:relative;z-index:6;pointer-events:auto;cursor:pointer}
+.rf91-subject-action:disabled{cursor:not-allowed;pointer-events:none}
+
+
+/* RF10.3 stable Study controls */
+.study-card{padding-bottom:76px}
+.study-status{
+  display:flex!important;
+  align-items:center;
+  gap:6px!important;
+  flex-wrap:wrap;
+  position:relative;
+  z-index:1;
+  margin:8px 0 12px;
+  pointer-events:none
+}
+.study-status span{
+  display:inline-flex!important;
+  align-items:center;
+  padding:5px 8px!important;
+  border-radius:999px;
+  white-space:nowrap
+}
+.rf91-study-actions{
+  position:absolute;
+  left:18px;right:18px;bottom:16px;
+  z-index:20;
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:7px;
+  pointer-events:auto
+}
+.rf91-subject-action{
+  min-height:36px;
+  position:relative;
+  z-index:21;
+  pointer-events:auto
+}
+.rf91-subject-action:disabled{pointer-events:none}

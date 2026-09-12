@@ -1,18 +1,18 @@
 # Lux et Labor — The Scholar's Garden
 
-## RF10.1 Routing Correction
+## RF10.4 Automated Browser QA
 
-Targeted correction after live RF10 acceptance testing.
+This build adds real browser end-to-end testing with Playwright and GitHub Actions.
 
-### Fixed
-- Biology/Chemistry/Physics Study actions now route with explicit subject + track + tab.
-- Subject navigation no longer inherits stale French/Latin state.
-- Canonical route validation and a defensive fallback are included.
-- Subject transitions reset scroll position to the top.
-- Study status chips and subject badges have corrected spacing.
-- Study hero height is reduced.
-- Progress lists use a two-column desktop layout.
-- Home next-unlock Ink Pot uses Ink Pot artwork.
-- Footer no longer captures pointer input over page content.
+On every push or pull request GitHub automatically tests the core shell, the Tiffin master
+asset, Year 9 Biology/Chemistry/Physics Learn routes, Year 8 Latin Learn, French Practise,
+Biology Learn, disabled Year 9 subjects, and the French → Biology stale-state regression.
+
+Failures retain a Playwright report plus screenshots, trace and video evidence.
+
+Local run:
+1. npm install
+2. npx playwright install chromium
+3. npm run test:e2e
 
 Academic engines, mastery, XP, due-review logic, question banks and runtime packs are preserved.

@@ -398,7 +398,14 @@ async function handleActionClick(event){
    }
    if(el.matches('[data-open-subject]')){
      event.preventDefault();
-     await goSubject(el.dataset.openSubject,el.dataset.track||'current',el.dataset.openTab||undefined);
+     if(el.disabled||el.getAttribute('aria-disabled')==='true'){
+       toast(el.title||'This section is not available yet.');
+       return;
+     }
+     const subject=el.dataset.openSubject;
+     const track=el.dataset.track||'current';
+     const tab=el.dataset.openTab||undefined;
+     await goSubject(subject,track,tab);
      return;
    }
    if(el.matches('[data-cont-subject]')){
@@ -516,7 +523,7 @@ async function init(){
  document.addEventListener('lux:plan-change',()=>{if(routeInfo().screen==='home')renderHome()});
  await Promise.race([Promise.allSettled([frenchLegacyReady,biologyReady,latinMasterReady,frenchMasterReady]),new Promise(resolve=>setTimeout(resolve,2600))]);
  await render();
- if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js?v=0.4.0-a5-rf101-20260912',{updateViaCache:'none'}).then(reg=>reg.update()).catch(err=>console.warn('[PWA] service worker update failed',err));
+ if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js?v=0.4.0-a5-rf104-20260912',{updateViaCache:'none'}).then(reg=>reg.update()).catch(err=>console.warn('[PWA] service worker update failed',err));
 }
 document.readyState==='loading'?document.addEventListener('DOMContentLoaded',init):init();
 })();

@@ -1,0 +1,36 @@
+RF10.4 Automated Browser QA — Build Report
+=============================================
+
+Added
+-----
+- Playwright E2E browser test suite
+- GitHub Actions QA workflow on push / pull request / manual dispatch
+- Failure screenshots, trace and video
+- Playwright HTML report artifact
+
+Encoded browser paths
+---------------------
+- Year 9 Biology → Learn
+- Year 9 Chemistry → Learn
+- Year 9 Physics → Learn
+- Year 8 Latin → Learn
+- Year 8 French → Practise
+- Year 8 Biology → Learn
+- disabled Year 9 Latin/French/English
+- French → Biology stale-state regression
+- core shell and Tiffin asset smoke tests
+
+Static build QA
+---------------
+- JavaScript syntax: 23/23 PASS
+- Missing HTML local refs: 0
+- Duplicate IDs: 0
+- Protected academic engines: BYTE-IDENTICAL PASS
+- GitHub workflow: PASS
+- Playwright specs: PASS
+
+Deployment behaviour
+--------------------
+After each GitHub push, Actions runs Chromium against a local HTTP server built from the exact
+commit. A failed browser click produces a red workflow and retained evidence rather than relying
+on manual screenshot QA.

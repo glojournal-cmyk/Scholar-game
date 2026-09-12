@@ -1,7 +1,7 @@
 
 (function(){
 'use strict';
-const PREF_KEY='scholarsGarden.rf101.preferences';
+const PREF_KEY='scholarsGarden.rf103.preferences';
 const MIGRATION='scholarsGarden.rf10.tiffinDefaultMigrated';
 const q=(s,r=document)=>r.querySelector(s);
 const qa=(s,r=document)=>[...r.querySelectorAll(s)];
@@ -32,41 +32,67 @@ function available(subject,track,tab){
 }
 function decorateStudy(){
   qa('#studyScreen .study-card').forEach(card=>{
-    const s=studySubject(card); if(!s)return;
+    const subject=studySubject(card); if(!subject)return;
+    const track=studyTrack(card);
+
     let img=q('.rf91-study-art',card);
-    if(!img){img=document.createElement('img');img.className='rf91-study-art';img.alt='';img.loading='lazy';img.decoding='async';card.prepend(img)}
-    img.src=ART.subjects[s]||'';
+    if(!img){
+      img=document.createElement('img');
+      img.className='rf91-study-art';
+      img.alt='';
+      img.loading='lazy';
+      img.decoding='async';
+      card.prepend(img);
+    }
+    const wantedArt=ART.subjects[subject]||'';
+    if(img.getAttribute('src')!==wantedArt)img.src=wantedArt;
+
     let rail=q('.rf91-study-actions',card);
     if(!rail){
-      rail=document.createElement('div');rail.className='rf91-study-actions';card.appendChild(rail);
+      rail=document.createElement('div');
+      rail.className='rf91-study-actions';
+      card.appendChild(rail);
     }
-    const tr=studyTrack(card);
-    rail.innerHTML='';
-    [['learn','Learn'],['practice','Practise'],['play','Play'],['progress','Progress']].forEach(([tab,label])=>{
-      const b=document.createElement('button');b.type='button';b.className='rf91-subject-action';b.textContent=label;
-      b.dataset.studyAction=tab;b.dataset.studySubject=s;b.dataset.studyTrack=tr;
-      // Also expose the canonical app-router attributes. This means the central
-      // router can always identify the exact subject/track/tab, even after a
-      // previous French/Latin route has been active.
-      b.dataset.openSubject=s;b.dataset.track=tr;b.dataset.openTab=tab;
-      b.disabled=!available(s,tr,tab);if(b.disabled)b.title='Not available for this course yet';
-      rail.appendChild(b);
-    });
+
+    // IMPORTANT: never replace the button DOM on every refresh.
+    // RF10.2's MutationObserver saw its own rail changes and continuously
+    // rebuilt the buttons, so pointer clicks were lost before the browser
+    // could dispatch them. RF10.3 only rebuilds when subject/track changes.
+    const signature=`${subject}:${track}`;
+    if(rail.dataset.signature!==signature){
+      rail.dataset.signature=signature;
+      rail.replaceChildren();
+      [['learn','Learn'],['practice','Practise'],['play','Play'],['progress','Progress']].forEach(([tab,label])=>{
+        const b=document.createElement('button');
+        b.type='button';
+        b.className='rf91-subject-action';
+        b.textContent=label;
+        b.dataset.studySubject=subject;
+        b.dataset.studyTrack=track;
+        b.dataset.openSubject=subject;
+        b.dataset.track=track;
+        b.dataset.openTab=tab;
+        b.disabled=!available(subject,track,tab);
+        b.setAttribute('aria-disabled',String(b.disabled));
+        if(b.disabled)b.title='Not available for this course yet';
+        rail.appendChild(b);
+      });
+    }else{
+      qa('.rf91-subject-action',rail).forEach(b=>{
+        const tab=b.dataset.openTab;
+        const disabled=!available(subject,track,tab);
+        if(b.disabled!==disabled)b.disabled=disabled;
+        b.setAttribute('aria-disabled',String(disabled));
+      });
+    }
+
     q('.card-action',card)?.classList.add('rf91-legacy-card-action');
   });
 }
 function bindStudyActions(){
-  if(document.documentElement.dataset.rf10StudyBound)return;
-  document.documentElement.dataset.rf10StudyBound='1';
-  document.addEventListener('click',async e=>{
-    const b=e.target.closest('[data-study-action]');if(!b||b.disabled)return;
-    e.preventDefault();e.stopImmediatePropagation();
-    const subject=b.dataset.studySubject;
-    const track=b.dataset.studyTrack||'current';
-    const tab=b.dataset.studyAction||'learn';
-    const ok=await window.LuxApp?.goSubject?.(subject,track,tab);
-    if(!ok)console.error('[RF10.1] Study route failed',subject,track,tab);
-  },true);
+  // RF10.2: intentionally no custom click interception here.
+  // Every injected Study button already carries data-open-subject/data-track/data-open-tab.
+  // app.js owns the click once, preventing capture-phase cancellation of valid Learn routes.
 }
 function selectYear(year,scroll=false){
   const foundation=year==='foundation';
@@ -116,8 +142,15 @@ function subjectArt(){
 }
 function fixProfile(){
   const rows=qa('#scholarProfileData>div');
-  const layer=rows.find(r=>(q('span',r)?.textContent||'').trim()==='Layer avatar');
-  if(layer){q('span',layer).textContent='Scholar uniform';q('b',layer).textContent=window.ScholarAssets?.selectedOutfit?.()?.name||'Tiffin School Uniform'}
+  const layer=rows.find(r=>{
+    const label=(q('span',r)?.textContent||'').trim();
+    return label==='Layer avatar'||label==='Scholar uniform';
+  });
+  if(!layer)return;
+  const label=q('span',layer),value=q('b',layer);
+  const wanted=window.ScholarAssets?.selectedOutfit?.()?.name||'Tiffin School Uniform';
+  if(label&&label.textContent!=='Scholar uniform')label.textContent='Scholar uniform';
+  if(value&&value.textContent!==wanted)value.textContent=wanted;
 }
 function loadPrefs(){
   const base={sound:true,music:false,notifications:true,reducedMotion:false};
@@ -167,13 +200,18 @@ function init(){
   bindStudyActions();bindYears();bindPrefs();applyPrefs();refresh();
   document.addEventListener('click',e=>{
     if(e.target.closest('[data-global-route],[data-subject-tab],[data-scholar-tab],[data-collection-filter],[data-v04-year]'))setTimeout(refresh,40);
-    if(e.target.closest('[data-study-action],[data-open-subject]'))requestAnimationFrame(()=>window.scrollTo({top:0,left:0,behavior:'auto'}));
+    if(e.target.closest('[data-open-subject]'))requestAnimationFrame(()=>window.scrollTo({top:0,left:0,behavior:'auto'}));
   });
   document.addEventListener('scholar:wardrobe-change',()=>setTimeout(refresh,20));
   document.addEventListener('lux:growth',()=>setTimeout(refresh,20));
   window.addEventListener('hashchange',()=>setTimeout(refresh,20));
   new MutationObserver(ms=>{
-    if(ms.some(m=>m.type==='childList'||m.type==='characterData'))refresh();
+    const relevant=ms.some(m=>{
+      const target=m.target?.nodeType===1?m.target:m.target?.parentElement;
+      if(target?.closest?.('.rf91-study-actions'))return false;
+      return m.type==='childList'||m.type==='characterData';
+    });
+    if(relevant)refresh();
   }).observe(document.body,{childList:true,subtree:true,characterData:true});
 }
 document.readyState==='loading'?document.addEventListener('DOMContentLoaded',init):init();
