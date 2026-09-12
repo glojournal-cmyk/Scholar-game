@@ -78,17 +78,49 @@ test('deployment version endpoint matches HTML build', async ({ page }) => {
   await page.goto('./', { waitUntil: 'networkidle' });
 
   const meta = await page.locator('meta[name="scholar-garden-build"]').getAttribute('content');
-  expect(meta).toContain('RF10.6.3');
+  expect(meta).toContain('RF10.6.5');
 
   const version = await page.evaluate(async () => {
     const r = await fetch(`./version.json?t=${Date.now()}`, { cache: 'no-store' });
     return { ok: r.ok, data: await r.json() };
   });
   expect(version.ok).toBeTruthy();
-  expect(version.data.build).toBe('RF10.6.3');
+  expect(version.data.build).toBe('RF10.6.5');
 
-  await expect(page.locator('footer[data-build="RF10.6.3"]')).toHaveCount(1);
+  await expect(page.locator('footer[data-build="RF10.6.5"]')).toHaveCount(1);
 
   const guard = await page.request.get('./deploy-guard.js');
   expect(guard.ok()).toBeTruthy();
+});
+
+
+test('topic search finds imperfect tense and opens Latin revision', async ({ page }) => {
+  await page.goto('./', { waitUntil: 'networkidle' });
+
+  await page.locator('#globalTopicSearch').click();
+  await expect(page.locator('#topicSearchModal')).toBeVisible();
+
+  const input = page.locator('#topicSearchInput');
+  await input.fill('imperfect tense');
+
+  const results = page.locator('[data-topic-search-id]');
+  await expect(results.first()).toBeVisible();
+  await expect(page.getByText(/Latin/i).first()).toBeVisible();
+
+  const latin = results.filter({ hasText: 'Latin' }).first();
+  await expect(latin).toBeVisible();
+  await latin.click();
+
+  await expect(page.locator('#subjectScreen')).toBeVisible();
+  await expect(page.locator('#subjectScreen h1').first()).toHaveText('Latin');
+  await expect(page).toHaveURL(/#subject\/latin-current\/learn/);
+  await expect(page.locator('#genericLearnPane')).toContainText(/imperfect|tense/i);
+});
+
+test('topic search index is available and substantial', async ({ request }) => {
+  const response = await request.get('./topic-search-index.json');
+  expect(response.ok()).toBeTruthy();
+  const data = await response.json();
+  expect(data.build).toBe('RF10.6.5');
+  expect(data.count).toBeGreaterThan(100);
 });

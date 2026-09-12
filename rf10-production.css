@@ -871,3 +871,399 @@ body{scroll-padding-top:18px}
   min-height:32px;
   font-weight:700;
 }
+
+
+/* =====================================================================
+   RF10.6.4 — DESKTOP DENSITY + PNG NAV ART
+   ===================================================================== */
+
+/* Desktop shell returns to a compact game UI scale. */
+@media(min-width:1181px){
+  :root{--sidebar:144px}
+
+  .brandbar{
+    width:var(--sidebar);
+    padding:18px 12px 12px;
+  }
+  .brand{
+    gap:8px;
+    align-items:center;
+  }
+  .brand-mark{
+    width:42px;
+    height:42px;
+    flex:0 0 42px;
+  }
+  .brand strong{
+    font-size:1.05rem;
+    line-height:1;
+  }
+  .brand small{
+    font-size:.52rem;
+    line-height:1.15;
+    letter-spacing:.08em;
+  }
+  .scholar-chip{
+    gap:6px;
+    padding:8px 0 0;
+  }
+  .scholar-chip span{
+    font-size:.63rem;
+    padding:5px 7px;
+  }
+
+  .global-nav{
+    width:var(--sidebar);
+    padding:8px 10px 18px;
+    gap:6px;
+  }
+  .global-nav button{
+    min-height:52px;
+    padding:8px 10px;
+    gap:10px;
+    border-radius:13px;
+    font-size:.78rem;
+  }
+  .global-nav button b{
+    font-size:.82rem;
+  }
+  .global-nav .nav-art{
+    width:26px;
+    height:26px;
+    flex:0 0 26px;
+    display:grid;
+    place-items:center;
+    border-radius:8px;
+    background:rgba(255,255,255,.08);
+    overflow:hidden;
+  }
+  .global-nav .nav-art img{
+    width:22px;
+    height:22px;
+    object-fit:contain;
+    filter:drop-shadow(0 1px 2px rgba(0,0,0,.18));
+  }
+  .global-nav button.active .nav-art{
+    background:rgba(255,255,255,.16);
+  }
+
+  .main-stage{
+    margin-left:var(--sidebar);
+    padding:18px 22px 26px;
+  }
+
+  .rf106-game-home{
+    gap:11px;
+  }
+  .rf106-home-hud{
+    padding:0;
+  }
+  .rf106-greeting-line{
+    gap:14px;
+    align-items:end;
+  }
+  .rf106-greeting h1{
+    font-size:clamp(2.2rem,2.7vw,3.2rem);
+    line-height:.92;
+  }
+  .rf106-greeting .eyebrow{
+    font-size:.68rem;
+    letter-spacing:.16em;
+  }
+  .rf106-greeting .rf4-home-date{
+    font-size:.72rem;
+    margin-top:5px;
+  }
+
+  .rf106-hud-vitals{
+    gap:8px;
+  }
+  .rf106-hud-vitals span{
+    min-width:116px;
+    padding:9px 12px;
+    border-radius:13px;
+  }
+  .rf106-hud-vitals small{
+    font-size:.48rem;
+  }
+  .rf106-hud-vitals b{
+    font-size:.88rem;
+  }
+
+  .rf106-world-layout{
+    grid-template-columns:minmax(0,1.58fr) minmax(320px,.78fr);
+    gap:12px;
+    min-height:390px;
+  }
+  .rf106-world-card{
+    min-height:390px;
+    border-radius:18px;
+  }
+  .rf106-scholar-scene .home-scholar-art{
+    left:11%;
+    height:86%;
+    max-width:44%;
+  }
+  .rf106-world-corner{
+    top:15px;
+    left:15px;
+    min-width:108px;
+    padding:8px 10px;
+    border-radius:11px;
+  }
+  .rf106-world-corner b{
+    font-size:1rem;
+  }
+  .rf106-world-corner span{
+    font-size:.56rem;
+  }
+
+  .rf106-world-overlay{
+    right:18px;
+    bottom:18px;
+    width:min(44%,360px);
+    padding:16px 17px;
+    border-radius:15px;
+  }
+  .rf106-world-overlay h2{
+    font-size:1.5rem;
+    margin:7px 0 5px;
+  }
+  .rf106-world-overlay p{
+    font-size:.72rem;
+    line-height:1.35;
+    margin-bottom:10px;
+  }
+  .rf106-stage-tag{
+    font-size:.5rem;
+    padding:4px 7px;
+  }
+  .rf106-world-actions{
+    gap:7px;
+  }
+  .rf106-world-actions button{
+    min-height:36px!important;
+    padding:7px 11px!important;
+    font-size:.7rem!important;
+  }
+
+  .rf106-quest-board{
+    min-height:390px;
+    padding:15px;
+    border-radius:18px;
+  }
+  .rf106-board-title{
+    gap:8px;
+  }
+  .rf106-board-title .eyebrow{
+    font-size:.56rem;
+    letter-spacing:.14em;
+  }
+  .rf106-board-title h2{
+    font-size:1.45rem;
+    line-height:1.02;
+    max-width:12ch;
+  }
+  .rf106-quest-seal{
+    width:32px;
+    height:32px;
+    font-size:.85rem;
+  }
+
+  .rf106-journey-chips{
+    margin:10px 0 8px;
+    gap:5px;
+  }
+  .rf106-journey-chips .rf4-journey-chip{
+    padding:6px 6px;
+    border-radius:9px;
+  }
+  .rf106-journey-chips small{
+    font-size:.42rem;
+  }
+  .rf106-journey-chips b{
+    font-size:.58rem;
+  }
+
+  .rf106-week-strip{
+    margin:1px 0 6px;
+    padding-bottom:6px;
+  }
+  .rf106-main-quest{
+    padding:9px 0 7px!important;
+  }
+  .rf106-main-quest .quest-kicker{
+    font-size:.5rem;
+    margin-bottom:4px;
+  }
+  .rf106-main-quest h3{
+    font-size:.98rem;
+    margin:4px 0;
+  }
+  .rf106-main-quest p{
+    font-size:.68rem;
+    line-height:1.35;
+  }
+  .rf106-main-quest button{
+    min-height:33px;
+    padding:6px 12px;
+    font-size:.68rem;
+  }
+  .rf106-quest-progress{
+    padding-top:8px;
+  }
+  .rf106-quest-progress small,
+  .rf106-quest-progress strong{
+    font-size:.55rem;
+  }
+
+  .rf106-reward-row{
+    grid-template-columns:minmax(230px,.62fr) minmax(0,1.38fr);
+    gap:10px;
+  }
+  .rf106-reward-card{
+    min-height:94px;
+    grid-template-columns:76px minmax(0,1fr);
+    padding:10px!important;
+    gap:11px;
+    border-radius:14px;
+  }
+  .rf106-reward-art{
+    width:70px!important;
+    height:68px!important;
+  }
+  .rf106-reward-art img{
+    width:60px!important;
+    height:60px!important;
+    max-height:60px!important;
+  }
+  .rf106-reward-card h3{
+    font-size:1.05rem;
+  }
+  .rf106-reward-card p,
+  .rf106-reward-card span{
+    font-size:.6rem;
+  }
+  .rf106-side-quests{
+    gap:8px;
+  }
+  .rf106-side-quests>*{
+    min-height:94px;
+    border-radius:14px!important;
+  }
+
+  .rf106-training-ground,
+  .rf106-quick-play{
+    padding:14px;
+    border-radius:16px;
+  }
+  .rf106-section-title h2{
+    font-size:1.48rem;
+  }
+  .rf106-training-grid{
+    gap:8px!important;
+  }
+  .rf106-training-grid .training-access-card{
+    min-height:126px;
+    padding:11px;
+  }
+  .rf106-training-grid .training-access-card h3{
+    font-size:1rem;
+  }
+  .rf106-training-grid .training-access-card p{
+    font-size:.64rem;
+  }
+}
+
+/* Keep nav PNGs restrained on smaller widths too. */
+.global-nav .nav-art{
+  display:grid;
+  place-items:center;
+}
+.global-nav .nav-art img{
+  object-fit:contain;
+}
+
+
+/* =====================================================================
+   RF10.6.5 — REVISION FINDER / INTERNAL TOPIC SEARCH
+   ===================================================================== */
+.global-topic-search{
+  position:fixed;
+  left:10px;
+  bottom:18px;
+  width:calc(var(--sidebar) - 20px);
+  min-height:50px;
+  z-index:41;
+  display:flex;
+  align-items:center;
+  gap:9px;
+  padding:8px 10px;
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:13px;
+  background:rgba(255,255,255,.08);
+  color:#fff;
+  text-align:left;
+  cursor:pointer;
+}
+.global-topic-search:hover{background:rgba(255,255,255,.15)}
+.global-topic-search .nav-art{
+  width:28px;height:28px;flex:0 0 28px;display:grid;place-items:center;
+  border-radius:8px;background:rgba(255,255,255,.12);overflow:hidden
+}
+.global-topic-search .nav-art img{width:24px;height:24px;object-fit:contain}
+.global-topic-search>span:last-child{display:grid;min-width:0}
+.global-topic-search b{font-size:.72rem}
+.global-topic-search small{font-size:.48rem;color:rgba(255,255,255,.65);margin-top:1px}
+
+body.topic-search-open{overflow:hidden}
+.topic-search-modal{position:fixed;inset:0;z-index:1000;display:grid;place-items:start center;padding:8vh 18px 24px}
+.topic-search-modal.hidden{display:none!important}
+.topic-search-backdrop{position:absolute;inset:0;border:0;background:rgba(5,27,40,.62);backdrop-filter:blur(4px);cursor:default}
+.topic-search-panel{
+  position:relative;z-index:1;width:min(760px,calc(100vw - 36px));max-height:82vh;overflow:auto;
+  padding:19px;border:1px solid rgba(181,151,89,.42);border-radius:20px;
+  background:linear-gradient(180deg,#fffdf8,#f7f1e5);box-shadow:0 30px 70px rgba(8,35,49,.30)
+}
+.topic-search-head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:13px}
+.topic-search-head h2{font-size:2rem;line-height:1;margin:2px 0 0}
+.topic-search-close{width:36px;height:36px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--navy);font-size:1.45rem;line-height:1;cursor:pointer}
+.topic-search-box{
+  display:grid;grid-template-columns:34px minmax(0,1fr) auto;align-items:center;gap:8px;
+  padding:8px 10px;border:1px solid rgba(13,57,82,.25);border-radius:14px;background:#fff
+}
+.topic-search-box>img{width:30px;height:30px;object-fit:contain}
+.topic-search-box input{width:100%;border:0;outline:0;background:transparent;color:var(--navy);font:600 .92rem/1.2 var(--sans)}
+.topic-search-box input::placeholder{color:#8a8e8b;font-weight:500}
+.topic-search-box kbd{border:1px solid var(--line);border-bottom-width:2px;border-radius:6px;padding:3px 6px;background:#f7f2e7;color:var(--muted);font-size:.64rem}
+.topic-search-hint{padding:8px 3px 6px;color:var(--muted);font-size:.62rem}
+.topic-search-results{display:grid;gap:7px}
+.topic-search-result{
+  width:100%;display:grid;grid-template-columns:48px minmax(0,1fr) auto;align-items:center;gap:11px;
+  padding:10px 11px;border:1px solid var(--line);border-radius:13px;background:rgba(255,255,255,.78);
+  color:var(--navy);text-align:left;cursor:pointer
+}
+.topic-search-result:hover,.topic-search-result:focus-visible{border-color:rgba(17,72,101,.45);background:#fff;transform:translateY(-1px)}
+.topic-search-result-art{width:46px;height:46px;display:grid;place-items:center;border-radius:11px;background:#edf1e6;overflow:hidden}
+.topic-search-result-art img{width:40px;height:40px;object-fit:contain}
+.topic-search-result-copy{display:grid;gap:2px;min-width:0}
+.topic-search-result-copy strong{font-family:var(--serif);font-size:1rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.topic-search-result-copy small{color:var(--muted);font-size:.62rem;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.topic-search-meta{font-size:.5rem;font-weight:800;letter-spacing:.08em;color:#937022;text-transform:uppercase}
+.topic-search-preview{display:inline-flex;margin-left:4px;padding:2px 5px;border-radius:999px;background:#f1dfb4;color:#715116}
+.topic-search-open{font-size:.62rem;font-weight:800;padding:6px 9px;border-radius:9px;background:var(--navy);color:#fff}
+.topic-search-empty{display:grid;place-items:center;text-align:center;padding:28px 20px;color:var(--muted)}
+.topic-search-empty img{width:74px;height:74px;object-fit:contain;margin-bottom:8px}
+.topic-search-empty strong{font-family:var(--serif);font-size:1.2rem;color:var(--navy)}
+.topic-search-empty p{max-width:48ch;margin:5px 0 0;font-size:.72rem;line-height:1.45}
+
+@media(max-width:860px){
+  .global-topic-search{
+    position:fixed;left:auto;right:12px;bottom:82px;width:48px;height:48px;min-height:48px;padding:8px;
+    border-radius:50%;background:var(--navy);box-shadow:0 8px 24px rgba(9,46,67,.22)
+  }
+  .global-topic-search .nav-art{width:30px;height:30px;background:transparent}
+  .global-topic-search>span:last-child{display:none}
+  .topic-search-modal{padding-top:4vh}
+  .topic-search-panel{max-height:88vh;padding:14px}
+}

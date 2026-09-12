@@ -1,0 +1,52 @@
+RF10.6.5 Topic Search + Desktop Polish — QA
+==============================================
+
+Revision Finder
+---------------
+- Search index entries: 204
+- "imperfect" source-backed matches: 15
+- Searchable subjects: Latin, French, Biology, Chemistry, Physics
+- Keyboard shortcut: /
+- Latin results open Year 9 Verified Bridge
+- Foundation/current science results open the appropriate Learn topic
+
+Static QA
+---------
+- Protected academic files byte-identical: PASS
+- All JavaScript syntax valid: PASS
+- No missing HTML refs: PASS
+- No missing CSS assets: PASS
+- No duplicate IDs: PASS
+- Search index > 100 topics: PASS
+- Imperfect search has source-backed hits: PASS
+- Latin imperfect hit exists: PASS
+- Search button present: PASS
+- Search modal present: PASS
+- Search runtime loaded: PASS
+- Search E2E added: PASS
+- Version marker RF10.6.5: PASS
+- Deployment hardening preserved: PASS
+- Audio preserved: PASS
+- Y9 Latin preserved: PASS
+- JavaScript syntax: 27/27 PASS
+- Missing HTML refs: 0
+- Missing CSS assets: 0
+- Duplicate IDs: 0
+
+Protected regression
+--------------------
+- latin-module.js: BYTE-IDENTICAL PASS
+- french-module.js: BYTE-IDENTICAL PASS
+- biology-y8.js: BYTE-IDENTICAL PASS
+- growth.js: BYTE-IDENTICAL PASS
+- latin-games.js: BYTE-IDENTICAL PASS
+- garden-growth.js: BYTE-IDENTICAL PASS
+- latin-question-bank.js: BYTE-IDENTICAL PASS
+- science-notes.js: BYTE-IDENTICAL PASS
+- language-y8.js: BYTE-IDENTICAL PASS
+- daily-plan.js: BYTE-IDENTICAL PASS
+
+Deployment acceptance
+---------------------
+GitHub Actions Browser QA now includes a real browser search for "imperfect tense" and verifies
+that a Latin result opens the Year 9 current bridge Learn screen.

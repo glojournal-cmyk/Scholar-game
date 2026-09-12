@@ -1,21 +1,28 @@
 # Lux et Labor — The Scholar's Garden
 
-## RF10.6.3 Deployment Hardening
+## RF10.6.5 Topic Search + Desktop Polish
 
-This build is based on the green RF10.6.2 browser-QA baseline.
+Built on RF10.6.4.
 
-### Why this build exists
-A successful GitHub Pages deployment could still be difficult to verify when a browser, service
-worker or intermediary returned an older app shell.
+### Revision Finder
+A new internal topic search lets a learner type what they want to revise instead of manually
+opening subjects and scrolling through topic lists.
 
-### Hardening
-- Adds `/version.json` as a machine-readable live build marker.
-- Adds `deploy-guard.js` to compare the HTML build against the deployed version endpoint.
-- A detected mismatch purges Scholar's Garden caches, unregisters old service workers and reloads
-  once with an explicit build query parameter.
-- Service-worker navigation and `version.json` requests use `cache: no-store`.
-- Old Scholar's Garden cache namespaces are deleted on service-worker activation.
-- The visible footer includes `data-build="RF10.6.3"`.
-- Browser QA asserts that HTML metadata, footer and `version.json` all agree.
+Examples:
+- `imperfect tense`
+- `photosynthesis`
+- `forces`
+- `acids`
+- `translation`
 
-Game Home, WebAudio, Year 9 Latin Bridge Review and academic engines are preserved.
+The search index is generated from the app's existing source-backed Latin, French, Biology,
+Chemistry and Physics content. It currently contains **204 searchable topic entries**.
+
+Latin search results open the Year 9 Verified Bridge route, while still using the verified
+prior-Latin source bank. French and Year 8 science results open their Foundation notes, and
+current Biology/Chemistry/Physics results open the Year 9 Learn topic.
+
+Press `/` anywhere outside a form field to open Revision Finder quickly.
+
+Desktop density, PNG navigation art, audio, deployment hardening and protected academic engines
+are preserved.

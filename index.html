@@ -12,7 +12,7 @@
 <link href="./favicon_192.png" rel="icon" sizes="192x192" type="image/png"/>
 <link href="./apple_touch_icon_180.png" rel="apple-touch-icon" sizes="180x180"/>
 <link as="image" href="./scholar_idle.png" rel="preload"/>
-<meta content="V0.4.0 Alpha 5 RF10.6.3" name="scholar-garden-build"/><script defer src="./deploy-guard.js?v=20260912-rf1063"></script><link href="./rf10-production.css?v=20260912-rf1063" rel="stylesheet"/>
+<meta content="V0.4.0 Alpha 5 RF10.6.5" name="scholar-garden-build"/><script defer src="./deploy-guard.js?v=20260912-rf1065"></script><link href="./rf10-production.css?v=20260912-rf1065" rel="stylesheet"/>
 </head>
 <body>
 <div class="app-shell">
@@ -24,11 +24,15 @@
 <div class="scholar-chip"><span>Lv <b data-growth="level">1</b></span><span><b data-growth="xp">0</b> XP</span></div>
 </header>
 <nav aria-label="Primary" class="global-nav">
-<button data-global-route="home"><span aria-hidden="true">⌂</span><b>Home</b></button>
-<button data-global-route="study"><span aria-hidden="true">◇</span><b>Study</b></button>
-<button data-global-route="garden"><span aria-hidden="true">❧</span><b>Garden</b></button>
-<button data-global-route="scholar"><span aria-hidden="true">♙</span><b>Scholar</b></button>
+<button data-global-route="home"><span class="nav-art" aria-hidden="true"><img src="./study_planner.png" alt=""></span><b>Home</b></button>
+<button data-global-route="study"><span class="nav-art" aria-hidden="true"><img src="./study_book_stack.png" alt=""></span><b>Study</b></button>
+<button data-global-route="garden"><span class="nav-art" aria-hidden="true"><img src="./reward_interaction_plant.png" alt=""></span><b>Garden</b></button>
+<button data-global-route="scholar"><span class="nav-art" aria-hidden="true"><img src="./reward_interaction_medal.png" alt=""></span><b>Scholar</b></button>
 </nav>
+<button class="global-topic-search" id="globalTopicSearch" type="button">
+  <span class="nav-art" aria-hidden="true"><img src="./study_flashcards.png" alt=""></span>
+  <span><b>Find topic</b><small>Search revision</small></span>
+</button>
 <main class="main-stage">
 <section class="route-screen rf106-game-home" data-route-screen="home" id="homeScreen">
 <header class="rf106-home-hud">
@@ -83,7 +87,7 @@
   <aside class="rf106-quest-board" aria-label="Today's quest board">
     <div class="rf106-board-title">
       <div>
-        <p class="eyebrow">TODAY’S QUEST BOARD</p>
+        <p class="eyebrow">TODAY’S QUESTS</p>
         <h2 id="journeyHeadline">Choose your next quest.</h2>
       </div>
       <span class="rf106-quest-seal" aria-hidden="true">✦</span>
@@ -375,27 +379,47 @@
 </main>
 </div>
 <div aria-live="polite" class="toast" id="toast" role="status"></div>
-<script src="./latin-question-bank.js?v=20260912-rf1063"></script>
-<script src="./growth.js?v=20260912-rf1063"></script>
-<script src="./latin-module.js?v=20260912-rf1063"></script>
-<script src="./audio-runtime.js?v=20260912-rf10631"></script>
-<script src="./french-reference-marker.js?v=20260912-rf1063"></script>
-<script src="./french-module.js?v=20260912-rf1063"></script>
-<script src="./latin-games.js?v=20260912-rf1063"></script>
-<script src="./science-notes.js?v=20260912-rf1063"></script>
-<script src="./biology-y8.js?v=20260912-rf1063"></script>
-<script src="./science-y8.js?v=20260912-rf1063"></script>
-<script src="./language-y8.js?v=20260912-rf1063"></script>
-<script src="./daily-plan.js?v=20260912-rf1063"></script>
-<script src="./scholar-assets.js?v=20260912-rf1063"></script>
-<script src="./v04-art-config.js?v=20260912-rf1063"></script>
-<script src="./avatar-layer-system.js?v=20260912-rf1063"></script>
-<script src="./garden-growth.js?v=20260912-rf1063"></script>
-<script src="./v04-ui-assets.js?v=20260912-rf1063"></script>
-<script src="./subject-hub.js?v=20260912-rf1063"></script>
-<script src="./scholar.js?v=20260912-rf1063"></script>
-<script src="./app.js?v=20260912-rf1063"></script>
-<footer class="build-footer" data-build="RF10.6.3">Lux et Labor · Scholar’s Garden · V0.4.0 Alpha 5 · Deployment Hardening RF10.6.3</footer>
-<script src="./rf10-production.js?v=20260912-rf1063"></script>
+<script src="./latin-question-bank.js?v=20260912-rf1065"></script>
+<script src="./growth.js?v=20260912-rf1065"></script>
+<script src="./latin-module.js?v=20260912-rf1065"></script>
+<script src="./audio-runtime.js?v=20260912-rf10651"></script>
+<script src="./french-reference-marker.js?v=20260912-rf1065"></script>
+<script src="./french-module.js?v=20260912-rf1065"></script>
+<script src="./latin-games.js?v=20260912-rf1065"></script>
+<script src="./science-notes.js?v=20260912-rf1065"></script>
+<script src="./biology-y8.js?v=20260912-rf1065"></script>
+<script src="./science-y8.js?v=20260912-rf1065"></script>
+<script src="./language-y8.js?v=20260912-rf1065"></script>
+<script src="./daily-plan.js?v=20260912-rf1065"></script>
+<script src="./scholar-assets.js?v=20260912-rf1065"></script>
+<script src="./v04-art-config.js?v=20260912-rf1065"></script>
+<script src="./avatar-layer-system.js?v=20260912-rf1065"></script>
+<script src="./garden-growth.js?v=20260912-rf1065"></script>
+<script src="./v04-ui-assets.js?v=20260912-rf1065"></script>
+<script src="./subject-hub.js?v=20260912-rf1065"></script>
+<script src="./scholar.js?v=20260912-rf1065"></script>
+<script src="./topic-search.js?v=20260912-rf1065"></script>
+<script src="./app.js?v=20260912-rf1065"></script>
+<div class="topic-search-modal hidden" id="topicSearchModal" role="dialog" aria-modal="true" aria-labelledby="topicSearchTitle">
+  <button class="topic-search-backdrop" type="button" aria-label="Close topic search" data-topic-search-close></button>
+  <section class="topic-search-panel">
+    <header class="topic-search-head">
+      <div>
+        <p class="eyebrow">REVISION FINDER</p>
+        <h2 id="topicSearchTitle">Find a topic</h2>
+      </div>
+      <button class="topic-search-close" type="button" aria-label="Close" data-topic-search-close>×</button>
+    </header>
+    <label class="topic-search-box">
+      <img src="./study_flashcards.png" alt="">
+      <input id="topicSearchInput" type="search" autocomplete="off" spellcheck="false" placeholder="Search “imperfect tense”, “photosynthesis”, “forces”…">
+      <kbd>/</kbd>
+    </label>
+    <div class="topic-search-hint" id="topicSearchHint">Search your revision library</div>
+    <div class="topic-search-results" id="topicSearchResults"></div>
+  </section>
+</div>
+<footer class="build-footer" data-build="RF10.6.5">Lux et Labor · Scholar’s Garden · V0.4.0 Alpha 5 · Topic Search + Desktop Polish RF10.6.5</footer>
+<script src="./rf10-production.js?v=20260912-rf1065"></script>
 </body>
 </html>
