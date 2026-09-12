@@ -1498,3 +1498,58 @@ body.topic-search-open{overflow:hidden}
 @media(max-width:620px){
   #homeScreen #homeScholarImage{width:76%!important;height:86%!important;left:-3%!important}
 }
+
+
+/* =====================================================================
+   RF10.7.2 — DIRECT HOME SCHOLAR RENDER
+   The Home character is a direct <img> with a concrete box, independent
+   of the older layered avatar stage. This avoids percentage/absolute
+   containing-block ambiguity in headless Chromium.
+   ===================================================================== */
+#homeScreen .rf107-scholar-state-anchor{
+  position:absolute!important;
+  width:1px!important;
+  height:1px!important;
+  left:0!important;
+  bottom:0!important;
+  overflow:hidden!important;
+  opacity:0!important;
+  pointer-events:none!important;
+}
+#homeScreen .rf107-home-scholar-direct{
+  display:block!important;
+  position:absolute!important;
+  left:44px!important;
+  bottom:0!important;
+  width:500px!important;
+  height:610px!important;
+  min-width:500px!important;
+  min-height:610px!important;
+  max-width:none!important;
+  max-height:none!important;
+  object-fit:contain!important;
+  object-position:center bottom!important;
+  visibility:visible!important;
+  opacity:1!important;
+  z-index:4!important;
+  pointer-events:none!important;
+  filter:drop-shadow(0 12px 12px rgba(35,31,27,.18));
+}
+@media(max-width:1180px){
+  #homeScreen .rf107-home-scholar-direct{
+    left:30px!important;
+    width:430px!important;
+    min-width:430px!important;
+    height:515px!important;
+    min-height:515px!important;
+  }
+}
+@media(max-width:620px){
+  #homeScreen .rf107-home-scholar-direct{
+    left:-10px!important;
+    width:340px!important;
+    min-width:340px!important;
+    height:410px!important;
+    min-height:410px!important;
+  }
+}

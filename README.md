@@ -1,16 +1,21 @@
 # Lux et Labor — The Scholar's Garden
 
-## RF10.7.1 Reference-Aligned Rebuild Hotfix
+## RF10.7.2 Reference-Aligned Rebuild Browser Fix
 
-Targeted correction to RF10.7 based on the uploaded GitHub Playwright failure artifacts.
+This build is a targeted response to Browser QA #11.
 
-### Fixed
-1. `topic-search-index.json` now reports the same build as the deployed app (`RF10.7.1`).
-2. The Home Tiffin Scholar image now has explicit width + height + display/visibility/opacity rules,
-   preventing the image box from collapsing in headless Chromium.
-3. Service-worker/cache/version markers are bumped to RF10.7.1.
-4. Browser QA now verifies the Scholar image is visible, has a real bounding box, has loaded
-   intrinsic image dimensions, and has visible computed CSS.
+The previous Home character used the older layered-avatar stage plus percentage sizing.
+Although the PNG loaded correctly, Chromium reported the image as hidden.
 
-The RF10.7 reference-aligned visual direction, Revision Finder, audio, Year 9 Latin Bridge,
-routing, mastery, XP, review scheduling and protected academic engines are preserved.
+RF10.7.2 removes that dependency on Home:
+- the Tiffin Scholar is now a direct image child of the visible Scholar panel;
+- the image has concrete desktop dimensions (500 × 610 CSS px);
+- responsive sizes are explicit for tablet/mobile;
+- the legacy state anchor remains only so existing outfit/state code can continue to work;
+- Browser QA records computed CSS, intrinsic PNG size, rendered box size and parent dimensions
+  before asserting visibility.
+
+All build markers and the topic-search index are synchronized to RF10.7.2.
+
+Reference visual direction, Revision Finder, audio, Year 9 Latin Bridge and protected academic
+engines remain unchanged.
