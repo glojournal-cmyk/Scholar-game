@@ -277,7 +277,7 @@ function renderScholarScene(){
  const s=window.LuxGrowth.load(),stage=document.getElementById('scholarArtSlot'),img=document.getElementById('homeScholarImage');
  const selected=window.ScholarAssets?.selectedOutfit?.();
  if(stage&&img&&selected){
-   const asset=window.ScholarAssets.homeAsset();
+   const asset=selected.asset||window.ScholarAssets.homeAsset();
    if(img.getAttribute('src')!==asset)img.src=asset;
    img.alt=`Scholar · ${selected.name}`;
    stage.classList.add('has-scholar-art');
@@ -392,7 +392,7 @@ async function handleActionClick(event){
      window.GameV2.openHub();return;
    }
    if(el.id==='seeAllGames'){
-     event.preventDefault();document.getElementById('allGamesDrawer')?.classList.toggle('hidden');return;
+     event.preventDefault();await goSubject('latin','current','play');return;
    }
    if(el.id==='gardenExplore'){
      event.preventDefault();document.getElementById('gardenExplorePanel')?.classList.toggle('hidden');return;
@@ -468,7 +468,7 @@ async function init(){
  document.addEventListener('lux:plan-change',()=>{if(routeInfo().screen==='home')renderHome()});
  await Promise.race([Promise.allSettled([frenchLegacyReady,biologyReady,latinMasterReady,frenchMasterReady]),new Promise(resolve=>setTimeout(resolve,2600))]);
  await render();
- if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js?v=0.4.0-a3',{updateViaCache:'none'}).then(reg=>reg.update()).catch(err=>console.warn('[PWA] service worker update failed',err));
+ if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js?v=0.4.0-a5-rf8-20260912',{updateViaCache:'none'}).then(reg=>reg.update()).catch(err=>console.warn('[PWA] service worker update failed',err));
 }
 document.readyState==='loading'?document.addEventListener('DOMContentLoaded',init):init();
 })();

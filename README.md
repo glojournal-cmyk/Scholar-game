@@ -1,37 +1,19 @@
 # Lux et Labor — The Scholar’s Garden
 
-Current release candidate: **V0.4.0 Alpha 5 RC4**
+## RF8 Stable Rebuild
 
-The Scholar’s Garden is a static vanilla-JavaScript educational PWA with subject learning, practice, review, games, Garden progression and Scholar customisation.
+RF8 is the clean re-upload build dated 2026-09-12. Keep the repository directory structure intact.
 
-## Run locally
+Critical directories:
 
-Run it through HTTP rather than opening `index.html` directly from disk:
-
-```bash
-python3 -m http.server 8000
+```text
+assets/rf8/
+cp-y8/runtime/
+cp-y8/shared/
 ```
 
-Then open `http://localhost:8000/`.
+Do **not** flatten those directories into the repository root.
 
-## Main routes
-- `#home`
-- `#study`
-- `#subject/latin`
-- `#subject/french`
-- `#subject/biology`
-- `#garden`
-- `#scholar/overview`
-- `#scholar/wardrobe`
-- `#scholar/collection`
-- `#scholar/achievements`
-- `#scholar/profile`
+The production page loads `rf8-production.css` and `rf8-production.js`. Academic marking, mastery, XP and review engines remain in their dedicated modules.
 
-## Deployment
-See `GITHUB_PAGES_DEPLOYMENT.md`.
-
-## Release notes
-See `RELEASE_NOTES_ALPHA5_RC4.md` and `ALPHA5_RC4_FINAL_QA.md`.
-
-## Academic-state boundary
-Presentation code does not rewrite answer marking, question-bank content, mastery transitions, XP award rules, due-review scheduling, Garden thresholds, game scoring or Scholar unlock rules.
+For GitHub Pages, upload all RF8 batches, preserving paths, then wait for the newest Pages deployment to complete. See `RF8_QA_REPORT.txt` and `RF8_UPLOAD_GUIDE.txt`.

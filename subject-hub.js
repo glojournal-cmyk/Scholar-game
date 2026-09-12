@@ -1,7 +1,7 @@
 (function(){
 'use strict';
-const LABEL={latin:'Latin',french:'French',biology:'Biology',chemistry:'Chemistry',physics:'Physics'};
-const ICON={latin:'L',french:'F',biology:'B',chemistry:'C',physics:'P'};
+const LABEL={latin:'Latin',french:'French',biology:'Biology',chemistry:'Chemistry',physics:'Physics',english:'English'};
+const ICON={latin:'L',french:'F',biology:'B',chemistry:'C',physics:'P',english:'E'};
 let current={subject:'latin',track:'foundation',tab:'practice'};
 
 function canonicalRoute(subject=current.subject,track=current.track,tab=current.tab){
@@ -82,7 +82,7 @@ function scienceFoundationCard(subject){
 function renderStudy(){
  const currentGrid=document.getElementById('currentStudyGrid'),foundationGrid=document.getElementById('foundationStudyGrid');
  if(!currentGrid||!foundationGrid)return;
- currentGrid.innerHTML=unavailableCurrent('latin')+unavailableCurrent('french')+scienceCard('biology')+scienceCard('chemistry')+scienceCard('physics');
+ currentGrid.innerHTML=unavailableCurrent('latin')+unavailableCurrent('french')+scienceCard('biology')+scienceCard('chemistry')+scienceCard('physics')+unavailableCurrent('english');
  foundationGrid.innerHTML=foundationCard('latin')+foundationCard('french')+foundationCard('biology')+scienceFoundationCard('chemistry')+scienceFoundationCard('physics');
 }
 

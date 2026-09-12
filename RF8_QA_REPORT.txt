@@ -1,0 +1,69 @@
+Lux et Labor — The Scholar's Garden
+RF8 Stable Rebuild — Fresh QA Report
+Date: 2026-09-12
+Status: PASS for package/static/runtime-integrity QA
+Visual pixel-parity browser render: NOT VERIFIED (Chromium cannot launch in this environment because its GPU process fails)
+
+WHAT WAS REBUILT / REPAIRED
+- Fresh source was rebuilt from the complete RF7 package, not from the flattened live GitHub tree.
+- Final illustration directory is nested correctly at assets/rf8/.
+- Chemistry/Physics runtime remains nested at cp-y8/.
+- Production surface is one stylesheet: rf8-production.css.
+- Production presentation controller is one file: rf8-production.js.
+- The duplicate RF7 "See all games" handler was removed. app.js is now the single action owner and routes directly to Latin Play.
+- Home, Scholar Overview, and Wardrobe now respect the persisted selected outfit instead of forcing the default outfit.
+- The 8 final user-uploaded outfit renders are mapped to complete full-body assets, so headless garment plates are not used as the large preview.
+- Profile hero remains inside the Profile pane and cannot be injected into its tab button.
+- English appears in Study as an honest unavailable/current card with its own artwork; no unsupported academic content is invented.
+- Service worker namespace and registration are RF8-specific.
+- index.html and 404.html are synchronized.
+
+STATIC / PACKAGE QA
+- Duplicate HTML IDs: 0
+- Missing HTML local references: 0
+- Missing rf8-production.css asset references: 0
+- Missing service-worker precache references: 0
+- Production controller literal art references missing: 0
+- Scholar asset manifest references missing: 0
+- Root JavaScript syntax: 21/21 PASS (node --check)
+- JSON parse: 72/72 PASS
+- Image integrity: 349/349 PASS
+- Final RF8 production WebP usage: 22/22 referenced
+- assets/rf8 contents: 44 files (22 original PNG + 22 production WebP)
+- cp-y8 runtime index exists and all 23 topic shards exist
+
+ACADEMIC REGRESSION LOCK
+The following protected engines are byte-identical to RF5:
+- latin-module.js
+- french-module.js
+- biology-y8.js
+- growth.js
+- latin-games.js
+- garden-growth.js
+- latin-question-bank.js
+- science-notes.js
+- language-y8.js
+- daily-plan.js
+
+CHEMISTRY / PHYSICS PACK
+- Topics: 23
+- Concepts: 207
+- Questions: 805
+- Enabled: 735
+- Preview: 70
+- Recognition: 213
+- Production/application: 592 (73.5%)
+- Source bank summary QA status: PASS
+
+DEPLOYMENT-SPECIFIC QA
+- Do not flatten folders when uploading.
+- assets/rf8/ must remain assets/rf8/.
+- cp-y8/runtime/ must remain cp-y8/runtime/.
+- Do not upload the batch ZIP files themselves into the repository.
+- Extract each batch locally, then drag its CONTENTS (including folders) into the repository root and commit.
+- You do not need to wait for Pages between batches; wait for the newest deployment only after the final batch.
+
+KNOWN ENVIRONMENT LIMITATION
+A local Chromium acceptance run was attempted again. Chromium terminates before rendering with:
+GPU process isn't usable. Goodbye.
+Therefore this report does not claim pixel-perfect browser parity.

@@ -16,7 +16,7 @@ const A=Object.freeze({
     resting:'scholar_resting.png'
   }),
   outfits:Object.freeze([
-    {id:'school-uniform',name:'Tiffin School Uniform',asset:'outfit_school_uniform.png',unlock:{type:'always'}},
+    {id:'school-uniform',name:'Tiffin School Uniform',asset:'./assets/rf8/outfit_default_complete.webp',unlock:{type:'always'}},
     {id:'winter-scholar',name:'Winter Scholar',asset:'outfit_winter_scholar.png',unlock:{type:'studyDays',value:3}},
     {id:'summer-scholar',name:'Summer Scholar',asset:'outfit_summer_scholar.png',unlock:{type:'studyDays',value:7}},
     {id:'casual-study',name:'Casual Study',asset:'outfit_casual_study.png',unlock:{type:'scholarXP',value:100}},
@@ -26,13 +26,13 @@ const A=Object.freeze({
     {id:'reward-cardigan',name:'Scholar Reward Cardigan',asset:'outfit_reward_cardigan.png',unlock:{type:'scholarXP',value:400}},
     {id:'achievement',name:'Achievement Outfit',asset:'outfit_achievement.png',unlock:{type:'dualSubjectXP',subjects:['latin','french'],valueEach:300}},
     {id:'prestige',name:'Prestige Scholar',asset:'outfit_prestige.png',unlock:{type:'scholarXP',value:1500}},
-    {id:'rose-academy',name:'Rose Academy Cardigan',asset:'outfit_rose_academy.png',category:'seasonal',source:'user-upload',unlock:{type:'always'}},
-    {id:'garden-athletics',name:'Garden Athletics',asset:'outfit_garden_athletics.png',category:'athletics',source:'user-upload',unlock:{type:'always'}},
-    {id:'scholar-athletics',name:'Scholar Athletics',asset:'outfit_scholar_athletics.png',category:'athletics',source:'user-upload',unlock:{type:'always'}},
-    {id:'midnight-track',name:'Midnight Track',asset:'outfit_midnight_track.png',category:'athletics',source:'user-upload',unlock:{type:'always'}},
-    {id:'noir-academy',name:'Noir Academy',asset:'outfit_noir_academy.png',category:'prestige',source:'user-upload',unlock:{type:'always'}},
-    {id:'onyx-prefect',name:'Onyx Prefect',asset:'outfit_onyx_prefect.png',category:'prestige',source:'user-upload',unlock:{type:'always'}},
-    {id:'midnight-atelier',name:'Midnight Atelier',asset:'outfit_midnight_atelier.png',category:'prestige',source:'user-upload',unlock:{type:'always'}}
+    {id:'rose-academy',name:'Rose Academy Cardigan',asset:'./assets/rf8/outfit_rose_academy_complete.webp',category:'seasonal',source:'user-upload',unlock:{type:'always'}},
+    {id:'garden-athletics',name:'Garden Athletics',asset:'./assets/rf8/outfit_garden_athletics_complete.webp',category:'athletics',source:'user-upload',unlock:{type:'always'}},
+    {id:'scholar-athletics',name:'Scholar Athletics',asset:'./assets/rf8/outfit_scholar_athletics_complete.webp',category:'athletics',source:'user-upload',unlock:{type:'always'}},
+    {id:'midnight-track',name:'Midnight Track',asset:'./assets/rf8/outfit_midnight_track_complete.webp',category:'athletics',source:'user-upload',unlock:{type:'always'}},
+    {id:'noir-academy',name:'Noir Academy',asset:'./assets/rf8/outfit_noir_academy_complete.webp',category:'prestige',source:'user-upload',unlock:{type:'always'}},
+    {id:'onyx-prefect',name:'Onyx Prefect',asset:'./assets/rf8/outfit_onyx_prefect_complete.webp',category:'prestige',source:'user-upload',unlock:{type:'always'}},
+    {id:'midnight-atelier',name:'Midnight Atelier',asset:'./assets/rf8/outfit_midnight_atelier_complete.webp',category:'prestige',source:'user-upload',unlock:{type:'always'}}
   ]),
   study:Object.freeze({
     latinLearn:'study_latin_textbook.png',
