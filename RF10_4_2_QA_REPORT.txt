@@ -1,0 +1,54 @@
+RF10.4.2 Resource Path Correction — Build Report
+================================================
+
+Failure evidence used
+---------------------
+Playwright RF10.4.1 showed 13 HTTP 404 responses, all caused by the legacy French loader:
+- /French-Revision/reference-marker.js
+- root question/vocab/writing/notes JSON attempts
+- /French-Revision/* fallback attempts
+
+Correction
+----------
+The protected french-module.js is unchanged. Its first supported base path (`./`) is now fulfilled
+with local compatibility files derived from the existing canonical French runtime. A local
+FrenchReferenceMarker is loaded before french-module.js, so the invalid ../French-Revision marker
+request is never made.
+
+Compatibility data
+------------------
+- Questions: 5585
+- Vocabulary rows: 255
+- Notes: 32
+- Writing compatibility rows: 0 (no source-backed legacy writing bank was present; no content invented)
+
+Static QA
+---------
+- Protected academic files byte-identical: PASS
+- All compatibility JSON parses: PASS
+- French marker loads before french-module: PASS
+- Root question bank present: PASS
+- Root vocab bank present: PASS
+- No French-Revision directory dependency added: PASS
+- Smoke QA checks HTTP failures: PASS
+- JavaScript syntax: 24/24 PASS
+- Missing HTML local refs: 0
+- Duplicate IDs: 0
+
+Protected regression
+--------------------
+- latin-module.js: BYTE-IDENTICAL PASS
+- french-module.js: BYTE-IDENTICAL PASS
+- biology-y8.js: BYTE-IDENTICAL PASS
+- growth.js: BYTE-IDENTICAL PASS
+- latin-games.js: BYTE-IDENTICAL PASS
+- garden-growth.js: BYTE-IDENTICAL PASS
+- latin-question-bank.js: BYTE-IDENTICAL PASS
+- science-notes.js: BYTE-IDENTICAL PASS
+- language-y8.js: BYTE-IDENTICAL PASS
+- daily-plan.js: BYTE-IDENTICAL PASS
+
+Expected GitHub Actions acceptance
+----------------------------------
+Browser QA should now expose exact URLs for any remaining 4xx/5xx response. The previous French
+resource 404 sequence should be eliminated without modifying french-module.js.

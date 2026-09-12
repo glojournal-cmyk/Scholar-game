@@ -1,12 +1,19 @@
 # Lux et Labor — The Scholar's Garden
 
-## RF10.4.1 QA Harness Fix
+## RF10.4.2 Resource Path Correction
 
-This is a QA-only correction.
+This build fixes the French legacy-resource 404s caught by Playwright.
 
-The previous smoke test incorrectly expected a `#app` wrapper that does not exist in the real app.
-RF10.4.1 now validates the actual navigation shell and visible screen structure, while preserving
-all routing, UI, academic engines, mastery, XP, due-review logic, question banks and runtime packs.
+### Correction
+- Adds root-local French compatibility resources so `french-module.js` resolves its first `./` path.
+- Preloads `FrenchReferenceMarker` locally, preventing the bad `../French-Revision/` request.
+- Compatibility question/vocabulary/note data is derived only from the existing canonical French runtime.
+- No invented writing content is added; `writing-bank.json` remains a valid empty compatibility file.
+- Smoke QA now prints exact failing HTTP URLs and fails on any 4xx/5xx response.
 
-The smoke test also prints explicit browser diagnostics for uncaught page errors and console errors,
-so future GitHub Actions failures show the real runtime error directly in the log.
+Generated compatibility inventory:
+- 5585 French questions
+- 255 unique source-backed vocabulary rows
+- 32 topic notes
+
+Academic engines and protected source files remain unchanged.
