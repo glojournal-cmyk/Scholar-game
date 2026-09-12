@@ -1553,3 +1553,59 @@ body.topic-search-open{overflow:hidden}
     min-height:410px!important;
   }
 }
+
+
+/* =====================================================================
+   RF10.7.3 — HOME GRID ROOT-CAUSE FIX
+   Legacy #homeScreen (ID-specific) rules were still forcing the old
+   two-column / named-area layout on the new RF10.7 Home. Because those
+   rules outranked .rf107-home, the new .rf107-home-grid was squeezed
+   into an old grid track and the Scholar panel collapsed to its 2px
+   border width. Reset the Home root with equal/higher specificity.
+   ===================================================================== */
+#homeScreen.rf107-home{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr)!important;
+  grid-template-rows:auto!important;
+  grid-template-areas:none!important;
+  grid-auto-flow:row!important;
+  grid-auto-columns:auto!important;
+  grid-auto-rows:auto!important;
+  gap:14px!important;
+  width:100%!important;
+  max-width:1320px!important;
+  min-width:0!important;
+  margin:0 auto!important;
+}
+#homeScreen.rf107-home > *{
+  grid-column:1!important;
+  grid-row:auto!important;
+  min-width:0!important;
+}
+#homeScreen .rf107-home-grid{
+  display:grid!important;
+  grid-template-columns:minmax(540px,1.12fr) minmax(420px,.88fr)!important;
+  width:100%!important;
+  min-width:0!important;
+  align-items:stretch!important;
+  gap:14px!important;
+}
+#homeScreen .rf107-scholar-panel{
+  width:100%!important;
+  min-width:540px!important;
+  max-width:none!important;
+}
+#homeScreen .rf107-home-stack{
+  width:100%!important;
+  min-width:420px!important;
+  max-width:none!important;
+}
+@media(max-width:1180px){
+  #homeScreen .rf107-home-grid{
+    grid-template-columns:minmax(0,1fr)!important;
+  }
+  #homeScreen .rf107-scholar-panel,
+  #homeScreen .rf107-home-stack{
+    min-width:0!important;
+  }
+}

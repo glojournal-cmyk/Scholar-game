@@ -1,21 +1,27 @@
 # Lux et Labor — The Scholar's Garden
 
-## RF10.7.2 Reference-Aligned Rebuild Browser Fix
+## RF10.7.3 Reference-Aligned Home Grid Fix
 
-This build is a targeted response to Browser QA #11.
+This build fixes the root cause identified by Browser QA #12.
 
-The previous Home character used the older layered-avatar stage plus percentage sizing.
-Although the PNG loaded correctly, Chromium reported the image as hidden.
+### Root cause
+The new RF10.7 Home uses `.rf107-home`, but the stylesheet still contained the legacy
+ID-specific `#homeScreen` grid from the old Home. Because an ID selector outranks the newer
+class selector, Chromium kept applying the old two-column / named-area layout.
 
-RF10.7.2 removes that dependency on Home:
-- the Tiffin Scholar is now a direct image child of the visible Scholar panel;
-- the image has concrete desktop dimensions (500 × 610 CSS px);
-- responsive sizes are explicit for tablet/mobile;
-- the legacy state anchor remains only so existing outfit/state code can continue to work;
-- Browser QA records computed CSS, intrinsic PNG size, rendered box size and parent dimensions
-  before asserting visibility.
+That squeezed `.rf107-home-grid` into the old narrow track. The direct Tiffin character from
+RF10.7.2 was visible, but `.rf107-scholar-panel` itself collapsed to a 2px border-width box.
 
-All build markers and the topic-search index are synchronized to RF10.7.2.
+### Correction
+- `#homeScreen.rf107-home` now explicitly resets the legacy grid.
+- The RF10.7 Home root is one full-width column.
+- `.rf107-home-grid` gets the intended Scholar + journey two-column layout.
+- Desktop Scholar panel has a real minimum width of 540px.
+- Desktop journey stack has a real minimum width of 420px.
+- Below 1180px the Home correctly collapses to one column.
+- The successful RF10.7.2 direct Tiffin Scholar rendering is preserved.
 
-Reference visual direction, Revision Finder, audio, Year 9 Latin Bridge and protected academic
-engines remain unchanged.
+Browser QA now also checks the Home root and Home grid widths before checking the Scholar panel.
+
+Revision Finder, audio, Year 9 Latin Bridge, routing, mastery, XP, review scheduling and all
+protected academic engines are unchanged.

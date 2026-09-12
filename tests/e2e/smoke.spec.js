@@ -78,16 +78,16 @@ test('deployment version endpoint matches HTML build', async ({ page }) => {
   await page.goto('./', { waitUntil: 'networkidle' });
 
   const meta = await page.locator('meta[name="scholar-garden-build"]').getAttribute('content');
-  expect(meta).toContain('RF10.7.2');
+  expect(meta).toContain('RF10.7.3');
 
   const version = await page.evaluate(async () => {
     const r = await fetch(`./version.json?t=${Date.now()}`, { cache: 'no-store' });
     return { ok: r.ok, data: await r.json() };
   });
   expect(version.ok).toBeTruthy();
-  expect(version.data.build).toBe('RF10.7.2');
+  expect(version.data.build).toBe('RF10.7.3');
 
-  await expect(page.locator('footer[data-build="RF10.7.2"]')).toHaveCount(1);
+  await expect(page.locator('footer[data-build="RF10.7.3"]')).toHaveCount(1);
 
   const guard = await page.request.get('./deploy-guard.js');
   expect(guard.ok()).toBeTruthy();
@@ -121,7 +121,7 @@ test('topic search index is available and substantial', async ({ request }) => {
   const response = await request.get('./topic-search-index.json');
   expect(response.ok()).toBeTruthy();
   const data = await response.json();
-  expect(data.build).toBe('RF10.7.2');
+  expect(data.build).toBe('RF10.7.3');
   expect(data.count).toBeGreaterThan(100);
 });
 
@@ -129,12 +129,42 @@ test('topic search index is available and substantial', async ({ request }) => {
 test('reference-aligned home layout has no giant blank scene', async ({ page }) => {
   await page.goto('./#home', { waitUntil: 'networkidle' });
 
+  const home = page.locator('#homeScreen.rf107-home');
+  const homeGrid = page.locator('.rf107-home-grid');
   const scholar = page.locator('.rf107-scholar-panel');
   const stack = page.locator('.rf107-home-stack');
   const image = page.locator('#homeScholarImage');
 
+  await expect(home).toBeVisible();
+  await expect(homeGrid).toBeVisible();
   await expect(scholar).toBeVisible();
   await expect(stack).toBeVisible();
+
+  const rootState = await home.evaluate(el => {
+    const cs = getComputedStyle(el);
+    const r = el.getBoundingClientRect();
+    return {
+      display: cs.display,
+      gridTemplateColumns: cs.gridTemplateColumns,
+      width: r.width,
+      height: r.height
+    };
+  });
+  const gridState = await homeGrid.evaluate(el => {
+    const cs = getComputedStyle(el);
+    const r = el.getBoundingClientRect();
+    return {
+      display: cs.display,
+      gridTemplateColumns: cs.gridTemplateColumns,
+      width: r.width,
+      height: r.height
+    };
+  });
+
+  expect(rootState, `Home root diagnostics: ${JSON.stringify(rootState)}`).toMatchObject({ display: 'grid' });
+  expect(rootState.width).toBeGreaterThan(1000);
+  expect(gridState, `Home grid diagnostics: ${JSON.stringify(gridState)}`).toMatchObject({ display: 'grid' });
+  expect(gridState.width).toBeGreaterThan(1000);
   const imageState = await image.evaluate(img => {
     const cs = getComputedStyle(img);
     const r = img.getBoundingClientRect();
