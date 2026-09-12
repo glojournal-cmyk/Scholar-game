@@ -78,16 +78,16 @@ test('deployment version endpoint matches HTML build', async ({ page }) => {
   await page.goto('./', { waitUntil: 'networkidle' });
 
   const meta = await page.locator('meta[name="scholar-garden-build"]').getAttribute('content');
-  expect(meta).toContain('RF10.7');
+  expect(meta).toContain('RF10.7.1');
 
   const version = await page.evaluate(async () => {
     const r = await fetch(`./version.json?t=${Date.now()}`, { cache: 'no-store' });
     return { ok: r.ok, data: await r.json() };
   });
   expect(version.ok).toBeTruthy();
-  expect(version.data.build).toBe('RF10.7');
+  expect(version.data.build).toBe('RF10.7.1');
 
-  await expect(page.locator('footer[data-build="RF10.7"]')).toHaveCount(1);
+  await expect(page.locator('footer[data-build="RF10.7.1"]')).toHaveCount(1);
 
   const guard = await page.request.get('./deploy-guard.js');
   expect(guard.ok()).toBeTruthy();
@@ -121,7 +121,7 @@ test('topic search index is available and substantial', async ({ request }) => {
   const response = await request.get('./topic-search-index.json');
   expect(response.ok()).toBeTruthy();
   const data = await response.json();
-  expect(data.build).toBe('RF10.7');
+  expect(data.build).toBe('RF10.7.1');
   expect(data.count).toBeGreaterThan(100);
 });
 
@@ -136,6 +136,22 @@ test('reference-aligned home layout has no giant blank scene', async ({ page }) 
   await expect(scholar).toBeVisible();
   await expect(stack).toBeVisible();
   await expect(image).toBeVisible();
+
+  await expect.poll(async () => image.evaluate(img => ({
+    naturalWidth: img.naturalWidth,
+    naturalHeight: img.naturalHeight,
+    display: getComputedStyle(img).display,
+    visibility: getComputedStyle(img).visibility,
+    opacity: Number(getComputedStyle(img).opacity)
+  }))).toMatchObject({
+    display: 'block',
+    visibility: 'visible',
+    opacity: 1
+  });
+
+  const natural = await image.evaluate(img => ({ w: img.naturalWidth, h: img.naturalHeight }));
+  expect(natural.w).toBeGreaterThan(100);
+  expect(natural.h).toBeGreaterThan(100);
 
   const sb = await scholar.boundingBox();
   const qb = await stack.boundingBox();

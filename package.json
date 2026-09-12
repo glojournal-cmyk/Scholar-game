@@ -1,7 +1,7 @@
 {
   "name": "scholars-garden",
   "private": true,
-  "version": "0.4.0-alpha.5-rf10.4",
+  "version": "0.4.0-alpha.5-rf10.7.1",
   "scripts": {
     "test:e2e": "playwright test",
     "test:e2e:headed": "playwright test --headed",

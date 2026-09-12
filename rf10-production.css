@@ -1462,3 +1462,39 @@ body.topic-search-open{overflow:hidden}
   .rf107-garden-copy,.rf107-next-reward{width:56%}
   .rf107-shortcuts .subject-training-grid{grid-template-columns:1fr!important}
 }
+
+
+/* =====================================================================
+   RF10.7.1 — HOME SCHOLAR VISIBILITY HOTFIX
+   Explicit dimensions avoid percentage/auto sizing collapsing in headless Chromium.
+   ===================================================================== */
+#homeScreen #scholarArtSlot{
+  position:absolute!important;
+  inset:0!important;
+  display:block!important;
+  width:100%!important;
+  height:100%!important;
+  visibility:visible!important;
+  opacity:1!important;
+}
+#homeScreen #homeScholarImage{
+  display:block!important;
+  visibility:visible!important;
+  opacity:1!important;
+  position:absolute!important;
+  left:6%!important;
+  bottom:0!important;
+  width:52%!important;
+  height:90%!important;
+  max-width:none!important;
+  max-height:none!important;
+  object-fit:contain!important;
+  object-position:center bottom!important;
+  z-index:3!important;
+}
+@media(max-width:980px){
+  #homeScreen #homeScholarImage{width:62%!important;height:88%!important;left:2%!important}
+}
+@media(max-width:620px){
+  #homeScreen #homeScholarImage{width:76%!important;height:86%!important;left:-3%!important}
+}
