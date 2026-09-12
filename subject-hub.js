@@ -6,6 +6,7 @@ let current={subject:'latin',track:'foundation',tab:'practice'};
 
 function canonicalRoute(subject=current.subject,track=current.track,tab=current.tab){
  let slug=subject;
+ if(track==='current'&&subject==='latin')slug='latin-current';
  if(track==='foundation'&&['biology','chemistry','physics'].includes(subject))slug=`${subject}-foundation`;
  return `#subject/${slug}/${tab}`;
 }
@@ -52,6 +53,15 @@ function unavailableCurrent(subject){
    <div class="unavailable-note">Not available yet</div>
  </article>`;
 }
+function latinCurrentCard(){
+ const d=due('latin'),summary=window.MasterY8?.masterySummary?.('latin')||{};
+ return `<article class="study-card latin-y9-bridge">
+   <div class="subject-orb">${ICON.latin}</div><h3>Latin</h3>
+   <p>Year 9 Bridge Review keeps verified prior Latin active while the current Year 9 source pack is added.</p>
+   <div class="study-status"><span>Bridge review</span><span>${d} due</span><span>${summary.secure||0} secure</span></div>
+   <div class="card-action"><small>Verified review · Learn · Practise · Play · Progress</small><button class="primary" data-open-subject="latin" data-track="current">Open Latin</button></div>
+ </article>`;
+}
 function foundationCard(subject){
  if(subject==='biology'){
    const d=Number(window.BiologyY8?.dueCount?.())||0,w=Number(window.BiologyY8?.weakCount?.())||0;
@@ -82,7 +92,7 @@ function scienceFoundationCard(subject){
 function renderStudy(){
  const currentGrid=document.getElementById('currentStudyGrid'),foundationGrid=document.getElementById('foundationStudyGrid');
  if(!currentGrid||!foundationGrid)return;
- currentGrid.innerHTML=unavailableCurrent('latin')+unavailableCurrent('french')+scienceCard('biology')+scienceCard('chemistry')+scienceCard('physics')+unavailableCurrent('english');
+ currentGrid.innerHTML=latinCurrentCard()+unavailableCurrent('french')+scienceCard('biology')+scienceCard('chemistry')+scienceCard('physics')+unavailableCurrent('english');
  foundationGrid.innerHTML=foundationCard('latin')+foundationCard('french')+foundationCard('biology')+scienceFoundationCard('chemistry')+scienceFoundationCard('physics');
 }
 
@@ -120,16 +130,21 @@ function setHeader(subject,track){
  pill.textContent=track==='current'?'Current · Year 9':'Foundation Review · Year 8';
  pill.className=`route-pill ${track==='current'?'current':'foundation'}`;
  document.getElementById('subjectSubtitle').textContent=
+   track==='current'&&subject==='latin'?'Verified Latin bridge review for Year 9: strengthen prior vocabulary, grammar and retrieval while new current-course sources remain separate.':
    track==='current'?'Learn the current course in a clear topic sequence.':'Consolidate prior learning with spaced review and focused practice.';
- const d=track==='foundation'?due(subject):0;
- document.getElementById('subjectDue').textContent=track==='foundation'&&['latin','french','biology','chemistry','physics'].includes(subject)?`${d} due`:'Current learning';
+ const d=(track==='foundation'||(track==='current'&&subject==='latin'))?due(subject):0;
+ document.getElementById('subjectDue').textContent=
+   track==='current'&&subject==='latin'?`${d} bridge due`:
+   track==='foundation'&&['latin','french','biology','chemistry','physics'].includes(subject)?`${d} due`:'Current learning';
  document.getElementById('subjectMastery').textContent=
+   track==='current'&&subject==='latin'?((window.MasterY8?.masterySummary?.('latin')?.secure||0)+' bridge secure'):
    track==='foundation'&&['latin','french'].includes(subject)?((window.MasterY8?.masterySummary?.(subject)?.secure||0)+' secure concepts'):
    track==='foundation'&&subject==='biology'?((window.BiologyY8?.masterySummary?.().secure||0)+' secure concepts'):
    track==='foundation'&&['chemistry','physics'].includes(subject)?((window.ScienceY8?.masterySummary?.(subject)?.secure||0)+' secure concepts'):
    track==='current'&&window.ScholarScience?.get(subject)?'Learn available':'Not available yet';
  const c=document.getElementById('subjectContinue');
- const available=(track==='foundation'&&['latin','french','biology','chemistry','physics'].includes(subject))||(track==='current'&&!!window.ScholarScience?.get(subject));
+ const available=(track==='foundation'&&['latin','french','biology','chemistry','physics'].includes(subject))||
+   (track==='current'&&(subject==='latin'||!!window.ScholarScience?.get(subject)));
  c.disabled=!available;c.textContent=available?'Continue today':'Not available yet';
  c.dataset.subjectContinue=subject;c.dataset.subjectTrack=track;
  configureTabs(subject,track);
@@ -229,6 +244,42 @@ async function renderFoundationEngine(subject,tab){
  }
  return false;
 }
+async function renderCurrentLatin(tab){
+ if(!(await window.MasterY8?.ensure?.('latin')))throw new Error('Verified Latin bridge data unavailable');
+ const pane=document.getElementById(`generic${tab[0].toUpperCase()+tab.slice(1)}Pane`);
+
+ if(tab==='learn'){
+   const topics=window.MasterY8.topics('latin').filter(t=>t.enabledCount>0);
+   pane.innerHTML=`<div class="section-title"><div><p class="eyebrow">YEAR 9 · VERIFIED BRIDGE REVIEW</p><h2>Latin Bridge Library</h2></div><span>${topics.length} review topics</span></div>
+   <div class="bridge-notice"><b>Source boundary</b><p>This is verified prior Latin used as a Year 9 bridge. It is not labelled as new Year 9 curriculum content.</p></div>
+   <div class="note-topic-list">${topics.map(t=>`<article class="note-topic"><p class="eyebrow">BRIDGE REVIEW</p><h3>${esc(t.title)}</h3><p>${t.enabledCount} verified concepts available for recall.</p><button class="secondary" data-y9-latin-note="${esc(t.topicId)}">Open review notes</button></article>`).join('')}</div>`;
+   pane.querySelectorAll('[data-y9-latin-note]').forEach(b=>b.onclick=async()=>{
+     await window.MasterY8.renderNote('latin',b.dataset.y9LatinNote);
+     history.replaceState(null,'',canonicalRoute('latin','current','learn'));
+     window.scrollTo({top:0,behavior:'auto'});
+   });
+   return true;
+ }
+ if(tab==='practice'){
+   await window.MasterY8.renderPractice('latin');
+   pane.querySelector('.section-title .eyebrow')?.replaceChildren('YEAR 9 · BRIDGE TRAINING');
+   return true;
+ }
+ if(tab==='progress'){
+   await window.MasterY8.renderProgress('latin');
+   pane.querySelector('.section-title .eyebrow')?.replaceChildren('YEAR 9 · BRIDGE PROGRESS');
+   return true;
+ }
+ if(tab==='play'){
+   pane.classList.add('hidden');
+   document.getElementById('latinScreen').classList.remove('hidden');
+   if(!window.GameV2?.openHub)throw new Error('Latin GameV2 engine unavailable');
+   window.GameV2.openHub();
+   return true;
+ }
+ throw new Error(`Unsupported Year 9 Latin bridge tab: ${tab}`);
+}
+
 async function renderTab(tab){
  const allowed=['learn','practice','play','progress'];
  if(!allowed.includes(tab)){
@@ -262,7 +313,8 @@ async function renderTab(tab){
 
  try{
    if(track==='current'){
-     if(tab==='learn')await renderScienceLearn(subject);
+     if(subject==='latin')await renderCurrentLatin(tab);
+     else if(tab==='learn')await renderScienceLearn(subject);
      else await renderScienceOther(subject,tab);
    }else if(subject==='biology'){
      await renderFoundationBio(tab);
@@ -345,7 +397,8 @@ function parseRoute(hash){
  const raw=hash.replace(/^#/,'').split('/').filter(Boolean);
  if(raw[0]!=='subject')return null;
  let subject=raw[1]||'latin',track='current';
- if(subject.endsWith('-foundation')){subject=subject.replace(/-foundation$/,'');track='foundation'}
+ if(subject==='latin-current'){subject='latin';track='current'}
+ else if(subject.endsWith('-foundation')){subject=subject.replace(/-foundation$/,'');track='foundation'}
  else if(['latin','french'].includes(subject))track='foundation';
  let tab=['learn','practice','play','progress'].includes(raw[2])?raw[2]:undefined;if(raw[2]==='review')tab='practice';
  return {subject,track,tab};

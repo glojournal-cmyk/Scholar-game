@@ -22,6 +22,7 @@ function studySubject(card){
 function studyTrack(card){return q('[data-open-subject]',card)?.dataset.track||'current'}
 function available(subject,track,tab){
   if(track==='current'){
+    if(subject==='latin') return ['learn','practice','play','progress'].includes(tab);
     if(['biology','chemistry','physics'].includes(subject)) return tab==='learn'||tab==='progress';
     return false;
   }
@@ -153,18 +154,18 @@ function fixProfile(){
   if(value&&value.textContent!==wanted)value.textContent=wanted;
 }
 function loadPrefs(){
-  const base={sound:true,music:false,notifications:true,reducedMotion:false};
+  const base={sound:false,music:false,notifications:true,reducedMotion:false};
   try{
     return Object.assign(base,JSON.parse(localStorage.getItem('scholarsGarden.rf9.preferences')||'{}'),JSON.parse(localStorage.getItem('scholarsGarden.rf91.preferences')||'{}'),JSON.parse(localStorage.getItem(PREF_KEY)||'{}'));
   }catch{return base}
 }
 function applyPrefs(){
-  const p=loadPrefs();document.documentElement.classList.toggle('rf10-reduced-motion',!!p.reducedMotion);
-  const map={rf9SoundToggle:'sound',rf9MusicToggle:'music',rf9NotificationsToggle:'notifications',rf9MotionToggle:'reducedMotion'};
+  const p=loadPrefs();p.sound=false;p.music=false;document.documentElement.classList.toggle('rf10-reduced-motion',!!p.reducedMotion);
+  const map={rf9NotificationsToggle:'notifications',rf9MotionToggle:'reducedMotion'};
   Object.entries(map).forEach(([id,k])=>{const el=document.getElementById(id);if(el)el.checked=!!p[k]});
 }
 function bindPrefs(){
-  const map={rf9SoundToggle:'sound',rf9MusicToggle:'music',rf9NotificationsToggle:'notifications',rf9MotionToggle:'reducedMotion'};
+  const map={rf9NotificationsToggle:'notifications',rf9MotionToggle:'reducedMotion'};
   Object.entries(map).forEach(([id,k])=>{
     const el=document.getElementById(id);if(!el||el.dataset.rf10Pref)return;el.dataset.rf10Pref='1';
     el.addEventListener('change',()=>{const p=loadPrefs();p[k]=!!el.checked;try{localStorage.setItem(PREF_KEY,JSON.stringify(p))}catch{}applyPrefs()});

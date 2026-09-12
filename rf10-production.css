@@ -756,3 +756,107 @@ body{scroll-padding-top:18px}
 @media(max-width:560px){
   .subject-training-grid{grid-template-columns:1fr}
 }
+
+/* Year 9 Latin bridge: visually current, academically source-honest. */
+.latin-y9-bridge{
+  box-shadow:inset 0 3px 0 rgba(186,143,55,.62);
+}
+.latin-y9-bridge .study-status span:first-child{
+  background:#f0e2b9;
+  color:#6b4d16;
+}
+.bridge-notice{
+  margin:0 0 12px;
+  padding:12px 14px;
+  border:1px solid rgba(186,143,55,.34);
+  border-radius:13px;
+  background:#fff8e7;
+}
+.bridge-notice b{color:var(--navy);font-family:var(--serif)}
+.bridge-notice p{margin:3px 0 0;color:var(--muted);line-height:1.4}
+
+
+/* =====================================================================
+   RF10.6 — GAME HOME
+   ===================================================================== */
+.rf106-game-home{display:grid;gap:14px;padding-bottom:20px}
+.rf106-home-hud{display:block;padding:4px 2px 0}
+.rf106-greeting .eyebrow{margin-bottom:5px}
+.rf106-greeting-line{display:flex;align-items:flex-end;justify-content:space-between;gap:18px}
+.rf106-greeting h1{font-size:clamp(2rem,3vw,3.25rem);line-height:.95;margin:0}
+.rf106-greeting .rf4-home-date{margin:6px 0 0;font-size:.76rem}
+.rf106-hud-vitals{display:flex;gap:8px;align-items:stretch}
+.rf106-hud-vitals span{min-width:92px;display:flex;flex-direction:column;justify-content:center;border:1px solid var(--line);background:rgba(255,253,247,.92);border-radius:12px;padding:8px 11px}
+.rf106-hud-vitals small{color:var(--muted);font-size:.52rem;letter-spacing:.12em}
+.rf106-hud-vitals b{color:var(--navy);font-family:var(--serif);font-size:.92rem;margin-top:2px}
+
+.rf106-world-layout{display:grid;grid-template-columns:minmax(0,1.72fr) minmax(340px,.78fr);gap:14px;min-height:520px}
+.rf106-world-card{position:relative;min-height:520px;overflow:hidden;border:1px solid rgba(169,140,88,.38);border-radius:22px;background:#e8e2d4;box-shadow:0 18px 42px rgba(36,46,42,.10)}
+.rf106-scholar-scene{position:absolute!important;inset:0;min-height:0!important;width:100%;height:100%;border:0!important;border-radius:0!important;overflow:hidden}
+.rf106-scholar-scene:before{content:"";position:absolute;inset:0;z-index:0;background:linear-gradient(90deg,rgba(11,48,72,.02) 0%,rgba(11,48,72,.08) 44%,rgba(11,48,72,.46) 100%),url("./assets/rf8/raising_study_room_day.webp") center/cover no-repeat}
+.rf106-scholar-scene .rf4-scholar-stage{position:absolute;inset:0;z-index:1}
+.rf106-scholar-scene .home-scholar-art{position:absolute;left:10%;bottom:-2px;width:auto;height:90%;max-width:50%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 14px 12px rgba(32,31,26,.20))}
+.rf106-world-overlay{position:absolute;z-index:4;right:28px;bottom:28px;width:min(48%,430px);color:#fff;padding:22px;border:1px solid rgba(255,255,255,.24);border-radius:18px;background:linear-gradient(145deg,rgba(8,47,72,.88),rgba(13,65,81,.78));backdrop-filter:blur(7px);box-shadow:0 16px 35px rgba(10,33,44,.22)}
+.rf106-stage-tag{display:inline-flex;padding:5px 8px;border-radius:999px;background:rgba(225,190,114,.18);color:#f4d89b;font-weight:800;letter-spacing:.14em;font-size:.56rem}
+.rf106-world-overlay h2{color:#fff;font-size:2rem;line-height:1;margin:9px 0 7px}
+.rf106-world-overlay p{margin:0 0 14px;color:rgba(255,255,255,.82);line-height:1.45}
+.rf106-world-actions{display:flex;gap:8px;flex-wrap:wrap}
+.rf106-adventure-button{min-height:42px;background:#e0b96a!important;color:#0d3852!important}
+.rf106-world-overlay .secondary.light{border-color:rgba(255,255,255,.35);color:#fff;background:rgba(255,255,255,.08)}
+.rf106-world-corner{position:absolute;z-index:4;top:20px;left:20px;display:grid;min-width:128px;padding:10px 12px;color:#fff;border-radius:13px;background:rgba(9,50,75,.82);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(5px)}
+.rf106-world-corner small{font-size:.5rem;letter-spacing:.13em;color:#d9c68d}.rf106-world-corner b{font-family:var(--serif);font-size:1.18rem;margin:2px 0}.rf106-world-corner span{font-size:.62rem;color:rgba(255,255,255,.78)}
+
+.rf106-quest-board{min-height:520px;display:flex;flex-direction:column;border:1px solid var(--line);border-radius:22px;padding:21px;background:radial-gradient(circle at 90% 6%,rgba(210,184,121,.17),transparent 28%),var(--card);box-shadow:0 18px 42px rgba(36,46,42,.08)}
+.rf106-board-title{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.rf106-board-title h2{font-size:2rem;line-height:1;margin:3px 0 0}
+.rf106-quest-seal{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:#e5c77e;font-size:1.1rem}
+.rf106-journey-chips{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:15px 0 12px}
+.rf106-journey-chips .rf4-journey-chip{min-width:0;padding:8px 7px;text-align:left}
+.rf106-journey-chips small{font-size:.46rem}.rf106-journey-chips b{font-size:.65rem}
+.rf106-week-strip{margin:3px 0 9px;padding-bottom:9px;border-bottom:1px solid var(--line)}
+.rf106-main-quest{flex:1;padding:14px 0 12px!important;border:0!important}
+.rf106-main-quest h3{font-size:1.15rem}.rf106-main-quest button{min-height:40px;padding-inline:17px}
+.rf106-quest-progress{margin-top:auto;padding-top:12px;border-top:1px solid var(--line)}
+
+.rf106-reward-row{display:grid;grid-template-columns:minmax(280px,.72fr) minmax(0,1.28fr);gap:12px}
+.rf106-reward-card{min-height:116px;display:grid;grid-template-columns:96px minmax(0,1fr);align-items:center;gap:15px;padding:14px!important;border:1px solid var(--line);border-radius:17px;background:linear-gradient(135deg,#fffdf7,#f3ead6)}
+.rf106-reward-art{width:90px!important;height:88px!important;display:grid!important;place-items:center;border-radius:14px;background:rgba(205,182,122,.16)}
+.rf106-reward-art img{width:78px!important;height:78px!important;max-height:78px!important;object-fit:contain!important}
+.rf106-reward-card h3{font-size:1.35rem;margin:2px 0}
+.rf106-side-quests{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.rf106-side-quests>*{min-height:116px;border-radius:17px!important}
+
+.rf106-training-ground,.rf106-quick-play{padding:18px;border:1px solid var(--line);border-radius:20px;background:rgba(255,253,247,.88)}
+.rf106-section-title h2{font-size:1.9rem;line-height:1}
+.rf106-training-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:10px!important}
+.rf106-training-grid .training-access-card{min-height:146px;border-radius:15px;position:relative;overflow:hidden}
+.rf106-training-grid .training-access-card:nth-child(n+4){min-height:134px}
+.rf106-training-grid .training-access-card button{min-height:34px}
+.rf106-quick-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+
+#gameSoundButton,#rf9SoundToggle,#rf9MusicToggle,label:has(#rf9SoundToggle),label:has(#rf9MusicToggle){display:none!important}
+
+@media(max-width:1180px){
+  .rf106-world-layout{grid-template-columns:1fr;min-height:auto}
+  .rf106-world-card{min-height:520px}
+  .rf106-quest-board{min-height:auto}
+  .rf106-training-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+}
+@media(max-width:860px){
+  .rf106-greeting-line{align-items:flex-start;flex-direction:column}
+  .rf106-hud-vitals{width:100%;display:grid;grid-template-columns:repeat(3,1fr)}
+  .rf106-world-card{min-height:520px}
+  .rf106-world-overlay{left:16px;right:16px;bottom:16px;width:auto}
+  .rf106-scholar-scene .home-scholar-art{left:4%;max-width:68%;height:82%}
+  .rf106-reward-row{grid-template-columns:1fr}
+  .rf106-training-grid{grid-template-columns:1fr 1fr!important}
+}
+@media(max-width:560px){
+  .rf106-hud-vitals{grid-template-columns:1fr 1fr}
+  .rf106-hud-vitals span:last-child{grid-column:1/-1}
+  .rf106-world-card{min-height:570px}
+  .rf106-world-overlay{padding:17px}.rf106-world-overlay h2{font-size:1.55rem}
+  .rf106-journey-chips{grid-template-columns:1fr}
+  .rf106-training-grid{grid-template-columns:1fr!important}
+  .rf106-side-quests{grid-template-columns:1fr}
+}

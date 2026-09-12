@@ -1,6 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 const routes = [
+  { year: 'Year 9 · Current', subject: 'Latin', action: 'Learn', heading: 'Latin' },
   { year: 'Year 9 · Current', subject: 'Biology', action: 'Learn', heading: 'Biology' },
   { year: 'Year 9 · Current', subject: 'Chemistry', action: 'Learn', heading: 'Chemistry' },
   { year: 'Year 9 · Current', subject: 'Physics', action: 'Learn', heading: 'Physics' },
@@ -58,7 +59,7 @@ test.describe('Study Hub routing', () => {
     await openStudy(page);
     await chooseYear(page, 'Year 9 · Current');
 
-    for (const subject of ['Latin', 'French', 'English']) {
+    for (const subject of ['French', 'English']) {
       const card = await subjectCard(page, subject);
       await expect(card.getByRole('button', { name: 'Learn', exact: true })).toBeDisabled();
     }
@@ -80,4 +81,15 @@ test.describe('Study Hub routing', () => {
     await expect(page.locator('#subjectScreen h1').first()).toHaveText('Biology');
     await expect(page).toHaveURL(/#subject\/biology-foundation\/learn/);
   });
+});
+
+
+test('Year 9 Latin bridge keeps an explicit current route', async ({ page }) => {
+  await openStudy(page);
+  await chooseYear(page, 'Year 9 · Current');
+  const card = await subjectCard(page, 'Latin');
+  await card.getByRole('button', { name: 'Learn', exact: true }).click();
+  await expect(page.locator('#subjectScreen h1').first()).toHaveText('Latin');
+  await expect(page).toHaveURL(/#subject\/latin-current\/learn/);
+  await expect(page.getByText('YEAR 9 · VERIFIED BRIDGE REVIEW', { exact: true })).toBeVisible();
 });

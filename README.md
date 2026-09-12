@@ -21,3 +21,9 @@ Built on the green RF10.4.2 functional/browser-QA baseline.
 The Tiffin Scholar remains the default character. Academic engines, mastery, XP, due-review
 logic, question banks and runtime packs are preserved. Existing Playwright regression tests remain
 in the repository and run automatically in GitHub Actions.
+
+### Year 9 Latin update
+Year 9 Latin is no longer a dead card. It now opens a clearly labelled **Verified Bridge Review**
+using the existing source-backed prior Latin bank. Learn, Practise, Play and Progress are available,
+but the UI explicitly states that this bridge material is not being misrepresented as new Year 9
+curriculum content. The protected Latin academic engine and question bank remain byte-identical.

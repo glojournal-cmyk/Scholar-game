@@ -58,12 +58,13 @@ async function goSubject(subject,track='current',tab){
  if(!allowedTabs.has(defaultTab))defaultTab=track==='foundation'?'practice':'learn';
 
  // Current Latin/French/English are intentionally unavailable.
- if(track==='current'&&['latin','french','english'].includes(subject)){
+ if(track==='current'&&['french','english'].includes(subject)){
    toast('Current Year 9 learning is not available for this subject yet.');
    return false;
  }
 
  let slug=subject;
+ if(track==='current'&&subject==='latin')slug='latin-current';
  if(track==='foundation'&&['biology','chemistry','physics'].includes(subject))slug=`${subject}-foundation`;
  const hash=`#subject/${slug}/${defaultTab}`;
 
@@ -523,7 +524,7 @@ async function init(){
  document.addEventListener('lux:plan-change',()=>{if(routeInfo().screen==='home')renderHome()});
  await Promise.race([Promise.allSettled([frenchLegacyReady,biologyReady,latinMasterReady,frenchMasterReady]),new Promise(resolve=>setTimeout(resolve,2600))]);
  await render();
- if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js?v=0.4.0-a5-rf105-20260912',{updateViaCache:'none'}).then(reg=>reg.update()).catch(err=>console.warn('[PWA] service worker update failed',err));
+ if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js?v=0.4.0-a5-rf106-20260912',{updateViaCache:'none'}).then(reg=>reg.update()).catch(err=>console.warn('[PWA] service worker update failed',err));
 }
 document.readyState==='loading'?document.addEventListener('DOMContentLoaded',init):init();
 })();
