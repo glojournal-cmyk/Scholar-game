@@ -1,0 +1,67 @@
+[
+  {
+    "file": "garden_01.webp",
+    "bytes": 358390,
+    "sha256": "5f09d7ec4cd761da1aa2175a319eba1aff13123a3aa3901bc6f2a697e7605974"
+  },
+  {
+    "file": "garden_02.webp",
+    "bytes": 376488,
+    "sha256": "31d27b5af0ebbce59f5870fe29f26b3d874c1816c1fbe53ff0cc8dcea4a16a72"
+  },
+  {
+    "file": "hero_01.webp",
+    "bytes": 153306,
+    "sha256": "51a9f48c5b6482317b0ec1dec9e5164f34a3066351796b20a9183a7075e07b2d"
+  },
+  {
+    "file": "hero_02.webp",
+    "bytes": 163044,
+    "sha256": "f7e1610067f655df14d6238cb6d96da7d11cc55512526cc181ac16c617023ea7"
+  },
+  {
+    "file": "hero_03.webp",
+    "bytes": 139264,
+    "sha256": "9438550c4fb2664c3cdf9f4d2f4baae901ea52a42e2e33feb1c49e6a27511327"
+  },
+  {
+    "file": "hero_04.webp",
+    "bytes": 135988,
+    "sha256": "4c56502dda64d818a40e4b14ffaf0095b12f3980e1b6a443864d443ac7f3fe57"
+  },
+  {
+    "file": "hero_05.webp",
+    "bytes": 133624,
+    "sha256": "92aba3535071babd1bda2b46583f7ca9b38b911820d204e6efb1ffb12e4a5d03"
+  },
+  {
+    "file": "hero_06.webp",
+    "bytes": 159146,
+    "sha256": "044be82f2e5d2692cd700eb86784fd3af3709e4b7f584e9f28cd21668cbdb057"
+  },
+  {
+    "file": "hero_07.webp",
+    "bytes": 152392,
+    "sha256": "d0e3906376b67b1ac0c8454edabef34bae591cd4042c037a06fd202b400824b9"
+  },
+  {
+    "file": "hero_08.webp",
+    "bytes": 134436,
+    "sha256": "a6d7d676e5c437a6b7c4d9d8ffbc5fa3994facbc9fe06bf96e7cec049542b69f"
+  },
+  {
+    "file": "room_01.webp",
+    "bytes": 283610,
+    "sha256": "6048d627a0f50771688038574782826d79770dade2cade50298f317e6f527e0b"
+  },
+  {
+    "file": "subject_01.webp",
+    "bytes": 400464,
+    "sha256": "51cd038978a6350d05453166a077a02dae10ca5679a48e13d0d4e4834d47418a"
+  },
+  {
+    "file": "subject_02.webp",
+    "bytes": 323196,
+    "sha256": "38c0f973a08ae63ff24cde522b46ef5e7b362d19d25c9544728fd14023288884"
+  }
+]
