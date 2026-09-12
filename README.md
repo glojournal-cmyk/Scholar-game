@@ -1,18 +1,12 @@
 # Lux et Labor — The Scholar's Garden
 
-## RF10.4 Automated Browser QA
+## RF10.4.1 QA Harness Fix
 
-This build adds real browser end-to-end testing with Playwright and GitHub Actions.
+This is a QA-only correction.
 
-On every push or pull request GitHub automatically tests the core shell, the Tiffin master
-asset, Year 9 Biology/Chemistry/Physics Learn routes, Year 8 Latin Learn, French Practise,
-Biology Learn, disabled Year 9 subjects, and the French → Biology stale-state regression.
+The previous smoke test incorrectly expected a `#app` wrapper that does not exist in the real app.
+RF10.4.1 now validates the actual navigation shell and visible screen structure, while preserving
+all routing, UI, academic engines, mastery, XP, due-review logic, question banks and runtime packs.
 
-Failures retain a Playwright report plus screenshots, trace and video evidence.
-
-Local run:
-1. npm install
-2. npx playwright install chromium
-3. npm run test:e2e
-
-Academic engines, mastery, XP, due-review logic, question banks and runtime packs are preserved.
+The smoke test also prints explicit browser diagnostics for uncaught page errors and console errors,
+so future GitHub Actions failures show the real runtime error directly in the log.
