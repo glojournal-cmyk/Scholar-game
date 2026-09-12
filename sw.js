@@ -1,4 +1,4 @@
-const V='scholars-garden-v0-4-0-alpha5-rf1062-20260912';
+const V='scholars-garden-v0-4-0-alpha5-rf1063-20260912';
 const CORE=`${V}-core`, RUN=`${V}-runtime`;
 const FILES=[
  './french-reference-marker.js',
@@ -7,33 +7,35 @@ const FILES=[
  './writing-bank.json',
  './notes-by-section.json',
   "./",
+  "./version.json",
+  "./deploy-guard.js?v=20260912-rf1063",
   "./index.html",
   "./offline.html",
   "./manifest.webmanifest",
-  "./rf10-production.css?v=20260912-rf1062",
-  "./rf10-production.js?v=20260912-rf1062",
+  "./rf10-production.css?v=20260912-rf1063",
+  "./rf10-production.js?v=20260912-rf1063",
   "./favicon_192.png",
   "./favicon_512.png",
   "./apple_touch_icon_180.png",
   "./scholar_master_uniform.png",
-  "./latin-question-bank.js?v=20260912-rf1062",
-  "./growth.js?v=20260912-rf1062",
-  "./latin-module.js?v=20260912-rf1062",
-  "./french-module.js?v=20260912-rf1062",
-  "./latin-games.js?v=20260912-rf1062",
-  "./science-notes.js?v=20260912-rf1062",
-  "./biology-y8.js?v=20260912-rf1062",
-  "./science-y8.js?v=20260912-rf1062",
-  "./language-y8.js?v=20260912-rf1062",
-  "./daily-plan.js?v=20260912-rf1062",
-  "./scholar-assets.js?v=20260912-rf1062",
-  "./v04-art-config.js?v=20260912-rf1062",
-  "./avatar-layer-system.js?v=20260912-rf1062",
-  "./garden-growth.js?v=20260912-rf1062",
-  "./v04-ui-assets.js?v=20260912-rf1062",
-  "./subject-hub.js?v=20260912-rf1062",
-  "./scholar.js?v=20260912-rf1062",
-  "./app.js?v=20260912-rf1062",
+  "./latin-question-bank.js?v=20260912-rf1063",
+  "./growth.js?v=20260912-rf1063",
+  "./latin-module.js?v=20260912-rf1063",
+  "./french-module.js?v=20260912-rf1063",
+  "./latin-games.js?v=20260912-rf1063",
+  "./science-notes.js?v=20260912-rf1063",
+  "./biology-y8.js?v=20260912-rf1063",
+  "./science-y8.js?v=20260912-rf1063",
+  "./language-y8.js?v=20260912-rf1063",
+  "./daily-plan.js?v=20260912-rf1063",
+  "./scholar-assets.js?v=20260912-rf1063",
+  "./v04-art-config.js?v=20260912-rf1063",
+  "./avatar-layer-system.js?v=20260912-rf1063",
+  "./garden-growth.js?v=20260912-rf1063",
+  "./v04-ui-assets.js?v=20260912-rf1063",
+  "./subject-hub.js?v=20260912-rf1063",
+  "./scholar.js?v=20260912-rf1063",
+  "./app.js?v=20260912-rf1063",
   "./cp-y8/runtime/index.json",
   "./cp-y8/shared/marking-spec.json",
   "./cp-y8/shared/mastery-review-spec.json",
@@ -63,36 +65,70 @@ const FILES=[
 ];
 
 self.addEventListener('install',event=>{
-  event.waitUntil(caches.open(CORE).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting()));
+  event.waitUntil(
+    caches.open(CORE)
+      .then(c=>c.addAll(FILES))
+      .then(()=>self.skipWaiting())
+  );
 });
+
 self.addEventListener('activate',event=>{
-  event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CORE&&k!==RUN).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));
+  event.waitUntil((async()=>{
+    const keys=await caches.keys();
+    await Promise.all(keys.filter(k=>k.startsWith('scholars-garden-')&&k!==CORE&&k!==RUN).map(k=>caches.delete(k)));
+    await self.clients.claim();
+  })());
 });
+
+self.addEventListener('message',event=>{
+  if(event.data?.type==='SKIP_WAITING')self.skipWaiting();
+  if(event.data?.type==='PURGE_OLD_CACHES'){
+    event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('scholars-garden-')&&k!==CORE&&k!==RUN).map(k=>caches.delete(k)))));
+  }
+});
+
 self.addEventListener('fetch',event=>{
   const req=event.request;
-  if(req.method!=='GET') return;
+  if(req.method!=='GET')return;
   const url=new URL(req.url);
-  if(url.origin!==location.origin) return;
+  if(url.origin!==location.origin)return;
 
-  // HTML/navigation: network first so deploys update promptly.
+  // version.json must always describe the deployed commit, never an old cache.
+  if(url.pathname.endsWith('/version.json')){
+    event.respondWith(fetch(req,{cache:'no-store'}));
+    return;
+  }
+
+  // Navigations are deliberately network-only when online.
+  // Offline fallback uses the current build cache.
   if(req.mode==='navigate'){
-    event.respondWith(fetch(req).then(r=>{
-      const copy=r.clone(); caches.open(RUN).then(c=>c.put(req,copy)); return r;
-    }).catch(()=>caches.match(req).then(r=>r||caches.match('./index.html')).then(r=>r||caches.match('./offline.html'))));
+    event.respondWith(
+      fetch(req,{cache:'no-store'})
+        .then(r=>r)
+        .catch(async()=> (await caches.match('./index.html')) || (await caches.match('./offline.html')))
+    );
     return;
   }
 
-  // Runtime topic shards and changing JSON: network first, runtime cached.
-  if(url.pathname.includes('/cp-y8/runtime/') || url.pathname.endsWith('.json')){
-    event.respondWith(fetch(req).then(r=>{
-      const copy=r.clone(); caches.open(RUN).then(c=>c.put(req,copy)); return r;
-    }).catch(()=>caches.match(req)));
+  // Changing JSON/runtime content is network first.
+  if(url.pathname.includes('/cp-y8/runtime/')||url.pathname.endsWith('.json')){
+    event.respondWith(
+      fetch(req,{cache:'no-store'}).then(r=>{
+        if(r.ok){const copy=r.clone();caches.open(RUN).then(c=>c.put(req,copy));}
+        return r;
+      }).catch(()=>caches.match(req))
+    );
     return;
   }
 
-  // Static production assets: cache first with background refresh.
-  event.respondWith(caches.match(req).then(cached=>{
-    const fresh=fetch(req).then(r=>{const copy=r.clone();caches.open(RUN).then(c=>c.put(req,copy));return r;}).catch(()=>cached);
-    return cached||fresh;
-  }));
+  // Versioned assets can be cached; query-string bumps identify releases.
+  event.respondWith(
+    caches.match(req).then(cached=>{
+      const network=fetch(req).then(r=>{
+        if(r.ok){const copy=r.clone();caches.open(RUN).then(c=>c.put(req,copy));}
+        return r;
+      }).catch(()=>cached);
+      return cached||network;
+    })
+  );
 });

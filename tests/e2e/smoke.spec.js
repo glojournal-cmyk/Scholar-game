@@ -72,3 +72,23 @@ test('RF10.6.1 exposes audio controls and WebAudio runtime', async ({ page }) =>
   expect(audio.soundDefault).toBeTruthy();
   expect(audio.hasContext).toBeTruthy();
 });
+
+
+test('deployment version endpoint matches HTML build', async ({ page }) => {
+  await page.goto('./', { waitUntil: 'networkidle' });
+
+  const meta = await page.locator('meta[name="scholar-garden-build"]').getAttribute('content');
+  expect(meta).toContain('RF10.6.3');
+
+  const version = await page.evaluate(async () => {
+    const r = await fetch(`./version.json?t=${Date.now()}`, { cache: 'no-store' });
+    return { ok: r.ok, data: await r.json() };
+  });
+  expect(version.ok).toBeTruthy();
+  expect(version.data.build).toBe('RF10.6.3');
+
+  await expect(page.locator('footer[data-build="RF10.6.3"]')).toHaveCount(1);
+
+  const guard = await page.request.get('./deploy-guard.js');
+  expect(guard.ok()).toBeTruthy();
+});
