@@ -12,7 +12,7 @@
 <link href="./favicon_192.png" rel="icon" sizes="192x192" type="image/png"/>
 <link href="./apple_touch_icon_180.png" rel="apple-touch-icon" sizes="180x180"/>
 <link as="image" href="./scholar_idle.png" rel="preload"/>
-<meta content="V0.4.0 Alpha 5 RF8" name="scholar-garden-build"/><link href="./rf8-production.css?v=20260912-rf8" rel="stylesheet"/>
+<meta content="V0.4.0 Alpha 5 RF9" name="scholar-garden-build"/><link href="./rf9-production.css?v=20260912-rf9" rel="stylesheet"/>
 </head>
 <body>
 <div class="app-shell">
@@ -48,7 +48,7 @@
 </div>
 <aside aria-label="Current Scholar" class="rf4-scholar-scene" id="scholarScene">
 <div class="rf4-scholar-stage" data-art-slot="master-scholar" id="scholarArtSlot">
-<img alt="Scholar" class="scholar-character-art home-scholar-art" decoding="async" fetchpriority="high" id="homeScholarImage" src="./assets/rf8/outfit_default_complete.webp"/>
+<img alt="Scholar" class="scholar-character-art home-scholar-art" decoding="async" fetchpriority="high" id="homeScholarImage" src="./scholar_master_uniform.png"/>
 <div class="home-avatar-layer" data-home-avatar-layer="back-hair"></div>
 <div class="home-avatar-layer home-avatar-body" data-home-avatar-layer="base-character"></div>
 <div class="home-avatar-layer" data-home-avatar-layer="outfit"></div>
@@ -241,7 +241,7 @@
 </nav>
 <section class="scholar-pane" data-scholar-pane="overview">
 <article class="rf4-scholar-portrait">
-<div class="rf4-scholar-portrait-art"><img alt="Scholar" decoding="async" id="scholarOverviewImage" loading="eager" src="./assets/rf8/outfit_default_complete.webp"/></div>
+<div class="rf4-scholar-portrait-art"><img alt="Scholar" decoding="async" id="scholarOverviewImage" loading="eager" src="./scholar_master_uniform.png"/></div>
 <div class="rf4-scholar-identity">
 <p class="eyebrow">YOUR SCHOLAR</p>
 <h2 id="scholarOverviewName">Scholar</h2>
@@ -268,7 +268,7 @@
 <div class="scholar-layout">
 <article aria-label="Avatar preview area" class="avatar-stage card-soft">
 <div class="avatar-canvas" data-avatar-canvas="560x760" id="avatarCanvas">
-<img alt="Equipped Scholar outfit" class="scholar-character-art wardrobe-scholar-art" decoding="async" id="wardrobeScholarImage" loading="lazy" src="./assets/rf8/outfit_default_complete.webp"/>
+<img alt="Equipped Scholar outfit" class="scholar-character-art wardrobe-scholar-art" decoding="async" id="wardrobeScholarImage" loading="lazy" src="./scholar_master_uniform.png"/>
 <div class="avatar-layer layer-backhair" data-avatar-layer="back-hair"></div>
 <div class="avatar-layer layer-body" data-avatar-layer="base-body"><span>Scholar</span></div>
 <div class="avatar-layer layer-outfit" data-avatar-layer="outfit"></div>
@@ -322,30 +322,43 @@
 <div class="profile-data-list" id="scholarProfileData"></div>
 </aside>
 </div>
+<section class="rf9-settings" aria-labelledby="rf9SettingsTitle">
+  <p class="eyebrow">APP PREFERENCES</p>
+  <h2 id="rf9SettingsTitle">Settings</h2>
+  <div class="rf9-settings-grid">
+    <label class="rf9-setting"><span><b>Sound</b><small>Interface sound effects</small></span><input type="checkbox" id="rf9SoundToggle"></label>
+    <label class="rf9-setting"><span><b>Background music</b><small>Quiet ambience when available</small></span><input type="checkbox" id="rf9MusicToggle"></label>
+    <label class="rf9-setting"><span><b>Notifications</b><small>Study reminder preference</small></span><input type="checkbox" id="rf9NotificationsToggle"></label>
+    <label class="rf9-setting"><span><b>Reduced motion</b><small>Limit decorative movement</small></span><input type="checkbox" id="rf9MotionToggle"></label>
+  </div>
+  <div class="profile-actions">
+    <button class="secondary" id="rf9InstallApp" type="button">Install App (PWA)</button>
+  </div>
+</section>
 </section>
 </section>
 </main>
 </div>
 <div aria-live="polite" class="toast" id="toast" role="status"></div>
-<script src="./latin-question-bank.js?v=20260912-rf8"></script>
-<script src="./growth.js?v=20260912-rf8"></script>
-<script src="./latin-module.js?v=20260912-rf8"></script>
-<script src="./french-module.js?v=20260912-rf8"></script>
-<script src="./latin-games.js?v=20260912-rf8"></script>
-<script src="./science-notes.js?v=20260912-rf8"></script>
-<script src="./biology-y8.js?v=20260912-rf8"></script>
-<script src="./science-y8.js?v=20260912-rf8"></script>
-<script src="./language-y8.js?v=20260912-rf8"></script>
-<script src="./daily-plan.js?v=20260912-rf8"></script>
-<script src="./scholar-assets.js?v=20260912-rf8"></script>
-<script src="./v04-art-config.js?v=20260912-rf8"></script>
-<script src="./avatar-layer-system.js?v=20260912-rf8"></script>
-<script src="./garden-growth.js?v=20260912-rf8"></script>
-<script src="./v04-ui-assets.js?v=20260912-rf8"></script>
-<script src="./subject-hub.js?v=20260912-rf8"></script>
-<script src="./scholar.js?v=20260912-rf8"></script>
-<script src="./app.js?v=20260912-rf8"></script>
-<footer class="build-footer">Lux et Labor · Scholar’s Garden · V0.4.0 Alpha 5 · Stable Rebuild RF8</footer>
-<script src="./rf8-production.js?v=20260912-rf8"></script>
+<script src="./latin-question-bank.js?v=20260912-rf9"></script>
+<script src="./growth.js?v=20260912-rf9"></script>
+<script src="./latin-module.js?v=20260912-rf9"></script>
+<script src="./french-module.js?v=20260912-rf9"></script>
+<script src="./latin-games.js?v=20260912-rf9"></script>
+<script src="./science-notes.js?v=20260912-rf9"></script>
+<script src="./biology-y8.js?v=20260912-rf9"></script>
+<script src="./science-y8.js?v=20260912-rf9"></script>
+<script src="./language-y8.js?v=20260912-rf9"></script>
+<script src="./daily-plan.js?v=20260912-rf9"></script>
+<script src="./scholar-assets.js?v=20260912-rf9"></script>
+<script src="./v04-art-config.js?v=20260912-rf9"></script>
+<script src="./avatar-layer-system.js?v=20260912-rf9"></script>
+<script src="./garden-growth.js?v=20260912-rf9"></script>
+<script src="./v04-ui-assets.js?v=20260912-rf9"></script>
+<script src="./subject-hub.js?v=20260912-rf9"></script>
+<script src="./scholar.js?v=20260912-rf9"></script>
+<script src="./app.js?v=20260912-rf9"></script>
+<footer class="build-footer">Lux et Labor · Scholar’s Garden · V0.4.0 Alpha 5 · Storyboard Rebuild RF9</footer>
+<script src="./rf9-production.js?v=20260912-rf9"></script>
 </body>
 </html>

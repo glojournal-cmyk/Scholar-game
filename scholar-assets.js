@@ -16,7 +16,7 @@ const A=Object.freeze({
     resting:'scholar_resting.png'
   }),
   outfits:Object.freeze([
-    {id:'school-uniform',name:'Tiffin School Uniform',asset:'./assets/rf8/outfit_default_complete.webp',unlock:{type:'always'}},
+    {id:'school-uniform',name:'Tiffin School Uniform',asset:'scholar_master_uniform.png',unlock:{type:'always'}},
     {id:'winter-scholar',name:'Winter Scholar',asset:'outfit_winter_scholar.png',unlock:{type:'studyDays',value:3}},
     {id:'summer-scholar',name:'Summer Scholar',asset:'outfit_summer_scholar.png',unlock:{type:'studyDays',value:7}},
     {id:'casual-study',name:'Casual Study',asset:'outfit_casual_study.png',unlock:{type:'scholarXP',value:100}},
