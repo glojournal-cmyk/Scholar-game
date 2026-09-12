@@ -120,21 +120,41 @@ function renderOverview(){
 function renderCollection(){
  const s=state(),filter=document.querySelector('[data-collection-filter].active')?.dataset.collectionFilter||'All';
  const root=document.getElementById('collectionGrid');if(!root)return;
+ const exact={
+  'ink-pot':'reward_interaction_ink_pot.png',
+  'desk-lamp':'final_collection_desklamp.webp',
+  'study-books':'reward_interaction_book_stack.png',
+  'ivy-pot':'reward_interaction_plant.png',
+  'bronze-stylus':'final_collection_stylus.webp',
+  'wax-tablet':'final_collection_waxtablet.webp',
+  'fountain-pen':'final_collection_fountainpen.webp',
+  'lavender-vase':'final_collection_lavender.webp',
+  'scholars-globe':'final_collection_globe.webp',
+  'golden-lexicon':'final_collection_lexicon.webp'
+ };
  root.innerHTML=BLUEPRINT.filter(x=>filter==='All'||x[1]===filter).map(x=>{
-  const earned=!!s.collectibles?.[x[0]],art=window.ScholarAssets?.rewardAsset?.(x[0]);
-  const stateArt=earned?(window.V04UI?.asset?.('success')||'ui_v04_success_badge.webp'):(window.V04UI?.asset?.('lockCrest')||'ui_v04_lock_crest.webp');
+  const earned=!!s.collectibles?.[x[0]],art=exact[x[0]]||window.ScholarAssets?.rewardAsset?.(x[0]);
   return `<article class="collect-card ${earned?'earned':''}">
-    <div class="collect-art ${art?'has-reward-art':''}">${art?`<img class="reward-interaction-art" src="${esc(art)}" alt="${esc(x[2])} reward interaction" loading="lazy" decoding="async">`:`<img class="v04-collection-state" src="${esc(stateArt)}" alt="" loading="lazy" decoding="async">`}</div>
+    <div class="collect-art">${art?`<img src="${esc(art)}" alt="${esc(x[2])}" loading="lazy" decoding="async">`:''}</div>
     <small>${esc(x[1])}</small><h3>${esc(x[2])}</h3>
-    <p>${earned?'Earned through study.':`Next step: ${esc(x[3])}`}</p>
+    <p>${earned?'Earned through study.':`Unlock: ${esc(x[3])}`}</p>
   </article>`;
  }).join('');
 }
 function renderAchievements(){
  const s=state(),root=document.getElementById('medalGrid');if(!root)return;
- root.innerHTML=MEDALS.map(([id,title,copy])=>{
-   const earned=!!s.medals?.[id],badge=earned?(window.V04UI?.asset?.('success')||'ui_v04_success_badge.webp'):(window.V04UI?.asset?.('badgeLocked')||'ui_badge_locked.webp');
-   return `<article class="medal-card ${earned?'earned':''}"><img class="v04-achievement-badge" src="${esc(badge)}" alt="" loading="lazy" decoding="async"><b>${esc(title)}</b><small>${earned?esc(copy):'Not earned yet'}</small></article>`;
+ const art={
+  'first-steps':'final_medal_firststeps.webp',
+  'daily-disciplina':'final_medal_streak.webp',
+  'latin-scholar':'final_medal_latin.webp',
+  'french-scholar':'final_medal_french.webp',
+  'polyglot':'final_medal_master.webp'
+ };
+ const earnedCount=MEDALS.filter(([id])=>!!s.medals?.[id]).length;
+ root.innerHTML=`<div class="achievement-summary"><p class="eyebrow">ACHIEVEMENTS</p><h2>${earnedCount} / ${MEDALS.length} earned</h2><p>Milestones appear here as your study habit and subject mastery grow.</p></div>`+
+ MEDALS.map(([id,title,copy])=>{
+   const earned=!!s.medals?.[id],badge=art[id]||'ui_badge_locked.webp';
+   return `<article class="medal-card ${earned?'earned':''}"><img class="v04-achievement-badge" src="${esc(badge)}" alt="${esc(title)} badge" loading="lazy" decoding="async"><b>${esc(title)}</b><small>${earned?esc(copy):`Locked · ${esc(copy)}`}</small></article>`;
  }).join('');
 }
 function renderProfile(){
@@ -149,7 +169,7 @@ function renderProfile(){
      ['Garden stage',g.gardenStage],
      ['Collectibles',g.collectibleCount],
      ['Achievements',g.medalCount],
-     ['Layer avatar',avatar?.composing?'Active':avatar?.artAvailable?'Available':'Waiting for aligned art']
+     ['Scholar uniform',window.ScholarAssets?.selectedOutfit?.()?.name||'Tiffin School Uniform']
    ].map(([k,v])=>`<div><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join('');
  }
 }

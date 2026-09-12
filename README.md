@@ -1,15 +1,17 @@
-# Lux et Labor — The Scholar's Garden · RF9.1
+# Lux et Labor — The Scholar's Garden
 
-RF9.1 is a clean storyboard-led presentation rebuild.
+## RF10 Full Correction Build
 
-Loaded presentation layer:
-- `rf9-production.css`
-- `rf9-production.js`
+This build applies the complete visual/interaction correction pass from the live RF9.1 screenshot audit.
 
-Academic engines, marking, mastery, XP, due-review scheduling and question banks are preserved.
-The default Scholar identity uses the approved Tiffin Girls-style master character (`scholar_master_uniform.png`).
+Key presentation goals:
+- compact storyboard-led desktop shell
+- Tiffin School Uniform as the fresh/default Scholar
+- controlled scene panels instead of full-card ghost backgrounds
+- working Study year and subject actions
+- card-based Learn/Practise runtime presentation
+- exact collection-object artwork
+- achievement badge artwork
+- corrected Profile state copy and preference controls
 
-Nested runtime folders must be preserved when deploying:
-- `assets/rf8/`
-- `cp-y8/runtime/`
-- `cp-y8/shared/`
+Academic marking, mastery, XP, due-review and question-bank engines are preserved.

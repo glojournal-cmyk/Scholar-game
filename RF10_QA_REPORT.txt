@@ -1,0 +1,63 @@
+Lux et Labor — The Scholar's Garden
+RF10 Full Correction Build QA
+================================
+
+Scope
+-----
+Complete presentation/navigation correction based on the live RF9.1 screenshot audit:
+Home, Study, Subject, Learn, Practise, Garden, Scholar Overview, Wardrobe,
+Collection, Achievements and Profile.
+
+Key corrections
+---------------
+- Unified desktop shell and stable content width
+- Home rebuilt as compact dashboard composition
+- Today card spacing/collisions corrected
+- Continue Learning compressed into a dashboard shelf
+- Quick Play compact cards
+- Study cards use controlled subject thumbnails instead of ghost full-card backgrounds
+- Year 9 / Year 8 switch preserved and wired
+- Learn / Practise / Play / Progress actions preserved and availability-gated
+- Subject hero rebuilt as a contained composition
+- Learn topic lists use card grids rather than long raw-text dumps
+- French/Biology practice uses training mode cards + topic cards
+- Chemistry/Physics Foundation library receives structured card styling
+- Garden receives bounded scene/panel layout rules
+- Fresh low-progress state migrates to Tiffin School Uniform once
+- Wardrobe preview/equipped state synchronized through selected outfit
+- Collection uses exact object artwork for all 10 listed collectibles
+- Achievements use actual medal/badge artwork
+- Profile removes development placeholder copy and uses Scholar uniform state
+- Settings rendered as proper switches
+- Mobile bottom navigation retained
+
+Static QA
+---------
+index.html == 404.html: True
+HTML local refs missing: 0 []
+CSS local refs missing: 0 []
+Duplicate HTML IDs: 0 []
+Root JavaScript syntax: 20/20 PASS
+Tiffin master asset present: True
+Chemistry/Physics runtime index present: True
+Old RF9.1 production files removed: True
+RF10 production files present: True
+
+Protected academic regression
+-----------------------------
+latin-module.js: BYTE-IDENTICAL PASS
+french-module.js: BYTE-IDENTICAL PASS
+biology-y8.js: BYTE-IDENTICAL PASS
+growth.js: BYTE-IDENTICAL PASS
+latin-games.js: BYTE-IDENTICAL PASS
+garden-growth.js: BYTE-IDENTICAL PASS
+latin-question-bank.js: BYTE-IDENTICAL PASS
+science-notes.js: BYTE-IDENTICAL PASS
+language-y8.js: BYTE-IDENTICAL PASS
+daily-plan.js: BYTE-IDENTICAL PASS
+
+Browser note
+------------
+This build is statically and interaction-wiring checked. The execution environment does not
+provide a reliable GUI browser renderer, so exact pixel parity is not claimed until the live
+deployment is visually reviewed.
