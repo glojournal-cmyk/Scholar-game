@@ -1,6 +1,6 @@
-# Lux et Labor — The Scholar's Garden · RF9
+# Lux et Labor — The Scholar's Garden · RF9.1
 
-RF9 is a clean storyboard-led presentation rebuild.
+RF9.1 is a clean storyboard-led presentation rebuild.
 
 Loaded presentation layer:
 - `rf9-production.css`
