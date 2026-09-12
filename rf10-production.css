@@ -1267,3 +1267,198 @@ body.topic-search-open{overflow:hidden}
   .topic-search-modal{padding-top:4vh}
   .topic-search-panel{max-height:88vh;padding:14px}
 }
+
+
+/* =====================================================================
+   RF10.7 — REFERENCE-ALIGNED REBUILD
+   Uses the supplied Lux et Labor visual references as the canonical shell.
+   ===================================================================== */
+@media(min-width:981px){
+  :root{--sidebar:0px}
+  body{background:#f8f2e8}
+  .app-shell{min-height:100vh;background:
+    radial-gradient(circle at 8% 12%,rgba(179,203,157,.16),transparent 20%),
+    radial-gradient(circle at 94% 8%,rgba(215,188,131,.12),transparent 17%),
+    #faf6ee}
+
+  .brandbar{
+    position:fixed;left:0;top:0;width:320px;height:70px;z-index:80;
+    display:flex;align-items:center;padding:10px 24px;
+    background:linear-gradient(180deg,#123e5a,#0e344d);
+    border-right:1px solid rgba(255,255,255,.08);
+  }
+  .brand{display:flex;align-items:center;gap:12px}
+  .brand-mark{width:38px;height:38px;flex:0 0 38px}
+  .brand strong{font-size:1.42rem;line-height:1;color:#fff}
+  .brand small{font-size:.52rem;letter-spacing:.22em;color:#d7e0dc;text-transform:uppercase}
+
+  .global-nav{
+    position:fixed;left:320px;right:150px;top:0;height:70px;z-index:79;
+    width:auto;display:flex;flex-direction:row;align-items:stretch;justify-content:center;
+    gap:2px;padding:0 12px;background:linear-gradient(180deg,#123e5a,#0e344d);
+  }
+  .global-nav button{
+    min-width:118px;height:70px;display:flex;flex-direction:row;justify-content:center;align-items:center;
+    gap:9px;padding:0 14px;border-radius:0;background:transparent;color:#f7f2e5;
+    border:0;border-bottom:3px solid transparent;font-size:.9rem
+  }
+  .global-nav button.active{background:rgba(255,255,255,.05);border-bottom-color:#e8d9b7}
+  .global-nav .nav-art{width:26px;height:26px;background:transparent!important;border-radius:0;overflow:visible}
+  .global-nav .nav-art img{width:25px;height:25px;object-fit:contain;filter:none}
+
+  .global-topic-search{
+    position:fixed;right:74px;top:0;left:auto;bottom:auto;width:76px;height:70px;min-height:70px;z-index:81;
+    border:0;border-radius:0;background:linear-gradient(180deg,#123e5a,#0e344d);
+    display:grid;place-items:center;padding:0
+  }
+  .global-topic-search .nav-art{width:29px;height:29px;background:transparent}
+  .global-topic-search .nav-art img{width:28px;height:28px}
+  .global-topic-search>span:last-child{display:none}
+
+  .main-stage{
+    margin-left:0!important;padding:92px 28px 34px!important;max-width:1520px;margin-right:auto!important;margin-left:auto!important;
+  }
+  .build-footer{margin-left:0!important;width:100%!important}
+}
+
+/* Home page: reference composition */
+.rf107-home{display:grid;gap:14px}
+.rf107-home-intro{
+  display:flex;justify-content:space-between;align-items:flex-start;gap:24px;
+  padding:0 6px 4px
+}
+.rf107-home-intro .eyebrow{font-size:.66rem;letter-spacing:.19em;color:#b37a25}
+.rf107-home-intro h1{font-size:clamp(2.5rem,4vw,4.4rem);line-height:.9;margin:4px 0 7px;max-width:10ch}
+.rf107-home-intro .rf4-home-date{margin:0;font-size:.9rem}
+.rf107-home-motto{margin:8px 0 0;color:var(--muted);font-size:.84rem}
+.rf107-home-intro blockquote{
+  margin:12px 8px 0 0;max-width:320px;text-align:right;font-family:var(--serif);font-style:italic;
+  color:#8d6559;font-size:1.1rem;line-height:1.35
+}
+
+.rf107-home-grid{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(420px,.88fr);gap:14px;align-items:stretch}
+.rf107-scholar-panel{
+  position:relative;min-height:650px;overflow:hidden;border:1px solid rgba(180,151,96,.34);
+  border-radius:18px;background:#f2eadc;box-shadow:0 15px 35px rgba(31,54,49,.09)
+}
+.rf107-scene-bg{position:absolute;inset:0;background:
+  linear-gradient(90deg,rgba(255,255,255,.05),rgba(255,255,255,.15)),
+  url("./assets/rf8/raising_study_day.webp") center/cover no-repeat}
+.rf107-scholar-stage{position:absolute;inset:0}
+.rf107-scholar-stage .home-scholar-art{
+  position:absolute!important;left:7%!important;bottom:-2px!important;height:92%!important;width:auto!important;
+  max-width:62%!important;object-fit:contain!important;object-position:center bottom!important;
+  filter:drop-shadow(0 12px 12px rgba(35,31,27,.18))
+}
+.rf107-scene-note{
+  position:absolute;left:28px;top:40%;max-width:145px;font-family:var(--serif);font-style:italic;
+  color:#785d53;font-size:1rem;line-height:1.35;transform:rotate(-4deg)
+}
+
+.rf107-home-stack{display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:12px}
+.rf107-level-card,.rf107-today-card,.rf107-garden-card{
+  border:1px solid rgba(180,151,96,.33);border-radius:16px;background:rgba(255,253,248,.94);
+  box-shadow:0 10px 25px rgba(33,52,43,.07)
+}
+.rf107-level-card{
+  min-height:120px;padding:16px 18px;display:grid;grid-template-columns:78px 1fr auto;align-items:center;gap:14px
+}
+.rf107-level-badge{width:70px;height:70px;display:grid;place-items:center;border-radius:50%;background:#eff2e6}
+.rf107-level-badge img{width:58px;height:58px;object-fit:contain}
+.rf107-level-card small{font-size:.56rem;letter-spacing:.12em;color:#8b744f}
+.rf107-level-card h2{font-size:2.2rem;line-height:1;margin:2px 0 8px}
+.rf107-level-card>strong{font-family:var(--serif);font-size:1rem;color:var(--navy)}
+
+.rf107-today-card{padding:17px 18px}
+.rf107-card-head{display:flex;justify-content:space-between;align-items:end;gap:12px}
+.rf107-card-head small{font-size:.52rem;letter-spacing:.14em;color:#ad7b2b}
+.rf107-card-head h2{font-size:1.55rem;margin:1px 0 0}
+.rf107-card-head>span{font-size:.66rem;color:var(--muted)}
+.rf107-today-progress{margin:9px 0 6px}
+.rf107-main-quest{padding:9px 0!important;border:0!important;background:transparent!important}
+.rf107-main-quest h3{font-size:1rem;margin:4px 0}
+.rf107-main-quest p{font-size:.68rem;line-height:1.35}
+.rf107-main-quest button{min-height:34px;font-size:.68rem;padding:6px 11px}
+.rf107-secondary-tasks{display:grid!important;grid-template-columns:1fr!important;gap:6px}
+.rf107-secondary-tasks .secondary-task{
+  min-height:54px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;background:#fbf8f0
+}
+.rf107-secondary-tasks .secondary-task h3{font-size:.75rem;margin:1px 0}
+.rf107-secondary-tasks .secondary-task p,.rf107-secondary-tasks .secondary-task small{font-size:.54rem}
+.rf107-secondary-tasks .secondary-task button{min-height:30px;font-size:.58rem;padding:5px 8px}
+
+.rf107-garden-card{position:relative;min-height:190px;overflow:hidden;padding:15px}
+.rf107-garden-scene{position:absolute;right:0;top:0;bottom:0;width:52%;background:
+  linear-gradient(90deg,#fffaf0 0%,rgba(255,250,240,.22) 34%,transparent 70%),
+  url("./garden_01.webp") center/cover no-repeat}
+.rf107-garden-copy{position:relative;z-index:2;width:48%}
+.rf107-garden-copy small{font-size:.52rem;letter-spacing:.13em;color:#98752d}
+.rf107-garden-copy h2{font-size:1.45rem;margin:2px 0 5px}
+.rf107-garden-copy p{font-size:.66rem;line-height:1.35;color:var(--muted)}
+.rf107-next-reward{
+  position:absolute;left:15px;bottom:14px;z-index:3;display:grid;grid-template-columns:56px 1fr;gap:8px;
+  align-items:center;width:45%;padding:8px;border:1px solid rgba(181,151,96,.28);border-radius:11px;background:rgba(255,253,247,.92)
+}
+.rf107-next-reward .reward-art-slot{width:52px;height:52px;display:grid;place-items:center}
+.rf107-next-reward .reward-art-slot img{width:46px;height:46px;object-fit:contain}
+.rf107-next-reward small{font-size:.46rem;color:#8c744d;letter-spacing:.1em}
+.rf107-next-reward strong{display:block;font-family:var(--serif);font-size:.82rem}
+.rf107-next-reward p{font-size:.52rem;margin:1px 0 4px;color:var(--muted)}
+
+.rf107-action-row{display:grid;grid-template-columns:1.35fr .65fr;gap:12px}
+.rf107-action-card{
+  min-height:142px;position:relative;overflow:hidden;border:1px solid rgba(181,151,96,.33);border-radius:16px;
+  padding:19px 22px;display:flex;align-items:center;justify-content:space-between;text-align:left;cursor:pointer
+}
+.rf107-continue{
+  color:#fff;background:
+    linear-gradient(90deg,rgba(11,48,72,.88),rgba(11,48,72,.48)),
+    url("./study_book_stack.png") center 38%/cover no-repeat
+}
+.rf107-play{
+  color:#133b54;background:
+    linear-gradient(90deg,rgba(255,251,243,.95),rgba(255,251,243,.72)),
+    url("./rf2_subject_latin.webp") center/cover no-repeat
+}
+.rf107-action-copy{display:grid;max-width:420px}
+.rf107-action-copy small{font-size:.52rem;letter-spacing:.15em;opacity:.8}
+.rf107-action-copy strong{font-family:var(--serif);font-size:1.8rem;line-height:1.05;margin:3px 0}
+.rf107-action-copy em{font-style:normal;font-size:.7rem;opacity:.84}
+.rf107-action-arrow{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.88);color:#113c56;font-size:1.3rem}
+
+.rf107-shortcuts{padding:10px 12px;border:1px solid var(--line);border-radius:14px;background:rgba(255,253,247,.86)}
+.rf107-shortcuts .subject-training-grid{grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:7px!important}
+.rf107-shortcuts .training-access-card{min-height:96px!important;padding:8px!important}
+.rf107-shortcuts .training-access-card p,.rf107-shortcuts .training-access-stats{display:none!important}
+.rf107-shortcuts .training-access-top{margin-bottom:3px}
+.rf107-shortcuts .training-access-icon{width:26px;height:26px;font-size:.72rem}
+.rf107-shortcuts .training-access-card h3{font-size:.85rem;margin:2px 0}
+.rf107-shortcuts .training-access-card button{min-height:28px;font-size:.58rem;padding:4px 6px}
+
+@media(max-width:1180px){
+  .rf107-home-grid{grid-template-columns:1fr}
+  .rf107-scholar-panel{min-height:540px}
+  .rf107-home-stack{grid-template-columns:1fr 1fr;grid-template-rows:auto auto}
+  .rf107-level-card{grid-column:1/-1}
+  .rf107-today-card,.rf107-garden-card{min-height:260px}
+  .rf107-shortcuts .subject-training-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+}
+@media(max-width:980px){
+  .rf107-home-intro blockquote{display:none}
+  .rf107-scholar-panel{min-height:480px}
+  .rf107-home-stack{display:grid;grid-template-columns:1fr}
+  .rf107-level-card{grid-column:auto}
+  .rf107-action-row{grid-template-columns:1fr}
+  .rf107-shortcuts .subject-training-grid{grid-template-columns:1fr 1fr!important}
+}
+@media(max-width:620px){
+  .rf107-home-intro h1{font-size:2.4rem}
+  .rf107-scholar-panel{min-height:430px}
+  .rf107-scholar-stage .home-scholar-art{left:0!important;max-width:78%!important;height:88%!important}
+  .rf107-scene-note{display:none}
+  .rf107-level-card{grid-template-columns:56px 1fr}
+  .rf107-level-card>strong{grid-column:2}
+  .rf107-garden-scene{width:46%}
+  .rf107-garden-copy,.rf107-next-reward{width:56%}
+  .rf107-shortcuts .subject-training-grid{grid-template-columns:1fr!important}
+}

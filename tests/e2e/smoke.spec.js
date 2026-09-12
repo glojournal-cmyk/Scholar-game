@@ -78,16 +78,16 @@ test('deployment version endpoint matches HTML build', async ({ page }) => {
   await page.goto('./', { waitUntil: 'networkidle' });
 
   const meta = await page.locator('meta[name="scholar-garden-build"]').getAttribute('content');
-  expect(meta).toContain('RF10.6.5');
+  expect(meta).toContain('RF10.7');
 
   const version = await page.evaluate(async () => {
     const r = await fetch(`./version.json?t=${Date.now()}`, { cache: 'no-store' });
     return { ok: r.ok, data: await r.json() };
   });
   expect(version.ok).toBeTruthy();
-  expect(version.data.build).toBe('RF10.6.5');
+  expect(version.data.build).toBe('RF10.7');
 
-  await expect(page.locator('footer[data-build="RF10.6.5"]')).toHaveCount(1);
+  await expect(page.locator('footer[data-build="RF10.7"]')).toHaveCount(1);
 
   const guard = await page.request.get('./deploy-guard.js');
   expect(guard.ok()).toBeTruthy();
@@ -121,6 +121,41 @@ test('topic search index is available and substantial', async ({ request }) => {
   const response = await request.get('./topic-search-index.json');
   expect(response.ok()).toBeTruthy();
   const data = await response.json();
-  expect(data.build).toBe('RF10.6.5');
+  expect(data.build).toBe('RF10.7');
   expect(data.count).toBeGreaterThan(100);
+});
+
+
+test('reference-aligned home layout has no giant blank scene', async ({ page }) => {
+  await page.goto('./#home', { waitUntil: 'networkidle' });
+
+  const scholar = page.locator('.rf107-scholar-panel');
+  const stack = page.locator('.rf107-home-stack');
+  const image = page.locator('#homeScholarImage');
+
+  await expect(scholar).toBeVisible();
+  await expect(stack).toBeVisible();
+  await expect(image).toBeVisible();
+
+  const sb = await scholar.boundingBox();
+  const qb = await stack.boundingBox();
+  const ib = await image.boundingBox();
+
+  expect(sb.width).toBeGreaterThan(500);
+  expect(sb.height).toBeGreaterThan(480);
+  expect(qb.width).toBeGreaterThan(320);
+  expect(qb.height).toBeGreaterThan(480);
+  expect(ib.height).toBeGreaterThan(380);
+
+  // The stack must sit beside the Scholar on normal desktop, not collapse below it.
+  expect(Math.abs(sb.y - qb.y)).toBeLessThan(40);
+  expect(qb.x).toBeGreaterThan(sb.x + sb.width - 20);
+});
+
+test('global navigation uses the dedicated PNG icon family', async ({ page }) => {
+  await page.goto('./#home', { waitUntil: 'networkidle' });
+  for (const name of ['home','study','garden','scholar']) {
+    const img = page.locator(`[data-global-route="${name}"] img`);
+    await expect(img).toHaveAttribute('src', new RegExp(`assets/ui-nav/${name}\\.png`));
+  }
 });

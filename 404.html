@@ -12,7 +12,7 @@
 <link href="./favicon_192.png" rel="icon" sizes="192x192" type="image/png"/>
 <link href="./apple_touch_icon_180.png" rel="apple-touch-icon" sizes="180x180"/>
 <link as="image" href="./scholar_idle.png" rel="preload"/>
-<meta content="V0.4.0 Alpha 5 RF10.6.5" name="scholar-garden-build"/><script defer src="./deploy-guard.js?v=20260912-rf1065"></script><link href="./rf10-production.css?v=20260912-rf1065" rel="stylesheet"/>
+<meta content="V0.4.0 Alpha 5 RF10.7" name="scholar-garden-build"/><script defer src="./deploy-guard.js?v=20260912-rf107"></script><link href="./rf10-production.css?v=20260912-rf107" rel="stylesheet"/>
 </head>
 <body>
 <div class="app-shell">
@@ -24,38 +24,31 @@
 <div class="scholar-chip"><span>Lv <b data-growth="level">1</b></span><span><b data-growth="xp">0</b> XP</span></div>
 </header>
 <nav aria-label="Primary" class="global-nav">
-<button data-global-route="home"><span class="nav-art" aria-hidden="true"><img src="./study_planner.png" alt=""></span><b>Home</b></button>
-<button data-global-route="study"><span class="nav-art" aria-hidden="true"><img src="./study_book_stack.png" alt=""></span><b>Study</b></button>
-<button data-global-route="garden"><span class="nav-art" aria-hidden="true"><img src="./reward_interaction_plant.png" alt=""></span><b>Garden</b></button>
-<button data-global-route="scholar"><span class="nav-art" aria-hidden="true"><img src="./reward_interaction_medal.png" alt=""></span><b>Scholar</b></button>
+<button data-global-route="home"><span class="nav-art"><img src="./assets/ui-nav/home.png" alt=""></span><b>Home</b></button>
+<button data-global-route="study"><span class="nav-art"><img src="./assets/ui-nav/study.png" alt=""></span><b>Study</b></button>
+<button data-global-route="garden"><span class="nav-art"><img src="./assets/ui-nav/garden.png" alt=""></span><b>Garden</b></button>
+<button data-global-route="scholar"><span class="nav-art"><img src="./assets/ui-nav/scholar.png" alt=""></span><b>Scholar</b></button>
 </nav>
 <button class="global-topic-search" id="globalTopicSearch" type="button">
-  <span class="nav-art" aria-hidden="true"><img src="./study_flashcards.png" alt=""></span>
+  <span class="nav-art" aria-hidden="true"><img src="./assets/ui-nav/search.png" alt=""></span>
   <span><b>Find topic</b><small>Search revision</small></span>
 </button>
 <main class="main-stage">
-<section class="route-screen rf106-game-home" data-route-screen="home" id="homeScreen">
-<header class="rf106-home-hud">
-  <div class="rf106-greeting">
-    <p class="eyebrow">LUX ET LABOR · THE SCHOLAR’S GARDEN</p>
-    <div class="rf106-greeting-line">
-      <div>
-        <h1 id="homeGreeting">Good afternoon</h1>
-        <p class="rf4-home-date" id="homeDate"></p>
-      </div>
-      <div class="rf106-hud-vitals" aria-label="Scholar status">
-        <span><small>LEVEL</small><b>Lv <i data-growth="level">1</i></b></span>
-        <span><small>XP</small><b><i data-growth="xp">0</i></b></span>
-        <span><small>WORLD</small><b id="homeGrowthStage">Garden Stage 1</b></span>
-      </div>
+<section class="route-screen rf107-home" data-route-screen="home" id="homeScreen">
+  <header class="rf107-home-intro">
+    <div>
+      <p class="eyebrow">LUX ET LABOR · THE SCHOLAR’S GARDEN</p>
+      <h1 id="homeGreeting">Good morning</h1>
+      <p class="rf4-home-date" id="homeDate"></p>
+      <p class="rf107-home-motto">Small steps today, a brighter tomorrow.</p>
     </div>
-  </div>
-</header>
+    <blockquote>“Knowledge is a garden that always grows.”</blockquote>
+  </header>
 
-<section class="rf106-world-layout" aria-label="Scholar world">
-  <article class="rf106-world-card">
-    <aside aria-label="Current Scholar" class="rf4-scholar-scene rf106-scholar-scene" id="scholarScene">
-      <div class="rf4-scholar-stage" data-art-slot="master-scholar" id="scholarArtSlot">
+  <section class="rf107-home-grid">
+    <article class="rf107-scholar-panel">
+      <div class="rf107-scene-bg" aria-hidden="true"></div>
+      <div class="rf4-scholar-stage rf107-scholar-stage" data-art-slot="master-scholar" id="scholarArtSlot">
         <img alt="Scholar" class="scholar-character-art home-scholar-art" decoding="async" fetchpriority="high" id="homeScholarImage" src="./scholar_master_uniform.png"/>
         <div class="home-avatar-layer" data-home-avatar-layer="back-hair"></div>
         <div class="home-avatar-layer home-avatar-body" data-home-avatar-layer="base-character"></div>
@@ -64,85 +57,70 @@
         <div class="home-avatar-layer" data-home-avatar-layer="accessory"></div>
         <div class="home-avatar-layer" data-home-avatar-layer="hand-item"></div>
       </div>
-    </aside>
+      <div class="rf107-scene-note">Same Scholar.<br>A brighter journey.</div>
+      <div class="scene-unlocks sr-only" id="sceneUnlockedDecor"></div>
+      <div class="scene-loadout sr-only" id="sceneLoadout"></div>
+    </article>
 
-    <div class="rf106-world-overlay">
-      <span class="rf106-stage-tag">WORLD GROWTH</span>
-      <h2>Your Scholar’s Garden</h2>
-      <p id="homeGrowthHint">Your Scholar world is beginning to grow.</p>
-      <div class="scene-unlocks" id="sceneUnlockedDecor"></div>
-      <div class="rf106-world-actions">
-        <button class="primary rf106-adventure-button" data-global-route="study" type="button">Continue Adventure</button>
-        <button class="secondary light" data-global-route="garden" type="button">Enter the Garden</button>
-      </div>
+    <div class="rf107-home-stack">
+      <article class="rf107-level-card">
+        <div class="rf107-level-badge"><img src="./reward_interaction_laurel.png" alt=""></div>
+        <div>
+          <small>SCHOLAR LEVEL</small>
+          <h2>Lv <span data-growth="level">1</span></h2>
+          <div class="progress-track"><i id="rf107LevelProgress"></i></div>
+        </div>
+        <strong><span data-growth="xp">0</span> XP</strong>
+      </article>
+
+      <article class="rf107-today-card">
+        <div class="rf107-card-head">
+          <div><small>TODAY</small><h2>Your Journey</h2></div>
+          <span id="todayProgressText">0 / 3 tasks complete</span>
+        </div>
+        <div class="progress-track rf107-today-progress"><i id="todayProgressBar"></i></div>
+        <article class="main-quest rf107-main-quest" id="mainQuest"></article>
+        <div class="secondary-task-grid rf107-secondary-tasks" id="secondaryTasks"></div>
+      </article>
+
+      <article class="rf107-garden-card">
+        <div class="rf107-garden-copy">
+          <small>YOUR GARDEN</small>
+          <h2 id="homeGrowthStage">Garden Stage 1</h2>
+          <p id="homeGrowthHint">Your Scholar world is beginning to grow.</p>
+        </div>
+        <div class="rf107-garden-scene"></div>
+        <article class="rf107-next-reward" id="nextRewardCard">
+          <div class="reward-art-slot" id="nextRewardArt" data-art-slot="next-reward">
+            <img src="./reward_interaction_ink_pot.png" alt="Ink Pot">
+          </div>
+          <div>
+            <small>NEXT UNLOCK</small>
+            <strong id="nextRewardName">Ink Pot</strong>
+            <p id="nextRewardCopy">40 XP to unlock</p>
+            <div class="progress-track"><i id="nextRewardBar"></i></div>
+          </div>
+        </article>
+      </article>
     </div>
+  </section>
 
-    <div class="rf106-world-corner">
-      <small>CURRENT WORLD</small>
-      <b>Lv <i data-growth="level">1</i></b>
-      <span><i data-growth="xp">0</i> XP earned</span>
-    </div>
-  </article>
+  <section class="rf107-action-row">
+    <button class="rf107-action-card rf107-continue" data-global-route="study" type="button">
+      <span class="rf107-action-copy"><small>PICK UP WHERE YOU LEFT OFF</small><strong>Continue Studying</strong><em>Build your knowledge, one step at a time.</em></span>
+      <span class="rf107-action-arrow">→</span>
+    </button>
+    <button class="rf107-action-card rf107-play" id="seeAllGames" type="button">
+      <span class="rf107-action-copy"><small>QUICK PLAY</small><strong>A short break, a brighter you.</strong><em>Mini challenges and learning games.</em></span>
+      <span class="rf107-action-arrow">→</span>
+    </button>
+  </section>
 
-  <aside class="rf106-quest-board" aria-label="Today's quest board">
-    <div class="rf106-board-title">
-      <div>
-        <p class="eyebrow">TODAY’S QUESTS</p>
-        <h2 id="journeyHeadline">Choose your next quest.</h2>
-      </div>
-      <span class="rf106-quest-seal" aria-hidden="true">✦</span>
-    </div>
-
-    <div class="rf106-journey-chips">
-      <button class="rf4-journey-chip" data-global-route="garden" data-journey="garden" type="button"><small>GARDEN</small><b id="journeyGarden">Stage 1</b></button>
-      <div class="rf4-journey-chip" data-journey="daily"><small>DAILY QUEST</small><b id="journeyDaily">0 / 3</b></div>
-      <div class="rf4-journey-chip" data-journey="reward"><small>NEXT REWARD</small><b id="journeyReward">Ink Pot</b></div>
-    </div>
-
-    <div aria-label="Seven-day learning status" class="week-strip quest-week rf106-week-strip" id="weekStrip"></div>
-    <article class="main-quest quest-log-main rf106-main-quest" id="mainQuest"></article>
-
-    <section class="home-progress quest-progress rf106-quest-progress">
-      <div><small>TODAY’S PROGRESS</small><strong id="todayProgressText">0 / 3 tasks complete</strong></div>
-      <div class="progress-track"><i id="todayProgressBar"></i></div>
-    </section>
-  </aside>
-</section>
-
-<section class="rf106-reward-row" aria-label="Rewards and side quests">
-  <article class="rf4-reward-card rf106-reward-card" id="nextRewardCard">
-    <div aria-label="Next reward artwork" class="reward-art-slot large rf106-reward-art" data-art-slot="next-reward" id="nextRewardArt">
-      <img src="./reward_interaction_ink_pot.png" alt="Ink Pot"/>
-    </div>
-    <div class="reward-copy">
-      <small>NEXT UNLOCK</small>
-      <h3 id="nextRewardName">Ink Pot</h3>
-      <p id="nextRewardCopy">40 XP to unlock</p>
-      <div class="progress-track"><i id="nextRewardBar"></i></div>
-      <span class="reward-destination">For your Scholar world</span>
-    </div>
-  </article>
-  <div class="secondary-task-grid quest-side-list rf106-side-quests" id="secondaryTasks"></div>
-  <div class="scene-loadout sr-only" id="sceneLoadout"></div>
-</section>
-
-<section class="subject-training-section home-zone rf106-training-ground" id="continueLearningSection">
-  <div class="section-title rf106-section-title">
-    <div><p class="eyebrow">TRAINING GROUNDS</p><h2>Choose a training path</h2></div>
-    <button class="text-button" data-global-route="study" type="button">Open Study Hub</button>
-  </div>
-  <p class="v04-section-lede">Short routes into your real curriculum. Earn progress, build mastery and grow your world.</p>
-  <div class="subject-training-grid rf106-training-grid" id="subjectTrainingGrid"></div>
-</section>
-
-<section class="quick-play-section home-zone rf106-quick-play">
-  <div class="section-title rf106-section-title">
-    <div><p class="eyebrow">QUICK PLAY</p><h2>Mini challenges</h2></div>
-    <button class="text-button" id="seeAllGames">See all games</button>
-  </div>
-  <div class="quick-play-grid rf106-quick-grid" id="quickPlayGrid"></div>
-  <div class="all-games-drawer hidden" id="allGamesDrawer"></div>
-</section>
+  <section class="rf107-shortcuts">
+    <div class="subject-training-grid" id="subjectTrainingGrid"></div>
+    <div class="quick-play-grid hidden" id="quickPlayGrid"></div>
+    <div class="all-games-drawer hidden" id="allGamesDrawer"></div>
+  </section>
 </section>
 <section class="route-screen hidden" data-route-screen="study" id="studyScreen">
 <section aria-labelledby="v04StudyTitle" class="v04-study-hero">
@@ -379,27 +357,27 @@
 </main>
 </div>
 <div aria-live="polite" class="toast" id="toast" role="status"></div>
-<script src="./latin-question-bank.js?v=20260912-rf1065"></script>
-<script src="./growth.js?v=20260912-rf1065"></script>
-<script src="./latin-module.js?v=20260912-rf1065"></script>
-<script src="./audio-runtime.js?v=20260912-rf10651"></script>
-<script src="./french-reference-marker.js?v=20260912-rf1065"></script>
-<script src="./french-module.js?v=20260912-rf1065"></script>
-<script src="./latin-games.js?v=20260912-rf1065"></script>
-<script src="./science-notes.js?v=20260912-rf1065"></script>
-<script src="./biology-y8.js?v=20260912-rf1065"></script>
-<script src="./science-y8.js?v=20260912-rf1065"></script>
-<script src="./language-y8.js?v=20260912-rf1065"></script>
-<script src="./daily-plan.js?v=20260912-rf1065"></script>
-<script src="./scholar-assets.js?v=20260912-rf1065"></script>
-<script src="./v04-art-config.js?v=20260912-rf1065"></script>
-<script src="./avatar-layer-system.js?v=20260912-rf1065"></script>
-<script src="./garden-growth.js?v=20260912-rf1065"></script>
-<script src="./v04-ui-assets.js?v=20260912-rf1065"></script>
-<script src="./subject-hub.js?v=20260912-rf1065"></script>
-<script src="./scholar.js?v=20260912-rf1065"></script>
-<script src="./topic-search.js?v=20260912-rf1065"></script>
-<script src="./app.js?v=20260912-rf1065"></script>
+<script src="./latin-question-bank.js?v=20260912-rf107"></script>
+<script src="./growth.js?v=20260912-rf107"></script>
+<script src="./latin-module.js?v=20260912-rf107"></script>
+<script src="./audio-runtime.js?v=20260912-rf1071"></script>
+<script src="./french-reference-marker.js?v=20260912-rf107"></script>
+<script src="./french-module.js?v=20260912-rf107"></script>
+<script src="./latin-games.js?v=20260912-rf107"></script>
+<script src="./science-notes.js?v=20260912-rf107"></script>
+<script src="./biology-y8.js?v=20260912-rf107"></script>
+<script src="./science-y8.js?v=20260912-rf107"></script>
+<script src="./language-y8.js?v=20260912-rf107"></script>
+<script src="./daily-plan.js?v=20260912-rf107"></script>
+<script src="./scholar-assets.js?v=20260912-rf107"></script>
+<script src="./v04-art-config.js?v=20260912-rf107"></script>
+<script src="./avatar-layer-system.js?v=20260912-rf107"></script>
+<script src="./garden-growth.js?v=20260912-rf107"></script>
+<script src="./v04-ui-assets.js?v=20260912-rf107"></script>
+<script src="./subject-hub.js?v=20260912-rf107"></script>
+<script src="./scholar.js?v=20260912-rf107"></script>
+<script src="./topic-search.js?v=20260912-rf107"></script>
+<script src="./app.js?v=20260912-rf107"></script>
 <div class="topic-search-modal hidden" id="topicSearchModal" role="dialog" aria-modal="true" aria-labelledby="topicSearchTitle">
   <button class="topic-search-backdrop" type="button" aria-label="Close topic search" data-topic-search-close></button>
   <section class="topic-search-panel">
@@ -419,7 +397,7 @@
     <div class="topic-search-results" id="topicSearchResults"></div>
   </section>
 </div>
-<footer class="build-footer" data-build="RF10.6.5">Lux et Labor · Scholar’s Garden · V0.4.0 Alpha 5 · Topic Search + Desktop Polish RF10.6.5</footer>
-<script src="./rf10-production.js?v=20260912-rf1065"></script>
+<footer class="build-footer" data-build="RF10.7">Lux et Labor · Scholar’s Garden · V0.4.0 Alpha 5 · Reference-Aligned Rebuild RF10.7</footer>
+<script src="./rf10-production.js?v=20260912-rf107"></script>
 </body>
 </html>

@@ -1,0 +1,56 @@
+RF10.7 Reference-Aligned Rebuild — QA
+=====================================
+
+Visual target
+-------------
+The supplied Lux et Labor reference screens are now treated as the canonical design direction.
+
+Corrections
+-----------
+- Navy top navigation on desktop.
+- Dedicated PNG nav icon family.
+- Reference-style Home composition.
+- Tiffin Scholar scene given a fixed, tested footprint.
+- Compact right-side level / journey / garden stack.
+- Continue Studying and Quick Play feature cards.
+- Revision Finder preserved.
+
+Static QA
+---------
+- Protected academic files byte-identical: PASS
+- All JS syntax valid: PASS
+- No missing HTML refs: PASS
+- No missing CSS assets: PASS
+- No duplicate IDs: PASS
+- Reference Home DOM present: PASS
+- Dedicated PNG nav family present: PASS
+- Topic search preserved: PASS
+- Audio preserved: PASS
+- Y9 Latin preserved: PASS
+- Deploy hardening preserved: PASS
+- Visual geometry E2E added: PASS
+- Version RF10.7: PASS
+- JavaScript syntax: 27/27 PASS
+- Missing HTML refs: 0
+- Missing CSS assets: 0
+- Duplicate IDs: 0
+
+Protected regression
+--------------------
+- latin-module.js: BYTE-IDENTICAL PASS
+- french-module.js: BYTE-IDENTICAL PASS
+- biology-y8.js: BYTE-IDENTICAL PASS
+- growth.js: BYTE-IDENTICAL PASS
+- latin-games.js: BYTE-IDENTICAL PASS
+- garden-growth.js: BYTE-IDENTICAL PASS
+- latin-question-bank.js: BYTE-IDENTICAL PASS
+- science-notes.js: BYTE-IDENTICAL PASS
+- language-y8.js: BYTE-IDENTICAL PASS
+- daily-plan.js: BYTE-IDENTICAL PASS
+
+Browser QA additions
+--------------------
+- Home Scholar panel must have a large visible bounding box.
+- Right journey stack must sit beside the Scholar on desktop.
+- Character image must be visibly rendered.
+- Global nav must use the dedicated PNG icon family.

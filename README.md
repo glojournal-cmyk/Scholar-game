@@ -1,28 +1,18 @@
 # Lux et Labor — The Scholar's Garden
 
-## RF10.6.5 Topic Search + Desktop Polish
+## RF10.7 Reference-Aligned Rebuild
 
-Built on RF10.6.4.
+This build treats the supplied Lux et Labor reference screens as the canonical visual direction.
 
-### Revision Finder
-A new internal topic search lets a learner type what they want to revise instead of manually
-opening subjects and scrolling through topic lists.
+### Major visual changes
+- Desktop global navigation is now a navy top bar rather than an oversized left rail.
+- Home is rebuilt around the same composition as the supplied reference:
+  Tiffin Scholar scene on the left, compact level/journey/garden cards on the right,
+  then Continue Studying and Quick Play.
+- A dedicated five-icon PNG navigation family replaces the accidental repeated character thumbnails.
+- The Scholar scene has a fixed visual footprint so it cannot collapse into a giant blank area.
+- Quest content is compact and integrated into the right-hand journey stack rather than a huge editorial panel.
+- Existing Revision Finder stays available from the top bar.
+- Mobile and smaller widths remain responsive.
 
-Examples:
-- `imperfect tense`
-- `photosynthesis`
-- `forces`
-- `acids`
-- `translation`
-
-The search index is generated from the app's existing source-backed Latin, French, Biology,
-Chemistry and Physics content. It currently contains **204 searchable topic entries**.
-
-Latin search results open the Year 9 Verified Bridge route, while still using the verified
-prior-Latin source bank. French and Year 8 science results open their Foundation notes, and
-current Biology/Chemistry/Physics results open the Year 9 Learn topic.
-
-Press `/` anywhere outside a form field to open Revision Finder quickly.
-
-Desktop density, PNG navigation art, audio, deployment hardening and protected academic engines
-are preserved.
+Academic engines, routing, Year 9 Latin Bridge, topic search, WebAudio and deployment hardening remain preserved.
