@@ -41,17 +41,63 @@ function go(dest){
  else location.hash=hash;
 }
 async function goSubject(subject,track='current',tab){
+ const allowedSubjects=new Set(['latin','french','biology','chemistry','physics','english']);
+ const allowedTracks=new Set(['current','foundation']);
+ const allowedTabs=new Set(['learn','practice','play','progress']);
+
+ subject=String(subject||'').toLowerCase().trim();
+ track=String(track||'current').toLowerCase().trim();
+ let defaultTab=String(tab||(track==='foundation'?'practice':'learn')).toLowerCase().trim();
+
+ if(!allowedSubjects.has(subject)){
+   console.error('[Router] Invalid subject:',subject);
+   toast('This subject could not be opened.');
+   return false;
+ }
+ if(!allowedTracks.has(track))track='current';
+ if(!allowedTabs.has(defaultTab))defaultTab=track==='foundation'?'practice':'learn';
+
+ // Current Latin/French/English are intentionally unavailable.
+ if(track==='current'&&['latin','french','english'].includes(subject)){
+   toast('Current Year 9 learning is not available for this subject yet.');
+   return false;
+ }
+
  let slug=subject;
  if(track==='foundation'&&['biology','chemistry','physics'].includes(subject))slug=`${subject}-foundation`;
- const defaultTab=tab||(track==='foundation'?'practice':'learn');
  const hash=`#subject/${slug}/${defaultTab}`;
- if(location.hash!==hash)history.pushState(null,'',hash);
+
+ // SubjectHub is the source of truth. Set the route first, then open the exact
+ // subject/track/tab explicitly so stale French/Latin state can never leak.
+ if(location.hash!==hash)history.pushState({subject,track,tab:defaultTab},'',hash);
  showScreen('subject');
  growth();
- const ok=await window.SubjectHub.open(subject,track,defaultTab);
+
+ let ok=false;
+ try{
+   ok=await window.SubjectHub.open(subject,track,defaultTab);
+ }catch(err){
+   console.error('[Router] SubjectHub open failed',subject,track,defaultTab,err);
+ }
+
+ // Defensive fallback: re-parse the canonical route and render it once.
+ if(!ok){
+   const parsed=window.SubjectHub?.parseRoute?.(hash);
+   if(parsed?.subject===subject&&parsed?.track===track){
+     try{ok=await window.SubjectHub.open(parsed.subject,parsed.track,parsed.tab||defaultTab)}catch(err){
+       console.error('[Router] Canonical fallback failed',parsed,err);
+     }
+   }
+ }
+
+ if(!ok){
+   toast(`${subject[0].toUpperCase()+subject.slice(1)} ${defaultTab} could not be opened.`);
+   return false;
+ }
+
  const ux=window.ScholarUX.load();ux.lastRoute=hash;window.ScholarUX.save(ux);
- window.scrollTo({top:0,behavior:'auto'});
- return ok;
+ requestAnimationFrame(()=>window.scrollTo({top:0,left:0,behavior:'auto'}));
+ return true;
 }
 function greeting(){
  const h=new Date().getHours();return h<12?'Good morning':h<18?'Good afternoon':'Good evening';
@@ -351,7 +397,9 @@ async function handleActionClick(event){
      event.preventDefault();await goSubject(el.dataset.trainSubject,el.dataset.trainTrack||'current',(el.dataset.trainTrack==='foundation'?'practice':'learn'));return;
    }
    if(el.matches('[data-open-subject]')){
-     event.preventDefault();await goSubject(el.dataset.openSubject,el.dataset.track||'current');return;
+     event.preventDefault();
+     await goSubject(el.dataset.openSubject,el.dataset.track||'current',el.dataset.openTab||undefined);
+     return;
    }
    if(el.matches('[data-cont-subject]')){
      event.preventDefault();await goSubject(el.dataset.contSubject,el.dataset.contTrack||'current');return;
@@ -468,7 +516,7 @@ async function init(){
  document.addEventListener('lux:plan-change',()=>{if(routeInfo().screen==='home')renderHome()});
  await Promise.race([Promise.allSettled([frenchLegacyReady,biologyReady,latinMasterReady,frenchMasterReady]),new Promise(resolve=>setTimeout(resolve,2600))]);
  await render();
- if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js?v=0.4.0-a5-rf10-20260912',{updateViaCache:'none'}).then(reg=>reg.update()).catch(err=>console.warn('[PWA] service worker update failed',err));
+ if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js?v=0.4.0-a5-rf101-20260912',{updateViaCache:'none'}).then(reg=>reg.update()).catch(err=>console.warn('[PWA] service worker update failed',err));
 }
 document.readyState==='loading'?document.addEventListener('DOMContentLoaded',init):init();
 })();

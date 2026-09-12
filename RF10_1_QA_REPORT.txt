@@ -1,0 +1,66 @@
+Lux et Labor — The Scholar's Garden
+RF10.1 Routing Correction QA
+================================
+
+Primary live bug addressed
+--------------------------
+Study → Biology → Learn could appear enabled but fail / inherit stale subject state.
+
+Routing correction
+------------------
+RF10.1 routes Study actions with an explicit triple:
+  subject + track + tab
+
+Examples:
+  Biology + current + learn
+  Chemistry + current + learn
+  Physics + current + learn
+  French + foundation + practice
+
+The central app router validates the triple, opens SubjectHub explicitly, and performs one
+canonical-route fallback if the first open fails. Subject transitions also reset scroll position.
+
+Static routing assertions
+--------------------------
+- study buttons carry explicit subject: PASS
+- study buttons carry explicit track: PASS
+- study buttons carry explicit tab: PASS
+- central router reads openTab: PASS
+- router validates subject: PASS
+- canonical fallback present: PASS
+
+General static QA
+-----------------
+- index.html == 404.html: True
+- HTML local refs missing: 0 []
+- Duplicate HTML IDs: 0 []
+- Root JavaScript syntax: 20/20 PASS
+- Tiffin master asset present: True
+- Chemistry/Physics runtime index present: True
+
+Protected academic regression
+-----------------------------
+- latin-module.js: BYTE-IDENTICAL PASS
+- french-module.js: BYTE-IDENTICAL PASS
+- biology-y8.js: BYTE-IDENTICAL PASS
+- growth.js: BYTE-IDENTICAL PASS
+- latin-games.js: BYTE-IDENTICAL PASS
+- garden-growth.js: BYTE-IDENTICAL PASS
+- latin-question-bank.js: BYTE-IDENTICAL PASS
+- science-notes.js: BYTE-IDENTICAL PASS
+- language-y8.js: BYTE-IDENTICAL PASS
+- daily-plan.js: BYTE-IDENTICAL PASS
+
+Visual corrections included
+---------------------------
+- Study status chips no longer run together
+- Subject letter badges restored
+- Study/subject heroes shortened
+- Subject entry resets scroll position
+- Progress topic rows use a two-column desktop layout
+- Home Ink Pot reward artwork corrected
+- Footer no longer intercepts clicks
+
+Browser note
+------------
+This package is statically checked. Live browser verification is still required after deployment.

@@ -1,7 +1,7 @@
 
 (function(){
 'use strict';
-const PREF_KEY='scholarsGarden.rf10.preferences';
+const PREF_KEY='scholarsGarden.rf101.preferences';
 const MIGRATION='scholarsGarden.rf10.tiffinDefaultMigrated';
 const q=(s,r=document)=>r.querySelector(s);
 const qa=(s,r=document)=>[...r.querySelectorAll(s)];
@@ -45,6 +45,10 @@ function decorateStudy(){
     [['learn','Learn'],['practice','Practise'],['play','Play'],['progress','Progress']].forEach(([tab,label])=>{
       const b=document.createElement('button');b.type='button';b.className='rf91-subject-action';b.textContent=label;
       b.dataset.studyAction=tab;b.dataset.studySubject=s;b.dataset.studyTrack=tr;
+      // Also expose the canonical app-router attributes. This means the central
+      // router can always identify the exact subject/track/tab, even after a
+      // previous French/Latin route has been active.
+      b.dataset.openSubject=s;b.dataset.track=tr;b.dataset.openTab=tab;
       b.disabled=!available(s,tr,tab);if(b.disabled)b.title='Not available for this course yet';
       rail.appendChild(b);
     });
@@ -56,8 +60,12 @@ function bindStudyActions(){
   document.documentElement.dataset.rf10StudyBound='1';
   document.addEventListener('click',async e=>{
     const b=e.target.closest('[data-study-action]');if(!b||b.disabled)return;
-    e.preventDefault();e.stopPropagation();
-    await window.LuxApp?.goSubject?.(b.dataset.studySubject,b.dataset.studyTrack,b.dataset.studyAction);
+    e.preventDefault();e.stopImmediatePropagation();
+    const subject=b.dataset.studySubject;
+    const track=b.dataset.studyTrack||'current';
+    const tab=b.dataset.studyAction||'learn';
+    const ok=await window.LuxApp?.goSubject?.(subject,track,tab);
+    if(!ok)console.error('[RF10.1] Study route failed',subject,track,tab);
   },true);
 }
 function selectYear(year,scroll=false){
@@ -131,7 +139,15 @@ function bindPrefs(){
 }
 function compactHome(){
   // prevent stale development copy from leaking into the polished shell
-  const reward=q('#nextRewardArt img');if(reward)reward.loading='eager';
+  const reward=q('#nextRewardArt img');
+  if(reward){
+    reward.loading='eager';
+    const title=(q('#nextRewardTitle')?.textContent||q('#nextRewardName')?.textContent||'').toLowerCase();
+    if(title.includes('ink pot')||title.includes('inkpot')){
+      reward.src='./reward_interaction_ink_pot.png';
+      reward.alt='Ink Pot';
+    }
+  }
 }
 function improveAria(){
   qa('[data-global-route]').forEach(b=>b.setAttribute('aria-current',b.classList.contains('active')?'page':'false'));
@@ -151,6 +167,7 @@ function init(){
   bindStudyActions();bindYears();bindPrefs();applyPrefs();refresh();
   document.addEventListener('click',e=>{
     if(e.target.closest('[data-global-route],[data-subject-tab],[data-scholar-tab],[data-collection-filter],[data-v04-year]'))setTimeout(refresh,40);
+    if(e.target.closest('[data-study-action],[data-open-subject]'))requestAnimationFrame(()=>window.scrollTo({top:0,left:0,behavior:'auto'}));
   });
   document.addEventListener('scholar:wardrobe-change',()=>setTimeout(refresh,20));
   document.addEventListener('lux:growth',()=>setTimeout(refresh,20));

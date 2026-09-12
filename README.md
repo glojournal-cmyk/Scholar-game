@@ -1,17 +1,18 @@
 # Lux et Labor — The Scholar's Garden
 
-## RF10 Full Correction Build
+## RF10.1 Routing Correction
 
-This build applies the complete visual/interaction correction pass from the live RF9.1 screenshot audit.
+Targeted correction after live RF10 acceptance testing.
 
-Key presentation goals:
-- compact storyboard-led desktop shell
-- Tiffin School Uniform as the fresh/default Scholar
-- controlled scene panels instead of full-card ghost backgrounds
-- working Study year and subject actions
-- card-based Learn/Practise runtime presentation
-- exact collection-object artwork
-- achievement badge artwork
-- corrected Profile state copy and preference controls
+### Fixed
+- Biology/Chemistry/Physics Study actions now route with explicit subject + track + tab.
+- Subject navigation no longer inherits stale French/Latin state.
+- Canonical route validation and a defensive fallback are included.
+- Subject transitions reset scroll position to the top.
+- Study status chips and subject badges have corrected spacing.
+- Study hero height is reduced.
+- Progress lists use a two-column desktop layout.
+- Home next-unlock Ink Pot uses Ink Pot artwork.
+- Footer no longer captures pointer input over page content.
 
-Academic marking, mastery, XP, due-review and question-bank engines are preserved.
+Academic engines, mastery, XP, due-review logic, question banks and runtime packs are preserved.
