@@ -1,0 +1,53 @@
+RF10.6.1 Audio Restoration — Build Report
+===========================================
+
+Correction
+----------
+RF10.6 misunderstood "no sounds" as a request to remove audio.
+RF10.6.1 restores and adds audio.
+
+Audio behavior
+--------------
+- Sound effects ON by default.
+- Background music OFF by default.
+- Soft WebAudio tones require no external media files.
+- Browser autoplay restrictions are respected: audio starts after user interaction.
+- Settings toggles are restored.
+- Latin game sound control is restored.
+- No protected academic engine is modified.
+
+Static QA
+---------
+- Protected academic files byte-identical: PASS
+- All JS syntax valid: PASS
+- No missing HTML local refs: PASS
+- No duplicate IDs: PASS
+- Audio runtime loaded: PASS
+- Sound setting restored: PASS
+- Music setting restored: PASS
+- Latin game sound control restored: PASS
+- Soundless runtime removed: PASS
+- Game Home preserved: PASS
+- Y9 Latin bridge preserved: PASS
+- Audio E2E coverage present: PASS
+- Playwright workflow preserved: PASS
+- JavaScript syntax: 25/25 PASS
+- Missing HTML local refs: 0
+- Duplicate IDs: 0
+
+Protected regression
+--------------------
+- latin-module.js: BYTE-IDENTICAL PASS
+- french-module.js: BYTE-IDENTICAL PASS
+- biology-y8.js: BYTE-IDENTICAL PASS
+- growth.js: BYTE-IDENTICAL PASS
+- latin-games.js: BYTE-IDENTICAL PASS
+- garden-growth.js: BYTE-IDENTICAL PASS
+- latin-question-bank.js: BYTE-IDENTICAL PASS
+- science-notes.js: BYTE-IDENTICAL PASS
+- language-y8.js: BYTE-IDENTICAL PASS
+- daily-plan.js: BYTE-IDENTICAL PASS
+
+Deployment acceptance
+---------------------
+GitHub Actions Browser QA remains the canonical browser acceptance after push.

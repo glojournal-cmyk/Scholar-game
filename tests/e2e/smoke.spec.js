@@ -58,20 +58,17 @@ test('French compatibility resources load locally', async ({ page }) => {
 });
 
 
-test('RF10.6 has no sound controls and media playback is silenced', async ({ page }) => {
-  await page.goto('./', { waitUntil: 'networkidle' });
-  await expect(page.locator('#gameSoundButton')).toHaveCount(0);
-  await expect(page.locator('#rf9SoundToggle')).toHaveCount(0);
-  await expect(page.locator('#rf9MusicToggle')).toHaveCount(0);
 
-  const result = await page.evaluate(async () => {
-    const audio = document.createElement('audio');
-    document.body.appendChild(audio);
-    let resolved = false;
-    try { await audio.play(); resolved = true; } catch {}
-    return { resolved, muted: audio.muted, volume: audio.volume };
-  });
-  expect(result.resolved).toBeTruthy();
-  expect(result.muted).toBeTruthy();
-  expect(result.volume).toBe(0);
+test('RF10.6.1 exposes audio controls and WebAudio runtime', async ({ page }) => {
+  await page.goto('./', { waitUntil: 'networkidle' });
+  await expect(page.locator('#rf9SoundToggle')).toHaveCount(1);
+  await expect(page.locator('#rf9MusicToggle')).toHaveCount(1);
+  const audio = await page.evaluate(() => ({
+    hasRuntime: !!window.ScholarAudio,
+    soundDefault: window.ScholarAudio?.prefs?.().sound,
+    hasContext: !!(window.AudioContext || window.webkitAudioContext)
+  }));
+  expect(audio.hasRuntime).toBeTruthy();
+  expect(audio.soundDefault).toBeTruthy();
+  expect(audio.hasContext).toBeTruthy();
 });

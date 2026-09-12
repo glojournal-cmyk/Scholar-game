@@ -524,7 +524,19 @@ async function init(){
  document.addEventListener('lux:plan-change',()=>{if(routeInfo().screen==='home')renderHome()});
  await Promise.race([Promise.allSettled([frenchLegacyReady,biologyReady,latinMasterReady,frenchMasterReady]),new Promise(resolve=>setTimeout(resolve,2600))]);
  await render();
- if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js?v=0.4.0-a5-rf106-20260912',{updateViaCache:'none'}).then(reg=>reg.update()).catch(err=>console.warn('[PWA] service worker update failed',err));
+ if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js?v=0.4.0-a5-rf1061-20260912',{updateViaCache:'none'}).then(reg=>reg.update()).catch(err=>console.warn('[PWA] service worker update failed',err));
 }
 document.readyState==='loading'?document.addEventListener('DOMContentLoaded',init):init();
 })();
+
+document.addEventListener('click',event=>{
+ const b=event.target.closest('#gameSoundButton');if(!b)return;
+ const current=window.ScholarAudio?.prefs?.()||{sound:true};
+ const next=!current.sound;
+ window.ScholarAudio?.setPref?.('sound',next);
+ b.textContent=next?'♪ Sound on':'♩ Sound off';
+});
+window.addEventListener('scholar-audio-prefs',event=>{
+ const b=document.getElementById('gameSoundButton');if(b)b.textContent=event.detail?.sound===false?'♩ Sound off':'♪ Sound on';
+});
+

@@ -154,13 +154,13 @@ function fixProfile(){
   if(value&&value.textContent!==wanted)value.textContent=wanted;
 }
 function loadPrefs(){
-  const base={sound:false,music:false,notifications:true,reducedMotion:false};
+  const base={sound:true,music:false,notifications:true,reducedMotion:false};
   try{
     return Object.assign(base,JSON.parse(localStorage.getItem('scholarsGarden.rf9.preferences')||'{}'),JSON.parse(localStorage.getItem('scholarsGarden.rf91.preferences')||'{}'),JSON.parse(localStorage.getItem(PREF_KEY)||'{}'));
   }catch{return base}
 }
 function applyPrefs(){
-  const p=loadPrefs();p.sound=false;p.music=false;document.documentElement.classList.toggle('rf10-reduced-motion',!!p.reducedMotion);
+  const p=loadPrefs();document.documentElement.classList.toggle('rf10-reduced-motion',!!p.reducedMotion);
   const map={rf9NotificationsToggle:'notifications',rf9MotionToggle:'reducedMotion'};
   Object.entries(map).forEach(([id,k])=>{const el=document.getElementById(id);if(el)el.checked=!!p[k]});
 }
