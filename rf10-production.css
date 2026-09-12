@@ -529,3 +529,230 @@ body{scroll-padding-top:18px}
   pointer-events:auto
 }
 .rf91-subject-action:disabled{pointer-events:none}
+
+
+/* =====================================================================
+   RF10.5 VISUAL REFINEMENT
+   Screenshot-led corrections after RF10 functional baseline.
+   ===================================================================== */
+
+/* Footer belongs to document flow; it must never cover Quick Play/content. */
+.build-footer{
+  position:static;
+  margin-left:var(--sidebar);
+  width:calc(100% - var(--sidebar));
+  height:30px;
+  z-index:auto;
+}
+.main-stage{padding-bottom:34px}
+
+/* HOME — slightly denser, more dashboard-like composition. */
+#homeScreen{gap:16px}
+.rf4-home-hero{min-height:454px}
+.rf4-scholar-scene{min-height:454px}
+.rf4-home-copy{padding:30px 27px 26px}
+.rf4-home-copy h1{
+  font-size:clamp(2.8rem,3.45vw,4.15rem);
+  line-height:.93;
+  max-width:9ch;
+}
+.rf4-home-date{margin:10px 0 5px}
+.rf4-home-lede{margin:7px 0 15px;max-width:38ch}
+.rf4-home-vitals{margin-top:17px}
+
+/* Today’s Journey — stop kicker labels from visually colliding. */
+.rf4-today{padding:20px}
+.rf4-today-head{gap:12px}
+.rf4-today h2{font-size:2rem}
+.quest-week{margin:11px 0}
+.main-quest{padding:14px 0}
+.quest-kicker{
+  gap:7px 10px;
+  margin-bottom:7px;
+  line-height:1.25;
+}
+.quest-kicker span{
+  display:inline-flex;
+  align-items:center;
+  min-height:20px;
+  line-height:1.25;
+}
+.main-quest h3{margin:7px 0 5px}
+.main-quest p{line-height:1.42}
+
+/* Continue Learning — less cramped cards on desktop. */
+.subject-training-grid{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:12px;
+}
+.training-access-card{min-height:166px;padding:14px}
+.training-access-card p{line-height:1.38}
+.training-access-stats{gap:6px}
+.quick-play-grid{gap:12px}
+
+/* STUDY HUB — shorter hero and denser, cleaner cards. */
+.v04-study-hero{min-height:168px}
+.v04-study-hero-copy{padding:20px 27px}
+.v04-study-hero h1{font-size:2.9rem;line-height:1}
+.v04-study-hero p{margin:7px 0 12px}
+.study-band{margin-top:18px}
+.study-grid{gap:12px}
+
+.study-card{
+  min-height:174px;
+  padding:15px 132px 68px 16px;
+}
+.rf91-study-art{
+  right:12px;
+  top:12px;
+  width:108px;
+  height:82px;
+  border-radius:11px;
+}
+.study-card h3{font-size:1.18rem;margin-bottom:4px}
+.study-card p{font-size:.72rem;line-height:1.42;margin-bottom:6px}
+.subject-orb{
+  width:36px;
+  height:36px;
+  border-radius:9px;
+  margin-bottom:7px;
+}
+.study-status{
+  margin:7px 0 0!important;
+  gap:5px!important;
+}
+.study-status span{
+  min-height:22px;
+  padding:4px 7px!important;
+  font-size:.6rem!important;
+}
+.rf91-study-actions{
+  left:16px;
+  right:16px;
+  bottom:14px;
+  gap:6px;
+  background:transparent;
+}
+.rf91-subject-action{
+  min-height:34px;
+  padding:7px 4px;
+  font-size:.66rem;
+}
+
+/* Balance the five-card Year 8 desktop grid: 3 cards, then 2 equal wide cards. */
+@media(min-width:1181px){
+  #studyScreen .foundation-band .study-grid{
+    grid-template-columns:repeat(6,minmax(0,1fr));
+  }
+  #studyScreen .foundation-band .study-card{grid-column:span 2}
+  #studyScreen .foundation-band .study-card:nth-last-child(2):nth-child(4),
+  #studyScreen .foundation-band .study-card:last-child:nth-child(5){
+    grid-column:span 3;
+  }
+}
+
+/* SUBJECT — reduce cinematic dead space while preserving the established art. */
+.subject-hub-header{min-height:270px}
+.subject-hub-header>div:first-child{padding:23px 25px}
+.subject-hub-header h1{font-size:3rem;margin:5px 0}
+.subject-hub-header>div:first-child>p{font-size:.82rem;line-height:1.42}
+.subject-summary{
+  right:16px;
+  bottom:16px;
+  width:270px;
+  padding:10px;
+}
+.subject-tabs{margin:9px 0 13px;gap:7px}
+.subject-tabs button{min-height:36px}
+
+/* Learn / Practise — show more useful content above the fold. */
+.note-topic-list,.training-topic-grid{gap:9px}
+.note-topic,.training-topic-card{
+  min-height:130px;
+  padding:13px 14px;
+}
+.note-topic h3,.training-topic-card h3{margin:2px 0 5px}
+.note-topic>p:not(.eyebrow),.training-topic-card p{
+  margin-bottom:8px;
+  line-height:1.4;
+}
+.training-focus{padding:14px;margin-bottom:10px}
+.training-modes{gap:9px;margin:10px 0 16px}
+.practice-choice{min-height:88px;padding:13px}
+
+/* Progress — compact two-column mastery cards instead of a long admin-style list. */
+.progress-stats{gap:9px}
+.topic-progress{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:9px;
+}
+.topic-bar{
+  min-height:68px;
+  padding:10px 11px;
+}
+.topic-bar>div:first-child{margin-bottom:6px}
+
+/* French Play — a deliberate featured game shelf, not one lonely small card.
+   Hide the mismatched secondary student artwork and use French environment art. */
+#subjectScreen[data-rf10-subject="french"][data-rf10-tab="play"] .french-play-grid{
+  grid-template-columns:1fr;
+  gap:14px;
+}
+#subjectScreen[data-rf10-subject="french"][data-rf10-tab="play"] .french-game-card{
+  display:grid;
+  grid-template-columns:minmax(260px,.82fr) minmax(0,1.18fr);
+  min-height:250px;
+  position:relative;
+}
+#subjectScreen[data-rf10-subject="french"][data-rf10-tab="play"] .french-game-card>img{
+  display:none!important;
+}
+#subjectScreen[data-rf10-subject="french"][data-rf10-tab="play"] .french-game-card:before{
+  content:"";
+  min-height:250px;
+  background:
+    linear-gradient(90deg,rgba(14,52,77,.04),rgba(14,52,77,.14)),
+    url("./rf2_subject_french.webp") center/cover no-repeat;
+}
+#subjectScreen[data-rf10-subject="french"][data-rf10-tab="play"] .french-game-card>div{
+  padding:26px 28px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-start;
+}
+#subjectScreen[data-rf10-subject="french"][data-rf10-tab="play"] .french-game-card h3{
+  font-size:1.55rem;
+  margin-bottom:8px;
+}
+#subjectScreen[data-rf10-subject="french"][data-rf10-tab="play"] .french-game-card p{
+  max-width:54ch;
+  line-height:1.5;
+}
+#subjectScreen[data-rf10-subject="french"][data-rf10-tab="play"] .french-game-card button{
+  margin-top:10px;
+}
+
+/* Medium layouts: keep Home learning cards useful without overpacking. */
+@media(max-width:1180px){
+  .subject-training-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  #studyScreen .foundation-band .study-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  #studyScreen .foundation-band .study-card{grid-column:auto}
+}
+@media(max-width:860px){
+  .build-footer{display:none}
+  .main-stage{padding-bottom:92px}
+  .rf4-home-hero,.rf4-scholar-scene{min-height:auto}
+  .subject-training-grid{grid-template-columns:1fr 1fr}
+  .subject-hub-header{min-height:560px}
+  #subjectScreen[data-rf10-subject="french"][data-rf10-tab="play"] .french-game-card{
+    grid-template-columns:1fr;
+  }
+  #subjectScreen[data-rf10-subject="french"][data-rf10-tab="play"] .french-game-card:before{
+    min-height:220px;
+  }
+  .topic-progress{grid-template-columns:1fr}
+}
+@media(max-width:560px){
+  .subject-training-grid{grid-template-columns:1fr}
+}

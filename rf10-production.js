@@ -170,6 +170,16 @@ function bindPrefs(){
     el.addEventListener('change',()=>{const p=loadPrefs();p[k]=!!el.checked;try{localStorage.setItem(PREF_KEY,JSON.stringify(p))}catch{}applyPrefs()});
   });
 }
+
+function syncVisualRouteState(){
+  const screen=q('#subjectScreen');
+  if(!screen)return;
+  const subject=subjectKey();
+  const activeTab=q('[data-subject-tab].active,[data-subject-tab][aria-selected="true"]');
+  const tab=activeTab?.dataset.subjectTab||'';
+  if(screen.dataset.rf10Subject!==subject)screen.dataset.rf10Subject=subject;
+  if(screen.dataset.rf10Tab!==tab)screen.dataset.rf10Tab=tab;
+}
 function compactHome(){
   // prevent stale development copy from leaking into the polished shell
   const reward=q('#nextRewardArt img');
@@ -191,7 +201,7 @@ function refresh(){
   if(scheduled)return;scheduled=true;
   requestAnimationFrame(()=>{
     scheduled=false;
-    decorateStudy();subjectArt();syncTiffin();fixProfile();bindYears();bindPrefs();applyPrefs();compactHome();improveAria();
+    decorateStudy();subjectArt();syncTiffin();fixProfile();bindYears();bindPrefs();applyPrefs();syncVisualRouteState();compactHome();improveAria();
   });
 }
 function init(){
