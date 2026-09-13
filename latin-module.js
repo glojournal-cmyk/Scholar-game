@@ -27,6 +27,15 @@ function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&l
 function stripMarks(v){return String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'')}
 function norm(v){return stripMarks(v).toLowerCase().replace(/[“”‘’.,!?;:'"()\-]/g,' ').replace(/\s+/g,' ').trim()}
 function normExact(v){return norm(String(v||'').replace(/\s*\([^)]*\)/g,' ')).replace(/^(the|a|an)\s+/,'')}
+function englishComparable(v){
+ const n=normExact(v);
+ return n.replace(/^(he|she|it)\s+/,'');
+}
+function exactEnglishEquivalent(a,b){
+ const na=normExact(a),nb=normExact(b);
+ if(na===nb)return true;
+ return englishComparable(na)===englishComparable(nb);
+}
 function tokens(v){return new Set(norm(v).split(' ').filter(Boolean))}
 function phrase(answer,opt){const a=` ${norm(answer)} `,o=` ${norm(opt)} `;return a.includes(o)}
 function addDays(n){const d=new Date();d.setDate(d.getDate()+n);return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`}
@@ -56,19 +65,19 @@ function parseSet(answer,expectedItems){
  return [...new Set(parts)];
 }
 function mark(q,answer){
- if(q.type==='exact_any'){return {ok:(q.accepted||[]).some(a=>normExact(a)===normExact(answer)),missing:[],extra:[]}}
+ if(q.type==='exact_any'){return {ok:(q.accepted||[]).some(a=>exactEnglishEquivalent(a,answer)),missing:[],extra:[]}}
  if(q.type==='unordered_set'){
   const exp=(q.setItems||[]).map(normExact),got=parseSet(answer,q.setItems||[]);
   const missing=exp.filter(x=>!got.includes(x)),extra=got.filter(x=>!exp.includes(x));
   return {ok:!missing.length&&!extra.length,missing,extra};
  }
  if(q.type==='eng_auto'){
-  if((q.accepted||[]).some(a=>norm(a)===norm(answer)))return {ok:true,missing:[],extra:[]};
+  if((q.accepted||[]).some(a=>exactEnglishEquivalent(a,answer)))return {ok:true,missing:[],extra:[]};
   const missing=[];(q.groups||[]).forEach(g=>{if(!g.some(x=>phrase(answer,x)))missing.push(g[0])});
   return {ok:!missing.length,missing,extra:[]};
  }
  if(q.type==='lat_auto'){
-  if((q.accepted||[]).some(a=>norm(a)===norm(answer)))return {ok:true,missing:[],extra:[]};
+  if((q.accepted||[]).some(a=>exactEnglishEquivalent(a,answer)))return {ok:true,missing:[],extra:[]};
   const at=tokens(answer),missing=[];(q.latinGroups||[]).forEach(g=>{if(!g.every(x=>at.has(norm(x))))missing.push(g.join(' + '))});
   const allowed=new Set();(q.latinGroups||[]).flat().forEach(x=>allowed.add(norm(x)));(q.accepted||[]).forEach(a=>tokens(a).forEach(x=>allowed.add(x)));
   const extra=[...at].filter(x=>!allowed.has(x));return {ok:!missing.length&&!extra.length,missing,extra};

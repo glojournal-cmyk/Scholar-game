@@ -67,6 +67,23 @@ function renderHome(){
  document.getElementById('frenchTopicCards').innerHTML=groups.map(([s,n])=>`<button class="learning-card" data-fr-sec="${s}"><span>${String(s).padStart(2,'0')}</span><h3>${esc(n)}</h3><p>Focused topic practice</p><small>Open practice</small></button>`).join('');
  document.querySelectorAll('[data-fr-sec]').forEach(b=>b.onclick=()=>startQuiz(b.dataset.frSec,10,false));
 }
+function displayPrompt(q){
+ let prompt=String(q.prompt||'');
+ if(/write the exact missing grammar chunk from the correct sentence/i.test(prompt)){
+   const accepted=String(q.marking?.accepted?.[0]||q.displayAnswer||'').trim();
+   if(accepted){
+     const lines=prompt.split('\n');
+     for(let i=0;i<lines.length;i++){
+       if(/^Correct sentence:/i.test(lines[i])){
+         const safe=accepted.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+         lines[i]=lines[i].replace(new RegExp(`\\b${safe}\\b`,'i'),'_____');
+       }
+     }
+     prompt=lines.join('\n');
+   }
+ }
+ return prompt;
+}
 function smartMark(q,input,selected){
  if(q.autoMarkConfidence==='medium'||q.autoMarkConfidence==='manual_review')return {verdict:'manual',correct:null,reason:'This answer needs human review and carries no penalty.'};
  if(window.FrenchReferenceMarker&&q.marking){
@@ -94,7 +111,7 @@ function startQuiz(sec='all',count=10,reviewOnly=false){
 function renderQuestion(){
  const q=session.questions[session.index],choice=q.type==='choice'||q.options?.length,box=document.getElementById('frenchQuizBox');
  box.innerHTML=`<div class="quiz-top"><span>${esc(q.topic)} · ${esc(q.category||'Practice')}</span><b>${session.index+1} / ${session.questions.length}</b></div><div class="quiz-progress"><i style="width:${((session.index+1)/session.questions.length)*100}%"></i></div>
- <h2>${esc(q.prompt)}</h2>${q.context?`<div class="context-box">${esc(q.context)}</div>`:''}
+ <h2>${esc(displayPrompt(q))}</h2>${q.context?`<div class="context-box">${esc(q.context)}</div>`:''}
  ${choice?`<div class="options">${(q.options||[]).map(o=>`<button class="option" data-fr-opt="${esc(o)}">${esc(o)}</button>`).join('')}</div>`:`<input id="frenchAnswer" class="answer-input" autocomplete="off" placeholder="Écris ta réponse ici…">`}
  <div class="quiz-actions"><button class="primary" id="frenchCheck">Vérifier</button><button class="secondary" id="frenchSpeak">🔈 Écouter</button><button class="secondary" id="frenchPause">Pause</button></div><div id="frenchFeedback"></div>`;
  box.querySelectorAll('[data-fr-opt]').forEach(b=>b.onclick=()=>{box.querySelectorAll('.option').forEach(x=>x.classList.remove('selected'));b.classList.add('selected')});

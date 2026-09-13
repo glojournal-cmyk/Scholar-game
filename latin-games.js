@@ -321,6 +321,7 @@
       echoIndex:0,
       itemAttempts:{},
       itemClueUsed:{},
+      resolvedItems:new Set(),
       skillStats:{},
       echoSkills:new Set(),
       retestQueue:[],
@@ -400,6 +401,14 @@
   function submit(item, correct, {echo=false}={}){
     markUsed(item);
     const key=String(item.id);
+
+    // Idempotent scoring: once an item is resolved, repeated button presses
+    // cannot award points, increase completion, consume shields or unlock levels.
+    if(session.resolvedItems?.has(key)){
+      updateHUD('Already scored — move to the next item.');
+      return {state:'resolved',points:0,duplicate:true};
+    }
+
     const attempts=Number(session.itemAttempts[key]||0);
     const stat=ensureSkillStat(item);
 
@@ -434,6 +443,7 @@
 
       if(echo) session.echoResolved++;
       else session.normalResolved++;
+      session.resolvedItems.add(key);
 
       session.lastOutcome=repaired?'repaired':'correct';
       persistActiveSummary();
@@ -470,6 +480,7 @@
     session.echoSkills.add(item.skillId);
     if(echo) session.echoResolved++;
     else session.normalResolved++;
+    session.resolvedItems.add(key);
 
     session.lastOutcome='reveal';
     persistActiveSummary();
@@ -858,7 +869,8 @@
     const slot=feedbackSlot();
     if(!slot) return;
 
-    if(outcome.state==='repair'){
+    if(outcome.state==='resolved') return;
+      if(outcome.state==='repair'){
       slot.innerHTML=`<div class="g2-repair-feedback repair"><strong>Repair attempt</strong><p>${h(outcome.clue)}</p><small>The answer stays hidden. Try the same item once more.</small></div>`;
       slot.setAttribute('aria-live','polite');
       return;
@@ -1482,6 +1494,7 @@
       const correct=formaState.expected.every((expected,index)=>norm(formaState.placed[index])===norm(expected));
       const outcome=submit(item,correct,{echo:formaState.isEcho});
 
+      if(outcome.state==='resolved') return;
       if(outcome.state==='repair'){
         renderOutcome(outcome,item,()=>{},null);
         return;
@@ -1706,6 +1719,7 @@
       }
 
       const outcome=submit(item,validation.ok,{echo:mosaicState.isEcho});
+      if(outcome.state==='resolved') return;
       if(outcome.state==='repair'){
         renderOutcome(outcome,item,()=>{},null);
         return;
@@ -1827,6 +1841,7 @@
       const correct=sourceId===targetId;
       const outcome=submit(item,correct,{echo:verbumState.isEcho});
 
+      if(outcome.state==='resolved') return;
       if(outcome.state==='repair'){
         const slot=feedbackSlot();
         if(slot) slot.innerHTML=`<div class="g2-repair-feedback repair"><strong>Repair attempt</strong><p>${h(outcome.clue)}</p><small>Try a different connection.</small></div>`;
@@ -1903,6 +1918,7 @@
       if(!item) return;
       const outcome=submit(item,item.wordClass===target,{echo:verbumState.isEcho});
 
+      if(outcome.state==='resolved') return;
       if(outcome.state==='repair'){
         renderOutcome(outcome,item,()=>{},null);
         return;
@@ -1993,6 +2009,7 @@
     checkMixed(target,correct){
       const item=verbumState.singleItem;
       const outcome=submit(item,norm(target)===norm(correct),{echo:false});
+      if(outcome.state==='resolved') return;
       if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
       renderOutcome(outcome,item,()=>this.nextMixed(),null);
     },
@@ -2057,7 +2074,8 @@
 
       wireDrag(area(),(_,target)=>{
         const outcome=submit(item,norm(target)===norm(correct),{echo:true});
-        if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
+        if(outcome.state==='resolved') return;
+      if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
         renderOutcome(outcome,item,()=>continueAfterResolved(this),null);
       });
       wireClue(item,null);
@@ -2163,7 +2181,8 @@
       });
       area().querySelector('[data-manuscript-check]')?.addEventListener('click',()=>{
         const outcome=submit(item,norm(manuscriptState.restorePlaced)===norm(q.a),{echo:false});
-        if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
+        if(outcome.state==='resolved') return;
+      if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
         renderOutcome(outcome,item,()=>this.next(),()=>{manuscriptState.restorePlaced=String(q.a||'');this.renderRestore();});
       });
       wireClue(item,()=>{
@@ -2210,7 +2229,8 @@
         button.addEventListener('click',()=>{
           const correct=norm(button.textContent)===norm(focus.focus);
           const outcome=submit(item,correct,{echo:false});
-          if(outcome.state==='repair'){
+          if(outcome.state==='resolved') return;
+      if(outcome.state==='repair'){
             button.classList.add('wrong-mark');
             return renderOutcome(outcome,item,()=>{},null);
           }
@@ -2289,7 +2309,8 @@
       area().querySelector('[data-connect-check]')?.addEventListener('click',()=>{
         const correct=rows.every((row,index)=>norm(manuscriptState.connectPlaced[index])===norm(row.label));
         const outcome=submit(item,correct,{echo:false});
-        if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
+        if(outcome.state==='resolved') return;
+      if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
         renderOutcome(outcome,item,()=>this.next(),()=>{
           rows.forEach((row,index)=>manuscriptState.connectPlaced[index]=row.label);
           this.renderConnectBoard();
@@ -2367,7 +2388,8 @@
         const expected=['0','1','2'];
         const correct=expected.every((id,index)=>manuscriptState.sequencePlaced[index]===id);
         const outcome=submit(item,correct,{echo:false});
-        if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
+        if(outcome.state==='resolved') return;
+      if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
         renderOutcome(outcome,item,()=>this.next(),()=>{
           manuscriptState.sequencePlaced=expected;
           this.renderSequenceBoard();
@@ -2454,7 +2476,8 @@
         const expected=manuscriptState.interpretGroups.map(x=>x.id);
         const correct=selected.length===expected.length && expected.every((id,index)=>selected[index]===id);
         const outcome=submit(item,correct,{echo:false});
-        if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
+        if(outcome.state==='resolved') return;
+      if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
         renderOutcome(outcome,item,()=>continueAfterResolved(this),()=>{
           manuscriptState.interpretPlaced=manuscriptState.interpretGroups.map(group=>({groupId:group.id,text:group.choices[0]}));
           this.renderInterpretBoard();
@@ -2514,7 +2537,8 @@
             area().querySelector('[data-echo-seq-check]')?.addEventListener('click',()=>{
               const correct=['0','1','2'].every((id,index)=>placed[index]===id);
               const outcome=submit(item,correct,{echo:true});
-              if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
+              if(outcome.state==='resolved') return;
+      if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
               renderOutcome(outcome,item,()=>continueAfterResolved(this),null);
             });
           };
@@ -2548,7 +2572,8 @@
         area().querySelectorAll('[data-echo-choice]').forEach(button=>{
           button.addEventListener('click',()=>{
             const outcome=submit(item,norm(button.dataset.echoChoice)===norm(restore.a),{echo:true});
-            if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
+            if(outcome.state==='resolved') return;
+      if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
             renderOutcome(outcome,item,()=>continueAfterResolved(this),null);
           });
         });
@@ -2582,7 +2607,8 @@
           area().querySelector('[data-echo-check]')?.addEventListener('click',()=>{
             const correct=placed.length===fragments.length && fragments.every((x,index)=>placed[index]?.id===x.id);
             const outcome=submit(item,correct,{echo:true});
-            if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
+            if(outcome.state==='resolved') return;
+      if(outcome.state==='repair') return renderOutcome(outcome,item,()=>{},null);
             renderOutcome(outcome,item,()=>continueAfterResolved(this),null);
           });
         };

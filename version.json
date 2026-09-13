@@ -1,7 +1,7 @@
 {
   "app": "Lux et Labor \u2014 The Scholar's Garden",
-  "build": "RF10.7.3",
-  "label": "Reference-Aligned Home Grid Fix",
-  "stamp": "20260912-rf1073",
-  "date": "2026-09-12"
+  "build": "RF10.8",
+  "label": "Critical Integrity Fix",
+  "stamp": "20260913-rf108",
+  "date": "2026-09-13"
 }

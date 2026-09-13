@@ -1609,3 +1609,16 @@ body.topic-search-open{overflow:hidden}
     min-width:0!important;
   }
 }
+
+
+/* RF10.8 — ROUTE ISOLATION: hidden major views must stay hidden even when
+   legacy ID-specific layout rules declare display:grid/flex. */
+[data-route-screen].hidden,
+.route-screen.hidden,
+#homeScreen.hidden,
+#studyScreen.hidden,
+#subjectScreen.hidden,
+#gardenScreen.hidden,
+#scholarScreen.hidden{
+  display:none!important;
+}

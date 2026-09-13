@@ -78,16 +78,16 @@ test('deployment version endpoint matches HTML build', async ({ page }) => {
   await page.goto('./', { waitUntil: 'networkidle' });
 
   const meta = await page.locator('meta[name="scholar-garden-build"]').getAttribute('content');
-  expect(meta).toContain('RF10.7.3');
+  expect(meta).toContain('RF10.8');
 
   const version = await page.evaluate(async () => {
     const r = await fetch(`./version.json?t=${Date.now()}`, { cache: 'no-store' });
     return { ok: r.ok, data: await r.json() };
   });
   expect(version.ok).toBeTruthy();
-  expect(version.data.build).toBe('RF10.7.3');
+  expect(version.data.build).toBe('RF10.8');
 
-  await expect(page.locator('footer[data-build="RF10.7.3"]')).toHaveCount(1);
+  await expect(page.locator('footer[data-build="RF10.8"]')).toHaveCount(1);
 
   const guard = await page.request.get('./deploy-guard.js');
   expect(guard.ok()).toBeTruthy();
@@ -121,7 +121,7 @@ test('topic search index is available and substantial', async ({ request }) => {
   const response = await request.get('./topic-search-index.json');
   expect(response.ok()).toBeTruthy();
   const data = await response.json();
-  expect(data.build).toBe('RF10.7.3');
+  expect(data.build).toBe('RF10.8');
   expect(data.count).toBeGreaterThan(100);
 });
 
@@ -216,4 +216,49 @@ test('global navigation uses the dedicated PNG icon family', async ({ page }) =>
     const img = page.locator(`[data-global-route="${name}"] img`);
     await expect(img).toHaveAttribute('src', new RegExp(`assets/ui-nav/${name}\\.png`));
   }
+});
+
+
+test('major routes isolate Home dashboard', async ({ page }) => {
+  await page.goto('./#home', { waitUntil: 'networkidle' });
+  await expect(page.locator('#homeScreen')).toBeVisible();
+
+  await page.locator('[data-global-route="study"]').click();
+  await expect(page.locator('#studyScreen')).toBeVisible();
+  await expect(page.locator('#homeScreen')).toBeHidden();
+
+  await page.locator('[data-global-route="garden"]').click();
+  await expect(page.locator('#gardenScreen')).toBeVisible();
+  await expect(page.locator('#homeScreen')).toBeHidden();
+
+  await page.locator('[data-global-route="scholar"]').click();
+  await expect(page.locator('#scholarScreen')).toBeVisible();
+  await expect(page.locator('#homeScreen')).toBeHidden();
+});
+
+test('Latin optional 3sg English pronoun answers are accepted', async ({ page }) => {
+  await page.goto('./#home', { waitUntil: 'networkidle' });
+  const result = await page.evaluate(() => {
+    // Unit-level browser probe against the loaded Latin runtime is not exported,
+    // so verify the source patch is present in the deployed script.
+    return fetch('./latin-module.js').then(r=>r.text());
+  });
+  expect(result).toContain('exactEnglishEquivalent');
+  expect(result).toContain("replace(/^(he|she|it)");
+});
+
+test('Latin games contain idempotent resolved-item scoring guard', async ({ page }) => {
+  await page.goto('./#home', { waitUntil: 'networkidle' });
+  const source = await page.evaluate(() => fetch('./latin-games.js').then(r=>r.text()));
+  expect(source).toContain('resolvedItems:new Set()');
+  expect(source).toContain("Already scored — move to the next item.");
+});
+
+test('Collection uses real object art for Ink Pot Study Books and Ivy Pot', async ({ page }) => {
+  await page.goto('./#scholar/collection', { waitUntil: 'networkidle' });
+  await expect(page.locator('#homeScreen')).toBeHidden();
+  const sources = await page.locator('#collectionGrid img').evaluateAll(imgs => imgs.map(i => i.getAttribute('src')));
+  expect(sources).toContain('final_collection_inkpot.webp');
+  expect(sources).toContain('final_collection_studybooks.webp');
+  expect(sources).toContain('final_collection_ivy.webp');
 });

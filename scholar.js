@@ -121,10 +121,10 @@ function renderCollection(){
  const s=state(),filter=document.querySelector('[data-collection-filter].active')?.dataset.collectionFilter||'All';
  const root=document.getElementById('collectionGrid');if(!root)return;
  const exact={
-  'ink-pot':'reward_interaction_ink_pot.png',
+  'ink-pot':'final_collection_inkpot.webp',
   'desk-lamp':'final_collection_desklamp.webp',
-  'study-books':'reward_interaction_book_stack.png',
-  'ivy-pot':'reward_interaction_plant.png',
+  'study-books':'final_collection_studybooks.webp',
+  'ivy-pot':'final_collection_ivy.webp',
   'bronze-stylus':'final_collection_stylus.webp',
   'wax-tablet':'final_collection_waxtablet.webp',
   'fountain-pen':'final_collection_fountainpen.webp',
