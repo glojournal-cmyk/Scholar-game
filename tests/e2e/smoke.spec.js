@@ -78,16 +78,16 @@ test('deployment version endpoint matches HTML build', async ({ page }) => {
   await page.goto('./', { waitUntil: 'networkidle' });
 
   const meta = await page.locator('meta[name="scholar-garden-build"]').getAttribute('content');
-  expect(meta).toContain('RF10.8');
+  expect(meta).toContain('RF10.8.1');
 
   const version = await page.evaluate(async () => {
     const r = await fetch(`./version.json?t=${Date.now()}`, { cache: 'no-store' });
     return { ok: r.ok, data: await r.json() };
   });
   expect(version.ok).toBeTruthy();
-  expect(version.data.build).toBe('RF10.8');
+  expect(version.data.build).toBe('RF10.8.1');
 
-  await expect(page.locator('footer[data-build="RF10.8"]')).toHaveCount(1);
+  await expect(page.locator('footer[data-build="RF10.8.1"]')).toHaveCount(1);
 
   const guard = await page.request.get('./deploy-guard.js');
   expect(guard.ok()).toBeTruthy();
@@ -121,7 +121,7 @@ test('topic search index is available and substantial', async ({ request }) => {
   const response = await request.get('./topic-search-index.json');
   expect(response.ok()).toBeTruthy();
   const data = await response.json();
-  expect(data.build).toBe('RF10.8');
+  expect(data.build).toBe('RF10.8.1');
   expect(data.count).toBeGreaterThan(100);
 });
 
@@ -223,15 +223,17 @@ test('major routes isolate Home dashboard', async ({ page }) => {
   await page.goto('./#home', { waitUntil: 'networkidle' });
   await expect(page.locator('#homeScreen')).toBeVisible();
 
-  await page.locator('[data-global-route="study"]').click();
+  const primaryNav = page.getByRole('navigation', { name: 'Primary' });
+
+  await primaryNav.getByRole('button', { name: 'Study', exact: true }).click();
   await expect(page.locator('#studyScreen')).toBeVisible();
   await expect(page.locator('#homeScreen')).toBeHidden();
 
-  await page.locator('[data-global-route="garden"]').click();
+  await primaryNav.getByRole('button', { name: 'Garden', exact: true }).click();
   await expect(page.locator('#gardenScreen')).toBeVisible();
   await expect(page.locator('#homeScreen')).toBeHidden();
 
-  await page.locator('[data-global-route="scholar"]').click();
+  await primaryNav.getByRole('button', { name: 'Scholar', exact: true }).click();
   await expect(page.locator('#scholarScreen')).toBeVisible();
   await expect(page.locator('#homeScreen')).toBeHidden();
 });

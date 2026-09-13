@@ -1,6 +1,6 @@
 (function(){
 'use strict';
-const EXPECTED='RF10.8';
+const EXPECTED='RF10.8.1';
 const KEY='scholarsGarden.deployReload';
 const VERSION='./version.json';
 

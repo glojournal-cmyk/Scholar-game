@@ -532,7 +532,7 @@ async function init(){
  document.addEventListener('lux:plan-change',()=>{if(routeInfo().screen==='home')renderHome()});
  await Promise.race([Promise.allSettled([frenchLegacyReady,biologyReady,latinMasterReady,frenchMasterReady]),new Promise(resolve=>setTimeout(resolve,2600))]);
  await render();
- if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js?v=0.4.0-a5-rf108-20260913',{updateViaCache:'none'}).then(async reg=>{
+ if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js?v=0.4.0-a5-rf1081-20260913',{updateViaCache:'none'}).then(async reg=>{
    await reg.update();
    if(reg.waiting)reg.waiting.postMessage({type:'SKIP_WAITING'});
  }).catch(err=>console.warn('[PWA] service worker update failed',err));

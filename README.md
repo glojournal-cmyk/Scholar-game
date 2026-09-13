@@ -1,27 +1,25 @@
 # Lux et Labor — The Scholar's Garden
 
-## RF10.7.3 Reference-Aligned Home Grid Fix
+## RF10.8.1 Critical Integrity + QA Harness Fix
 
-This build fixes the root cause identified by Browser QA #12.
+This is a QA-harness correction on top of RF10.8.
 
-### Root cause
-The new RF10.7 Home uses `.rf107-home`, but the stylesheet still contained the legacy
-ID-specific `#homeScreen` grid from the old Home. Because an ID selector outranks the newer
-class selector, Chromium kept applying the old two-column / named-area layout.
+### What changed
+Browser QA #14 failed before it could actually verify route isolation because the selector
+`[data-global-route="study"]` matched three controls:
+- primary navigation Study
+- Home Continue Studying
+- Subject back-to-Study control
 
-That squeezed `.rf107-home-grid` into the old narrow track. The direct Tiffin character from
-RF10.7.2 was visible, but `.rf107-scholar-panel` itself collapsed to a 2px border-width box.
+The route-isolation test now scopes itself to the navigation landmark named `Primary` and clicks
+the exact `Study`, `Garden`, and `Scholar` buttons there.
 
-### Correction
-- `#homeScreen.rf107-home` now explicitly resets the legacy grid.
-- The RF10.7 Home root is one full-width column.
-- `.rf107-home-grid` gets the intended Scholar + journey two-column layout.
-- Desktop Scholar panel has a real minimum width of 540px.
-- Desktop journey stack has a real minimum width of 420px.
-- Below 1180px the Home correctly collapses to one column.
-- The successful RF10.7.2 direct Tiffin Scholar rendering is preserved.
+No production academic engine, scoring logic, routing behavior, question bank, mastery rule,
+XP rule, review scheduling rule, Garden threshold, or Scholar unlock rule was changed in this build.
 
-Browser QA now also checks the Home root and Home grid widths before checking the Scholar panel.
-
-Revision Finder, audio, Year 9 Latin Bridge, routing, mastery, XP, review scheduling and all
-protected academic engines are unchanged.
+RF10.8 production fixes are preserved:
+- major route isolation CSS
+- Latin optional 3sg English pronoun marking
+- Latin mini-game anti-double-score guard
+- French missing-chunk prompt masking
+- correct Ink Pot / Study Books / Ivy Pot object artwork

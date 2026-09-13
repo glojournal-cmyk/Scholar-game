@@ -1,0 +1,51 @@
+RF10.8.1 Critical Integrity + QA Harness Fix — QA
+===================================================
+
+Browser QA #14 failure
+----------------------
+Cause:
+  The route-isolation test used:
+    [data-global-route="study"]
+  which matched multiple Study controls and triggered Playwright strict-mode failure.
+
+Fix:
+  Route-isolation test is now scoped to:
+    navigation[aria-label="Primary"]
+  and uses exact accessible button names for Study, Garden and Scholar.
+
+Production behavior
+-------------------
+No RF10.8 production behavior was changed in this build.
+
+Static QA
+---------
+- Scoped Primary navigation selector present: PASS
+- Exact Study selector present: PASS
+- Exact Garden selector present: PASS
+- Exact Scholar selector present: PASS
+- Ambiguous generic route click removed: PASS
+- Version RF10.8.1: PASS
+- Protected RF10.8 production files unchanged: PASS
+- All JavaScript syntax valid: PASS
+- No missing HTML refs: PASS
+- No duplicate IDs: PASS
+- JavaScript syntax: 27/27 PASS
+- Missing HTML refs: 0
+- Duplicate IDs: 0
+
+Protected RF10.8 files
+----------------------
+- latin-module.js: BYTE-IDENTICAL PASS
+- french-module.js: BYTE-IDENTICAL PASS
+- biology-y8.js: BYTE-IDENTICAL PASS
+- growth.js: BYTE-IDENTICAL PASS
+- latin-games.js: BYTE-IDENTICAL PASS
+- garden-growth.js: BYTE-IDENTICAL PASS
+- latin-question-bank.js: BYTE-IDENTICAL PASS
+- science-notes.js: BYTE-IDENTICAL PASS
+- language-y8.js: BYTE-IDENTICAL PASS
+- daily-plan.js: BYTE-IDENTICAL PASS
+
+Deployment acceptance
+---------------------
+GitHub Actions Browser QA after push remains authoritative.
