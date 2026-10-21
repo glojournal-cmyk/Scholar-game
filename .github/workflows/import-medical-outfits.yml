@@ -42,14 +42,33 @@ jobs:
               assert len(content)>50000, f'{f.name}: unexpectedly small'
               print(f'{f.name}: {w}x{h}, {len(content)} bytes, alpha')
           PY
+      - name: Inspect mastery and wardrobe client data
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import re
+          from pathlib import Path
+          p=Path('assets/index-Dmik1R0C.js')
+          if not p.exists():
+              p=next(Path('assets').glob('index-*.js'))
+          data=p.read_text(encoding='utf8',errors='replace')
+          out=[f'Compiled game: {p} length {len(data)}']
+          for word in ['mastery','mastered','wardrobe','outfit','equippedOutfit','localStorage','getItem','setItem','totalMastery']:
+              matches=list(re.finditer(re.escape(word),data,re.IGNORECASE))
+              out.append(f'KEYWORD {word}: {len(matches)} matches')
+              for m in matches[:20]:
+                  out.append(f'[{word} offset {m.start()}] '+data[max(0,m.start()-240):min(len(data),m.end()+270)].replace(chr(10),' ')[:530])
+          Path('art/doll/medical/dev-inspection.txt').write_text(chr(10).join(out)+'\n',encoding='utf8')
+          PY
       - name: Commit validated outfit image files
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add art/doll/medical/*.png
+          git add art/doll/medical/*.png art/doll/medical/dev-inspection.txt
           if ! git diff --cached --quiet; then
             git commit -m "Import ten high-resolution transparent medical outfits"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi
