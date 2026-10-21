@@ -1,0 +1,35 @@
+name: Inspect Scholar mastery and wardrobe storage
+on:
+  push:
+    paths:
+      - .github/workflows/inspect-scholar-bundle.yml
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract compact source excerpts
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import re,pathlib
+          p=pathlib.Path('assets/index-Dmik1R0C.js')
+          s=p.read_text(encoding='utf-8')
+          out=[f'Bundle: {p}, {len(s)} characters']
+          for kw in ['mastery','mastered','wardrobe','equippedOutfit','outfit','localStorage','getItem','setItem','scholarState','progress']:
+              m=list(re.finditer(re.escape(kw),s,re.I))
+              out.append(f'\n### {kw} total={len(m)}')
+              for i,x in enumerate(m[:20],1):
+                  lo=max(0,x.start()-240);hi=min(len(s),x.end()+260)
+                  out.append(f'[{i}/{len(m)}] offset={x.start()} '+s[lo:hi].replace('\n',' ')[:540])
+          pathlib.Path('art/doll/medical/dev-inspection.txt').write_text('\n'.join(out)+'\n',encoding='utf-8')
+          PY
+      - name: Commit temporary inspection report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add art/doll/medical/dev-inspection.txt
+          git commit -m "Inspect current production mastery and wardrobe code"
+          git push origin HEAD:main
