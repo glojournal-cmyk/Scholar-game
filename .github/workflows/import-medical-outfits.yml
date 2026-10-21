@@ -58,6 +58,10 @@ jobs:
               out.append(f'KEYWORD {word}: {len(matches)} matches')
               for m in matches[:20]:
                   out.append(f'[{word} offset {m.start()}] '+data[max(0,m.start()-240):min(len(data),m.end()+270)].replace(chr(10),' ')[:530])
+          for start,end in [(282000,298000),(324000,339000),(342000,351000)]:
+              out.append(f'SOURCE_RANGE {start}-{end}')
+              for ix in range(start,end,1500):
+                  out.append(f'PART {ix} '+data[ix:min(end,ix+1500)])
           Path('art/doll/medical/dev-inspection.txt').write_text(chr(10).join(out)+'\n',encoding='utf8')
           PY
       - name: Commit validated outfit image files
