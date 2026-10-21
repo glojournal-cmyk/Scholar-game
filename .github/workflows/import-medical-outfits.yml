@@ -1,0 +1,55 @@
+name: Import medical outfit PNGs
+on:
+  push:
+    paths:
+      - .github/workflows/import-medical-outfits.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download original full resolution transparent PNGs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p art/doll/medical
+          curl -fLsS --retry 3 --max-time 100 'https://at.adobe.com/JwGhsb18hiRj3FDc' -o 'art/doll/medical/01-forensic-pathologist.png'
+          curl -fLsS --retry 3 --max-time 100 'https://at.adobe.com/JfNpMBprrlbk96UE' -o 'art/doll/medical/02-surgeon.png'
+          curl -fLsS --retry 3 --max-time 100 'https://at.adobe.com/AW1iTkxf8CGoPxqm' -o 'art/doll/medical/03-doctor.png'
+          curl -fLsS --retry 3 --max-time 100 'https://at.adobe.com/Jb93OgLp9yWzyzwO' -o 'art/doll/medical/04-radiologist.png'
+          curl -fLsS --retry 3 --max-time 100 'https://at.adobe.com/scr4h8TRPd4aOKzY' -o 'art/doll/medical/05-biomedical-scientist.png'
+          curl -fLsS --retry 3 --max-time 100 'https://at.adobe.com/FRXmS5hOcXqrrnQb' -o 'art/doll/medical/06-pharmacist.png'
+          curl -fLsS --retry 3 --max-time 100 'https://at.adobe.com/JwAwMQnX6UQOGtzM' -o 'art/doll/medical/07-paramedic.png'
+          curl -fLsS --retry 3 --max-time 100 'https://at.adobe.com/w6hc8H3lLlrcp07D' -o 'art/doll/medical/08-veterinarian.png'
+          curl -fLsS --retry 3 --max-time 100 'https://at.adobe.com/sKE91XQpELFy2Hyx' -o 'art/doll/medical/09-paediatrician.png'
+          curl -fLsS --retry 3 --max-time 100 'https://at.adobe.com/7YrJfuV6Ci3kJ1lt' -o 'art/doll/medical/10-medical-student.png'
+          python3 - <<'PY'
+          from pathlib import Path
+          import struct
+          files = sorted(Path('art/doll/medical').glob('*.png'))
+          assert len(files) == 10, f'Expected 10 outfit PNGs, got {len(files)}'
+          for f in files:
+              content=f.read_bytes()
+              assert content[:8] == b'\x89PNG\r\n\x1a\n', f'{f.name} is not a PNG'
+              assert content[12:16] == b'IHDR', f'{f.name} has invalid header'
+              w,h,depth,color=struct.unpack('>IIBB',content[16:26])
+              assert w>=700 and h>=1200, f'{f.name}: low resolution {w}x{h}'
+              assert color in (4,6), f'{f.name}: PNG missing alpha, color type {color}'
+              assert len(content)>50000, f'{f.name}: unexpectedly small'
+              print(f'{f.name}: {w}x{h}, {len(content)} bytes, alpha')
+          PY
+      - name: Commit validated outfit image files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add art/doll/medical/*.png
+          if ! git diff --cached --quiet; then
+            git commit -m "Import ten high-resolution transparent medical outfits"
+            git push origin HEAD:main
+          fi
