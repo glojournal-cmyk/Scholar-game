@@ -1,4 +1,4 @@
-name: Inspect Scholar mastery and wardrobe storage
+name: Inspect current game code
 on:
   push:
     paths:
@@ -8,29 +8,37 @@ permissions:
 jobs:
   inspect:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Extract compact source excerpts
+      - name: Inspect current compiled bundle
         shell: bash
         run: |
+          set -euo pipefail
           python3 - <<'PY'
-          import re,pathlib
-          p=pathlib.Path('assets/index-Dmik1R0C.js')
-          s=p.read_text(encoding='utf-8')
-          out=[f'Bundle: {p}, {len(s)} characters']
-          for kw in ['mastery','mastered','wardrobe','equippedOutfit','outfit','localStorage','getItem','setItem','scholarState','progress']:
-              m=list(re.finditer(re.escape(kw),s,re.I))
-              out.append(f'\n### {kw} total={len(m)}')
-              for i,x in enumerate(m[:20],1):
-                  lo=max(0,x.start()-240);hi=min(len(s),x.end()+260)
-                  out.append(f'[{i}/{len(m)}] offset={x.start()} '+s[lo:hi].replace('\n',' ')[:540])
-          pathlib.Path('art/doll/medical/dev-inspection.txt').write_text('\n'.join(out)+'\n',encoding='utf-8')
+          import re
+          from pathlib import Path
+          p=Path('assets/index-Dmik1R0C.js')
+          if not p.exists():
+              p=next(Path('assets').glob('index-*.js'))
+          s=p.read_text(encoding='utf-8', errors='replace')
+          out=[f'Source {p} len={len(s)}']
+          for kw in ('mastery','wardrobe','outfit','equippedOutfit','localStorage','getItem','setItem'):
+              finds=list(re.finditer(re.escape(kw),s,re.I))
+              out.append('KEYWORD '+kw+' occurrences '+str(len(finds)))
+              for m in finds[:18]:
+                  out.append(f'{kw}@{m.start()} '+s[max(0,m.start()-280):m.end()+330].replace(chr(10),' ')[:650])
+          Path('art/doll/medical/dev-inspection.txt').write_text(chr(10).join(out)+chr(10),encoding='utf-8')
           PY
-      - name: Commit temporary inspection report
+      - name: Commit source inspection
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add art/doll/medical/dev-inspection.txt
-          git commit -m "Inspect current production mastery and wardrobe code"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          if ! git diff --cached --quiet; then
+            git commit -m "Add compiled mastery and wardrobe inspection snippets"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
