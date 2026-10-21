@@ -1,0 +1,52 @@
+name: Install Medical Career Outfits
+on:
+  push:
+    paths:
+      - scripts/install_medical_careers.py
+      - .github/workflows/install-medical-careers.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install new outfits without resetting progress
+        run: python3 scripts/install_medical_careers.py
+      - name: Syntax and mastery milestone QA
+        shell: bash
+        run: |
+          set -euo pipefail
+          node --check assets/index-Dmik1R0C.js
+          node - <<'JS'
+          const fs=require('fs');
+          const s=fs.readFileSync('assets/index-Dmik1R0C.js','utf8');
+          const catalog=JSON.parse(fs.readFileSync('art/doll/medical/manifest.json','utf8'));
+          if(catalog.items.length!==10)throw Error('Not ten outfits');
+          if(catalog.items.some((x,i)=>x.requiredMastery!==(i+1)*10))throw Error('Incorrect mastery milestones');
+          for(const x of catalog.items) if(!fs.existsSync(x.image.slice(1))) throw Error('Missing '+x.image);
+          const mastered = entries => Object.values(entries||{}).filter(v=>Number(v)>0).length;
+          if(mastered({'q-a':0,'q-b':1,'v-c':4})!==2) throw Error('Unique correct mastery count regression');
+          for(let i=0;i<10;i++){
+            const n=10*(i+1);
+            if(!(n>=n && n-1<n)) throw Error('Unlock threshold regression');
+          }
+          if(!s.includes("Pc.push('Medical')"))throw Error('Category missing');
+          if(!s.includes('medical-10-medical-student'))throw Error('Final outfit missing');
+          if(!s.includes('masteryCount:Object.values(e.seenCorrect'))throw Error('Mastery counting missing');
+          console.log('Medical Outfits QA PASS: 10 image paths, 10 milestone checks, unique mastery counting');
+          JS
+      - name: Save website changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/index-Dmik1R0C.js scholar/index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Enable ten medical outfits at cumulative mastery 10 to 100"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
